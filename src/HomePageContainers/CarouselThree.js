@@ -119,15 +119,14 @@ class CarouselThree extends Component {
 
       Title: {
         instanceID: "SlideOneTitle",
-        title:
-          "B.Tech Admission 2019 Started"
+        title: <a href="http://admission.vjcet.ac.in/" target="_blank" >Admission 2019 Started</a>
       },
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "ktu.jpg",
-        width: "100px",
-        height: "150px"
+        image: "admissionews.jpg",
+        width: "300px",
+        height: "200px"
       },
       Link: {
         instanceID: "CarouselThreeSlideOneLink",
@@ -148,8 +147,9 @@ class CarouselThree extends Component {
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "infy.png",
-        width: "210px"
+        image: "placementnews.jpg",
+        width: "300px",
+        height: "200px"
       },
       Link: {
         instanceID: "CarouselThreeSlideOneLink",
@@ -165,7 +165,7 @@ class CarouselThree extends Component {
 
       Title: {
         instanceID: "SlideOneTitle",
-        title: "VJCET Bagged 10 University Ranks(2017-18)"
+        title: "University Ranks(2017-18)"
       },
 
       Image: {
