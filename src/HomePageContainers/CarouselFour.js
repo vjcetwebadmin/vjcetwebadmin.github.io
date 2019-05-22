@@ -59,7 +59,7 @@ class CarouselFour extends Component {
   };
   EventOneTitle = {
     instanceID: "EventOneTitle",
-    title: "Arts Festival : Drishya 2019"
+    title: "Arts Festival : Drishya 2K19"
   };
 
   EventOneImage = {
@@ -81,7 +81,7 @@ class CarouselFour extends Component {
 
   EventThreeTitle = {
     instanceID: "EventThreeTitle",
-    title: "Tech Fest : Bodhi 2019"
+    title: "Tech Fest : Bodhi 2K19"
   };
 
   EventThreeImage = {
@@ -93,7 +93,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventOneTitle",
-        title: "Arts Festival : Drishya 2019"
+        title: "Arts Festival : Drishya 2K19"
       },
 
       Image: {
@@ -105,7 +105,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventTwoTitle",
-        title: "Magnum 2019"
+        title: "Magnum 2K19"
       },
 
       Image: {
@@ -117,7 +117,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventThreeTitle",
-        title: "Tech Fest : Bodhi 2019"
+        title: "Tech Fest : Bodhi 2K19"
       },
 
       Image: {
