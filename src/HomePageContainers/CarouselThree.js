@@ -160,19 +160,19 @@ class CarouselThree extends Component {
     {
       Category: {
         instanceID: "SlideOneCategory",
-        title: "Admisions"
+        title: "University Ranks"
       },
 
       Title: {
         instanceID: "SlideOneTitle",
-        title: "M.Tech Admissions Started"
+        title: "VJCET Bagged 10 University Ranks(2017-18)"
       },
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "ktu.jpg",
-        width: "100px",
-        height: "150px"
+        image: "univ.jpg",
+        width: "300px",
+        height: "200px"
       },
       Link: {
         instanceID: "CarouselThreeSlideOneLink",
