@@ -119,7 +119,7 @@ class CarouselThree extends Component {
 
       Title: {
         instanceID: "SlideOneTitle",
-        title: <a href="http://admission.vjcet.ac.in/" target="_blank" >Admission 2019 Started</a>
+        title: <a href="http://admission.vjcet.ac.in/" target="_blank" rel="noopener noreferrer">Admission 2019 Started</a>
       },
 
       Image: {
