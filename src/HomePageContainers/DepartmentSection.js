@@ -13,7 +13,7 @@ class DepartmentSection extends Component {
   DepartmentSectionSubTitle = {
     instanceID: "DepartmentSectionSubTitle",
     title:
-      "All courses are NBA accredited.We have UG and PG courses ranging from B.Tech, M.Tech, and Management of Bussiness Administration"
+      "All courses are NBA accredited.We have UG and PG courses ranging from B.Tech, M.Tech, and Master of Bussiness Administration"
   };
 
   DepartmentListOne = {

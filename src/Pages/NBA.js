@@ -36,7 +36,7 @@ class NBA extends Component {
   AccreditationText1 = {
     instanceID: "AccreditationText1",
     title:
-      "All B-Tech programs were accredited by NBA in 2018. The team has inspected the above four departments and the entire college in detail. Later, based on the performance and commitment to education, these  departments were given NBA accreditation."
+      "All B-Tech programs were accredited by NBA in 2018. The team has inspected the above six departments and the entire college in detail. Later, based on the performance and commitment to education, these  departments were given NBA accreditation."
   };
 
   WhyNBATitle = {
@@ -46,7 +46,7 @@ class NBA extends Component {
   WhyNBAText1 = {
     instanceID: "WhyNBAText1",
     title:
-      "The purpose of the accreditation by NBA is to promote and recognize excellence in technical education in colleges and universities, at both the undergraduate and postgraduate levels. Institutions, students, employers, and the public at large all benefit from the external verification of quality provided through the NBA accreditation process. Through accreditation, the following main purposes may be served: "
+      "The purpose of the accreditation by NBA is to promote and recognize excellence in technical education in colleges and universities, at both the undergraduate and postgraduate levels. Institutions, students, employees, and the public at large all benefit from the external verification of quality provided through the NBA accreditation process. Through accreditation, the following main purposes may be served: "
   };
 
   NBAPoint1 = {

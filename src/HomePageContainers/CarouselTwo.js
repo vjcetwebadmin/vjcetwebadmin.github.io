@@ -11,19 +11,19 @@ class CarouselTwo extends Component {
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 8 Exams starts on May 28"
+      title: "Semester 8 Exams commence on May 28"
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 6 Regular an Supplementry Exams starts on May 27"
+      title: "Semester 6 Regular an Supplementry Exams commence on May 27"
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 4 Regular and Supplementry Exams starts on June 3"
+      title: "Semester 4 Regular and Supplementry Exams commence on June 3"
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 2 Regular and Supplementry Exams starts on June 13"
+      title: "Semester 2 Regular and Supplementry Exams commenece on June 13"
     },
     
   ];

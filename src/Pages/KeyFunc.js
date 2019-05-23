@@ -8,6 +8,7 @@ import HeadingTwo from "../Components/Texts/HeadingTwo";
 import BodyOneJustified from "../Components/Texts/BodyOneJustified";
 import HeadingOne from "../Components/Texts/HeadingOne";
 import HeadingFour from "../Components/Texts/HeadingFour";
+import ImageOne from "../Components/Images/ImageOne";
 
 class KeyFunc extends Component {
   state = { showMenu: false };
@@ -34,7 +35,16 @@ class KeyFunc extends Component {
   PrincipalTitle = {
     instanceID: "PrincipalTitle",
     title: "PRINCIPAL"
+    
   };
+  
+  PrincipalImage= {
+    instanceID: "PrincipalImage",
+    image: "principal.jpg",
+    width: "500px",
+    height: "300px"
+  };
+
   PrincipalName = {
     instanceID: "PrincipalName",
     title: "Dr. Josephkunju Paul C."
@@ -48,6 +58,12 @@ class KeyFunc extends Component {
     instanceID: "DirectorTitle",
     title: "DIRECTOR"
   };
+  DirectorImage= {
+    instanceID: "DirectorImage",
+    image: "director.jpg",
+    width: "500px",
+    height: "300px"
+  };
   DirectorName = {
     instanceID: "DirectorName",
     title: "Rev. Dr. George Thanathuparambil"
@@ -60,6 +76,12 @@ class KeyFunc extends Component {
   ManagerTitle = {
     instanceID: "ManagerTitle",
     title: "MANAGER"
+  };
+  ManagerImage= {
+    instanceID: "ManagerImage",
+    image: "manager.jpg",
+    width: "500px",
+    height: "300px"
   };
   ManagerName = {
     instanceID: "ManagerName",
@@ -78,20 +100,24 @@ class KeyFunc extends Component {
           <HeadingOne data={this.KeyTitle} />
           {/* Manager */}
           <HeadingTwo data={this.ManagerTitle} />
+          <ImageOne data={this.ManagerImage} />
           <HeadingFour data={this.ManagerName} />
           <div className="inner-para">
             <BodyOneJustified data={this.ManagerText} />
           </div>
           {/* Director */}
           <HeadingTwo data={this.DirectorTitle} />
+          <ImageOne data={this.DirectorImage} />
           <HeadingFour data={this.DirectorName} />
           <div className="inner-para">
             <BodyOneJustified data={this.DirectorText} />
           </div>
           {/* Pricipal */}
           <HeadingTwo data={this.PrincipalTitle} />
+          <ImageOne data={this.PrincipalImage} />
           <HeadingFour data={this.PrincipalName} />
           <div className="inner-para">
+            
             <BodyOneJustified data={this.PrincipalText} />
           </div>
         </div>

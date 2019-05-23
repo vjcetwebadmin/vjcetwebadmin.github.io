@@ -36,7 +36,7 @@ class FacilitiesSection extends Component {
   FacilityListFour = {
     instanceID: "FacilityListFour",
     image: "FacilitiesFour.png",
-    title: "On Campus Canteens, Cafeteria, ATMs, Store and Hospital"
+    title: "On-Campus Canteens, Cafeteria, ATMs, Store and Hospital"
   };
 
   render() {
