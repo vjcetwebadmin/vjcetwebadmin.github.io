@@ -15,7 +15,7 @@ class CarouselTwo extends Component {
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 6 Regular an Supplementary Exams commence on May 27"
+      title: "Semester 6 Regular and Supplementary Exams commence on May 27"
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
