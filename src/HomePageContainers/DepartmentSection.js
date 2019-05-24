@@ -20,7 +20,7 @@ class DepartmentSection extends Component {
     instanceID: "DepartmentListOne",
     title: "Civil (CE)",
     description:
-      "With its multifaceted faculty continues to maintain and cultivate its strong links with the infrastructural industry developing the students to assure the highest quality education buoyed by our state of the art laboratories in order to familiarize them with the practical aspects of their trade."
+      "Civil engineers are entrusted by the society to create a sustainable world and enhance the global quality of life- they serve competently, collaboratively, and ethically as innovators and integrators of ideas and technology across the public, private, and academic sectors; managers of risk and uncertainty caused by natural disasters and other threats; and leaders in discussions and decisions shaping public environmental and infrastructure policy."
   };
 
   DepartmentListTwo = {
