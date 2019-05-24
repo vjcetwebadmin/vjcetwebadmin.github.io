@@ -34,6 +34,7 @@ class CarouselTwo extends Component {
       title: "Semester 2 Regular and Supplementary Exams commenece on June 13"
     },
     
+    
   ];
   rotateRight = () => {
     this.setState({
