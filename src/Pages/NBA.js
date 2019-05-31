@@ -36,7 +36,7 @@ class NBA extends Component {
   AccreditationText1 = {
     instanceID: "AccreditationText1",
     title:
-      "All B-Tech programs were accredited by NBA in 2018. The team has inspected the above six departments and the entire college in detail. Later, based on the performance and commitment to education, these  departments were given NBA accreditation."
+      "All B.Tech programs were accredited by NBA in 2018. The team has inspected the above six departments and the entire college in detail. Later, based on the performance and commitment to education, these  departments were given NBA accreditation."
   };
 
   WhyNBATitle = {
