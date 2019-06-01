@@ -7,6 +7,7 @@ import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import HeadingTwo from "../Components/Texts/HeadingTwo";
 import BodyOneJustified from "../Components/Texts/BodyOneJustified";
 import HeadingOne from "../Components/Texts/HeadingOne";
+import { breakStatement } from "@babel/types";
 
 class NBA extends Component {
   state = { showMenu: false };
@@ -36,7 +37,18 @@ class NBA extends Component {
   AccreditationText1 = {
     instanceID: "AccreditationText1",
     title:
-      "All B.Tech programs were accredited by NBA in 2018. The team has inspected the above six departments and the entire college in detail. Later, based on the performance and commitment to education, these  departments were given NBA accreditation."
+      "All B.Tech programs were accredited by NBA in 2018. The team has inspected the above six departments and the entire college in detail. Later, based on the performance and commitment to education, these  departments were given NBA accreditation. The accreditation status of VJCET is listed in the official websites of "
+  };
+ 
+  AccreditationText2 = {
+    instanceID: "AccreditationText2",
+    title:
+    <a href="http://www.nbaind.org/accreditedprograms.aspx" target="_blank" rel="noopener noreferrer">1. National Board of Accreditation India</a>
+  };
+  AccreditationText3 = {
+    instanceID: "AccreditationText3",
+    title:
+    <a href="https://ktu.edu.in/eu/afn/nbaAccreditedInstitutes.htm?pageNo=2" target="_blank" rel="noopener noreferrer">2. APJ Abdul Kalam Technological University</a>
   };
 
   WhyNBATitle = {
@@ -88,6 +100,10 @@ class NBA extends Component {
           <br />
           <HeadingTwo data={this.AccreditationTitle} />
           <BodyOneJustified data={this.AccreditationText1} />
+          <br/>
+          <BodyOneJustified data={this.AccreditationText2} />
+          <br/>
+          <BodyOneJustified data={this.AccreditationText3} />          
           <div className="inner-para">
             <HeadingTwo data={this.WhyNBATitle} />
             <BodyOneJustified data={this.WhyNBAText1} />
