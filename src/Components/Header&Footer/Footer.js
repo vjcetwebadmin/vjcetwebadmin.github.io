@@ -67,7 +67,7 @@ class Footer extends Component {
 
   LmntrxTech = {
     instanceID: "LmntrxTech",
-    title: "Developed by Evolve(Sofware Incubation Center VJCET)"
+    title: "Developed by Evolve( Sofware Incubation Center VJCET )"
   };
 
   Link1 = {
