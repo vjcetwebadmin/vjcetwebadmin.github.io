@@ -24,11 +24,11 @@ class ContactUs extends React.Component {
 
   ReachUsHeading = {
     instanceID: "ReachUsHeading",
-    title: "Reach Us"
+    title: "Enquiry"
   };
   EnquiryHeading = {
     instanceID: "EnquiryHeading",
-    title: "Enquiry"
+    title: "Reach Us"
   };
 
   render() {
@@ -41,7 +41,7 @@ class ContactUs extends React.Component {
               <div className="child">
                 {/* <h1 className="Heading"> Reach Us</h1> */}
                 <HeadingOne data={this.ReachUsHeading} />
-                <h3 className="add"> Our Address</h3>
+                <h3 className="add"> Address</h3>
                 <h3 className="Reach1">
                   Viswajyothi College of Engineering & Technology Vazhakulam,
                   <br />
@@ -78,7 +78,7 @@ class ContactUs extends React.Component {
                   <br />
                 </h3>
               </div>
-              <div className="child">
+              {/* <div className="child">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d125752.05890978406!2d76.5889803!3d9.9545934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07dd2f387bbce7%3A0x33c9780276b797b6!2sViswajyothi+College+of+Engineering+and+Technology!5e0!3m2!1sen!2sin!4v1555349832912!5m2!1sen!2sin"
                   width="450"
@@ -86,15 +86,21 @@ class ContactUs extends React.Component {
                   frameborder="0"
                   title="google-map"
                 />
-              </div>
+              </div> */}
             </div>
             <div className="child">
               {/* <h1 className="Heading">Enquiry</h1> */}
               <HeadingOne data={this.EnquiryHeading} />
               <h3 className="Reach1">
-                Send us and enquiry or call us directly to learn more
+              <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d125752.05890978406!2d76.5889803!3d9.9545934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07dd2f387bbce7%3A0x33c9780276b797b6!2sViswajyothi+College+of+Engineering+and+Technology!5e0!3m2!1sen!2sin!4v1555349832912!5m2!1sen!2sin"
+                  width="450"
+                  height="450"
+                  frameborder="0"
+                  title="google-map"
+                />
               </h3>
-              <form>
+              {/* <form>
                 <label className="Enquiry">
                   {" "}
                   <b>Name </b>
@@ -152,7 +158,7 @@ class ContactUs extends React.Component {
                   name="Submit"
                   value="Submit"
                 />
-              </form>
+              </form> */}
             </div>
           </div>
         </div>
