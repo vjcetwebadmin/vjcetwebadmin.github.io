@@ -16,7 +16,7 @@ class Recruitment extends Component {
             <tbody>
                 <tr>
                     <td data-label="Sl. No">1</td>
-                    <td data-label="Company">Infosys</td>
+                    <td data-label="Company">Infosys1</td>
                     <td data-label="Year" >2019</td>
                     <td data-label="Batch">Civil</td>
                     <td data-label="No. of Students">17</td>
