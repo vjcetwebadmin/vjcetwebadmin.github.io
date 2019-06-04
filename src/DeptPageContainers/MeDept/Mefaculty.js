@@ -35,7 +35,7 @@ class MEFaculty extends Component {
     image: "200.jpg",
     width: "50%",
     name: "Mrs. Leeba Varghese",
-    content: "Associate Professor"
+    content: "Associate Professor(on Leave-Ph.D)"
   };
   Cefaculty6 = {
     instanceID: "Cefaculty6",
@@ -105,7 +105,7 @@ class MEFaculty extends Component {
     image: "217.jpg",
     width: "50%",
     name: "Mr. Unnikrishnan T G",
-    content: "Assistant Professor"
+    content: "Assistant Professor(on Leave-Ph.D)"
   };
   Cefaculty16 = {
     instanceID: "Cefaculty16",
