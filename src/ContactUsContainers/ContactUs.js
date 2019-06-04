@@ -54,9 +54,9 @@ class ContactUs extends React.Component {
                 <h3 className="add"> E-mail</h3>
                 <h3 className="Reach1">
                   {" "}
-                  vjcvklm@gmail.com
-                  <br />
                   vjcet@vjcet.org
+                  <br />
+                  vjcvklm@gmail.com
                 </h3>
               </div>
               <div className="child">
@@ -68,13 +68,13 @@ class ContactUs extends React.Component {
                 <h3 className="Reach1">
                   0485-2262211
                   <br />
-                  0485-2262211
+                  0485-2262244
                   <br />
-                  0485-2262211
+                  0485-2262255
                   <br />
-                  0485-2262211
+                  0485-2262311
                   <br />
-                  0485-2262211
+                  0485-2262977
                   <br />
                 </h3>
               </div>
