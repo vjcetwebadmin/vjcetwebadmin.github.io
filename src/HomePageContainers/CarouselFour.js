@@ -40,11 +40,11 @@ class CarouselFour extends Component {
   };
   CarouselTitle = {
     instanceID: "CarouselTitle",
-    title: "Upcoming Events"
+    title: "Top Events"
   };
   Events = {
     instanceID: "CarouselFourEvents",
-    title: "Upcoming Events"
+    title: "Top Events"
   };
   Previous = {
     instanceID: "CarouselFourPreviousArrow",
