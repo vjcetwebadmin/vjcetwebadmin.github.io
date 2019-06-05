@@ -9,7 +9,7 @@ class Recruitment extends Component {
                     <td colspan="5"><font color="deepblue"><b>PLACEMENT RECORD 2019</b></font></td>
             </tr>
             <tr>
-                    <td colspan="5"><font color="blue"><b>TOTAL STUDENTS PLACED: 402</b></font></td>
+                    <td colspan="5"><font color="blue"><b>TOTAL STUDENTS PLACED: 403</b></font></td>
             </tr>
                 <tr>
                     <th scope="col">SL. NO</th>
