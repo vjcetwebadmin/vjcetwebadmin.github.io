@@ -3,19 +3,22 @@ import Profile from "./profile";
 import Vision from "./vision";
 import Faculty from "./PlacementTeam";
 import Recruitment from "./Recruitment";
+import Statistics from "./Statistics";
 class SideNav extends Component {
   state = {
     showProfile: false,
     showVision: false,
     showfac: false,
-    showRecurit: true
+    showRecurit: true,
+    showStatistics: false
   };
   onClickP = () => {
     this.setState({
       showProfile: true,
       showVision: false,
       showfac: false,
-      showRecurit: false
+      showRecurit: false,
+      showStatistics: false
     });
   };
   onClickV = () => {
@@ -23,7 +26,8 @@ class SideNav extends Component {
       showProfile: false,
       showVision: true,
       showfac: false,
-      showRecurit: false
+      showRecurit: false,
+      showStatistics: false
     });
   };
   onClickFac = () => {
@@ -31,7 +35,8 @@ class SideNav extends Component {
       showProfile: false,
       showVision: false,
       showfac: true,
-      showRecurit: false
+      showRecurit: false,
+      showStatistics: false
     });
   };
   onClickRec = () => {
@@ -39,7 +44,17 @@ class SideNav extends Component {
       showProfile: false,
       showVision: false,
       showfac: false,
-      showRecurit: true
+      showRecurit: true,
+      showStatistics: false
+    });
+  };
+  onClickStat = () => {
+    this.setState({
+      showProfile: false,
+      showVision: false,
+      showfac: false,
+      showRecurit: false,
+      showStatistics: true
     });
   };
   render() {
@@ -63,12 +78,17 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickV}
             />
-            
             <input
+              value="Statistics"
+              class="button"
+              onClick={this.onClickStat}
+            />
+            {<input
               value="Our Team"
               class="button"
               onClick={this.onClickFac}
-            />
+            />}
+
             
           </div>
           <div className="content">
@@ -76,6 +96,7 @@ class SideNav extends Component {
             {this.state.showProfile ? <Profile /> : null}
             {this.state.showVision ? <Vision /> : null}
             {this.state.showfac ? <Faculty /> : null}
+            {this.state.showStatistics ? <Statistics/> : null}
             
 
           </div>

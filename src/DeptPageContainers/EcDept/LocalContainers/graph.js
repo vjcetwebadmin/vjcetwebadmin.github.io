@@ -6,13 +6,13 @@ import EcHonors from "./echonors";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 class EcGraph extends Component {
   state = {
-    show15: true,
+    show15: false,
     show14: false,
     show13: false,
     show12: false,
     show11: false,
     show10: false,
-    showhon: false
+    showhon: true
   };
   onClick15 = () => {
     this.setState({
@@ -94,7 +94,7 @@ class EcGraph extends Component {
   };
   Heading = {
     instanceID: "Heading",
-    title: "RESULT & HONORS"
+    //title: "RESULT & HONORS"
   };
   render() {
     return (
@@ -102,12 +102,12 @@ class EcGraph extends Component {
         <div class="graphContent">
           <div>
             <HeadingOne data={this.Heading} />
-            <input
+            {/* <input
               type="button"
               value="University Results May 2018"
               class="buttongraph"
               onClick={this.onClick15}
-            />
+            /> */}
             {/* <input
             type="button"
             value="University Results May 2017"
@@ -145,8 +145,8 @@ class EcGraph extends Component {
             onClick={this.onClick10}
           />  */}
           </div>
-          {this.state.show15 ? <Graph15 /> : null}
-          {this.state.show14 ? <Graph14 /> : null}
+          {/* {this.state.show15 ? <Graph15 /> : null}
+          {this.state.show14 ? <Graph14 /> : null} */}
           {this.state.showhon ? <EcHonors /> : null}
           {/* {this.state.show13 ? <Graph13 /> : null}
           {this.state.show12 ? <Graph12 /> : null}

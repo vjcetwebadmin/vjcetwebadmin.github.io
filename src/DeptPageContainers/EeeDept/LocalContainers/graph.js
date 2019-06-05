@@ -8,13 +8,13 @@ import EeHonors from "./eehonors";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 class EeGraph extends Component {
   state = {
-    show15: true,
+    show15: false,
     show14: false,
     show13: false,
     show12: false,
     show11: false,
     show10: false,
-    showhon: false
+    showhon: true
   };
   onClick15 = () => {
     this.setState({
@@ -96,14 +96,14 @@ class EeGraph extends Component {
   };
   Heading = {
     instanceID: "Heading",
-    title: "RESULT & HONORS"
+    //title: "RESULT & HONORS"
   };
   render() {
     return (
       <div>
         <div class="graphContent">
           <HeadingOne data={this.Heading} />
-          <input
+          {/* <input
             type="button"
             value="Even Semester 2017-2018"
             class="buttongraph"
@@ -126,7 +126,7 @@ class EeGraph extends Component {
             value="Roll of Honors"
             class="buttongraph"
             onClick={this.onClickHon}
-          />
+          /> */}
           {/* 
           <input
             type="button"
@@ -148,11 +148,11 @@ class EeGraph extends Component {
           />  */}
         </div>
         <div>
-          {this.state.show15 ? <Graph15 /> : null}
-          {this.state.show14 ? <Graph14 /> : null}
+          {/* {this.state.show15 ? <Graph15 /> : null}
+          {this.state.show14 ? <Graph14 /> : null} */}
           {this.state.showhon ? <EeHonors /> : null}
-          {this.state.show13 ? <Graph13 /> : null}
-          {this.state.show12 ? <Graph12 /> : null}
+          {/* {this.state.show13 ? <Graph13 /> : null}
+          {this.state.show12 ? <Graph12 /> : null} */}
           {/* {this.state.show11 ? <Graph11 /> : null}
           {this.state.show10 ? <Graph10 /> : null}  */}
         </div>

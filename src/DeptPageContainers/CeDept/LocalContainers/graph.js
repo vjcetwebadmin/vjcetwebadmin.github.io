@@ -10,13 +10,13 @@ import CeHonors from "./cehonors";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 class CeGraph extends Component {
   state = {
-    show15: true,
+    show15: false,
     show14: false,
     show13: false,
     show12: false,
     show11: false,
     show10: false,
-    showhon: false
+    showhon: true
   };
   onClick15 = () => {
     this.setState({
@@ -98,7 +98,7 @@ class CeGraph extends Component {
   };
   Heading = {
     instanceID: "Heading",
-    title: "RESULT & HONORS"
+    //title: "RESULT & HONORS"
   };
   render() {
     return (
@@ -107,7 +107,7 @@ class CeGraph extends Component {
           <div class="graphContent">
             <div>
               <HeadingOne data={this.Heading} />
-              <input
+              {/* <input
                 type="button"
                 value="2015-2019"
                 class="buttongraph"
@@ -148,14 +148,14 @@ class CeGraph extends Component {
                 value="Roll of Honors"
                 class="buttongraph"
                 onClick={this.onClickHon}
-              />
+              /> */}
             </div>
-            {this.state.show15 ? <Graph15 /> : null}
+            {/* {this.state.show15 ? <Graph15 /> : null}
             {this.state.show14 ? <Graph14 /> : null}
             {this.state.show13 ? <Graph13 /> : null}
             {this.state.show12 ? <Graph12 /> : null}
             {this.state.show11 ? <Graph11 /> : null}
-            {this.state.show10 ? <Graph10 /> : null}
+            {this.state.show10 ? <Graph10 /> : null} */}
             {this.state.showhon ? <CeHonors /> : null}
           </div>
         </div>
