@@ -6,9 +6,9 @@ import Recruitment from "./Recruitment";
 class SideNav extends Component {
   state = {
     showProfile: false,
-    showVision: true,
+    showVision: false,
     showfac: false,
-    showRecurit: false
+    showRecurit: true
   };
   onClickP = () => {
     this.setState({
@@ -48,10 +48,10 @@ class SideNav extends Component {
 
         <div className="Deptcontent">
           <div class="sidenav">
-            <input
-              value="Vision & Mission"
+          <input
+              value="Recruitments"
               class="button"
-              onClick={this.onClickV}
+              onClick={this.onClickRec}
             />
             <input
               value="About"
@@ -59,21 +59,24 @@ class SideNav extends Component {
               onClick={this.onClickP}
             />
             <input
+              value="Vision & Mission"
+              class="button"
+              onClick={this.onClickV}
+            />
+            
+            <input
               value="Our Team"
               class="button"
               onClick={this.onClickFac}
             />
-            <input
-              value="Recruitment"
-              class="button"
-              onClick={this.onClickRec}
-            />
+            
           </div>
           <div className="content">
+            {this.state.showRecurit ? <Recruitment /> : null}
             {this.state.showProfile ? <Profile /> : null}
             {this.state.showVision ? <Vision /> : null}
             {this.state.showfac ? <Faculty /> : null}
-            {this.state.showRecurit ? <Recruitment /> : null}
+            
 
           </div>
         </div>
