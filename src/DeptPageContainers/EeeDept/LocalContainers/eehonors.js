@@ -10,11 +10,11 @@ class EeHonors extends Component {
   };
   EeHonors1 = {
     instanceID: "eehonors1",
-    image: "dummy.png",
+    image: "eehonorsimg5.JPG",
     width: "30%",
     name: "Jeswin Jose",
     content:
-      "Secured First Position in B.Tech Electrical &amp; Electronics Engineering May 2017"
+      "Secured First Position in B.Tech Electrical & Electronics Engineering May 2017"
   };
   EeHonors2 = {
     instanceID: "eehonors2",
