@@ -72,25 +72,12 @@ class Faculty extends Component {
     name: "Mr. Tony Augustine",
     content: "Assistant Professor"
   };
-  Cefaculty11 = {
-    instanceID: "Cefaculty11",
-    image: "SHFAC113.jpg",
-    width: "50%",
-    name: "Mr. Jojo P Kuriakose",
-    content: "Assistant Professor"
-  };
+  
   Cefaculty12 = {
     instanceID: "Cefaculty12",
     image: "SHFAC114.jpg",
     width: "50%",
     name: "Mr. Biju George",
-    content: "Assistant Professor"
-  };
-  Cefaculty13 = {
-    instanceID: "Cefaculty13",
-    image: "281.jpg",
-    width: "50%",
-    name: "Mr. John Odackal",
     content: "Assistant Professor"
   };
   Cefaculty14 = {
@@ -100,13 +87,7 @@ class Faculty extends Component {
     name: "Mrs. Deenu Baby",
     content: "Assistant Professor"
   };
-  Cefaculty15 = {
-    instanceID: "Cefaculty15",
-    image: "299.JPG",
-    width: "50%",
-    name: "Mr. George Kuriakose",
-    content: "Assistant Professor"
-  };
+  
   Cefaculty16 = {
     instanceID: "Cefaculty16",
     image: "329.jpg",
@@ -169,21 +150,14 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty10} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty11} />
-          </div>
+          
           <div>
             <FacultyData data={this.Cefaculty12} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty13} />
-          </div>
+         
           <div>
             <FacultyData data={this.Cefaculty14} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty15} />
-          </div>
+          </div>          
           <div>
             <FacultyData data={this.Cefaculty16} />
           </div>

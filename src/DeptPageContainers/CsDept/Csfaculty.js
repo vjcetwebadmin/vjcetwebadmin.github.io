@@ -27,8 +27,8 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty4",
     image: "323.jpg",
     width: "50%",
-    name: "Dr. Anishin Raj M",
-    content: "Dean R & D ,Associate Professor"
+    name: "Dr. Anishin Raj M M",
+    content: "Dean R & D, Associate Professor"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
@@ -149,13 +149,7 @@ class CSFaculty extends Component {
     name: "Mr. Sivadas T Nair",
     content: "Assistant Professor"
   };
-  Cefaculty22 = {
-    instanceID: "Cefaculty22",
-    image: "CSFAC124.jpg",
-    width: "50%",
-    name: "Mrs. Soumya Mathew",
-    content: "Assistant Professor"
-  };
+  
   Cefaculty22 = {
     instanceID: "Cefaculty22",
     image: "89.jpg",
@@ -184,6 +178,20 @@ class CSFaculty extends Component {
     name: "Mrs. Nimmy George",
     content: "Assistant Professor"
   };
+  Cefaculty26 = {
+    instanceID: "Cefaculty26",
+    image: "CSFAC124.jpg",
+    width: "50%",
+    name: "Mrs. Soumya Mathew",
+    content: "Assistant Professor"
+  };
+  Cefaculty27 = {
+    instanceID: "Cefaculty27",
+    image: "sreejaspillai.JPEG",
+    width: "50%",
+    name: "Mrs. Sreeja S Pillai(on-leave Ph.D)",
+    content: "Assistant Professor"
+  };
   render() {
     return (
       <div className="faculty">
@@ -192,11 +200,11 @@ class CSFaculty extends Component {
             <FacultyData data={this.Cefaculty1} />
           </div>
           <div>
-            <FacultyData data={this.Cefaculty2} />
-          </div>
-          <div>
             <FacultyData data={this.Cefaculty4} />
           </div>
+          <div>
+            <FacultyData data={this.Cefaculty2} />
+          </div>         
           <div>
             <FacultyData data={this.Cefaculty5} />
           </div>
@@ -249,7 +257,13 @@ class CSFaculty extends Component {
             <FacultyData data={this.Cefaculty20} />
           </div>
           <div>
+            <FacultyData data={this.Cefaculty27} />
+          </div>
+          <div>
             <FacultyData data={this.Cefaculty21} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty26} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty22} />

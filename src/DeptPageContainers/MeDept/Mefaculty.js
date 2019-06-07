@@ -37,13 +37,7 @@ class MEFaculty extends Component {
     name: "Mrs. Leeba Varghese",
     content: "Associate Professor(on Leave-Ph.D)"
   };
-  Cefaculty6 = {
-    instanceID: "Cefaculty6",
-    image: "204.jpg",
-    width: "50%",
-    name: "Dr. Joby George",
-    content: "Associate Professor"
-  };
+  
   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "209.jpg",
@@ -195,10 +189,7 @@ class MEFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty5} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty6} />
-          </div>
+          </div>          
           <div>
             <FacultyData data={this.Cefaculty7} />
           </div>
