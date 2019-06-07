@@ -10,14 +10,14 @@ class EcHonors extends Component {
   };
   EcHonors1 = {
     instanceID: "echonors1",
-    image: "echonorsimg1.JPEG",
+    image: "echonors1.JPEG",
     width: "30%",
     name: "Meera M Nair",
     content: "Secured First Rank in M.Tech VLSI in May 2011"
   };
   EcHonors2 = {
     instanceID: "echonors2",
-    image: "echonorsimg2.JPEG",
+    image: "echonors2.JPEG",
     width: "30%",
     name: "Jayaprasad K V",
     content:
@@ -25,7 +25,7 @@ class EcHonors extends Component {
   };
   EcHonors3 = {
     instanceID: "echonors3",
-    image: "echonorsimg7.jpg",
+    image: "echonors3.jpg",
     width: "30%",
     name: "Gayathri Anil",
     content:
@@ -33,21 +33,21 @@ class EcHonors extends Component {
   };
   EcHonors4 = {
     instanceID: "echonors4",
-    image: "echonorsimg4.jpg",
+    image: "echonors4.jpg",
     width: "30%",
     name: "Haripriya P",
-    content: "SSecured First Rank in M.Tech VLSI in May 2013"
+    content: "Secured First Rank in M.Tech VLSI in May 2013"
   };
   EcHonors5 = {
     instanceID: "echonors5",
-    image: "echonorsimg8.jpg",
+    image: "echonors5.jpg",
     width: "30%",
     name: "Seena V P",
     content: "Secured Third Rank in M.Tech VLSI in May 2013"
   };
   EcHonors6 = {
     instanceID: "echonors6",
-    image: "echonorsimg6.jpg",
+    image: "echonors6.jpg",
     width: "30%",
     name: "Neenu Saju",
     content:
@@ -55,11 +55,43 @@ class EcHonors extends Component {
   };
   EcHonors7 = {
     instanceID: "echonors7",
-    image: "echonorsimg5.jpg",
+    image: "echonors7.jpg",
     width: "30%",
     name: "Deona Noble",
     content:
       "Secured Third Rank in B.Tech Electronics and Communication Engineering in May 2017"
+  };
+  EcHonors8 = {
+    instanceID: "echonors8",
+    image: "echonors8.jpg",
+    width: "30%",
+    name: "Anjana Shaji",
+    content:
+      "Secured First Rank in B.Tech Electronics and Communication Engineering in May 2018"
+  };
+  EcHonors9 = {
+    instanceID: "echonors9",
+    image: "echonors9.jpg",
+    width: "30%",
+    name: "Minni Shaji",
+    content:
+      "Secured Seventh Rank in B.Tech Electronics and Communication Engineering in May 2018"
+  };
+  EcHonors10 = {
+    instanceID: "echonors10",
+    image: "echonors10.jpg",
+    width: "30%",
+    name: "Deepa S",
+    content:
+      "Secured Tenth Rank in B.Tech Electronics and Communication Engineering in May 2018"
+  };
+  EcHonors11 = {
+    instanceID: "echonors11",
+    image: "echonors11.jpg",
+    width: "30%",
+    name: "Minna Shaji",
+    content:
+      "Secured Tenth Rank in B.Tech Electronics and Communication Engineering in May 2018"
   };
   render() {
     return (
@@ -67,13 +99,22 @@ class EcHonors extends Component {
         <HeadingOne data={this.EcHonorsHeading} />
         <div className="photos">
           <div>
-            <Honors data={this.EcHonors1} />
+            <Honors data={this.EcHonors8} />
           </div>
           <div>
-            <Honors data={this.EcHonors2} />
+            <Honors data={this.EcHonors9} />
           </div>
           <div>
-            <Honors data={this.EcHonors3} />
+            <Honors data={this.EcHonors10} />
+          </div>
+          <div>
+            <Honors data={this.EcHonors11} />
+          </div>
+          <div>
+            <Honors data={this.EcHonors7} />
+          </div>
+          <div>
+            <Honors data={this.EcHonors6} />
           </div>
           <div>
             <Honors data={this.EcHonors4} />
@@ -82,10 +123,13 @@ class EcHonors extends Component {
             <Honors data={this.EcHonors5} />
           </div>
           <div>
-            <Honors data={this.EcHonors6} />
+            <Honors data={this.EcHonors2} />
           </div>
           <div>
-            <Honors data={this.EcHonors7} />
+            <Honors data={this.EcHonors3} />
+          </div>
+          <div>
+            <Honors data={this.EcHonors1} />
           </div>
         </div>
       </div>

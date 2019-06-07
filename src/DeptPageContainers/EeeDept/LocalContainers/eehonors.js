@@ -10,15 +10,15 @@ class EeHonors extends Component {
   };
   EeHonors1 = {
     instanceID: "eehonors1",
-    image: "eehonorsimg5.JPG",
+    image: "eehonors1.JPG",
     width: "30%",
     name: "Jeswin Jose",
     content:
-      "Secured First Position in B.Tech Electrical & Electronics Engineering May 2017"
+      "Secured First Rank in B.Tech Electrical & Electronics Engineering May 2017"
   };
   EeHonors2 = {
     instanceID: "eehonors2",
-    image: "eehonorsimg1.JPEG",
+    image: "eehonors2.JPEG",
     width: "30%",
     name: "Devika K B",
     content:
@@ -26,7 +26,7 @@ class EeHonors extends Component {
   };
   EeHonors3 = {
     instanceID: "eehonors3",
-    image: "eehonorsimg2.JPEG",
+    image: "eehonors3.JPEG",
     width: "30%",
     name: "Breeza Paoulose",
     content:
@@ -34,7 +34,7 @@ class EeHonors extends Component {
   };
   EeHonors4 = {
     instanceID: "eehonors4",
-    image: "eehonorsimg3.JPEG",
+    image: "eehonors4.JPEG",
     width: "30%",
     name: "Roseline Baby",
     content:
@@ -42,11 +42,19 @@ class EeHonors extends Component {
   };
   EeHonors5 = {
     instanceID: "eehonors5",
-    image: "eehonorsimg4.JPEG",
+    image: "eehonors5.JPEG",
     width: "30%",
     name: "Ashna Joseph",
     content:
       "Secured Third Rank in B.Tech Electrical & Electronics Engineering May 2008"
+  };
+  EeHonors6 = {
+    instanceID: "eehonors6",
+    image: "eehonors6.jpg",
+    width: "30%",
+    name: "Reshma Sajeev",
+    content:
+      "Secured Seventh Rank in B.Tech Electrical & Electronics Engineering May 2018"
   };
 
   render() {
@@ -54,6 +62,9 @@ class EeHonors extends Component {
       <div className="honors">
         <HeadingOne data={this.EeHonorsHeading} />
         <div className="photos">
+        <div>
+            <Honors data={this.EeHonors6} />
+          </div>
           <div>
             <Honors data={this.EeHonors1} />
           </div>

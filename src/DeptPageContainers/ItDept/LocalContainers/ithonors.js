@@ -10,108 +10,116 @@ class ItHonors extends Component {
   };
   ItHonors1 = {
     instanceID: "ithonors1",
-    image: "sonam2014-2018.jpg",
+    image: "ithonors1.jpg",
     width: "30%",
     name: "Sonam Susan Mathews",
-    content: "2014-2018"
+    content: "Secured Second Rank in B.Tech IT May 2018"
   };
   ItHonors2 = {
     instanceID: "ithonors2",
-    image: "jeesmon2013- 2017.jpeg",
+    image: "ithonors2.jpeg",
     width: "30%",
     name: " Jeesmon Johny",
     content: "2013-2017"
   };
   ItHonors3 = {
     instanceID: "ithonors3",
-    image: "Mariya Jolly 2012-16 batch.jpg",
+    image: "ithonors3.jpg",
     width: "30%",
     name: "Maria Jolly",
     content: "2012-2016"
   };
   ItHonors4 = {
     instanceID: "ithonors4",
-    image: "nimtha2011- 2015.jpg",
+    image: "ithonors4.jpg",
     width: "30%",
     name: "Nimitha Joy",
     content: "2011-2015"
   };
   ItHonors5 = {
     instanceID: "ithonors5",
-    image: "Akshay2010-2014.png",
+    image: "ithonors5.png",
     width: "30%",
     name: "Akshay Aggarwal",
     content: "2010-2014"
   };
   ItHonors6 = {
     instanceID: "ithonors6",
-    image: "ithonorsimg5.JPEG",
+    image: "ithonors6.JPEG",
     width: "30%",
     name: "Dincy Devasia",
     content: "Secured Third rank in B.Tech Information Technology May 2013"
   };
   ItHonors7 = {
     instanceID: "ithonors7",
-    image: "dummy.png",
+    image: "ithonors7.jpg",
     width: "30%",
     name: "Rhimi KX",
     content: "Secured Second Rank in B.Tech IT May 2012"
   };
+  
   ItHonors8 = {
     instanceID: "ithonors8",
-    image: "dummy.png",
-    width: "30%",
-    name: "Rhimi KX",
-    content: "Secured Second Rank in B.Tech IT May 2012"
-  };
-  ItHonors9 = {
-    instanceID: "ithonors9",
-    image: "ithonorsimg1.JPEG",
+    image: "ithonors8.JPEG",
     width: "30%",
     name: "Soumya Joseph",
     content: "Secured First Rank in B.Tech Information Technology May 2011"
   };
-  ItHonors10 = {
-    instanceID: "ithonors10",
-    image: "ithonorsimg2.JPEG",
+  ItHonors9 = {
+    instanceID: "ithonors9",
+    image: "ithonors9.JPEG",
     width: "30%",
     name: "Neethu Devassy",
     content: "Secured First Rank in B.Tech Information Technology May 2010"
   };
-  ItHonors11 = {
-    instanceID: "ithonors11",
-    image: "ithonorsimg3.JPEG",
+  ItHonors10 = {
+    instanceID: "ithonors10",
+    image: "ithonors10.JPEG",
     width: "30%",
     name: "Priya Joseph",
     content: "Secured First Rank in B.Tech Information Technology May 2009"
   };
-  ItHonors12 = {
-    instanceID: "ithonors12",
-    image: "dummy.png",
+  ItHonors11 = {
+    instanceID: "ithonors11",
+    image: "ithonors11.JPG",
     width: "30%",
     name: "Mithun B Mathew",
     content: "2004-2008"
   };
-  ItHonors13 = {
-    instanceID: "ithonors13",
-    image: "dummy.png",
+  ItHonors12 = {
+    instanceID: "ithonors12",
+    image: "ithonors12.JPG",
     width: "30%",
     name: "Veena Kunju",
     content: "2003-2007"
   };
-  ItHonors14 = {
-    instanceID: "ithonors14",
-    image: "dummy.png",
+  ItHonors13 = {
+    instanceID: "ithonors13",
+    image: "ithonors13.jpg",
     width: "30%",
     name: "Vanitha K",
     content: "2002-2006"
   };
-  ItHonors15 = {
-    instanceID: "ithonors15",
-    image: "ithonorsimg4.JPEG",
+  ItHonors14 = {
+    instanceID: "ithonors14",
+    image: "ithonors14.JPEG",
     width: "30%",
     name: "Jithin Joy",
     content: "Secured First Rank in B.Tech Information Technology May 2005"
+  };
+  ItHonors15 = {
+    instanceID: "ithonors15",
+    image: "ithonors15.jpg",
+    width: "30%",
+    name: "Swathi Krishna",
+    content: "Secured Third Rank in B.Tech IT May 2018"
+  };
+  ItHonors16 = {
+    instanceID: "ithonors16",
+    image: "ithonors16.jpg",
+    width: "30%",
+    name: "Manya Kurian",
+    content: "Secured Seventh Rank in B.Tech IT May 2018"
   };
 
   render() {
@@ -121,6 +129,12 @@ class ItHonors extends Component {
         <div className="photos">
           <div>
             <Honors data={this.ItHonors1} />
+          </div>
+          <div>
+            {<Honors data={this.ItHonors15} />}
+          </div>
+          <div>
+            {<Honors data={this.ItHonors16} />}
           </div>
           <div>
             <Honors data={this.ItHonors2} />
@@ -141,25 +155,25 @@ class ItHonors extends Component {
             <Honors data={this.ItHonors7} />
           </div>
           <div>
+            <Honors data={this.ItHonors8} />
+          </div>
+          <div>
             <Honors data={this.ItHonors9} />
           </div>
           <div>
             <Honors data={this.ItHonors10} />
           </div>
           <div>
-            <Honors data={this.ItHonors11} />
+            {<Honors data={this.ItHonors11} />}
           </div>
           <div>
-            <Honors data={this.ItHonors12} />
+            {<Honors data={this.ItHonors12} />}
           </div>
           <div>
-            <Honors data={this.ItHonors13} />
+            {<Honors data={this.ItHonors13} />}
           </div>
           <div>
-            <Honors data={this.ItHonors14} />
-          </div>
-          <div>
-            <Honors data={this.ItHonors15} />
+            {<Honors data={this.ItHonors14} />}
           </div>
         </div>
       </div>

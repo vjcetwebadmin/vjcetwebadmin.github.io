@@ -6,11 +6,11 @@ class CsHonors extends Component {
   state = {};
   CsHonorsHeading = {
     instanceID: "CeHonorsHeading",
-    title: "Honors of Computer Science Engineering"
+    title: "Honors of Computer Science & Engineering"
   };
   CsHonors1 = {
     instanceID: "cshonors1",
-    image: "cshonorsimg1.JPEG",
+    image: "cshonor2.JPEG",
     width: "30%",
     name: "Anu Soosan Baby",
     content:
@@ -18,39 +18,53 @@ class CsHonors extends Component {
   };
   CsHonors2 = {
     instanceID: "cshonors2",
-    image: "cshonorsimg2.JPEG",
+    image: "cshonor1.JPEG",
     width: "30%",
-    name: "Lisa Joy",
+    name: "Lis Joy",
     content:
       "Secured Second Rank in B.Tech Computer Science & Engineering May 2008"
   };
   CsHonors3 = {
     instanceID: "cshonors3",
-    image: "cshonorsimg3.JPEG",
+    image: "cshonor3.JPEG",
     width: "30%",
     name: "Nimmy George",
-    content: "Secured First Rank in M.Tech Computer Science May 2011"
+    content: "Secured First Rank in M.Tech Computer Science & Engineering May 2011"
   };
   CsHonors4 = {
     instanceID: "cshonors4",
-    image: "cshonorsimg4.JPEG",
+    image: "cshonor4.JPEG",
     width: "30%",
     name: "Kavya Johny",
-    content: "Secured Second Rank in M.Tech Computer Science May 2011"
+    content: "Secured Second Rank in M.Tech Computer Science & Engineering May 2011"
   };
   CsHonors5 = {
     instanceID: "cshonors5",
-    image: "cshonorsimg5.JPEG",
+    image: "cshonor5.JPEG",
     width: "30%",
     name: "Sivadas T Nair",
-    content: "Secured Third Rank in M.Tech Computer Science May 2011"
+    content: "Secured Third Rank in M.Tech Computer Science & Engineering May 2011"
   };
   CsHonors6 = {
     instanceID: "cshonors6",
-    image: "cshonorsimg6.JPEG",
+    image: "cshonor6.JPEG",
     width: "30%",
     name: "Merin Francis",
-    content: "Secured First Rank in M.Tech Computer Science 2014"
+    content: "Secured First Rank in M.Tech Computer Science & Engineering May 2014"
+  };
+  CsHonors7 = {
+    instanceID: "cshonors7",
+    image: "cshonor7.jpg",
+    width: "30%",
+    name: "Abhirami Aji",
+    content: "Secured Fourth Rank in B.Tech Computer Science & Engineering May 2018"
+  };
+  CsHonors8 = {
+    instanceID: "cshonors8",
+    image: "cshonor8.jpg",
+    width: "30%",
+    name: "Ashna Paul",
+    content: "Secured Fifth Rank in B.Tech Computer Science & Engineering May 2018"
   };
   render() {
     return (
@@ -58,10 +72,16 @@ class CsHonors extends Component {
         <HeadingOne data={this.CsHonorsHeading} />
         <div className="photos">
           <div>
-            <Honors data={this.CsHonors1} />
+            <Honors data={this.CsHonors7} />
           </div>
           <div>
-            <Honors data={this.CsHonors2} />
+            <Honors data={this.CsHonors8} />
+          </div>
+          <div>
+            <Honors data={this.CsHonors6} />
+          </div>
+          <div>
+            <Honors data={this.CsHonors1} />
           </div>
           <div>
             <Honors data={this.CsHonors3} />
@@ -73,7 +93,7 @@ class CsHonors extends Component {
             <Honors data={this.CsHonors5} />
           </div>
           <div>
-            <Honors data={this.CsHonors6} />
+            <Honors data={this.CsHonors2} />
           </div>
         </div>
       </div>

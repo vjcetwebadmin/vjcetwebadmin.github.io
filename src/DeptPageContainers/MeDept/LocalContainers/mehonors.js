@@ -10,24 +10,31 @@ class MeHonors extends Component {
   };
   MeHonors1 = {
     instanceID: "mehonors1",
-    image: "mehonorsimg1.jpg",
+    image: "mehonors1.jpg",
     width: "30%",
     name: "Deepu P",
-    content: "Secured First Rank in B.Tech Mechanical Engineering May 2006"
+    content: "Secured 1st Rank in B.Tech Mechanical Engineering May 2006"
   };
   MeHonors2 = {
     instanceID: "mehonors2",
-    image: "mehonorsimg2.JPEG",
+    image: "mehonors2.JPEG",
     width: "30%",
     name: "Ms. Anju Joy",
-    content: "2nd Rank MTech (2011-13 Batch)"
+    content: "Secured 2nd Rank in M.Tech May 2013"
   };
   MeHonors3 = {
     instanceID: "mehonors3",
-    image: "mehonorsimg3.JPEG",
+    image: "mehonors3.JPEG",
     width: "30%",
     name: "Ms. Shari S Nair",
-    content: "3rd Rank MTech (2011-13 Batch)"
+    content: "Secured 3rd Rank in M.Tech May 2013"
+  };
+  MeHonors4 = {
+    instanceID: "mehonors4",
+    image: "mehonors4.jpg",
+    width: "30%",
+    name: "Jyothin Mohan",
+    content: "Secured 7th Rank in B.Tech Mechanical Engineering May 2018"
   };
   render() {
     return (
@@ -35,13 +42,16 @@ class MeHonors extends Component {
         <HeadingOne data={this.MeHonorsHeading} />
         <div className="photos">
           <div>
-            <Honors data={this.MeHonors1} />
+          <Honors data={this.MeHonors4} />
           </div>
           <div>
             <Honors data={this.MeHonors2} />
           </div>
           <div>
             <Honors data={this.MeHonors3} />
+          </div>
+          <div>
+            <Honors data={this.MeHonors1} />
           </div>
         </div>
       </div>
