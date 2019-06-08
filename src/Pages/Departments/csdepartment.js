@@ -65,7 +65,7 @@ class CsDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "cs.png",
+    image: "cs.jpg",
     width: "100%"
   };
 
