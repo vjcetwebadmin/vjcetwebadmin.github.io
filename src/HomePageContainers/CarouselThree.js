@@ -165,7 +165,7 @@ class CarouselThree extends Component {
 
       Title: {
         instanceID: "SlideOneTitle",
-        title: <a href="https://vjcet.org/downloads/univ.jpg" target="_blank" rel="noopener noreferrer">12 Univesity Ranks</a>
+        title: <a href="https://vjcet.org/downloads/univ.jpg" target="_blank" rel="noopener noreferrer">12 University Ranks(2014-18)</a>
       },
 
       Image: {
