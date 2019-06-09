@@ -74,12 +74,12 @@
   }
 
   #DepartmentHeadingThree h3 {
-    text-align: left;
+    text-align: center;
     margin: 2% 0%;
   }
 
   #DepartmentBodyTwo p {
-    text-align: left;
+    text-align: justify;
   }
 
   .ListCTA {
