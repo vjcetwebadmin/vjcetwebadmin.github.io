@@ -14,7 +14,7 @@ class DepartmentList extends Component {
   DepartmentDescription = {
     instanceID: "DepartmentDescription",
     title:
-      "We have UG and PG courses ranging from B.Tech, M.Tech, MBA and Science & Humanities"
+      "We are offering UG and PG courses ranging from B.Tech, M.Tech, MBA and Science & Humanities"
   };
 
   LearnMore = {
