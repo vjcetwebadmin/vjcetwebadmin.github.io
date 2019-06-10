@@ -43,7 +43,7 @@ class NBA extends Component {
   AccreditationText2 = {
     instanceID: "AccreditationText2",
     title:
-    <a href="http://www.nbaind.org/accreditedprograms.aspx" target="_blank" rel="noopener noreferrer">1. National Board of Accreditation of India</a>
+    <a href="http://www.nbaind.org/accreditedprograms.aspx" target="_blank" rel="noopener noreferrer">1. National Board of Accreditation India</a>
   };
   AccreditationText3 = {
     instanceID: "AccreditationText3",

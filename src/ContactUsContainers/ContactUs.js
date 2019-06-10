@@ -76,7 +76,6 @@ class ContactUs extends React.Component {
                   <br />
                   0485-2262977
                   <br />
-                  
                 </h3>
               </div>
               {/* <div className="child">
