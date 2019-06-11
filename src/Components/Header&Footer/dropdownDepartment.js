@@ -36,13 +36,18 @@ class DropDownD extends Component {
         <span>Departments</span>
         <div class="dropdown-content">
           <p>
+            {/* <Link to="/departments/admin" className="patch1" >
+              Administration
+            </Link> */}
+            </p>
+            <p>
             <Link to="/departments/ce" className="patch1" >
               Civil Engineering
             </Link>
           </p>
           <p>
             <Link to="/departments/cse" className="patch1">
-              Computer Science and Engineering
+              Computer Science & Engineering
             </Link>
           </p>
           <p>
