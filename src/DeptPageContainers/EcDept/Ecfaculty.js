@@ -162,8 +162,8 @@ class Faculty extends Component {
     instanceID: "Cefaculty24",
     image: "Naveenjacob.jpg",
     width: "50%",
-    name: "Dr. Simi Zerine Sleeba",
-    content: "Assistant Professor(on-Leave Ph.D)"
+    name: "Mr. Naveen Jacob",
+    content: "Associate Professor(on-Leave Ph.D)"
   };
   Cefaculty25 = {
     instanceID: "Cefaculty25",
