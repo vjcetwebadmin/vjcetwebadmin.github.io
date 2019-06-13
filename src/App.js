@@ -26,6 +26,7 @@ import VisionPage from "./Pages/VisionPage";
 import SyllabusPage from "./Pages/SyllabusPage";
 import Research from "./Pages/Research"
 import Mtech from "./Pages/Mtech"
+import Admin from "./Pages/Departments/admin";
 class App extends Component {
   render() {
     return (
@@ -46,6 +47,7 @@ class App extends Component {
               <Route exact path="/campus-life" component={CampusLifePage} />
               <Route exact path="/departments/cse" component={CsDepartment} />
               <Route exact path="/departments/ce" component={CeDepartment} />
+              <Route exact path="/departments/admin" component={Admin} />
               <Route exact path="/departments/eee" component={EeeDepartment} />
               <Route exact path="/departments/ece" component={EcDepartment} />
               <Route exact path="/departments/it" component={ItDepartment} />
