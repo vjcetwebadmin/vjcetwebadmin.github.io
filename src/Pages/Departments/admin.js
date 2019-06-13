@@ -56,7 +56,7 @@ class AdminDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Administrative Department"
+    title: "Department of Administration"
   };
 
   HeadingSectionDescription = {
@@ -87,8 +87,9 @@ class AdminDepartment extends Component {
     return (
       <div className="HomePage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-       {/*  <HeadingOne data={this.HeadingSectionTitle} />
-        <BodyOne data={this.HeadingSectionDescription} /> */}
+        <HeadingOne data={this.HeadingSectionTitle} />
+          
+       {/*  <BodyOne data={this.HeadingSectionDescription} /> */}
         {/* <ImageOne data={this.CseImg} /> */}
         <div>
 

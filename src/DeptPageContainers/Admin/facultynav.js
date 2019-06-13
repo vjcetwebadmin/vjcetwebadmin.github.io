@@ -23,13 +23,13 @@ class FacultyNav extends Component {
       <div class="facultyNav">
         <input
           type="button"
-          value="Administration staff"
+          value="Staff- Administration"
           class="buttongraph"
           onClick={this.OnClickFac}
         />
         <input
           type="button"
-          value="Library Staff"
+          value="Staff-Library"
           class="buttongraph"
           onClick={this.OnClickStaff}
         />
