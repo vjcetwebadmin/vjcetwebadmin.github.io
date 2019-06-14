@@ -42,7 +42,7 @@ class DropDownAdm extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            B.Tech Admissions
+                            B.Tech
                         </a>
                     </p>
                     <p>
@@ -53,7 +53,7 @@ class DropDownAdm extends Component {
                             rel="noopener noreferrer"
 
                         >
-                            M.Tech Admissions
+                            M.Tech
             </Link>
                     </p>
                     <p>
@@ -64,8 +64,19 @@ class DropDownAdm extends Component {
                             rel="noopener noreferrer"
                             MBA Admissions
                         >
-                            MBA Admissions
+                            MBA
             </a>
+                    </p>
+                    <p>
+                        <Link
+                            to="/admission/phd"
+                            className="patch1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+
+                        >
+                            Ph.D
+            </Link>
                     </p>
                 </div>
             </div>

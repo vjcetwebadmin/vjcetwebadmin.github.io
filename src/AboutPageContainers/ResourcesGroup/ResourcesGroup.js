@@ -6,19 +6,19 @@ import HeadingOne from "../../Components/Texts/HeadingOne";
 class ResourcesGroup extends Component {
   ResourcesGroupTitle = {
     instanceID: "ResourcesGroupTitle",
-    title: "Syllabus and Plan"
+    title: "Academic Downloads"
   };
 
-  ResourceListOne = {
-    instanceID: "ResourceListOne",
+  ResourceListTwo = {
+    instanceID: "ResourceListTwo",
     listID: "One",
     title: "Rules & Regulations",
     icon: "icon1.svg",
     filePath: "https://vjcetwebadmin.github.io/downloads/Rules.pdf"
   };
 
-  ResourceListTwo = {
-    instanceID: "ResourceListTwo",
+  ResourceListThree = {
+    instanceID: "ResourceListThree",
     listID: "Two",
     title: "Staff Manual",
     icon: "icon2.svg",
@@ -26,8 +26,8 @@ class ResourcesGroup extends Component {
 
   };
 
-  ResourceListThree = {
-    instanceID: "ResourceListThree",
+  ResourceListFour = {
+    instanceID: "ResourceListFour",
     listID: "Three",
     title: "AICTE Documents",
     icon: "icon3.svg",
@@ -35,8 +35,8 @@ class ResourcesGroup extends Component {
 
   };
 
-  ResourceListFour = {
-    instanceID: "ResourceListFour",
+  ResourceListSix = {
+    instanceID: "ResourceListSix",
     listID: "Four",
     title: "Audited Financial Statements",
     icon: "icon4.svg",
@@ -51,8 +51,8 @@ class ResourcesGroup extends Component {
     filePath: "https://vjcetwebadmin.github.io/downloads/IQAC.pdf"
   };
 
-  ResourceListSix = {
-    instanceID: "ResourceListSix",
+  ResourceListOne = {
+    instanceID: "ResourceListOne",
     listID: "Five",
     title: "Academic Schema",
     icon: "icon6.svg",

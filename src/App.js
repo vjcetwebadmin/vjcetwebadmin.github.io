@@ -11,6 +11,7 @@ import EcDepartment from "./Pages/Departments/ecdepartment";
 import ItDepartment from "./Pages/Departments/itdepartment";
 import MeDepartment from "./Pages/Departments/medepartment";
 import SHDepartment from "./Pages/Departments/s&hdepartment";
+import Admin from "./Pages/Departments/admin";
 import HonorsPage from "./Pages/HonorsPage";
 import PlacementPage from "./Pages/placementpage";
 import FacilitiesPage from "./Pages/FacilitiesPage";
@@ -26,7 +27,11 @@ import VisionPage from "./Pages/VisionPage";
 import SyllabusPage from "./Pages/SyllabusPage";
 import Research from "./Pages/Research"
 import Mtech from "./Pages/Mtech"
-import Admin from "./Pages/Departments/admin";
+import Phd from "./Pages/Phd"
+import Syllabusplan from "./Pages/Syllabusplan";
+
+
+
 class App extends Component {
   render() {
     return (
@@ -62,6 +67,10 @@ class App extends Component {
               <Route exact path="/contact" component={ContactUs} />
               <Route exact path="/r&d" component={Research} />
               <Route exact path="/admission/mtech" component={Mtech} />
+              <Route exact path="/admission/phd" component={Phd} />
+              <Route exact path="/academics/Syllabusplan" component={Syllabusplan} />
+                
+              } />
             </Switch>
           </React.Fragment>
         </Router>

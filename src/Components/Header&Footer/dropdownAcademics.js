@@ -54,12 +54,21 @@ class DropDownA extends Component {
           </p>*/}
           <p>
             <Link
+              to="/academics/syllabusplan"
+              className="patch1"
+            >
+              Syllabus & Curriculum Plan
+            </Link>
+          </p>
+          <p>
+            <Link
               to="/academics/syllabus"
               className="patch1"
             >
-              Syllabus and Plan
+              Academic Downloads
             </Link>
           </p>
+          
           <p>
 
             <Link
