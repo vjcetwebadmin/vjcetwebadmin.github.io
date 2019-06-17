@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./Nav.css";
-import Graph15 from "./graph_yearwise";
+//import Graph15 from "./graph_yearwise";
 /* import Graph14 from "./graph2014";
 import Graph13 from "./graph2013";
 import Graph12 from "./graph2012";
 import CsHonors from "./cshonors"; */
-import HeadingOne from "../../Components/Texts/HeadingOne";
+//import HeadingOne from "../../Components/Texts/HeadingOne";
 import Graph10 from "./graph_yearwise";
 class PlacementGraph extends Component {
   state = {

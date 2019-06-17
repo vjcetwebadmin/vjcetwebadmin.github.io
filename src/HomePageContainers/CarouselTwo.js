@@ -7,6 +7,10 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
+      title: "Merit & Farewell Day is on 20th June 2019"
+    },
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/placement" target="_blank" rel="noopener noreferrer"><font color="FFFFF">402 Students Placed in 2018-19 AY</font></a>
     },
     {
@@ -19,21 +23,10 @@ class CarouselTwo extends Component {
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 8 Exams commence on May 28"
+      title: <a href="https://vjcet.org/#/keralablockchain" target="_blank" rel="noopener noreferrer"><font color="FFFFF">We are Institutional Member of Kerala Block Chain Academy</font></a>
+           
     },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 6 Regular and Supplementary Exams commence on May 27"
-    },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 4 Regular and Supplementary Exams commence on June 3"
-    },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Semester 2 Regular and Supplementary Exams commenece on June 13"
-    },
-    
+        
     
   ];
   rotateRight = () => {

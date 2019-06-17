@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Nav.css";
-import Graph15 from "./graph2015";
-import Graph14 from "./graph2014";
+//import Graph15 from "./graph2015";
+//import Graph14 from "./graph2014";
 import EcHonors from "./echonors";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 class EcGraph extends Component {

@@ -180,6 +180,7 @@ class CarouselThree extends Component {
         link: "/news/news1"
       }
     },
+    
 
   ];
   render() {

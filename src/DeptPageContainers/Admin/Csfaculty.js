@@ -95,14 +95,14 @@ class CSFaculty extends Component {
   };
   Cefaculty14 = {
     instanceID: "Cefaculty14",
-    image: "dummy.png",
+    image: "EDOuseph.jpg",
     width: "50%",
     name: "Mr. E D Ouseph",
     content: "Work Supervisor"
   };
   Cefaculty15 = {
     instanceID: "Cefaculty15",
-    image: "dummy.png",
+    image: "JainPVarghese.jpg",
     width: "50%",
     name: "Mr. Jain P Varghese",
     content: "DTP Operator"
@@ -215,7 +215,7 @@ class CSFaculty extends Component {
   };
   Cefaculty31 = {
     instanceID: "Cefaculty31",
-    image: "dummy.png",
+    image: "ValsaMathew.jpg",
     width: "50%",
     name: "Mrs. Valsa Mathew",
     content: "Class IV"

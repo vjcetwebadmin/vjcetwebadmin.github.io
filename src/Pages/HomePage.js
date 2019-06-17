@@ -10,6 +10,7 @@ import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import Promo from "../Components/Video/promo";
+//import HomepageActivities from "../HomePageContainers/HomepageActivities";
 class HomePage extends Component {
   state = { showMenu: false };
 
@@ -43,6 +44,7 @@ class HomePage extends Component {
   HomePageFacilitiesSection = {
     instanceID: "HomePageFacilitiesSection"
   };
+  
 
   HomePageVisionSection = {
     instanceID: "HomePageVisionSection"
@@ -50,6 +52,9 @@ class HomePage extends Component {
 
   HomePageCarouselFour = {
     instanceID: "HomePageCarouselFour"
+  };
+  HomepageActivities = {
+    instanceID: "HomepageActivities"
   };
 
   HomePageFooter = {
@@ -67,6 +72,7 @@ class HomePage extends Component {
         <DepartmentSection data={this.HomePageDepartmentSection} />
         <FacilitiesSection data={this.HomePageFacilitiesSection} />
         {/* <VisionSection data={this.HomePageFacilitiesSection} /> */}
+        {/* <HomepageActivities data={this.HomepageActivities}/> */}
         <CarouselFour data={this.HomePageCarouselFour} />
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (

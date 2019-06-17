@@ -141,6 +141,11 @@ class Footer extends Component {
     title: "Contact Us",
     link: "/contact"
   };
+  Link13 = {
+    instanceID: "Link13",
+    title: "Kerala Block Chain Academy",
+    link: "/keralablockchain"
+  };
 
   // Link13 = {
   //   instanceID: "Link13",
@@ -224,8 +229,8 @@ class Footer extends Component {
           <AnchorLink data={this.Link10} />
           <AnchorLink data={this.Link11} />
           <AnchorLink data={this.Link12} />
-          {/* <AnchorLink data={this.Link13} />
-          <AnchorLink data={this.Link14} /> */}
+          <AnchorLink data={this.Link13} />
+         {/* <AnchorLink data={this.Link14} /> */}
         </div>
 
         <div className="FooterLinksThree" id="FooterLinksThree">

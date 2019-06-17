@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./Nav.css";
-import Graph15 from "./graph2015";
+/* import Graph15 from "./graph2015";
 import Graph14 from "./graph2014";
 import Graph13 from "./graph2013";
-import Graph12 from "./graph2012";
+import Graph12 from "./graph2012"; */
 import CsHonors from "./cshonors";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 class CeGraph extends Component {
