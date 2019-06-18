@@ -7,7 +7,8 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: "Merit & Farewell Day is on 20th June 2019"
+      title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF">Merit & Farewell Day 2019</font></a>
+      
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",

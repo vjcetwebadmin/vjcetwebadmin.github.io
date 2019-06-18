@@ -101,7 +101,7 @@ class Blockchain extends React.Component {
 
                 <div className="contain">
                     <HeadingOne data={this.CCCNATitle} className="Heading" />
-                    <ImageOne data={this.CCCImagedata} />
+                    <p align="center">  <ImageOne data={this.CCCImagedata} /></p>
                     <br />
                     <div className="bodyContainer">
                         <HeadingTwo data={this.CCCTitle} className="Heading" />

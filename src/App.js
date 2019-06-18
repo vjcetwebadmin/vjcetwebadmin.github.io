@@ -30,7 +30,7 @@ import Mtech from "./Pages/Mtech"
 import Phd from "./Pages/Phd"
 import Syllabusplan from "./Pages/Syllabusplan";
 import Blockchain from "./Pages/Blockchain";
-
+import Newsone from "./Pages/NewsContainers/Newsone";
 
 
 class App extends Component {
@@ -71,6 +71,7 @@ class App extends Component {
               <Route exact path="/admission/phd" component={Phd} />
               <Route exact path="/academics/Syllabusplan" component={Syllabusplan} />
               <Route exact path="/keralablockchain" component={Blockchain} />
+              <Route exact path="/newsone" component={Newsone} />
                 
               } />
             </Switch>
