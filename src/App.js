@@ -70,7 +70,7 @@ class App extends Component {
               <Route exact path="/admission/mtech" component={Mtech} />
               <Route exact path="/admission/phd" component={Phd} />
               <Route exact path="/academics/Syllabusplan" component={Syllabusplan} />
-              <Route exact path="/keralablockchain" component={Blockchain} />
+              <Route exact path="/KBAIC_125" component={Blockchain} />
               <Route exact path="/newsone" component={Newsone} />
                 
               } />

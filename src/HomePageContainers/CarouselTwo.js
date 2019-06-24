@@ -24,7 +24,7 @@ class CarouselTwo extends Component {
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/keralablockchain" target="_blank" rel="noopener noreferrer"><font color="FFFFF">We are Institutional Member of Kerala Block Chain Academy</font></a>
+      title: <a href="https://vjcet.org/#/KBAIC_125" target="_blank" rel="noopener noreferrer"><font color="FFFFF">We are Institutional Member of Kerala Block Chain Academy</font></a>
            
     },
         

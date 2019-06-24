@@ -144,7 +144,7 @@ class Footer extends Component {
   Link13 = {
     instanceID: "Link13",
     title: "Kerala Block Chain Academy",
-    link: "/keralablockchain"
+    link: "/KBAIC_125"
   };
 
   // Link13 = {
