@@ -10,8 +10,10 @@ import Result from "./result";
 import Outreach from "./outreach"
 import FacultyNav from "./facultynav";
 import ProfBodies from "./Profbodies";
+import Celabs from "./Celab";
 class SideNav extends Component {
   state = {
+    
     showProfile: true,
     showVision: false,
     showPeo: false,
@@ -22,6 +24,8 @@ class SideNav extends Component {
     showfac: false,
     showOut: false,
     showProf: false
+       
+    
   };
   onClickP = () => {
     this.setState({
@@ -35,6 +39,7 @@ class SideNav extends Component {
       showfac: false,
       showOut: false,
       showProf: false
+      
     });
   };
   onClickV = () => {
@@ -225,6 +230,7 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickProf}
             />
+            
           </div>
           <div class="dropdownD">
             <button class="button">Menu</button>
