@@ -2,7 +2,7 @@ import React from "react";
 import HeadingTwo from "../Components/Texts/HeadingTwo";
 import ImageOne from  "../Components/Images/ImageOne";
 import BodyOneJustified from "../Components/Texts/BodyOneJustified";
-import "../Facilities/styles.css";
+import "../FacilitiesPageContainers/styles.css";
 
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
