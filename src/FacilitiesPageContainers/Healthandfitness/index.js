@@ -8,7 +8,7 @@ import HeadingOne from "../../Components/Texts/HeadingOne";
 import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
-
+import Health from "./../Health";
 
 class Heathandfitness extends React.Component{
     state = { showMenu: false };
@@ -120,8 +120,9 @@ class Heathandfitness extends React.Component{
             <ImageOne data={this.SportsImagedata} />
             <div className="bodyContainer">
             <BodyOneJustified data={this.SportsContent1} />
-            </div>
+            </div>            
             <Gym />
+            <Health />            
             <HeadingTwo data={this.BasketballTitle} className="Heading" />
             <ImageOne data={this.BasketballImagedata} />
             <BodyOneJustified data={this.BasketballContent} />

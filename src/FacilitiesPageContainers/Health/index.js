@@ -2,6 +2,7 @@ import React from "react";
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
 // import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
+
 import "../styles.css"
 
 class Health extends React.Component {
@@ -17,6 +18,10 @@ class Health extends React.Component {
         instanceID: "HealthContent2",
         title: "A follow up sessions where the psychological changes of the students are being evaluated periodically. Mostly evaluations are done with the help of emotional intelligence self-assessment test and personality assessment tests etc. Counselling help the students to have a deeper self knowledge by knowing one's own personality 'Trait Inventory'. Each counseling sessions focus more on their healthy personality factors such as achievement, acceptance and affection in a very unique way. Thus the result is, students become very positive in their attitude and focus more on their studies, inter-personal relationships thereby become become efficient and skilled engineers in the future."
     }
+    HealthContent3 = {
+        instanceID: "HealthContent3",
+        title: "Our college has a medical facility during the working hours. All preliminary medical needs will be served in this facility. The medical team is consist of "
+    }
     // HealthImagedata = {
     //     instanceID: "HealthImagedata",
     //     image: "cover2-1.jpg",
@@ -29,6 +34,11 @@ class Health extends React.Component {
                     <HeadingTwo data={this.HealthTitle} className="Heading" />
                     {/* <ImageOne data={this.HealthImagedata} /> */}
                     <div className="bodyContainer">
+                    <BodyOneJustified data={this.HealthContent3} />
+                    <ul>
+                    <li><font size="3">Dr. Sony James MBBS, MD Medical Consultant</font></li>
+                    <li><font size="3">Rev. Sr. Rani Maria CMC,  Medical Superintendent</font></li>
+                    </ul>
                         <BodyOneJustified data={this.HealthContent1} />
                         <p><BodyOneJustified data={this.HealthContent2} /></p>
                     </div>

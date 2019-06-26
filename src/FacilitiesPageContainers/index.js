@@ -9,7 +9,7 @@ import HeadingOne from "../Components/Texts/HeadingOne";
 class FacilitiesPageContainers extends React.Component {
   FacTitle = {
     instanceID: "FacTitle",
-    title: "Core Facilities"
+    title: "Campus Amenities"
   };
   render() {
     return (

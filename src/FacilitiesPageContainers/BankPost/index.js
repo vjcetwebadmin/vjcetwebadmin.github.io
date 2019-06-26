@@ -19,7 +19,7 @@ class BankPost extends React.Component {
     }
     StoreContent = {
         instanceID: "StoreContent",
-        title: "VViswjothi store facility provides all stationary items for the staffs and students. The store runs in the interval time and it is managed by the Administrative department."
+        title: "Viswajyothi store facility provides all stationary items for the staffs and students. The store runs in the interval time and it is managed by the Administrative department."
     }
     BankPostImagedata = {
         instanceID: "BankPostImagedata",
