@@ -7,7 +7,7 @@
 6 silly lifecycle vjcetwebadmin@0.1.0~prebuild: no script for prebuild, continuing
 7 info lifecycle vjcetwebadmin@0.1.0~build: vjcetwebadmin@0.1.0
 8 verbose lifecycle vjcetwebadmin@0.1.0~build: unsafe-perm in lifecycle true
-9 verbose lifecycle vjcetwebadmin@0.1.0~build: PATH: /usr/share/npm/bin/node-gyp-bin:/home/bc/website/vjcet-web/node_modules/.bin:/tmp/yarn--1561548847525-0.1581569485430372:/home/bc/website/vjcet-web/node_modules/.bin:/home/bc/.config/yarn/link/node_modules/.bin:/home/bc/.yarn/bin:/usr/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/usr/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+9 verbose lifecycle vjcetwebadmin@0.1.0~build: PATH: /usr/share/npm/bin/node-gyp-bin:/home/bc/website/vjcet-web/node_modules/.bin:/tmp/yarn--1561549029175-0.1456101184994516:/home/bc/website/vjcet-web/node_modules/.bin:/home/bc/.config/yarn/link/node_modules/.bin:/home/bc/.yarn/bin:/usr/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/usr/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 10 verbose lifecycle vjcetwebadmin@0.1.0~build: CWD: /home/bc/website/vjcet-web
 11 silly lifecycle vjcetwebadmin@0.1.0~build: Args: [ '-c', 'react-scripts build' ]
 12 silly lifecycle vjcetwebadmin@0.1.0~build: Returned: code: 1  signal: null
