@@ -3,7 +3,7 @@ import "./HomePage.css";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-import FacilitiesPageContainers from "../Facilities";
+import FacilitiesPageContainers from "../FacilitiesPageContainers";
 
 class FacilitiesPage extends Component {
   state = { showMenu: false };
