@@ -10,7 +10,7 @@ import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 
 
-class Sports extends React.Component{
+class Heathandfitness extends React.Component{
     state = { showMenu: false };
     openMenu = () => {
       console.log("opening Menu");
@@ -29,7 +29,7 @@ class Sports extends React.Component{
 
     SportsTitle = {
         instanceID: "SportsTitle",
-        title: "Sports at VJCET"
+        title: "Health and Fitness"
     };
     SportsContent1 = {
         instanceID: "SportsContent1",
@@ -106,6 +106,11 @@ class Sports extends React.Component{
         image: "basket.jpg",
         width: "100%"
     }
+    BasketballImagedata = {
+        instanceID: "BasketballImagedata",
+        image: "Basketball.jpg",
+        width: "100%"
+    }
     render() {
       return (
           <React.Fragment>
@@ -118,6 +123,7 @@ class Sports extends React.Component{
             </div>
             <Gym />
             <HeadingTwo data={this.BasketballTitle} className="Heading" />
+            <ImageOne data={this.BasketballImagedata} />
             <BodyOneJustified data={this.BasketballContent} />
             <HeadingTwo data={this.StatdiumTitle} className="Heading" />
             <BodyOneJustified data={this.StatdiumContent} />
@@ -142,4 +148,4 @@ class Sports extends React.Component{
 
 }
 
-export default Sports;
+export default Heathandfitness;

@@ -15,10 +15,13 @@ import Admin from "./Pages/Departments/admin";
 import HonorsPage from "./Pages/HonorsPage";
 import PlacementPage from "./Pages/placementpage";
 import FacilitiesPage from "./Pages/FacilitiesPage";
-import CCC from "./FacilitiesPageContainers/CCC/index"
-import Library from "./FacilitiesPageContainers/Library/index";
-import Hostel from "./FacilitiesPageContainers/Hostel/index";
-import Sports from "./FacilitiesPageContainers/Sports/index";
+import CCC from "./Facilities/ComputingTechnology/computing";
+import building from "./Facilities/BuildingArea/building";
+import powerandbackup from "./Facilities/PowerandBackup/powerandbackup";
+import Library from "./Facilities/Library/index";
+import Hostel from "./Facilities/Hostel/index";
+import Healthandfitness from "./Facilities/Healthandfitness/index";
+import campusamenities from "./Pages/CoreFacilities";
 import NBA from "./Pages/NBA";
 import KeyFunc from "./Pages/KeyFunc";
 import ContactUs from "./ContactUsContainers/ContactUs";
@@ -62,9 +65,12 @@ class App extends Component {
               <Route exact path="/placement" component={PlacementPage} />
               <Route exact path="/facilities/core-facilities" component={FacilitiesPage} />
               <Route exact path="/facilities/ccc" component={CCC} />
+              <Route exact path="/facilities/building" component={building} />
               <Route exact path="/facilities/library" component={Library} />
+              <Route exact path="/facilities/powerandbackup" component={powerandbackup} />
               <Route exact path="/facilities/hostel" component={Hostel} />
-              <Route exact path="/facilities/sports" component={Sports} />
+              <Route exact path="/facilities/healthandfitness" component={Healthandfitness} />
+              <Route exact path="/facilities/campusamenities" component={campusamenities} />
               <Route exact path="/contact" component={ContactUs} />
               <Route exact path="/r&d" component={Research} />
               <Route exact path="/admission/mtech" component={Mtech} />

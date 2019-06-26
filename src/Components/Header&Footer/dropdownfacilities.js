@@ -36,6 +36,45 @@ class DropDownF extends Component {
         <span>Facilities</span>
         <div class="dropdown-content">
           <p>
+            <Link to="/facilities/ccc" className="patch1">
+              Computing Infrastructure
+            </Link>
+          </p>
+          <p>
+            <Link to="/facilities/building" className="patch1">
+              Building Infrastructure
+            </Link>
+          </p>
+
+          <p>
+            <Link to="/facilities/library" className="patch1">
+              Central Library
+            </Link>
+          </p>
+
+          <p>
+            <Link to="/facilities/powerandbackup" className="patch1">
+              Power & Backup
+            </Link>
+          </p>
+          <p>
+            <Link to="/facilities/hostel" className="patch1">
+              Residential Facility
+            </Link>
+          </p>
+          <p>
+            <Link to="/facilities/healthandfitness" className="patch1">
+              Health & Fitness
+            </Link>
+          </p>
+          <p>
+            <Link to="/facilities/campusamenities" className="patch1">
+              Campus Amenities
+            </Link>
+          </p>
+        </div>
+        {/* <div class="dropdown-content">
+          <p>
             <Link to="/facilities/core-facilities" className="patch1">
               Core Facilities
             </Link>
@@ -62,7 +101,7 @@ class DropDownF extends Component {
               Sports
             </Link>
           </p>
-        </div>
+        </div> */}
       </div>
     );
   }

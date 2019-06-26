@@ -3,7 +3,7 @@ import "./HomePage.css";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-import FacilitiesPageContainers from "../FacilitiesPageContainers";
+import FacilitiesPageContainers from "../Facilities";
 
 class CampusLifePage extends Component {
   state = { showMenu: false };

@@ -15,7 +15,7 @@ class Gym extends React.Component {
     }
     GymImagedata = {
         instanceID: "GymImagedata",
-        image: "IMG_7386.JPG",
+        image: "Gym.jpg",
         width: "100%"
     }
     render() {
@@ -26,6 +26,30 @@ class Gym extends React.Component {
                     <ImageOne data={this.GymImagedata} />
                     <div >
                         <BodyOneJustified data={this.GymContent} />
+                        <p>
+                        <font size ="4"><b>Gym Facilities</b></font>
+                        <p>
+                        <ol>Pec deck</ol>
+                        <ol>High Lat & Rowing</ol>
+                        <ol>Cable Cross over</ol>
+                        <ol>Squat Machine</ol>
+                        <ol>Leg Curl and Extension</ol>
+                        <ol>Biceps Curl</ol>
+                        <ol>Triceps Curl</ol>
+                        <ol>Wrist Curl</ol>
+                        <ol>Bench Press Parallel</ol>
+                        <ol>Bench Press Incline</ol>
+                        <ol>Tread Mill(Manuel)</ol>
+                        <ol>Abdominal Board</ol>
+                        <ol>Ab-King Pro</ol>
+                        <ol>Double twister</ol>
+                        <ol>Weight Bar and Dumbbells</ol>
+                        <ol>Gym Bench</ol>
+                        <ol>Gym Stool</ol>
+                        <ol>T-Bar</ol>
+                        <ol>Barbells</ol>
+                        </p>
+                        </p>
                     </div>
                 </div>
             </React.Fragment>

@@ -9,6 +9,10 @@ class Canteen extends React.Component {
         instanceID: "CanteenTitle",
         title: "Canteen"
     };
+    CafeteriaTitle = {
+        instanceID: "CafeteriaTitle",
+        title: "Cafeteria"
+    };
     CanteenContent = {
         instanceID: "CanteenContent",
         title: "College has spacious canteen facility in the campus. It spans around an area of 3000sqft which caters to the taste of all students. Our canteen can accommodate 130 persons at a time. The canteens and cafeterias remain open on all working days. It provides all types of nutritious and hygienic eatables and beverages to cater to the students, staff and visitors. A variety of south Indian food and snack items are provided to the students and staff of the college with best quality. Our canteen uses multi kitchen system for quality cooking. Canteen is open from 8:00 AM to 5:30 PM on all working days."
@@ -16,6 +20,10 @@ class Canteen extends React.Component {
     CanteenContent2 = {
         instanceID: "CanteenContent2",
         title: "The college canteen is providing an experience of multi cuisine dishes to the students and the staff members on subsidized rates. It is directly run by the management to give paramount importance to the quality of food and hygiene."
+    }
+    CafeteriaContent = {
+        instanceID: "CafeteriaContent",
+        title: "Viswjyothi provides Cafeteria service to all students and faculty. This facility is located at the first floor of the D block which runs during the interval sessions. "
     }
     canteenImagedata = {
         instanceID: "canteenImagedata",
@@ -31,6 +39,10 @@ class Canteen extends React.Component {
                     <div className="bodyContainer">
                         <BodyOneJustified data={this.CanteenContent} />
                         <p><BodyOneJustified data={this.CanteenContent2} /></p>
+                    </div>
+                    <div>
+                    <HeadingTwo data={this.CafeteriaTitle} className="Heading" /> 
+                    <BodyOneJustified data={this.CafeteriaContent} />
                     </div>
                 </div>
             </React.Fragment>

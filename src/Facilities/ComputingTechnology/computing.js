@@ -36,15 +36,27 @@ class CCC extends React.Component {
     };
     NATitle = {
         instanceID: "CCCTitle",
-        title: "Network Architecture of VJCET"
+        title: "Network Architecture & Internet Facility"
+    };
+    WifiTitle = {
+        instanceID: "CCCTitle",
+        title: "Wi-Fi Campus"
+    };
+    ServerTitle = {
+        instanceID: "Servernames",
+        title: "Servers"
     };
     CCCContent1 = {
         instanceID: "CCCContent1",
-        title: "Viswajyothi has a central computing facility named as Common Computing Centre (CCC) functioning with a speed of 200 Mbps from 8AM to 8PM. Students can access Internet and download relevant study materials and can procure hard copies of the study materials with the assistance of staff at any time. The center is air conditioned and well-equipped with an uninterrupted power supply."
+        title: "Viswajyothi has a central computing facility named as Common Computing Centre (CCC) functioning from 8AM to 8PM.The campus is having two internet leased lines 154 Mbps each. Students can access Internet and download relevant study materials and can procure hard copies of the study materials with the assistance of staff at any time. The center is fully air conditioned and well-equipped with an uninterrupted power supply."
     }
     CCCContent2 = {
         instanceID: "CCCContent2",
-        title: "We have more than 1000 computers and 11 servers in the campus and all of these are connected across a single LAN. All the computers are in Hence staff and students can access their data at any lab at any time during working hours. Our servers are 24 hours working throughout the year. We have a central point called server room from where all the locations are connected via fiber optic back bone cable. All the operations are monitored from the server room."
+        title: "We have more than 1000 computers and 8 MNC servers in the campus and all of these are connected across a single LAN. All the computers are in same domain and hence staff and students can access their data at any lab/Staff Room at any time during working hours. Our servers are 24 hours working throughout the year. We have a centralized administration point called server room from where all the locations are connected via fiber optic back bone cable. All the operations are monitored and controlled from the server room."
+    }
+    CCCContent3 = {
+        instanceID: "CCCContent3",
+        title: "Viswajyothi is Wi-Fi enabled campus with its access is centrally controlled by a Wi-Fi Manager switch. Administrative block, Digital Library, College Cafeteria, Departments including PG section and both Gents and Ladies Hostel are Wi-Fi areas."
     }
     CCCImagedata = {
         instanceID: "CCCVjcImage",
@@ -53,35 +65,35 @@ class CCC extends React.Component {
     }
     Server1 = {
         instanceID: "Server1",
-        title: "1. Main Server"
+        title: "1. Domain Main Server"
     }
     Server2 = {
         instanceID: "Server2",
-        title: "2. Backup Server"
+        title: "2. Backup Domain Server/Automation Server"
     }
     Server3 = {
         instanceID: "Server3",
-        title: "3. NAS (File Server)"
+        title: "3. Storage Server (NAS)"
     }
     Server4 = {
         instanceID: "Server4",
-        title: "4. Database Server"
+        title: "4. Digital Library Server"
     }
     Server5 = {
         instanceID: "Server5",
-        title: "5. Student Database Server"
+        title: "5. Antivirus Server"
     }
     Server6 = {
         instanceID: "Server6",
-        title: "6. FTP Server"
+        title: "6. Automation Backup Server"
     }
     Server7 = {
         instanceID: "Server7",
-        title: "7. Anti Virus Server"
+        title: "7. License/Tally Server"
     }
     Server8 = {
         instanceID: "Server8",
-        title: "8. Print Server"
+        title: "8. Database Server"
     }
 
     render() {
@@ -98,6 +110,9 @@ class CCC extends React.Component {
                         <BodyOneJustified data={this.CCCContent1} />
                         <HeadingTwo data={this.NATitle} className="Heading" />
                         <BodyOneJustified data={this.CCCContent2} />
+                        <HeadingTwo data={this.WifiTitle} className="Heading" />
+                        <BodyOneJustified data={this.CCCContent3} />
+                        <HeadingTwo data={this.ServerTitle} className="Heading" />
                         <div className="bodyContainerInner">
                             <p><BodyOneJustified data={this.Server1} /></p>
                             <p><BodyOneJustified data={this.Server2} /></p>
