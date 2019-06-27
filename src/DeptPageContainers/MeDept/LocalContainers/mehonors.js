@@ -10,28 +10,28 @@ class MeHonors extends Component {
   };
   MeHonors1 = {
     instanceID: "mehonors1",
-    image: "mehonors1.jpg",
+    image: "Honors/mehonors1.jpg",
     width: "30%",
     name: "Deepu P",
     content: "Secured 1st Rank in B.Tech Mechanical Engineering May 2006"
   };
   MeHonors2 = {
     instanceID: "mehonors2",
-    image: "mehonors2.JPEG",
+    image: "Honors/mehonors2.JPEG",
     width: "30%",
     name: "Ms. Anju Joy",
     content: "Secured 2nd Rank in M.Tech May 2013"
   };
   MeHonors3 = {
     instanceID: "mehonors3",
-    image: "mehonors3.JPEG",
+    image: "Honors/mehonors3.JPEG",
     width: "30%",
     name: "Ms. Shari S Nair",
     content: "Secured 3rd Rank in M.Tech May 2013"
   };
   MeHonors4 = {
     instanceID: "mehonors4",
-    image: "mehonors4.jpg",
+    image: "Honors/mehonors4.jpg",
     width: "30%",
     name: "Jyothin Mohan",
     content: "Secured 7th Rank in B.Tech Mechanical Engineering May 2018"

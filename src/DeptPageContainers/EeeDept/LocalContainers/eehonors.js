@@ -10,7 +10,7 @@ class EeHonors extends Component {
   };
   EeHonors1 = {
     instanceID: "eehonors1",
-    image: "eehonors1.JPG",
+    image: "Honors/eehonors1.JPG",
     width: "30%",
     name: "Jeswin Jose",
     content:
@@ -18,7 +18,7 @@ class EeHonors extends Component {
   };
   EeHonors2 = {
     instanceID: "eehonors2",
-    image: "eehonors2.JPEG",
+    image: "Honors/eehonors2.JPEG",
     width: "30%",
     name: "Devika K B",
     content:
@@ -26,7 +26,7 @@ class EeHonors extends Component {
   };
   EeHonors3 = {
     instanceID: "eehonors3",
-    image: "eehonors3.JPEG",
+    image: "Honors/eehonors3.JPEG",
     width: "30%",
     name: "Breeza Paoulose",
     content:
@@ -34,7 +34,7 @@ class EeHonors extends Component {
   };
   EeHonors4 = {
     instanceID: "eehonors4",
-    image: "eehonors4.JPEG",
+    image: "Honors/eehonors4.JPEG",
     width: "30%",
     name: "Roseline Baby",
     content:
@@ -42,7 +42,7 @@ class EeHonors extends Component {
   };
   EeHonors5 = {
     instanceID: "eehonors5",
-    image: "eehonors5.JPEG",
+    image: "Honors/eehonors5.JPEG",
     width: "30%",
     name: "Ashna Joseph",
     content:
@@ -50,7 +50,7 @@ class EeHonors extends Component {
   };
   EeHonors6 = {
     instanceID: "eehonors6",
-    image: "eehonors6.jpg",
+    image: "Honors/eehonors6.jpg",
     width: "30%",
     name: "Reshma Sajeev",
     content:

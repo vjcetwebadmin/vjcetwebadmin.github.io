@@ -4,147 +4,147 @@ class CSFaculty extends Component {
   state = {};
   Cefaculty1 = {
     instanceID: "Cefaculty1",
-    image: "DrJosephkunjupaul.jpg",
+    image: "Allstaffphoto/ADM/ADM/DrJosephkunjupaul.jpg",
     width: "50%",
     name: "Dr. Josephkunju Paul C",
     content: "Principal"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
-    image: "Somypmathew.JPEG",
+    image: "Allstaffphoto/EC/FAC/Somypmathew.JPEG",
     width: "50%",
     name: "Mr. Somy P Mathew",
     content: "Vice-Principal"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
-    image: "sunnyjacob.jpg",
+    image: "Allstaffphoto/ADM/ADM/sunnyjacob.jpg",
     width: "50%",
     name: "Mr. Sunny Jacob",
     content: "Administrative Officer (HG)"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
-    image: "reenaemmanuel.jpeg",
+    image: "Allstaffphoto/ADM/ADM/reenaemmanuel.jpeg",
     width: "50%",
     name: "Mrs. Reena Emmanuel",
     content: "Head Clerk"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
-    image: "sijumonfrancis.JPEG",
+    image: "Allstaffphoto/ADM/ADM/sijumonfrancis.JPEG",
     width: "50%",
     name: "Mr. Sijumon Francis",
     content: "Public Relation Officer"
   };
   Cefaculty6 = {
     instanceID: "Cefaculty6",
-    image: "rajeshgeorge.JPEG",
+    image: "Allstaffphoto/ADM/ADM/rajeshgeorge.JPEG",
     width: "50%",
     name: "Mr. Rajesh George",
     content: "Jr. Superintendent"
   };
   Cefaculty7 = {
     instanceID: "Cefaculty7",
-    image: "jismygeorge.JPEG",
+    image: "Allstaffphoto/ADM/ADM/jismygeorge.JPEG",
     width: "50%",
     name: "Mrs. Jismy George",
     content: "Jr. Superintendent"
   };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
-    image: "jerrinskjoy.JPEG",
+    image: "Allstaffphoto/ADM/ADM/jerrinskjoy.JPEG",
     width: "50%",
     name: "Mr. Jerrins K.Joy ",
     content: "Finance Officer"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty",
-    image: "anithamathew.JPEG",
+    image: "Allstaffphoto/ADM/ADM/anithamathew.JPEG",
     width: "50%",
     name: "Mrs. Anitha Mathew",
     content: "UDC (HG)"
   };
   Cefaculty10 = {
     instanceID: "Cefaculty10",
-    image: "shijajose.JPEG",
+    image: "Allstaffphoto/ADM/ADM/shijajose.JPEG",
     width: "50%",
     name: "Mrs. Shija Jose",
     content: "UDC"
   };
   Cefaculty11 = {
     instanceID: "Cefaculty11",
-    image: "arunbobyt.JPEG",
+    image: "Allstaffphoto/ADM/ADM/arunbobyt.JPEG",
     width: "50%",
     name: "Mr. Arun Bobby T",
     content: "UDC"
   };
   Cefaculty12 = {
     instanceID: "Cefaculty12",
-    image: "jillsvinu.jpeg",
+    image: "Allstaffphoto/ADM/ADM/jillsvinu.jpeg",
     width: "50%",
     name: "Mrs. Jills Vinu",
     content: "UDC"
   };
   Cefaculty13 = {
     instanceID: "Cefaculty13",
-    image: "nobymathew.jpeg",
+    image: "Allstaffphoto/ADM/ADM/nobymathew.jpeg",
     width: "50%",
     name: "Mr. Noby Mathew",
     content: "Confidential Asst. Grade I"
   };
   Cefaculty14 = {
     instanceID: "Cefaculty14",
-    image: "EDOuseph.jpg",
+    image: "Allstaffphoto/ADM/ADM/EDOuseph.jpg",
     width: "50%",
     name: "Mr. E D Ouseph",
     content: "Work Supervisor"
   };
   Cefaculty15 = {
     instanceID: "Cefaculty15",
-    image: "JainPVarghese.jpg",
+    image: "Allstaffphoto/ADM/ADM/JainPVarghese.jpg",
     width: "50%",
     name: "Mr. Jain P Varghese",
     content: "DTP Operator"
   };
   Cefaculty16 = {
     instanceID: "Cefaculty16",
-    image: "bijuvarghese.jpeg",
+    image: "Allstaffphoto/ADM/ADM/bijuvarghese.jpeg",
     width: "50%",
     name: "Mr. Biju Varghese ",
     content: "Office Asst."
   };
   Cefaculty17 = {
     instanceID: "Cefaculty17",
-    image: "mdjose.jpeg",
+    image: "Allstaffphoto/ADM/ADM/mdjose.jpeg",
     width: "50%",
     name: "Mr. M D Jose",
     content: "Office Asst."
   };
   Cefaculty18 = {
     instanceID: "Cefaculty18",
-    image: "jorbinbaby.JPEG",
+    image: "Allstaffphoto/ADM/ADM/jorbinbaby.JPEG",
     width: "50%",
     name: "Mr. Jorbin Baby",
     content: "Office Asst."
   };
   Cefaculty19 = {
     instanceID: "Cefaculty19",
-    image: "chinnammavarghese.jpeg",
+    image: "Allstaffphoto/ADM/ADM/chinnammavarghese.jpeg",
     width: "50%",
     name: "Mrs. Chinnamma Varghese",
     content: "Class IV"
   };
   Cefaculty20 = {
     instanceID: "Cefaculty20",
-    image: "marymo.jpeg",
+    image: "Allstaffphoto/ADM/ADM/marymo.jpeg",
     width: "50%",
     name: "Mrs. Mary M O",
     content: "Class IV"
   };
   Cefaculty21 = {
     instanceID: "Cefaculty21",
-    image: "allijohn.jpeg",
+    image: "Allstaffphoto/ADM/ADM/allijohn.jpeg",
     width: "50%",
     name: "Ms. Alli John",
     content: "Class IV"
@@ -152,70 +152,70 @@ class CSFaculty extends Component {
   
   Cefaculty22 = {
     instanceID: "Cefaculty22",
-    image: "lisyjose.jpeg",
+    image: "Allstaffphoto/ADM/ADM/lisyjose.jpeg",
     width: "50%",
     name: "Mrs. Lisy Jose",
     content: "Class IV"
   };
   Cefaculty23 = {
     instanceID: "Cefaculty23",
-    image: "ranisabu.jpeg",
+    image: "Allstaffphoto/ADM/ADM/ranisabu.jpeg",
     width: "50%",
     name: "Mrs. Rani Sabu",
     content: "Class IV"
   };
   Cefaculty24 = {
     instanceID: "Cefaculty24",
-    image: "geethadomini.jpeg",
+    image: "Allstaffphoto/ADM/ADM/geethadomini.jpeg",
     width: "50%",
     name: "Mrs. Geetha Domini",
     content: "Class IV"
   };
   Cefaculty25 = {
     instanceID: "Cefaculty25",
-    image: "elsyjoseph.jpeg",
+    image: "Allstaffphoto/ADM/ADM/elsyjoseph.jpeg",
     width: "50%",
     name: "Ms. Elsy Joseph",
     content: "Class IV"
   };
   Cefaculty26 = {
     instanceID: "Cefaculty26",
-    image: "minithomas.jpeg",
+    image: "Allstaffphoto/ADM/ADM/minithomas.jpeg",
     width: "50%",
     name: "Mrs. Mini Thomas",
     content: "Class IV"
   };
   Cefaculty27 = {
     instanceID: "Cefaculty27",
-    image: "rosilyjordy.jpeg",
+    image: "Allstaffphoto/ADM/ADM/rosilyjordy.jpeg",
     width: "50%",
     name: "Mrs. Rosily Jordy",
     content: "Class IV"
   };
   Cefaculty28 = {
     instanceID: "Cefaculty28",
-    image: "alphonsajoy.jpg",
+    image: "Allstaffphoto/ADM/ADM/alphonsajoy.jpg",
     width: "50%",
     name: "Mrs. Alphonsa Joy",
     content: "Class IV"
   };
   Cefaculty29 = {
     instanceID: "Cefaculty29",
-    image: "lissysunny.JPG",
+    image: "Allstaffphoto/ADM/ADM/lissysunny.JPG",
     width: "50%",
     name: "Mrs. Lissy Sunny",
     content: "Class IV"
   };
   Cefaculty30 = {
     instanceID: "Cefaculty30",
-    image: "minibinu.JPG",
+    image: "Allstaffphoto/ADM/ADM/minibinu.JPG",
     width: "50%",
     name: "Mrs. Mini Binu",
     content: "Class IV"
   };
   Cefaculty31 = {
     instanceID: "Cefaculty31",
-    image: "ValsaMathew.jpg",
+    image: "Allstaffphoto/ADM/ADM/ValsaMathew.jpg",
     width: "50%",
     name: "Mrs. Valsa Mathew",
     content: "Class IV"

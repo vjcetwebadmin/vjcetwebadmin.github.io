@@ -4,14 +4,14 @@ class ITStaff extends Component {
   state = {};
   Cestaff1 = {
     instanceID: "Cestaff1",
-    image: "itfac004.jpg",
+    image: "Allstaffphoto/IT/STAF/4.jpg",
     width: "50%",
     name: "Mrs. Preethy Joseph",
     content: "Computer Programmer"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
-    image: "194.jpg",
+    image: "Allstaffphoto/IT/STAF/194.jpg",
     width: "50%",
     name: "Mr. Shaji A Varghese",
     content: "Trade Instructor"
@@ -22,7 +22,7 @@ class ITStaff extends Component {
       <div className="faculty">
         <div className="facultyContent">
           <div>
-            <FacultyData data={this.Cestaff1} />
+          <FacultyData data={this.Cestaff1} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty2} />

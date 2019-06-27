@@ -4,77 +4,77 @@ class ITFaculty extends Component {
   state = {};
   Cefaculty1 = {
     instanceID: "Cefaculty1",
-    image: "itfac001.jpg",
+    image: "Allstaffphoto/IT/FAC/itfac001.jpg",
     width: "50%",
     name: "Mrs. Anju Susan George",
     content: "Associate Professor and Head of Department"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
-    image: "181.jpg",
+    image: "Allstaffphoto/IT/FAC/181.jpg",
     width: "50%",
     name: "Mrs. Jesline Joseph",
     content: "Assistant Professor"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
-    image: "itfac003.jpeg",
+    image: "Allstaffphoto/IT/FAC/itfac003.jpeg",
     width: "50%",
     name: "Mrs. Juliet A Murali",
     content: "Assistant Professor"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
-    image: "itfac002.jpg",
+    image: "Allstaffphoto/IT/FAC/itfac002.jpg",
     width: "50%",
     name: "Mrs. Ann Preetha Jose",
     content: "Assistant Professor"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
-    image: "itfac006.jpg",
+    image: "Allstaffphoto/IT/FAC/itfac006.jpg",
     width: "50%",
     name: "Mrs. Tiny Molly V",
     content: "Assistant Professor"
   };
   Cefaculty6 = {
     instanceID: "Cefaculty6",
-    image: "186.jpg",
+    image: "Allstaffphoto/IT/FAC/186.jpg",
     width: "50%",
     name: "Mr. Prince Kurian",
     content: "Assistant Professor"
   };
   Cefaculty7 = {
     instanceID: "Cefaculty7",
-    image: "itfac005.jpg",
+    image: "Allstaffphoto/IT/FAC/itfac005.jpg",
     width: "50%",
     name: "Mrs. Salini Dev P V",
     content: "Assistant Professor"
   };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
-    image: "188.jpg",
+    image: "Allstaffphoto/IT/FAC/188.jpg",
     width: "50%",
     name: "Mr. Santhanu P Mohan",
     content: "Assistant Professor"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty",
-    image: "189.jpg",
+    image: "Allstaffphoto/IT/FAC/189.jpg",
     width: "50%",
     name: "Mrs. Diana Baby",
     content: "Assistant Professor"
   };
   Cefaculty10 = {
     instanceID: "Cefaculty10",
-    image: "354.jpg",
+    image: "Allstaffphoto/IT/FAC/354.jpg",
     width: "50%",
     name: "Dr. Sheela V.K.",
     content: "Assistant Professor"
   };
   Cefaculty11 = {
     instanceID: "Cefaculty10",
-    image: "Sr.RecyVarghese.jpg",
+    image: "Allstaffphoto/IT/FAC/Sr.RecyVarghese.jpg",
     width: "50%",
     name: "Sr. Recy Varghese",
     content: "Assistant Professor"

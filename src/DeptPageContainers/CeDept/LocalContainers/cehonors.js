@@ -9,7 +9,7 @@ class CeHonors extends Component {
   };
   CeHonors1 = {
     instanceID: "cshonors1",
-    image: "cehonor1.jpg",
+    image: "Honors/cehonor1.jpg",
     width: "30%",
     name: "Mariamol Mathew",
     content:

@@ -5,56 +5,56 @@ class CEStaff extends Component {
   state = {};
   Cestaff1 = {
     instanceID: "Cestaff1",
-    image: "57.jpg",
+    image: "Allstaffphoto/CE/STAF/57.jpg",
     width: "50%",
     name: "Mrs. Simi N U",
     content: "Instructor-Grade II"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
-    image: "59.jpg",
+    image: "Allstaffphoto/CE/STAF/59.jpg",
     width: "50%",
     name: "Mr. Jobish K Jose",
     content: "Trade Instructor"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
-    image: "60.jpg",
+    image: "Allstaffphoto/CE/STAF/60.jpg",
     width: "50%",
     name: "Mr. Jibi Jose",
     content: "Tradesman"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
-    image: "61.jpg",
+    image: "Allstaffphoto/CE/STAF/61.jpg",
     width: "50%",
     name: "Mr. Wilson V George",
     content: "Tradesman"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
-    image: "62.jpg",
+    image: "Allstaffphoto/CE/STAF/62.jpg",
     width: "50%",
     name: "Mr. Biju Joseph",
     content: "Tradesman"
   };
   Cefaculty6 = {
     instanceID: "Cefaculty6",
-    image: "63.jpg",
+    image: "Allstaffphoto/CE/STAF/63.jpg",
     width: "50%",
     name: "Mr. Shibu Augustine",
     content: "Tradesman"
   };
   Cefaculty7 = {
     instanceID: "Cefaculty7",
-    image: "64.jpg",
+    image: "Allstaffphoto/CE/STAF/64.jpg",
     width: "50%",
     name: "Mr. Mahesh Sankar",
     content: "Tradesman"
   };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
-    image: "393.jpg",
+    image: "Allstaffphoto/CE/STAF/393.jpg",
     width: "50%",
     name: "Mrs. Doniya Johnson",
     content: "Tradesman"

@@ -10,14 +10,14 @@ class ItHonors extends Component {
   };
   ItHonors1 = {
     instanceID: "ithonors1",
-    image: "ithonors1.jpg",
+    image: "Honors/ithonors1.jpg",
     width: "30%",
     name: "Sonam Susan Mathews",
     content: "Secured Second Rank in B.Tech IT May 2018"
   };
   ItHonors2 = {
     instanceID: "ithonors2",
-    image: "ithonors2.jpeg",
+    image: "Honors/ithonors2.jpeg",
     width: "30%",
     name: " Jeesmon Johny",
     content: "Secured Sixth Rank in B.Tech IT May 2017"
@@ -25,21 +25,21 @@ class ItHonors extends Component {
   
   ItHonors5 = {
     instanceID: "ithonors5",
-    image: "ithonors5.png",
+    image: "Honors/ithonors5.png",
     width: "30%",
     name: "Akshay Aggarwal",
     content: "Secured First Rank in B.Tech IT May 2014"
   };
   ItHonors6 = {
     instanceID: "ithonors6",
-    image: "ithonors6.JPEG",
+    image: "Honors/ithonors6.JPEG",
     width: "30%",
     name: "Dincy Devasia",
     content: "Secured Third rank in B.Tech Information Technology May 2013"
   };
   ItHonors7 = {
     instanceID: "ithonors7",
-    image: "ithonors7.jpg",
+    image: "Honors/ithonors7.jpg",
     width: "30%",
     name: "Rhimi KX",
     content: "Secured Second Rank in B.Tech IT May 2012"
@@ -47,21 +47,21 @@ class ItHonors extends Component {
   
   ItHonors8 = {
     instanceID: "ithonors8",
-    image: "ithonors8.JPEG",
+    image: "Honors/ithonors8.JPEG",
     width: "30%",
     name: "Soumya Joseph",
     content: "Secured First Rank in B.Tech Information Technology May 2011"
   };
   ItHonors9 = {
     instanceID: "ithonors9",
-    image: "ithonors9.JPEG",
+    image: "Honors/ithonors9.JPEG",
     width: "30%",
     name: "Neethu Devassy",
     content: "Secured First Rank in B.Tech Information Technology May 2010"
   };
   ItHonors10 = {
     instanceID: "ithonors10",
-    image: "ithonors10.JPEG",
+    image: "Honors/ithonors10.JPEG",
     width: "30%",
     name: "Priya Joseph",
     content: "Secured First Rank in B.Tech Information Technology May 2009"
@@ -69,49 +69,49 @@ class ItHonors extends Component {
  
   ItHonors14 = {
     instanceID: "ithonors14",
-    image: "ithonors14.JPEG",
+    image: "Honors/ithonors14.JPEG",
     width: "30%",
     name: "Jithin Joy",
     content: "Secured First Rank in B.Tech Information Technology May 2005"
   };
   ItHonors15 = {
     instanceID: "ithonors15",
-    image: "ithonors15.jpg",
+    image: "Honors/ithonors15.jpg",
     width: "30%",
     name: "Swathi Krishna",
     content: "Secured Third Rank in B.Tech IT May 2018"
   };
   ItHonors16 = {
     instanceID: "ithonors16",
-    image: "ithonors16.jpg",
+    image: "Honors/ithonors16.jpg",
     width: "30%",
     name: "Manya Kurian",
     content: "Secured Seventh Rank in B.Tech IT May 2018"
   };
   ItHonors17 = {
     instanceID: "ithonors17",
-    image: "ithonors17.jpg",
+    image: "Honors/ithonors17.jpg",
     width: "30%",
     name: "Daya Philip",
     content: "Secured Fourth Rank in B.Tech IT May 2013"
   };
   ItHonors18 = {
     instanceID: "ithonors18",
-    image: "ithonors18.jpg",
+    image: "Honors/ithonors18.jpg",
     width: "30%",
     name: "Nimitha Joy",
     content: "Secured First Rank in B.Tech IT May 2015"
   };
   ItHonors19 = {
     instanceID: "ithonors19",
-    image: "ithonors19.jpg",
+    image: "Honors/ithonors19.jpg",
     width: "30%",
     name: "Maria Jolly",
     content: "Secured Fifth Rank in B.Tech IT May 2016"
   };
   ItHonors20 = {
     instanceID: "ithonors20",
-    image: "ithonors20.jpg",
+    image: "Honors/ithonors20.jpg",
     width: "30%",
     name: "Anjana Krishnan",
     content: "Secured Seventh Rank in B.Tech IT May 2016"

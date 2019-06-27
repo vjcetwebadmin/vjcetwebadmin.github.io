@@ -10,7 +10,7 @@ class CsHonors extends Component {
   };
   CsHonors1 = {
     instanceID: "cshonors1",
-    image: "cshonor2.JPEG",
+    image: "Honors/cshonor2.JPEG",
     width: "30%",
     name: "Anu Soosan Baby",
     content:
@@ -18,7 +18,7 @@ class CsHonors extends Component {
   };
   CsHonors2 = {
     instanceID: "cshonors2",
-    image: "cshonor1.JPEG",
+    image: "Honors/cshonor1.JPEG",
     width: "30%",
     name: "Lis Joy",
     content:
@@ -26,42 +26,42 @@ class CsHonors extends Component {
   };
   CsHonors3 = {
     instanceID: "cshonors3",
-    image: "cshonor3.JPEG",
+    image: "Honors/cshonor3.JPEG",
     width: "30%",
     name: "Nimmy George",
     content: "Secured First Rank in M.Tech Computer Science & Engineering May 2011"
   };
   CsHonors4 = {
     instanceID: "cshonors4",
-    image: "cshonor4.JPEG",
+    image: "Honors/cshonor4.JPEG",
     width: "30%",
     name: "Kavya Johny",
     content: "Secured Second Rank in M.Tech Computer Science & Engineering May 2011"
   };
   CsHonors5 = {
     instanceID: "cshonors5",
-    image: "cshonor5.JPEG",
+    image: "Honors/cshonor5.JPEG",
     width: "30%",
     name: "Sivadas T Nair",
     content: "Secured Third Rank in M.Tech Computer Science & Engineering May 2011"
   };
   CsHonors6 = {
     instanceID: "cshonors6",
-    image: "cshonor6.JPEG",
+    image: "Honors/cshonor6.JPEG",
     width: "30%",
     name: "Merin Francis",
     content: "Secured First Rank in M.Tech Computer Science & Engineering May 2014"
   };
   CsHonors7 = {
     instanceID: "cshonors7",
-    image: "cshonor7.jpg",
+    image: "Honors/cshonor7.jpg",
     width: "30%",
     name: "Abhirami Aji",
     content: "Secured Fourth Rank in B.Tech Computer Science & Engineering May 2018"
   };
   CsHonors8 = {
     instanceID: "cshonors8",
-    image: "cshonor8.jpg",
+    image: "Honors/cshonor8.jpg",
     width: "30%",
     name: "Ashna Paul",
     content: "Secured Fifth Rank in B.Tech Computer Science & Engineering May 2018"

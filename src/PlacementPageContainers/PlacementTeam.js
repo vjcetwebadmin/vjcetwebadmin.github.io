@@ -4,35 +4,35 @@ class Faculty extends Component {
   state = {};
   Cefaculty1 = {
     instanceID: "Cefaculty1",
-    image: "Joseph Cyriac.jpg",
+    image: "Allstaffphoto/PTC/Joseph Cyriac.jpg",
     width: "50%",
     name: "Mr. Joseph T Cyriac",
     content: "Placement Director"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
-    image: "C Mavin.JPG",
+    image: "Allstaffphoto/PTC/C Mavin.JPG",
     width: "50%",
     name: "Mr.C.Mavin",
     content: "Assistant Professor & Placement Officer"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
-    image: "SIBY BABY.jpg",
+    image: "Allstaffphoto/PTC/SIBY BABY.jpg",
     width: "50%",
     name: "Mr. Siby Baby",
     content: "Assistant Placement Officer"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
-    image: "IMG_7641.jpg",
+    image: "Allstaffphoto/PTC/IMG_7641.jpg",
     width: "50%",
     name: "Mr. Sanoj Saju",
     content: "Assistant Placement Officer"
   };
   Cefaculty6 = {
     instanceID: "Cefaculty6",
-    image: "342.jpg",
+    image: "Allstaffphoto/SH/FAC/342.jpg",
     width: "50%",
     name: "Mrs. Anitha Rajan",
     content: "IQAC Placement Co-ordinator"

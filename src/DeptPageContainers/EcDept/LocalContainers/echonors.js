@@ -10,14 +10,14 @@ class EcHonors extends Component {
   };
   EcHonors1 = {
     instanceID: "echonors1",
-    image: "echonors1.JPEG",
+    image: "Honors/echonors1.JPEG",
     width: "30%",
     name: "Meera M Nair",
     content: "Secured First Rank in M.Tech VLSI in May 2011"
   };
   EcHonors2 = {
     instanceID: "echonors2",
-    image: "echonors2.JPEG",
+    image: "Honors/echonors2.JPEG",
     width: "30%",
     name: "Jayaprasad K V",
     content:
@@ -25,7 +25,7 @@ class EcHonors extends Component {
   };
   EcHonors3 = {
     instanceID: "echonors3",
-    image: "echonors3.jpg",
+    image: "Honors/echonors3.jpg",
     width: "30%",
     name: "Gayathri Anil",
     content:
@@ -33,21 +33,21 @@ class EcHonors extends Component {
   };
   EcHonors4 = {
     instanceID: "echonors4",
-    image: "echonors4.jpg",
+    image: "Honors/echonors4.jpg",
     width: "30%",
     name: "Haripriya P",
     content: "Secured First Rank in M.Tech VLSI in May 2013"
   };
   EcHonors5 = {
     instanceID: "echonors5",
-    image: "echonors5.jpg",
+    image: "Honors/echonors5.jpg",
     width: "30%",
     name: "Seena V P",
     content: "Secured Third Rank in M.Tech VLSI in May 2013"
   };
   EcHonors6 = {
     instanceID: "echonors6",
-    image: "echonors6.jpg",
+    image: "Honors/echonors6.jpg",
     width: "30%",
     name: "Neenu Saju",
     content:
@@ -55,7 +55,7 @@ class EcHonors extends Component {
   };
   EcHonors7 = {
     instanceID: "echonors7",
-    image: "echonors7.jpg",
+    image: "Honors/echonors7.jpg",
     width: "30%",
     name: "Deona Noble",
     content:
@@ -63,7 +63,7 @@ class EcHonors extends Component {
   };
   EcHonors8 = {
     instanceID: "echonors8",
-    image: "echonors8.jpg",
+    image: "Honors/echonors8.jpg",
     width: "30%",
     name: "Anjana Shaji",
     content:
@@ -71,7 +71,7 @@ class EcHonors extends Component {
   };
   EcHonors9 = {
     instanceID: "echonors9",
-    image: "echonors9.jpg",
+    image: "Honors/echonors9.jpg",
     width: "30%",
     name: "Minni Shaji",
     content:
@@ -79,7 +79,7 @@ class EcHonors extends Component {
   };
   EcHonors10 = {
     instanceID: "echonors10",
-    image: "echonors10.jpg",
+    image: "Honors/echonors10.jpg",
     width: "30%",
     name: "Deepa S",
     content:
@@ -87,7 +87,7 @@ class EcHonors extends Component {
   };
   EcHonors11 = {
     instanceID: "echonors11",
-    image: "echonors11.jpg",
+    image: "Honors/echonors11.jpg",
     width: "30%",
     name: "Minna Shaji",
     content:
