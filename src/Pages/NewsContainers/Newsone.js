@@ -36,63 +36,27 @@ class Newsone extends React.Component {
     };
 
 
-    CCCNATitle = {
-        instanceID: "CCCTitle",
-        title: "Merit & Farewell Day 2019"
+    NewsTitle = {
+        instanceID: "NewsTitle",
+        title: "KTU Sponsored FDP on Advancements in Drives, Instrumentation and Control"
     };
-    CCCTitle = {
-        instanceID: "CCCTitle",
-        title: ""
-    };
-    NATitle = {
-        instanceID: "CCCTitle",
-        title: ""
-    };
-    CCCContent1 = {
-        instanceID: "CCCContent1",
-        title: ""
+    
+    NewsImagedata1 = {
+        instanceID: "NewsImagedata1",
+        image: "NewsImages/FDP_EEE1.jpg",
+        width: "80%"
     }
-    CCCContent2 = {
-        instanceID: "CCCContent2",
-        title: ""
+    NewsImagedata2 = {
+        instanceID: "NewsImagedata2",
+        image: "NewsImages/FDP_EEE2.jpg",
+        width: "80%"
     }
-    CCCImagedata = {
-        instanceID: "CCCVjcImage",
-        image: "Meritandfarewell2019.jpg",
-        width: "60%"
+    NewsImagedata3 = {
+        instanceID: "NewsImagedata3",
+        image: "NewsImages/Registernow.jpg",
+        width: "20%"
     }
-    Server1 = {
-        instanceID: "Server1",
-        title: ""
-    }
-    Server2 = {
-        instanceID: "Server2",
-        title: ""
-    }
-    Server3 = {
-        instanceID: "Server3",
-        title: ""
-    }
-    Server4 = {
-        instanceID: "Server4",
-        title: ""
-    }
-    Server5 = {
-        instanceID: "Server5",
-        title: ""
-    }
-    Server6 = {
-        instanceID: "Server6",
-        title: ""
-    }
-    Server7 = {
-        instanceID: "Server7",
-        title: ""
-    }
-    Server8 = {
-        instanceID: "Server8",
-        title: ""
-    }
+    
 
     render() {
         return (
@@ -100,26 +64,13 @@ class Newsone extends React.Component {
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
 
                 <div className="contain">
-                    <HeadingOne data={this.CCCNATitle} className="Heading" />
-                    <p align="center"> <ImageOne data={this.CCCImagedata} /> </p>
-                    <br />
-                    <div className="bodyContainer">
-                        <HeadingTwo data={this.CCCTitle} className="Heading" />
-                        <BodyOneJustified data={this.CCCContent1} />
-                        <HeadingTwo data={this.NATitle} className="Heading" />
-                        <BodyOneJustified data={this.CCCContent2} />
-                        <div className="bodyContainerInner">
-                            <p><BodyOneJustified data={this.Server1} /></p>
-                            <p><BodyOneJustified data={this.Server2} /></p>
-                            <p><BodyOneJustified data={this.Server3} /></p>
-                            <p><BodyOneJustified data={this.Server4} /></p>
-                            <p><BodyOneJustified data={this.Server5} /></p>
-                            <p><BodyOneJustified data={this.Server6} /></p>
-                            <p><BodyOneJustified data={this.Server7} /></p>
-                            <p><BodyOneJustified data={this.Server8} /></p>
-                        </div>
+                    <HeadingOne data={this.NewsTitle} className="Heading" />
+                    <p align="center">  <a href="https://forms.gle/Pte94EDDVJhUeGuX8" target="_blank" rel="noopener noreferrer" ><ImageOne data={this.NewsImagedata3} /></a> </p> 
+                    <p align="center"> <ImageOne data={this.NewsImagedata1} /></p>
+                    <p align="center"> <ImageOne data={this.NewsImagedata2} /></p>                     
+                    <br />                 
 
-                    </div>
+                    
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}

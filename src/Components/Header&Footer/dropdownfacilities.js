@@ -72,6 +72,11 @@ class DropDownF extends Component {
               Campus Amenities
             </Link>
           </p>
+          <p>
+            <Link to="/facilities/transportation" className="patch1">
+              Transportation Facilities
+            </Link>
+          </p>
         </div>
         {/* <div class="dropdown-content">
           <p>

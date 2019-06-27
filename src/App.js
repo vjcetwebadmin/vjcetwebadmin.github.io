@@ -22,6 +22,7 @@ import Library from "./FacilitiesPageContainers/Library/index";
 import Hostel from "./FacilitiesPageContainers/Hostel/index";
 import Healthandfitness from "./FacilitiesPageContainers/Healthandfitness/index";
 import campusamenities from "./Pages/CoreFacilities";
+import transportation from "./FacilitiesPageContainers/Transportation/transportation";
 import NBA from "./Pages/NBA";
 import KeyFunc from "./Pages/KeyFunc";
 import ContactUs from "./ContactUsContainers/ContactUs";
@@ -71,6 +72,7 @@ class App extends Component {
               <Route exact path="/facilities/hostel" component={Hostel} />
               <Route exact path="/facilities/healthandfitness" component={Healthandfitness} />
               <Route exact path="/facilities/campusamenities" component={campusamenities} />
+              <Route exact path="/facilities/transportation" component={transportation} />
               <Route exact path="/contact" component={ContactUs} />
               <Route exact path="/r&d" component={Research} />
               <Route exact path="/admission/mtech" component={Mtech} />

@@ -102,6 +102,7 @@ class CarouselFour extends Component {
         width: "202px"
       }
     },
+    
     {
       Title: {
         instanceID: "EventTwoTitle",

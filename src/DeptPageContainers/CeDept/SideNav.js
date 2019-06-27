@@ -10,10 +10,9 @@ import Result from "./result";
 import Outreach from "./outreach"
 import FacultyNav from "./facultynav";
 import ProfBodies from "./Profbodies";
-import Celabs from "./Celab";
+
 class SideNav extends Component {
   state = {
-    
     showProfile: true,
     showVision: false,
     showPeo: false,
@@ -24,6 +23,7 @@ class SideNav extends Component {
     showfac: false,
     showOut: false,
     showProf: false
+    
        
     
   };
@@ -165,6 +165,7 @@ class SideNav extends Component {
       showOut: false,
       showProf: true
     });
+    
   };
   render() {
     return (

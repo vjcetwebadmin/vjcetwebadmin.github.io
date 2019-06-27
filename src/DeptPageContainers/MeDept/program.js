@@ -9,21 +9,16 @@ class Program extends Component {
   };
   ProgramDescriptionOne = {
     instanceID: "ProgramDescriptionOne",
-    title:
-      "Mechanical Department offers under graduate course in Mechanical Engineering.  The total intake in Undergraduate course is 120  per batch  The Under Graduate program started in the year July 2004 with an intake of  60 students per batch. "
+    title: "B Tech Mechanical Engineering was started in the year 2002 with an annual intake of 60 students which was expanded to 120 students in the year 2003. In 2011 M tech in industrial engineering and management was started with an annual intake of 18 students. Currently the department offers undergraduate program in Mechanical Engineering with an annual intake of 120 students. In a very short spell the department could emerge with several university Ranks. The department has also signed MOUs with core a companies which helps to develop industry department interactions. The program was accredited by NBA in 2018 for a period of three years."
   };
-  ProgramDescriptionTwo = {
-    instanceID: "ProgramDescriptionTwo",
-    title:
-      "The Under Graduate program started in the year 2001 with an intake of  60 students per batch. Later in July 2007 the intake is amplified to 120 students per batch. The Department is accredited by National Board of Accreditation (NBA) of AICTE in June 2010. Also the Department applied for NBA accreditation in 2017 and is accredited."
-  };
+  
 
   render() {
     return (
       <div className="Program" id="program">
         <HeadingOne data={this.ProgramHeading} />
         <Bodythree data={this.ProgramDescriptionOne} />
-        <Bodythree data={this.ProgramDescriptionTwo} />
+        
       </div>
     );
   }

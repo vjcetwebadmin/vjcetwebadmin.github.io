@@ -41,27 +41,13 @@ class transportation extends React.Component {
         instanceID: "BusserviceTitle",
         title: "Bus Services"
     };
-    SolarTitle = {
-        instanceID: "CCCTitle",
-        title: "Solar On-Grid Power Generation"
-    };
+   
     
     Transportationcontent = {
         instanceID: "Transportationcontent",
         title: "Viswajyothi is providing transportation service for staffs and students. The college has total 19 Bus services to various places in Ernakulam and Idukki Districts. The college buses will reach the campus by 8.30 AM in the morning and leave the campus by 4.30 PM."
     }
-    UPScontent = {
-        instanceID: "UPSContent",
-        title: "All labs in Viswajyothi have back up power system  through UPS which has 60 Minutes stand by time."
-    }
-    Solarcontent = {
-        instanceID: "Solarontent",
-        title: " VJCET has a solar power generation of 250kW  worth 1.6 crores which annually produces 365000 unit per year. This plant is on grid solar power generator."
-    }
-    SubstationTitle = {
-        instanceID: "Substation",
-        title: "INDOOR SUBSTATION"
-    };
+   
     CCCImagedata = {
         instanceID: "CCCVjcImage",
         image: "Transportation.JPG",
@@ -100,10 +86,10 @@ class transportation extends React.Component {
                                <th><font size="2">Palai</font></th> <th><font size="2">7.30am</font></th><th><font size="2">33</font></th>
                             </tr>
                             <tr>
-                               <th><font size="2">Kaliyar</font></th> <th><font size="2">7.30am</font></th><th><font size="2">47</font></th>
+                               <th><font size="2">Thommankuthu</font></th> <th><font size="2">7.35am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
-                               <th><font size="2">Koothattukulam</font></th> <th><font size="2">7.45am</font></th><th><font size="2">47</font></th>
+                               <th><font size="2">Kuravilangadu</font></th> <th><font size="2">7.15am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
                                <th><font size="2">Oonnukal</font></th> <th><font size="2">7.40am</font></th><th><font size="2">47</font></th>
@@ -112,10 +98,10 @@ class transportation extends React.Component {
                                <th><font size="2">Puthencruz </font></th> <th><font size="2">7.45am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
-                               <th><font size="2">Muttam</font></th> <th><font size="2">8.00am</font></th><th><font size="2">47</font></th>
+                               <th><font size="2">Moolamattom</font></th> <th><font size="2">7.35am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
-                               <th><font size="2">Peruva/Piravom</font></th> <th><font size="2">7.40am</font></th><th><font size="2">47</font></th>
+                               <th><font size="2">Thalayolaparambu</font></th> <th><font size="2">7.20am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
                                <th><font size="2">Kakkanadu</font></th> <th><font size="2">7.15am</font></th><th><font size="2">47</font></th>
@@ -127,28 +113,28 @@ class transportation extends React.Component {
                                <th><font size="2">Karimannoor</font></th> <th><font size="2">7.30am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
-                               <th><font size="2">Kalady</font></th> <th><font size="2">7.40am</font></th><th><font size="2">47</font></th>
+                               <th><font size="2">Perumbavoor</font></th> <th><font size="2">7.55am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
-                               <th><font size="2">Kuruppampady</font></th> <th><font size="2">7.50am</font></th><th><font size="2">47</font></th>
+                               <th><font size="2">Kuruppampady</font></th> <th><font size="2">7.35am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
-                               <th><font size="2">Vyttila</font></th> <th><font size="2">7.30am</font></th><th><font size="2">47</font></th>
+                               <th><font size="2">Vyttila</font></th> <th><font size="2">7.15am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
                                <th><font size="2">Aluva</font></th> <th><font size="2">7.15am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
-                               <th><font size="2">Thripunithura</font></th> <th><font size="2">7.40am</font></th><th><font size="2">47</font></th>
+                               <th><font size="2">Thriruvankulam</font></th> <th><font size="2">7.35am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
-                               <th><font size="2">Udumbannoor</font></th> <th><font size="2">7.30am</font></th><th><font size="2">47</font></th>
+                               <th><font size="2">Udumbannoor</font></th> <th><font size="2">7.25am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
                                <th><font size="2">Angamaly</font></th> <th><font size="2">7.25am</font></th><th><font size="2">47</font></th>
                             </tr>
                             <tr>
-                               <th><font size="2">Kuttampuzha</font></th> <th><font size="2">7.30am</font></th><th><font size="2">47</font></th>
+                               <th><font size="2">Kuttampuzha</font></th> <th><font size="2">7.25am</font></th><th><font size="2">47</font></th>
                             </tr>
              </table>
              <HeadingTwo data={this.RoutemapTitle} className="Heading" />

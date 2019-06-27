@@ -7,24 +7,29 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: "B.Tech First Year classes will commence on 15th July 2019"
+      title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="5">KTU Sponsored FDP on Advancements in Drives, Instrumentation and Control</font></a>
       
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/placement" target="_blank" rel="noopener noreferrer"><font color="FFFFF">402 Students Placed in 2018-19 AY</font></a>
+      title: <font size="5">B.Tech First Year classes will commence on 15th July 2019</font>
+      
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="http://admission.vjcet.ac.in/" target="_blank" rel="noopener noreferrer"><font color="FFFFF">B.Tech Admissions 2019</font></a>
+      title: <a href="https://vjcet.org/#/placement" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="5">402 Students Placed in 2018-19 AY</font></a>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/admission/mtech" target="_blank" rel="noopener noreferrer"><font color="FFFFF">M.Tech Admissions 2019</font></a>
+      title: <a href="http://admission.vjcet.ac.in/" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="5">B.Tech Admissions 2019</font></a>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/KBAIC_125" target="_blank" rel="noopener noreferrer"><font color="FFFFF">We are Institutional Member of Kerala Block Chain Academy</font></a>
+      title: <a href="https://vjcet.org/#/admission/mtech" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="5">M.Tech Admissions 2019</font></a>
+    },
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: <a href="https://vjcet.org/#/KBAIC_125" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="5">We are Institutional Member of Kerala Block Chain Academy</font></a>
            
     },
         
