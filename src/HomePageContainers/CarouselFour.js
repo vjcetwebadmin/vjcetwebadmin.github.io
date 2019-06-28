@@ -64,7 +64,7 @@ class CarouselFour extends Component {
 
   EventOneImage = {
     instanceID: "EventOneImage",
-    image: "stock3.png",
+    image: "CarouselFourImages/stock3.png",
     width: "202px"
   };
 
@@ -75,7 +75,7 @@ class CarouselFour extends Component {
 
   EventTwoImage = {
     instanceID: "EventTwoImage",
-    image: "magnum.jpg",
+    image: "CarouselFourImages/magnum.jpg",
     width: "202px"
   };
 
@@ -86,7 +86,7 @@ class CarouselFour extends Component {
 
   EventThreeImage = {
     instanceID: "EventThreeImage",
-    image: "stock3.png",
+    image: "CarouselFourImages/stock3.png",
     width: "202px"
   };
   slides = [
@@ -98,7 +98,7 @@ class CarouselFour extends Component {
 
       Image: {
         instanceID: "EventOneImage",
-        image: "drishya.jpg",
+        image: "CarouselFourImages/drishya.jpg",
         width: "202px"
       }
     },
@@ -111,7 +111,7 @@ class CarouselFour extends Component {
 
       Image: {
         instanceID: "EventTwoImage",
-        image: "magnum.jpg",
+        image: "CarouselFourImages/magnum.jpg",
         width: "202px"
       }
     },
@@ -123,7 +123,7 @@ class CarouselFour extends Component {
 
       Image: {
         instanceID: "EventThreeImage",
-        image: "bodhi.jpg",
+        image: "CarouselFourImages/bodhi.jpg",
         width: "202px"
       }
     }

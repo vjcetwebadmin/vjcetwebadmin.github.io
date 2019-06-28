@@ -116,6 +116,20 @@ class ItHonors extends Component {
     name: "Anjana Krishnan",
     content: "Secured Seventh Rank in B.Tech IT May 2016"
   };
+  ItHonors21 = {
+    instanceID: "ithonors21",
+    image: "Honors/ithonors21.jpg",
+    width: "30%",
+    name: " Reshma Saju",
+    content: "Secured Third Rank in B.Tech IT May 2015"
+  };
+  ItHonors22 = {
+    instanceID: "ithonors22",
+    image: "Honors/ithonors22.jpg",
+    width: "30%",
+    name: " Noyal Wilson",
+    content: "Secured Seventh Rank in B.Tech IT May 2015"
+  };
 
 
   render() {
@@ -143,6 +157,12 @@ class ItHonors extends Component {
           </div>
           <div>
             <Honors data={this.ItHonors18} />
+          </div>
+          <div>
+            <Honors data={this.ItHonors21} />
+          </div>
+          <div>
+            <Honors data={this.ItHonors22} />
           </div>
           <div>
             <Honors data={this.ItHonors5} />

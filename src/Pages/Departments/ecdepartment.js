@@ -65,7 +65,7 @@ class EcDepartment extends Component {
   };
   CseImg = {
     instanceID: "CseImg",
-    image: "ec.jpg",
+    image: "DepBannerImages/ec.jpg",
     width: "100%"
   };
 

@@ -124,7 +124,7 @@ class CarouselThree extends Component {
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "admissionews.jpg",
+        image: "CarouselThreeImages/admissionews.jpg",
         width: "300px",
         height: "200px"
       },
@@ -147,7 +147,7 @@ class CarouselThree extends Component {
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "placementnews.jpg",
+        image: "CarouselThreeImages/placementnews.jpg",
         width: "300px",
         height: "200px"
       },
@@ -170,7 +170,7 @@ class CarouselThree extends Component {
 
       Image: {
         instanceID: "CarouselThreeSlideOneImage",
-        image: "univ.jpg",
+        image: "CarouselThreeImages/univ.jpg",
         width: "300px",
         height: "200px"
       },

@@ -13,7 +13,7 @@ class ResourcesGroup extends Component {
     instanceID: "ResourceListTwo",
     listID: "One",
     title: "First Year",
-    icon: "firstyearsyllabuslogo.svg",
+    icon: "Icons/firstyearsyllabuslogo.svg",
     filePath: "https://vjcetwebadmin.github.io/downloads/firstyearsyllabus.zip"
   };
 
@@ -21,7 +21,7 @@ class ResourcesGroup extends Component {
     instanceID: "ResourceListThree",
     listID: "Two",
     title: "Civil Engineering",
-    icon: "civilsyllabuslogo.png",
+    icon: "Icons/civilsyllabuslogo.png",
     filePath: "https://vjcetwebadmin.github.io/downloads/cesyllabus.zip"
 
   };
@@ -30,7 +30,7 @@ class ResourcesGroup extends Component {
     instanceID: "ResourceListFour",
     listID: "Three",
     title: "Computer Science & Engineering",
-    icon: "csesyllabuslogo.svg",
+    icon: "Icons/csesyllabuslogo.svg",
     filePath: "https://vjcetwebadmin.github.io/downloads/csesyllabus.zip"
 
   };
@@ -39,7 +39,7 @@ class ResourcesGroup extends Component {
     instanceID: "ResourceListFive",
     listID: "Four",
     title: "Electronics & Communications Engineering",
-    icon: "ecesyllabuslogo.svg",
+    icon: "Icons/ecesyllabuslogo.svg",
     filePath: "https://vjcetwebadmin.github.io/downloads/ecesyllabus.zip"
   };
 
@@ -47,7 +47,7 @@ class ResourcesGroup extends Component {
     instanceID: "ResourceListSix",
     listID: "Five",
     title: "Electrical & Electronics Engineering",
-    icon: "eeesyllabuslogo.svg",
+    icon: "Icons/eeesyllabuslogo.svg",
     filePath: "https://vjcetwebadmin.github.io/downloads/eeesyllabus.zip"
   };
 
@@ -55,7 +55,7 @@ class ResourcesGroup extends Component {
     instanceID: "ResourceListSeven",
     listID: "Five",
     title: "Information Technology",
-    icon: "itsyllabuslogo.png",
+    icon: "Icons/itsyllabuslogo.png",
     filePath: "https://vjcetwebadmin.github.io/downloads/itsyllabus.zip"
 
   };
@@ -63,7 +63,7 @@ class ResourcesGroup extends Component {
     instanceID: "ResourceListEight",
     listID: "Five",
     title: "Mechanical Engineering",
-    icon: "mesyllabuslogo.svg",
+    icon: "Icons/mesyllabuslogo.svg",
     filePath: "https://vjcetwebadmin.github.io/downloads/mesyllabus.zip"
 
   };
@@ -71,7 +71,7 @@ class ResourcesGroup extends Component {
     instanceID: "ResourceListOne",
     listID: "Five",
     title: "Curriculum Plan",
-    icon: "calender.svg",
+    icon: "Icons/calender.svg",
     filePath: "https://vjcetwebadmin.github.io/downloads/Academic_Calander_even_19.pdf"
 
   };

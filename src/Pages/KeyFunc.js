@@ -40,7 +40,7 @@ class KeyFunc extends Component {
   
   PrincipalImage= {
     instanceID: "PrincipalImage",
-    image: "principal.jpg",
+    image: "KeyFunctionaries/principal.jpg",
     width: "500px",
     height: "300px"
   };
@@ -60,7 +60,7 @@ class KeyFunc extends Component {
   };
   DirectorImage= {
     instanceID: "DirectorImage",
-    image: "director.jpg",
+    image: "KeyFunctionaries/director.jpg",
     width: "500px",
     height: "300px"
   };
@@ -79,7 +79,7 @@ class KeyFunc extends Component {
   };
   ManagerImage= {
     instanceID: "ManagerImage",
-    image: "manager.jpg",
+    image: "KeyFunctionaries/manager.jpg",
     width: "500px",
     height: "300px"
   };
