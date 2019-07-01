@@ -99,8 +99,8 @@ class CarouselTwo extends Component {
           }}
         >
           <img
-            src={require("../Assets/right-arrow.svg")}
-            style={{ height: "25px", width: "25px" }}
+            src={require("../Assets/carousaltwoarrow.png")}
+            style={{ height: "35px", width: "35px" }}
             alt="img"
           />
         </div>
@@ -113,10 +113,10 @@ class CarouselTwo extends Component {
         >
           {" "}
           <img
-            src={require("../Assets/right-arrow.svg")}
+            src={require("../Assets/carousaltwoarrow.png")}
             style={{
-              height: "25px",
-              width: "25px",
+              height: "35px",
+              width: "35px",
               transform: "rotate(180deg)"
             }}
             alt="img"
