@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
-import Bodythree from "../../Components/Texts/BodyThree";
+/* import Bodythree from "../../Components/Texts/BodyThree"; */
 import ImageOne from "../../Components/Images/ImageOne";
+import "../../Components/Tables/tableformat.css";
 class Library extends Component {
   state = {};
   DeptLabHeading = {
@@ -96,7 +97,7 @@ class Library extends Component {
         <HeadingTwo data={this.AdvdatabaseLabHeading} />
 		<ImageOne data={this.AdvdatabaseLabImagedata} />
         
-       <table >
+       <table id="tableformat">
 	      <tbody>
 		      <tr>
 	          	<td>Lab code</td>
@@ -121,7 +122,7 @@ class Library extends Component {
         <HeadingTwo data={this.PGProjLabHeading} />
 		<ImageOne data={this.PGProjLabImagedata} />
         
-       <table >
+       <table id="tableformat">
 	      <tbody>
 		      <tr>
 	          	<td>Lab code</td>
@@ -137,7 +138,7 @@ class Library extends Component {
 	       </tr>
 	       <tr>
 	        	  <td>Licensed software using</td>
-		          <td>Window 7, Ubundu, Phython, Java, Visual Studio 2008, Oracle 9i, Perl 5.26, Developer C</td>
+		          <td>Window 7, Ubuntu, Phython, Java, Visual Studio 2008, Oracle 9i, Perl 5.26, Developer C</td>
 	      </tr>	
       	</tbody>
       </table>
@@ -145,7 +146,7 @@ class Library extends Component {
       <div>
         <HeadingTwo data={this.ProjectLabHeading} />
         <ImageOne data={this.ProjLabImagedata} />
-       <table >
+       <table id="tableformat">
 	      <tbody>
 		      <tr>
 	          	<td>Lab code</td>
@@ -173,7 +174,7 @@ class Library extends Component {
       <div>
         <HeadingTwo data={this.NWLabHeading} />
         <ImageOne data={this.NWImagedata} />
-       <table >
+       <table id="tableformat">
 	      <tbody>
 		      <tr>
 	          	<td>Lab code</td>
@@ -197,7 +198,7 @@ class Library extends Component {
 	  <div>
         <HeadingTwo data={this.MMLabHeading} />
         <ImageOne data={this.MMImagedata} />
-       <table >
+       <table id="tableformat">
 	      <tbody>
 		      <tr>
 	          	<td>Lab code</td>
@@ -233,7 +234,7 @@ class Library extends Component {
 	  <div>
 	  <HeadingTwo data={this.HWLabHeading} />
 	  <ImageOne data={this.HWImagedata} />
-		<table >
+		<table id="tableformat">
 		   <tbody>
 			   <tr>
 				   <td>Lab code</td>
@@ -261,7 +262,7 @@ class Library extends Component {
 	   <div>
         <HeadingTwo data={this.MPLabHeading} />
         <ImageOne data={this.MPImagedata} />
-       <table >
+       <table id="tableformat">
 	      <tbody>
 		      <tr>
 	          	<td>Lab code</td>

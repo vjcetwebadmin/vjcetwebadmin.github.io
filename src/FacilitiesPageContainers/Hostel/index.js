@@ -8,8 +8,8 @@ import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import HeadingThree from "../../Components/Texts/HeadingThree";
-
+/* import HeadingThree from "../../Components/Texts/HeadingThree";
+ */
 class Hostal extends React.Component {
     state = { showMenu: false };
     openMenu = () => {

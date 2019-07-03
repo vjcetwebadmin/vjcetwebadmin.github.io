@@ -6,7 +6,7 @@ import HeadingOne from "../../Components/Texts/HeadingOne";
 class ResourcesGroup extends Component {
   ResourcesGroupTitle = {
     instanceID: "ResourcesGroupTitle",
-    title: "Syllabus and Curriculum Plan"
+    title: "Curriculum Plan"
   };
 
   ResourceListTwo = {

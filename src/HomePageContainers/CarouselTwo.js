@@ -100,7 +100,7 @@ class CarouselTwo extends Component {
         >
           <img
             src={require("../Assets/carousaltwoarrow.png")}
-            style={{ height: "35px", width: "35px" }}
+            style={{ height: "20px", width: "20px" }}
             alt="img"
           />
         </div>
@@ -115,8 +115,8 @@ class CarouselTwo extends Component {
           <img
             src={require("../Assets/carousaltwoarrow.png")}
             style={{
-              height: "35px",
-              width: "35px",
+              height: "20px",
+              width: "20px",
               transform: "rotate(180deg)"
             }}
             alt="img"

@@ -47,14 +47,14 @@ class CarouselThree extends Component {
 
   Previous = {
     instanceID: "CarouselThreePreviousArrow",
-    image: "CarouselThreePrevious.svg",
-    width: "30px"
+    image: "carousalthreeprevious.png",
+    width: "20px"
   };
 
   Next = {
     instanceID: "CarouselThreeNextArrow",
-    image: "CarouselThreeNext.svg",
-    width: "30px"
+    image: "carousalthreenext.png",
+    width: "20px"
   };
 
   Read = {

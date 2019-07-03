@@ -4,13 +4,13 @@ import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../styles.css"
-
+import "../../Components/Tables/tableformat.css";
 
 import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import ImageTwo from "../../Components/Images/imageTwo";
+/* import ImageTwo from "../../Components/Images/imageTwo"; */
 
 class transportation extends React.Component {
     state = { showMenu: false };
@@ -75,66 +75,66 @@ class transportation extends React.Component {
                         <BodyOneJustified data={this.Transportationcontent} />
                         
                         <HeadingTwo data={this.BusserviceTitle} className="Heading" />
-                        <table>
+                        <table id="tableformat">
                             <tr>
-                                <th><font size="3" color="brown"><b>Route</b></font></th> <th><font size="3" color="brown"><b>Starting Time</b></font></th><th><font size="3" color="brown"><b>Capacity</b></font></th>                              
+                                <th>Route</th> <th>Starting Time</th><th>Capacity</th>                              
                             </tr>
                             <tr>
-                               <th><font size="2">Neriamangalam</font></th> <th><font size="2">7.35am</font></th><th><font size="2">54</font></th>
+                               <td>Neriamangalam</td> <td>7.35am</td><td>54</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Palai</font></th> <th><font size="2">7.30am</font></th><th><font size="2">33</font></th>
+                               <td>Palai</td> <td>7.30am</td><td>33</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Thommankuthu</font></th> <th><font size="2">7.35am</font></th><th><font size="2">47</font></th>
+                               <td>Thommankuthu</td> <td>7.35am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Kuravilangadu</font></th> <th><font size="2">7.15am</font></th><th><font size="2">47</font></th>
+                               <td>Kuravilangadu</td> <td>7.15am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Oonnukal</font></th> <th><font size="2">7.40am</font></th><th><font size="2">47</font></th>
+                               <td>Oonnukal</td> <td>7.40am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Puthencruz </font></th> <th><font size="2">7.45am</font></th><th><font size="2">47</font></th>
+                               <td>Puthencruz </td> <td>7.45am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Moolamattom</font></th> <th><font size="2">7.35am</font></th><th><font size="2">47</font></th>
+                               <td>Moolamattom</td> <td>7.35am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Thalayolaparambu</font></th> <th><font size="2">7.20am</font></th><th><font size="2">47</font></th>
+                               <td>Thalayolaparambu</td> <td>7.20am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Kakkanadu</font></th> <th><font size="2">7.15am</font></th><th><font size="2">47</font></th>
+                               <td>Kakkanadu</td> <td>7.15am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Nedungapra</font></th> <th><font size="2">7.45am</font></th><th><font size="2">47</font></th>
+                               <td>Nedungapra</td> <td>7.45am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Karimannoor</font></th> <th><font size="2">7.30am</font></th><th><font size="2">47</font></th>
+                               <td>Karimannoor</td> <td>7.30am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Perumbavoor</font></th> <th><font size="2">7.55am</font></th><th><font size="2">47</font></th>
+                               <td>Perumbavoor</td> <td>7.55am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Kuruppampady</font></th> <th><font size="2">7.35am</font></th><th><font size="2">47</font></th>
+                               <td>Kuruppampady</td> <td>7.35am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Vyttila</font></th> <th><font size="2">7.15am</font></th><th><font size="2">47</font></th>
+                               <td>Vyttila</td> <td>7.15am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Aluva</font></th> <th><font size="2">7.15am</font></th><th><font size="2">47</font></th>
+                               <td>Aluva</td> <td>7.15am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Thriruvankulam</font></th> <th><font size="2">7.35am</font></th><th><font size="2">47</font></th>
+                               <td>Thriruvankulam</td> <td>7.35am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Udumbannoor</font></th> <th><font size="2">7.25am</font></th><th><font size="2">47</font></th>
+                               <td>Udumbannoor</td> <td>7.25am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Angamaly</font></th> <th><font size="2">7.25am</font></th><th><font size="2">47</font></th>
+                               <td>Angamaly</td> <td>7.25am</td><td>47</td>
                             </tr>
                             <tr>
-                               <th><font size="2">Kuttampuzha</font></th> <th><font size="2">7.25am</font></th><th><font size="2">47</font></th>
+                               <td>Kuttampuzha</td> <td>7.25am</td><td>47</td>
                             </tr>
              </table>
              <HeadingTwo data={this.RoutemapTitle} className="Heading" />

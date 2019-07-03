@@ -48,14 +48,14 @@ class CarouselFour extends Component {
   };
   Previous = {
     instanceID: "CarouselFourPreviousArrow",
-    image: "CarouselThreePrevious.svg",
-    width: "30px"
+    image: "carousalthreeprevious.png",
+    width: "20px"
   };
 
   Next = {
     instanceID: "CarouselFourNextArrow",
-    image: "CarouselThreeNext.svg",
-    width: "30px"
+    image: "carousalthreenext.png",
+    width: "20px"
   };
   EventOneTitle = {
     instanceID: "EventOneTitle",

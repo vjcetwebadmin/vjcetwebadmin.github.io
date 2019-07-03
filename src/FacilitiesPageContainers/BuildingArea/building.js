@@ -3,7 +3,7 @@ import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../styles.css"
-
+import "../../Components/Tables/tableformat.css";
 
 import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
@@ -93,20 +93,20 @@ class building extends React.Component {
                         <div>
                         <p>
                         <font size="5">
-                        <table >
-                            <tr><th><b><font color="brown">Auditorium/Seminar Hall</font></b></th><th><b><font color="brown">Seating Capacity</font></b></th></tr>
-                            <tr><th><font size="2">Main Auditorium Annexure</font></th><th><font size="2">1500</font></th></tr>
-                            <tr><th><font size="2">Mini Auditorium </font></th><th><font size="2">250</font></th></tr> 
-                            <tr><th><font size="2">Seminar Hall –Department of CE </font></th><th><font size="2">100</font></th></tr> 
-                            <tr><th><font size="2">Seminar Hall –Department of CSE </font></th><th><font size="2">100</font></th></tr> 
-                            <tr><th><font size="2">Seminar Hall –Department of ECE </font></th><th><font size="2">100</font></th></tr> 
-                            <tr><th><font size="2">Seminar Hall –Department of EEE </font></th><th><font size="2">100</font></th></tr>
-                            <tr><th><font size="2">Seminar Hall –Department of IT </font></th><th><font size="2">100</font></th></tr>
-                            <tr><th><font size="2">Seminar Hall –Department of ME </font></th><th><font size="2">100</font></th></tr>                           
-                            <tr><th><font size="2">Seminar Hall –Department of MBA </font></th><th><font size="2">100</font></th></tr> 
-                            <tr><th><font size="2">Seminar Hall –Department of Placement & Training </font></th><th><font size="2">100</font></th></tr> 
-                            <tr><th><font size="2">Seminar Hall –Department of R & D </font></th><th><font size="2">100</font></th></tr> 
-                            <tr><th><font size="2">Seminar Hall –PG Seminar Hall </font></th><th><font size="2">100</font></th></tr> 
+                        <table id="tableformat">
+                            <tr><th>Auditorium/Seminar Hall</th><th>Seating Capacity</th></tr>
+                            <tr><td>Main Auditorium Annexure</td><td>1500</td></tr>
+                            <tr><td>Mini Auditorium </td><td>250</td></tr> 
+                            <tr><td>Seminar Hall –Department of CE </td><td>100</td></tr> 
+                            <tr><td>Seminar Hall –Department of CSE </td><td>100</td></tr> 
+                            <tr><td>Seminar Hall –Department of ECE </td><td>100</td></tr> 
+                            <tr><td>Seminar Hall –Department of EEE </td><td>100</td></tr>
+                            <tr><td>Seminar Hall –Department of IT </td><td>100</td></tr>
+                            <tr><td>Seminar Hall –Department of ME </td><td>100</td></tr>                           
+                            <tr><td>Seminar Hall –Department of MBA </td><td>100</td></tr> 
+                            <tr><td>Seminar Hall –Department of Placement & Training </td><td>100</td></tr> 
+                            <tr><td>Seminar Hall –Department of R & D </td><td>100</td></tr> 
+                            <tr><td>Seminar Hall –PG Seminar Hall </td><td>100</td></tr> 
                         </table>
                         </font></p>
                          

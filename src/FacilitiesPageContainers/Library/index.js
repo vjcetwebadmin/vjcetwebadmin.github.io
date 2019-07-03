@@ -4,6 +4,7 @@ import HeadingOne from "../../Components/Texts/HeadingOne";
 import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../styles.css"
+import "../../Components/Tables/tableformat.css";
 import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
@@ -118,48 +119,48 @@ class Library extends React.Component {
                     </div>
                     <div>
                     <HeadingTwo data={this.LibraryResourceTitle} className="Heading" />
-                    <table border="1">
+                    <table border="1"  id="tableformat">
                         <tr>
-                            <th> <font color="brown"><b>Collection</b></font></th><th><font color="brown"><b>Numbers</b></font></th>
+                            <th> Collection</th><th>Numbers</th>
                         </tr>
                         <tr>
-                            <th>Titles</th><th>10396</th>
+                            <td>Titles</td><td>10396</td>
                         </tr>
                         <tr>
-                            <th>Volume</th><th>38285</th>
+                            <td>Volume</td><td>38285</td>
                         </tr>
                         <tr>
-                            <th>Journals(National & International)</th><th>88</th>
+                            <td>Journals(National & International)</td><td>88</td>
                         </tr>
                         <tr>
-                            <th>E-Books</th><th>4725</th>
+                            <td>E-Books</td><td>4725</td>
                         </tr>
                         <tr>
-                            <th>Project Reports</th><th>1049</th>
+                            <td>Project Reports</td><td>1049</td>
                         </tr>
                         <tr>
-                            <th>Mini Project Reports</th><th>386</th>
+                            <td>Mini Project Reports</td><td>386</td>
                         </tr>
                         <tr>
-                            <th>Seminar Reports</th><th>2587</th>
+                            <td>Seminar Reports</td><td>2587</td>
                         </tr>
                         <tr>
-                            <th>Bound Volume</th><th>528</th>
+                            <td>Bound Volume</td><td>528</td>
                         </tr>
                         <tr>
-                            <th>CD-ROMs</th><th>1467</th>
+                            <td>CD-ROMs</td><td>1467</td>
                         </tr>
                         <tr>
-                        <font color="brown"><b>DIGITAL LIBRARY</b></font>
+                        <th colspan="5">DIGITAL LIBRARY</th>
                         </tr>
                         <tr>
-                            <th>E-Journals</th><th>IEEE (ASPP), Science Direct, EBSCO (Management)</th>
+                            <td>E-Journals</td><td>IEEE (ASPP), Science Direct, EBSCO (Management)</td>
                         </tr>
                         <tr>
-                            <th>INSTITUTIONAL MEMBERSHIP</th><th>DELNET, NDL</th>
+                            <td>INSTITUTIONAL MEMBERSHIP</td><td>DELNET, NDL</td>
                         </tr>
                         <tr>
-                            <th>IN HOUSE DATABASES</th><th><ol><li>INSTITUTIONAL REPOSITORY</li><li> AUDIO/VIDEO LIBRARY<ol>2.1. NPTEL</ol><ol>2.2. MEDIA REPOSITORY</ol></li></ol> </th>
+                            <td>IN HOUSE DATABASES</td><td><ol><li>INSTITUTIONAL REPOSITORY</li><li> AUDIO/VIDEO LIBRARY<ol>2.1. NPTEL</ol><ol>2.2. MEDIA REPOSITORY</ol></li></ol> </td>
                         </tr>
                         
                     </table>
@@ -169,58 +170,60 @@ class Library extends React.Component {
                     <p>
                     <HeadingTwo data={this.LibraryServiceTitle} className="Heading" />
                     </p>
-                    <tr><b><font color="Brown">LIBRARY WORKING HOURS & HOLIDAYS</font></b></tr>
-                    <table border="1" align="left">
+                    <table border="1" id="tableformat">
+                    <tr><th colspan="5" >LIBRARY WORKING HOURS & HOLIDAYS</th></tr>
+                    
                         
                         <tr>
-                            <th>Monday to Friday</th>
-                            <th>8.30am to 8.00pm</th>
+                            <td>Monday to Friday</td>
+                            <td>8.30am to 8.00pm</td>
                         </tr>
                         <tr>
-                            <th>Saturday</th>
-                            <th>9.30am to 3.00pm</th>
+                            <td>Saturday</td>
+                            <td>9.30am to 3.00pm</td>
                         </tr>
                     </table>
-                    <tr><b><font color="Brown">OVER NIGHT LENDING</font></b></tr>
-                    <table border="1" align="left">
+                    <table border="1" id="tableformat">
+                    <tr><th colspan="5">OVER NIGHT LENDING</th></tr>
+                    
                         
                         <tr>
-                            <th>Monday to Friday</th>
-                            <th>5.00pm</th>
+                            <td>Monday to Friday</td>
+                            <td>5.00pm</td>
                         </tr>
                         <tr>
-                            <th>Saturday</th>
-                            <th>3.00pm</th>
+                            <td>Saturday</td>
+                            <td>3.00pm</td>
                         </tr>
                         
                     </table>
                     </div>
                     
                     
-                    
-                    <b><font color="Brown">DETAILS OF LIBRARY CARDS & LOAN PERIOD</font></b>
+                    <tr><b>DETAILS OF LIBRARY CARDS & LOAN PERIOD</b></tr>
                     <div>
-                    <table border="1" align="left">
+                    <table border="1" id="tableformat">
+                    
                         
                         <tr>
-                            <th><font color="brown">Category</font></th>
-                            <th><font color="brown">Number of cards</font></th>
-                            <th><font color="brown">Loan period</font></th>
+                            <th>Category</th>
+                            <th>Number of cards</th>
+                            <th>Loan period</th>
                         </tr>
                         <tr>
-                            <th>STUDENTS</th>
-                            <th>FIRST, SECOND & THIRD YEARS- 4. FINAL YEARS-6</th>
-                            <th>15 DAYS</th>
+                            <td>STUDENTS</td>
+                            <td>FIRST, SECOND & THIRD YEARS- 4. FINAL YEARS-6</td>
+                            <td>15 DAYS</td>
                         </tr>
                         <tr>
-                            <th>FACULTY</th>
-                            <th>8</th>
-                            <th>6 MONTHS</th>
+                            <td>FACULTY</td>
+                            <td>8</td>
+                            <td>6 MONTHS</td>
                         </tr>
                         <tr>
-                            <th>STAFF</th>
-                            <th>2</th>
-                            <th>6 MONTHS</th>
+                            <td>STAFF</td>
+                            <td>2</td>
+                            <td>6 MONTHS</td>
                         </tr>
                     </table>
                     </div>
