@@ -27,7 +27,7 @@ class DepartmentSection extends Component {
     instanceID: "DepartmentListTwo",
     title: "Computer Science (CSE)",
     description:
-      "With the strength of preparing competent Computer Scientists, the department aspires to play a lead role in national vision of creating the futuristic knowledge economy through creativity and innovation in Computer Technologies."
+      "We aim at exposing our students to the world of zeros and ones by inculcating design thinking, empathy and ethics in them. Rather than building supercomputers, we want the scholars to use their human intelligence to build green artificial intelligence and support humanity by addressing the real issues of the world."
   };
 
   DepartmentListThree = {
