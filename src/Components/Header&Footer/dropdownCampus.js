@@ -45,6 +45,46 @@ class DropDownC extends Component {
             </Link>
           </p>
           <p>
+            <Link
+              to="/collegecouncil"
+              className="patch1"
+            >
+              College Council
+            </Link>
+          </p>
+          {/* <p>
+            <Link
+              to="/artsfest"
+              className="patch1"
+            >
+              Drishya- Arts Fest
+            </Link>
+          </p>
+          <p>
+            <Link
+              to="/sportsfest"
+              className="patch1"
+            >
+              Drona- Sports Fest
+            </Link>
+          </p>
+          <p>
+            <Link
+              to="/techfest"
+              className="patch1"
+            >
+              Bodhi- Tech Fest
+            </Link>
+          </p> */}
+           <p>
+            <Link
+              to="/professionalbodies"
+              className="patch1"
+            >
+              Professional Bodies
+            </Link>
+          </p>
+          <p>
             <a
               href="https://vjcetwebadmin.github.io/downloads/campusMap.pdf"
               target="_blank" rel="noopener noreferrer"

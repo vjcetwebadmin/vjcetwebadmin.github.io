@@ -101,7 +101,7 @@ class collegecouncil extends React.Component {
                     <br />
                    
                         <table id="tableformat">
-                            <tr><th>Student Name</th><th>Post</th><th>Branch & Semester</th></tr>
+                            <tr><th>Post</th><th>Student Name</th><th>Branch & Semester</th></tr>
                             <tr><td>CHAIRMAN</td><td>ADARSH MATHEW</td><td>S5 CE A</td></tr>
                             <tr><td>VICE CHAIRMAN</td><td>RAMYA KRISHNA R</td><td>S5 CS A</td></tr>
                             <tr><td>GENERAL SECRETARY</td><td>ANANDHU KRISHNA</td><td>S5 IT</td></tr>

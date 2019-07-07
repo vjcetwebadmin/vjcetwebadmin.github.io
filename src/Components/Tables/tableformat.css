@@ -22,5 +22,41 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   color: white;
   padding-left: 80px;
 }
+#profbodytable{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  table-layout: auto;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+#profbodytable td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: justify;
+  font-size: 16px;
+  
+}
+#profbodytable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: justify;
+  font-size: 16px;
+  background-color: #800000;
+  color: white;
+  padding-left: 10px;
+}
 
-
+#tablenoborderformat {
+  
+  border: 0px;  
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  table-layout: auto;
+}
+#tablenoborderformat td{
+  border: 0px solid #ddd;
+  padding: 8px;
+  text-align: justify;
+  font-size: 16px;
+}

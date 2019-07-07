@@ -9,7 +9,7 @@ import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import "../Components/Images/gallery.css";
 
 
-class artsfest extends React.Component {
+class techfest extends React.Component {
     state = { showMenu: false };
     openMenu = () => {
         console.log("opening Menu");
@@ -81,4 +81,4 @@ class artsfest extends React.Component {
 
 }
 
-export default artsfest;
+export default techfest;

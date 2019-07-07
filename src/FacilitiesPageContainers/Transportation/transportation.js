@@ -134,7 +134,7 @@ class transportation extends React.Component {
                                <td>Angamaly</td> <td>7.25am</td><td>Mr. V U Jose-9446888528</td>
                             </tr>
                             <tr>
-                               <td>Kuttampuzha</td> <td>7.25am</td><td>Mr. Mr. Jose-9847487212</td>
+                               <td>Kuttampuzha</td> <td>7.25am</td><td>Mr. Jose-9847487212</td>
                             </tr>
              </table>
              <HeadingTwo data={this.RoutemapTitle} className="Heading" />
