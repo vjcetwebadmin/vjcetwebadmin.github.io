@@ -9,6 +9,8 @@ import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import ImageTwo from "../Components/Images/imageTwo";
 import HeadingTwo from "../Components/Texts/HeadingTwo";
 import HeadingFour from "../Components/Texts/HeadingFour";
+import HeadingThree from "../Components/Texts/HeadingThree";
+
 
 class nss extends React.Component {
     state = { showMenu: false };
@@ -25,16 +27,40 @@ class nss extends React.Component {
     HomePageFooter = {
         instanceID: "HomePageFooter"
     };
-
+    NsslogoImage = {
+        instanceID: "NsslogoImage",
+        image: "ProfessionalBodies/NSS.png",
+        width: "50%"
+      }
 
    NssTitle = {
         instanceID: "NssTitle",
         title: "National Service Scheme (Technical Cell) Unit 198 & 587"
     };
+    AboutNssTitle = {
+        instanceID: "AboutNssTitle",
+        title: "National Service Scheme"
+    };
+    AboutNssvjcTitle = {
+        instanceID: "AboutNssvjcTitle",
+        title: "National Service Scheme (Technical Cell) at Viswajyothi"
+    };
+    InchargesHeading = {
+        instanceID: "InchargesHeading",
+        title: "Office-Bearers "
+      };
+    AboutNssContent = {
+        instanceID: "AboutNssContent",
+        title: "The National Service Scheme (NSS) was launched on September 24, 1969 in order to promote social consciousness, a sense of responsibility, and a sense of discipline and dignity of labour among college students. The scheme utilizes the leisure time between college studies of students, in various item of social service, which not only helps the community, but also develop the personality of students. The Motto of NSS “Not Me But You”, reflects the essence of democratic living and upholds the need for self-less service. NSS helps the students, develop appreciation to other person’s point of view and also show consideration to other living beings."
+    }
+    AboutNssvjcContent = {
+        instanceID: "AboutNssvjcContent",
+        title: "An Aided unit of National Service Scheme (Technical Cell) Unit-197 is started in the College in 12-02-2008 with Mr. Mable Varghese (Asst. Professor, Dept. of Information Technology) as the Program Officer, with 100 Volunteers. In July 2009, Mr. Naveen Jacob (Asst. Professor, Dept. of Electronics and Communication) took charge as the Program officer in 2009. Since the number of students enrolling to NSS has increased, an additional  self-financed unit is sanctioned in the year 2016, Unit-587."
+    }
     GalleryImage = {
         instanceID: "GalleryImage",
         image: "Icons/ImageGallery.jpg",
-        width: "6%"
+        width: "8%"
       }
     MajoreventsTitle = {
         instanceID: "MajoreventsTitle",
@@ -240,40 +266,51 @@ class nss extends React.Component {
         return (
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-                <p align="right"><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.GalleryImage} /></a></p>
+                <p align="right"><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.GalleryImage} /></a></p> 
+               
+               
                 <div className="contain">
+                
                     <HeadingTwo data={this.NssTitle} className="Heading" />
-                    
+                    <HeadingThree data={this.AboutNssTitle} className="Heading" />
+                    <BodyOneJustified data={this.AboutNssContent} />
+                    <HeadingThree data={this.AboutNssvjcTitle} className="Heading" />
+                    <BodyOneJustified data={this.AboutNssvjcContent} />
                     <br />
-                   
-                        {/* <table id="tableformat">
-                            <tr><th>Post</th><th>Student Name</th><th>Branch & Semester</th></tr>
-                            <tr><td>CHAIRMAN</td><td>ADARSH MATHEW</td><td>S5 CE A</td></tr>
-                            <tr><td>VICE CHAIRMAN</td><td>RAMYA KRISHNA R</td><td>S5 CS A</td></tr>
-                            <tr><td>GENERAL SECRETARY</td><td>ANANDHU KRISHNA</td><td>S5 IT</td></tr>
-                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>REEMA RAJU</td><td>S3 CS B</td></tr>
-                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>MINNU AUGUSTINE</td><td>S3 EE B</td></tr>
-                            <tr><td>EDITOR</td><td>RANI J MARY KURIAN</td><td>S5 CE B</td></tr>
-                            <tr><td>ARTS CLUB SECRETARY</td><td>MOHID ANTONY JIMMY</td><td>S5 EC B</td></tr>
-                            <tr><td>SPORTS CLUB SECRETARY</td><td>AKSHAY CHACKO</td><td>S5 CS A</td></tr>
-                            <tr><td>LADY REPRESENTATIVES</td><td>VANI VAVACHAN</td><td>S5 EC B</td></tr>
-                            <tr><td>LADY REPRESENTATIVES</td><td>SHALIN MARY KURIACHEN</td><td>S7 CS B</td></tr>
-                            <tr><td>MBA ASSOCIATION SECRETARY</td><td>FRANKLIN GEORGE</td><td>T4 MBA</td></tr>
-                            <tr><td>CS ASSOCIATION SECRETARY</td><td>TONY SABU</td><td>S 7 CS A</td></tr>
-                            <tr><td>CE ASSOCIATION SECRETARY</td><td>ANTO PAUL</td><td>S5 CE B</td></tr>
-                            <tr><td>ME ASSOCIATION SECRETARY</td><td>SAYANTH KUMAR C S</td><td>S5 ME B</td></tr>
-                            <tr><td>EC ASSOCIATION SECRETARY</td><td>MEGHA SUKUMAR</td><td>S5 EC A</td></tr>
-                            <tr><td>EEE ASSOCIATION SECRETARY</td><td>JISHNU V</td><td>S5 EE A</td></tr>
-                            <tr><td>IT ASSOCIATION SECRETARY</td><td>MRUNALSEN P S</td><td>S7 IT</td></tr>
-                            <tr><td>PG REPRESENTATIVE</td><td>VYSHAKH M K</td><td>T4 MBA</td></tr>
-                            <tr><td>FIRST YEAR REPRESENTATIVE</td><td>ANDREWS SAJI</td><td>S1 EC B</td></tr>
-                            <tr><td>SECOND YEAR REPRESENTATIVE</td><td>ARUN SHAJI</td><td>S3 EE A</td></tr>
-                            <tr><td>THIRD YEAR REPRESENTATIVE</td><td>ANUSREE R</td><td>S5 EE A</td></tr>
-                            <tr><td>FOURTH YEAR REPRESENTATIVE</td><td>AKSHAYA PRASHANTH K</td><td>S7 EE A</td></tr>
-                            <tr><td>SCST REPRESENTATIVE</td><td>ATHIRA M BIJU</td><td>S5CEB</td></tr>
-
-                            
-                        </table> */}
+                    <HeadingThree data={this.InchargesHeading} /> 
+                         <table id="tableformat">
+                            <tr><th colspan="3"> Program officers / Associate Program Officers Unit-197</th></tr>
+                            <tr><td>Mr. Mable Varghese</td><td>Program Officer</td><td>2008-'09</td></tr>
+                            <tr><td>Mr. Mr. Naveen Jacob</td><td>Program Officer</td><td>2009-'10 -2012-'13</td></tr>
+                            <tr><td>Mr. Jibby Peter D'cruz</td><td>Program Officer</td><td>2012-'13 to 2015-'16</td></tr>
+                            <tr><td>Mr. Sharone Varghese</td><td>Program Officer</td><td>2015-'16 to 2018-'19</td></tr>
+                            <tr><td>Ms. Sreeja S. Pillai</td><td>Associate Program Officer</td><td>2015-'16</td></tr>
+                            <tr><td>Ms. Anitta Thomas</td><td>Associate Program Officer</td><td>2016-'17</td></tr>
+                        </table> 
+                        <table id="tableformat">
+                            <tr><th colspan="3"> Program officers / Associate Program Officers Unit-587</th></tr>
+                            <tr><td>Mr. Jacob Mathai</td><td>Program Officer</td><td>2015-'16 to 2018-'19</td></tr>
+                            <tr><td>Ms. Vineetha Thankachan</td><td>Associate Program Officer</td><td>2015-'16 to 2018-'19</td></tr>
+                            <tr><td>Mr. Nibin B. </td><td>Program Officer</td><td>2016-17</td></tr>
+                        </table> 
+                        <table id="tableformat">
+                            <tr><th colspan="2"> Volunteer Secretary Unit-197</th></tr>
+                            <tr><td>Mr. Jithin Xavier</td><td>2016-'17</td></tr>
+                            <tr><td>Ms.Grace Maria George</td><td>2016-'17</td></tr>
+                            <tr><td>Mr. Charles George</td><td>2017-'18</td></tr>
+                            <tr><td>Ms. Riya Alex</td><td>2017-'18</td></tr>
+                            <tr><td>Mr. George M. Roy</td><td>2018-'19</td></tr>
+                            <tr><td>Ms. Lakshmipriya</td><td>2018-'19</td></tr>
+                        </table> 
+                        <table id="tableformat">
+                            <tr><th colspan="2"> Volunteer Secretary Unit-587</th></tr>
+                            <tr><td>Mr. Balu M. N</td><td>2016-'17</td></tr>
+                            <tr><td>Ms. Ashna Mathew</td><td>2016-'17</td></tr>
+                            <tr><td>Mr. Pranav Pradeep</td><td>2017-'18</td></tr>
+                            <tr><td>Ms. Ceeba Cleatus</td><td>2017-'18</td></tr>
+                            <tr><td>Mr. Jeevo Johnson</td><td>2018-'19</td></tr>
+                            <tr><td>Ms. Sandra Rojas</td><td>2018-'19</td></tr>
+                        </table> 
                         <HeadingTwo data={this.MajoreventsTitle} className="Heading" />
                         <HeadingFour data={this.EventTitle1} className="Heading" />
                         <BodyOneJustified data={this.EventContent1} />
