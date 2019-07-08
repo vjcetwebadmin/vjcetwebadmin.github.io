@@ -65,9 +65,7 @@ class Newsone extends React.Component {
 
                 <div className="contain">
                     <HeadingOne data={this.NewsTitle} className="Heading" />
-                    <p align="center">  <a href="https://forms.gle/Pte94EDDVJhUeGuX8" target="_blank" rel="noopener noreferrer" ><ImageOne data={this.NewsImagedata3} /></a> </p> 
-                    <p align="center"> <ImageOne data={this.NewsImagedata1} /></p>
-                    <p align="center"> <ImageOne data={this.NewsImagedata2} /></p>                     
+                                      
                     <br />                 
 
                     
