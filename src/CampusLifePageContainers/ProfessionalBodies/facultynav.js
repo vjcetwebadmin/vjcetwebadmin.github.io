@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import CSFaculty from "./Csfaculty";
-import CSStaff from "./Csstaff";
+/* import CSFaculty from "./Csfaculty";
+import CSStaff from "./Csstaff"; */
 class FacultyNav extends Component {
   state = {
     showfaculty: true,

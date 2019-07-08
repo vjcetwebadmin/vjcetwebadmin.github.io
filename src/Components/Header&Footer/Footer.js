@@ -146,7 +146,12 @@ class Footer extends Component {
     title: "Kerala Block Chain Academy",
     link: "/KBAIC_125"
   };
-
+  Link14 = {
+    instanceID: "Link14",
+    title: "Campus Map",
+    link:  "/campusmap"
+  };
+// <a href="https://vjcetwebadmin.github.io/downloads/campusMap.pdf" target="_blank" rel="noopener noreferrer" className="patch1">
   // Link13 = {
   //   instanceID: "Link13",
   //   title: "News",
@@ -186,6 +191,16 @@ class Footer extends Component {
     title: "Moodle",
     link: "http://moodle.vjcet.ac.in/"
   };
+  Link21 = {
+    instanceID: "Link21",
+    title: "Professional Bodies",
+    link:  "/professionalbodies"
+  };
+  Link22 = {
+    instanceID: "Link22",
+    title: "NSS",
+    link:  "/nss"
+  };
   FooterLinksTitleOne = {
     instanceID: "FooterLinksTitleOne",
     title: "Quick Links"
@@ -221,6 +236,7 @@ class Footer extends Component {
           <AnchorLink data={this.Link6} />
           <AnchorLink data={this.Link7} />
           <AnchorLink data={this.Link8} />
+          <AnchorLink data={this.Link14} />
         </div>
 
         <div className="FooterLinksTwo" id="FooterLinksTwo">
@@ -230,7 +246,9 @@ class Footer extends Component {
           <AnchorLink data={this.Link11} />
           <AnchorLink data={this.Link12} />
           <AnchorLink data={this.Link13} />
-         {/* <AnchorLink data={this.Link14} /> */}
+          <AnchorLink data={this.Link21} />
+          <AnchorLink data={this.Link22} />
+
         </div>
 
         <div className="FooterLinksThree" id="FooterLinksThree">

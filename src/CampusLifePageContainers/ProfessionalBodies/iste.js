@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import HeadingOne from "../../Components/Texts/HeadingOne";
+/* import HeadingOne from "../../Components/Texts/HeadingOne"; */
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified"
 
 import ImageTwo from "../../Components/Images/imageTwo";

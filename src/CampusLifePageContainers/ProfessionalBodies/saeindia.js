@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import HeadingOne from "../../Components/Texts/HeadingOne";
+/* import HeadingOne from "../../Components/Texts/HeadingOne"; */
 import Bodythree from "../../Components/Texts/BodyThree";
 import ImageTwo from "../../Components/Images/imageTwo";
 class Program extends Component {

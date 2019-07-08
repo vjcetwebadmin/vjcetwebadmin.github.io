@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
+import HeadingOne from "../Components/Texts/HeadingOne";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import "../Components/Images/gallery.css";
 
 
-class sportsfest extends React.Component {
+class Campusmap extends React.Component {
     state = { showMenu: false };
     openMenu = () => {
         console.log("opening Menu");
@@ -22,9 +23,9 @@ class sportsfest extends React.Component {
     };
 
 
-    ArtsfestTitle = {
-        instanceID: "ArtsfestTitle",
-        title: "Drishya 2019"
+    CampustTitle = {
+        instanceID: "CampustTitle",
+        title: "Campus Map"
     };
     
     
@@ -36,10 +37,12 @@ class sportsfest extends React.Component {
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
 
-               <div class="gallery">
-                    
-                    <iframe src="https://vjcet.org/downloads/Gallery/Drishya.html" width="90%" height="500" title="Drishya" ></iframe>
-                </div>        
+                <div className="Profile" id="profile">
+                <HeadingOne data={this.CampustTitle} />
+                <div className="bodyContainer">
+                    <iframe src="https://vjcet.org/downloads/campusMap.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
+                </div>
+            </div>      
                
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}
@@ -50,4 +53,4 @@ class sportsfest extends React.Component {
 
 }
 
-export default sportsfest;
+export default Campusmap;

@@ -85,13 +85,20 @@ class DropDownC extends Component {
             </Link>
           </p>
           <p>
-            <a
-              href="https://vjcetwebadmin.github.io/downloads/campusMap.pdf"
-              target="_blank" rel="noopener noreferrer"
+            <Link
+              to="/nss"
               className="patch1"
             >
-              Campus-Map
-            </a>
+              National Service Scheme
+            </Link>
+          </p>
+          <p>
+            <Link
+              to="/campusmap"
+              className="patch1"
+            >
+              Campus Map
+            </Link>
           </p>
         </div>
       </div>

@@ -6,7 +6,7 @@ import BodyOneJustified from "../Components/Texts/BodyOneJustified";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-import HeadingOne from "../Components/Texts/HeadingOne";
+/* import HeadingOne from "../Components/Texts/HeadingOne"; */
 import HeadingTwo from "../Components/Texts/HeadingTwo";
 import HeadingFour from "../Components/Texts/HeadingFour";
 

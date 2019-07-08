@@ -46,17 +46,3 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   padding-left: 10px;
 }
 
-#tablenoborderformat {
-  
-  border: 0px;  
-  border-collapse: collapse;
-  width: 100%;
-  text-align: left;
-  table-layout: auto;
-}
-#tablenoborderformat td{
-  border: 0px solid #ddd;
-  padding: 8px;
-  text-align: justify;
-  font-size: 16px;
-}

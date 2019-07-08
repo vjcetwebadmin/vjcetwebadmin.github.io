@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import HeadingOne from "../../Components/Texts/HeadingOne";
+/* import HeadingOne from "../../Components/Texts/HeadingOne"; */
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified"
 
 import ImageTwo from "../../Components/Images/imageTwo";
@@ -12,7 +12,13 @@ class Profile extends Component {
   IEEEImage = {
     instanceID: "IEEEImage",
     image: "ProfessionalBodies/IEEE.png",
-    width: "25%"
+    width: "25%",
+    
+}
+GalleryImage = {
+  instanceID: "GalleryImage",
+  image: "Icons/ImageGallery.gif",
+  width: "10%"
 }
 InchargesHeading = {
   instanceID: "InchargesHeading",
@@ -33,8 +39,8 @@ ActivitiesHeading = {
         
       {/*  <p align="right"><a href="https://vjcet.org/downloads/Gallery/Drishya.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.Imagegallerydata} /></a></p> */}
        {/* <HeadingOne data={this.ProfileHeading} />  */}
+      {/*  <p align="right"><a href="https://vjcet.org/downloads/Gallery/Drishya.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.GalleryImage} /></a></p> */}
        <ImageTwo data={this.IEEEImage} />
-
         <div className="bodyContainer">
           <p><BodyOneJustified data={this.Features1} /></p>
           <HeadingThree data={this.InchargesHeading} /> 
