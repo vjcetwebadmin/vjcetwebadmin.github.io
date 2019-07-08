@@ -65,6 +65,7 @@ class artsfest extends React.Component {
     render() {
         return (
             <React.Fragment>
+                
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
 
                <div class="gallery">
