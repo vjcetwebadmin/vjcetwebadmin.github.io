@@ -6,7 +6,7 @@ import BodyOneJustified from "../Components/Texts/BodyOneJustified";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-/* import HeadingOne from "../Components/Texts/HeadingOne"; */
+import ImageTwo from "../Components/Images/imageTwo";
 import HeadingTwo from "../Components/Texts/HeadingTwo";
 import HeadingFour from "../Components/Texts/HeadingFour";
 
@@ -31,6 +31,11 @@ class nss extends React.Component {
         instanceID: "NssTitle",
         title: "National Service Scheme (Technical Cell) Unit 198 & 587"
     };
+    GalleryImage = {
+        instanceID: "GalleryImage",
+        image: "Icons/ImageGallery.gif",
+        width: "10%"
+      }
     MajoreventsTitle = {
         instanceID: "MajoreventsTitle",
         title: "Activities"
@@ -235,7 +240,7 @@ class nss extends React.Component {
         return (
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-
+                <p align="right"><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.GalleryImage} /></a></p>
                 <div className="contain">
                     <HeadingTwo data={this.NssTitle} className="Heading" />
                     

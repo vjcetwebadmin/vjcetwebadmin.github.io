@@ -13,6 +13,7 @@ class Profile extends Component {
     instanceID: "IEEEImage",
     image: "ProfessionalBodies/IEEE.png",
     width: "25%",
+    link: "/artsfest"
     
 }
 GalleryImage = {
