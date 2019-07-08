@@ -33,8 +33,8 @@ class nss extends React.Component {
     };
     GalleryImage = {
         instanceID: "GalleryImage",
-        image: "Icons/ImageGallery.gif",
-        width: "10%"
+        image: "Icons/ImageGallery.jpg",
+        width: "6%"
       }
     MajoreventsTitle = {
         instanceID: "MajoreventsTitle",
