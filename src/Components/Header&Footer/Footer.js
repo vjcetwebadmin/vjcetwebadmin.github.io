@@ -149,7 +149,7 @@ class Footer extends Component {
   Link14 = {
     instanceID: "Link14",
     title: "Campus Map",
-    link:  "/campusmap"
+    link:  "/campus-life/campusmap"
   };
 // <a href="https://vjcetwebadmin.github.io/downloads/campusMap.pdf" target="_blank" rel="noopener noreferrer" className="patch1">
   // Link13 = {
@@ -194,12 +194,12 @@ class Footer extends Component {
   Link21 = {
     instanceID: "Link21",
     title: "Professional Bodies",
-    link:  "/professionalbodies"
+    link:  "/campus-life/professionalbodies"
   };
   Link22 = {
     instanceID: "Link22",
     title: "NSS",
-    link:  "/nss"
+    link:  "/campus-life/nss"
   };
   FooterLinksTitleOne = {
     instanceID: "FooterLinksTitleOne",

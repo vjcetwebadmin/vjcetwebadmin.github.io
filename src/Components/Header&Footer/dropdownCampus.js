@@ -46,7 +46,7 @@ class DropDownC extends Component {
           </p>
           <p>
             <Link
-              to="/collegecouncil"
+              to="/campus-life/collegecouncil"
               className="patch1"
             >
               College Council
@@ -54,7 +54,7 @@ class DropDownC extends Component {
           </p>
           <p>
             <Link
-              to="/artsfest"
+              to="/campus-life/artsfest"
               className="patch1"
             >
               Drishya- Arts Fest
@@ -62,7 +62,7 @@ class DropDownC extends Component {
           </p>
           <p>
             <Link
-              to="/sportsfest"
+              to="/campus-life/sportsfest"
               className="patch1"
             >
               Drona- Sports Fest
@@ -70,7 +70,7 @@ class DropDownC extends Component {
           </p>
           <p>
             <Link
-              to="/techfest"
+              to="/campus-life/techfest"
               className="patch1"
             >
               Bodhi- Tech Fest
@@ -78,7 +78,7 @@ class DropDownC extends Component {
           </p> 
           <p>
             <Link
-              to="/publications"
+              to="/campus-life/publications"
               className="patch1"
             >
               Publication
@@ -87,7 +87,7 @@ class DropDownC extends Component {
           
            <p>
             <Link
-              to="/professionalbodies"
+              to="/campus-life/professionalbodies"
               className="patch1"
             >
               Professional Bodies
@@ -95,7 +95,7 @@ class DropDownC extends Component {
           </p>
           <p>
             <Link
-              to="/nss"
+              to="/campus-life/nss"
               className="patch1"
             >
               National Service Scheme
@@ -103,7 +103,7 @@ class DropDownC extends Component {
           </p>
           <p>
             <Link
-              to="/campusmap"
+              to="/campus-life/campusmap"
               className="patch1"
             >
               Campus Map

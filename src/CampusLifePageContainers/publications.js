@@ -40,6 +40,7 @@ class Publications extends React.Component {
                 <div className="Profile" id="profile">
                 <HeadingOne data={this.CampustTitle} />
                 <div className="bodyContainer">
+                    
                     <iframe src="https://vjcet.org/downloads/Magazine2018.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
                 </div>
             </div>      

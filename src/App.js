@@ -63,14 +63,14 @@ class App extends Component {
               <Route exact path="/departments" component={DepartmentPage} />
               <Route exact path="/facilities" component={FacilitiesPage} />
               <Route exact path="/campus-life" component={CampusLifePage} />
-              <Route exact path="/collegecouncil" component={collegecounsil} />
-              <Route exact path="/artsfest" component={artsfest} />
-              <Route exact path="/sportsfest" component={sportsfest} />
-              <Route exact path="/techfest" component={techfest} />
-              <Route exact path="/nss" component={nss} />
-              <Route exact path="/campusmap" component={campusmap} />
-              <Route exact path="/publications" component={Publications} />
-              <Route exact path="/professionalbodies" component={professionalbodies} />
+              <Route exact path="/campus-life/collegecouncil" component={collegecounsil} />
+              <Route exact path="/campus-life/artsfest" component={artsfest} />
+              <Route exact path="/campus-life/sportsfest" component={sportsfest} />
+              <Route exact path="/campus-life/techfest" component={techfest} />
+              <Route exact path="/campus-life/nss" component={nss} />
+              <Route exact path="/campus-life/campusmap" component={campusmap} />
+              <Route exact path="/campus-life/publications" component={Publications} />
+              <Route exact path="/campus-life/professionalbodies" component={professionalbodies} />
               <Route exact path="/departments/cse" component={CsDepartment} />
               <Route exact path="/departments/ce" component={CeDepartment} />
               <Route exact path="/departments/admin" component={Admin} />
