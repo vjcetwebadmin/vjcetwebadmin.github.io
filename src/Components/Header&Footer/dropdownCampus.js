@@ -76,6 +76,14 @@ class DropDownC extends Component {
               Bodhi- Tech Fest
             </Link>
           </p> 
+          <p>
+            <Link
+              to="/publications"
+              className="patch1"
+            >
+              Publication
+            </Link>
+          </p> 
           
            <p>
             <Link
