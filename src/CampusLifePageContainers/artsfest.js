@@ -70,7 +70,7 @@ class artsfest extends React.Component {
 
                <div class="gallery">
                     
-                    <iframe src="https://vjcet.org/downloads/Gallery/Drishya.html" width="100%" height="500" title="Drishya" ></iframe>
+                    <iframe src="https://vjcet.org/downloads/gallery/drishya.html" width="100%" height="500" title="Drishya" ></iframe>
                 </div>        
                
                 <Footer data={this.HomePageFooter} />

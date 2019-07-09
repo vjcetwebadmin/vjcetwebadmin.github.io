@@ -52,7 +52,7 @@ class DropDownC extends Component {
               College Council
             </Link>
           </p>
-          {/* <p>
+          <p>
             <Link
               to="/artsfest"
               className="patch1"
@@ -75,7 +75,8 @@ class DropDownC extends Component {
             >
               Bodhi- Tech Fest
             </Link>
-          </p> */}
+          </p> 
+          
            <p>
             <Link
               to="/professionalbodies"
