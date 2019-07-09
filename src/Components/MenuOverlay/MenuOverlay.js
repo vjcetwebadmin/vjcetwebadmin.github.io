@@ -12,7 +12,8 @@ class MenuOverlay extends Component {
       menuItem4: true,
       menuItem5: true,
       menuItem6: true,
-      menuItem8: true     
+      menuItem8: true,
+      menuItem9: true    
       
     };
   }
@@ -57,6 +58,11 @@ class MenuOverlay extends Component {
       menuItem8: !this.state.menuItem8
     });
   }
+  menuItem9() {
+    this.setState({
+      menuItem9: !this.state.menuItem9
+    });
+  }
   
 
   render() {
@@ -85,6 +91,9 @@ class MenuOverlay extends Component {
     };
     var menuItem8Style = {
       display: this.state.menuItem8 ? "none" : "grid"
+    };
+    var menuItem9Style = {
+      display: this.state.menuItem9 ? "none" : "grid"
     };
     
 
@@ -139,6 +148,31 @@ class MenuOverlay extends Component {
               </Link>
             </div>
           </div>
+          <div id="menuItem9">
+            <button
+              className="MenuOverlayItem"
+              onClick={this.menuItem9.bind(this)}
+            >
+              <Link to="#">Admissions</Link>
+            </button>
+
+            <div className="MenuOverlaySubLinkGroup" style={menuItem9Style}>
+            <a href="http://admission.vjcet.ac.in/" className="MenuOverlaySubLinks">B.Tech</a>
+
+              <Link className="MenuOverlaySubLinks" to="/admission/mtech">
+                M.Tech
+              </Link>
+              <a href="http://www.vjcetmba.in/" className="MenuOverlaySubLinks">MBA</a>
+
+              <Link
+                to="/admission/phd"
+                className="MenuOverlaySubLinks"
+              >
+                Ph.D
+            </Link>
+              
+            </div>
+          </div>
 
           <div id="menuItem2">
             <button
@@ -164,7 +198,7 @@ class MenuOverlay extends Component {
               {/* <Link className="MenuOverlaySubLinks" to="/about">
                 Moodle
               </Link> */}
-              <a href="http://admission.vjcet.ac.in/" className="MenuOverlaySubLinks">Admissions</a>
+              
             </div>
           </div>
 
