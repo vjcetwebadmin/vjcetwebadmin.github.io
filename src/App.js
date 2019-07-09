@@ -10,6 +10,7 @@ import sportsfest from "./CampusLifePageContainers/sportsfest";
 import techfest from "./CampusLifePageContainers/techfest";
 import nss from "./CampusLifePageContainers/nss";
 import campusmap from "./CampusLifePageContainers/campusmap";
+import Publications from "./CampusLifePageContainers/publications";
 import professionalbodies from "./CampusLifePageContainers/ProfessionalBodies/csdepartment";
 import CsDepartment from "./Pages/Departments/csdepartment";
 import CeDepartment from "./Pages/Departments/cedepartment";
@@ -68,6 +69,7 @@ class App extends Component {
               <Route exact path="/techfest" component={techfest} />
               <Route exact path="/nss" component={nss} />
               <Route exact path="/campusmap" component={campusmap} />
+              <Route exact path="/publications" component={Publications} />
               <Route exact path="/professionalbodies" component={professionalbodies} />
               <Route exact path="/departments/cse" component={CsDepartment} />
               <Route exact path="/departments/ce" component={CeDepartment} />
