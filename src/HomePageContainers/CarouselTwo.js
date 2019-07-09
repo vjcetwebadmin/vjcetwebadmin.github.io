@@ -5,7 +5,10 @@ import CustomOne from "../Components/Texts/CustomOne";
 class CarouselTwo extends Component {
   state = { selected: 0 };
   data = [
-    
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="5">KTU Sponsored FDP on Tools, Techniques & Models for Scientific Research</font></a>
+    },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <font size="5">B.Tech First Year classes will commence on 15th July 2019</font>

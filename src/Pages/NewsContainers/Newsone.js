@@ -38,17 +38,17 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "KTU Sponsored FDP on Advancements in Drives, Instrumentation and Control"
+        title: "KTU Sponsored FDP on Tools, Techniques & Models for Scientific Research"
     };
     
     NewsImagedata1 = {
         instanceID: "NewsImagedata1",
-        image: "NewsImages/FDP_EEE1.jpg",
+        image: "NewsImages/ME_fdp_front.jpg",
         width: "80%"
     }
     NewsImagedata2 = {
         instanceID: "NewsImagedata2",
-        image: "NewsImages/FDP_EEE2.jpg",
+        image: "NewsImages/ME_fdp_back.jpg",
         width: "80%"
     }
     NewsImagedata3 = {
@@ -65,7 +65,8 @@ class Newsone extends React.Component {
 
                 <div className="contain">
                     <HeadingOne data={this.NewsTitle} className="Heading" />
-                                      
+                     <ImageOne data={this.NewsImagedata1} />     
+                     <ImageOne data={this.NewsImagedata2} />               
                     <br />                 
 
                     

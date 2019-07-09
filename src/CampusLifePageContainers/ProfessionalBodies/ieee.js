@@ -12,8 +12,7 @@ class Profile extends Component {
   IEEEImage = {
     instanceID: "IEEEImage",
     image: "ProfessionalBodies/IEEE.png",
-    width: "25%",
-    link: "/artsfest"
+    width: "25%",    
     
 }
 GalleryImage = {
@@ -23,7 +22,7 @@ GalleryImage = {
 }
 InchargesHeading = {
   instanceID: "InchargesHeading",
-  title: "Office-Bearers "
+  title: "Office-Bearers"
 };
 ActivitiesHeading = {
   instanceID: "ActivitiesHeading",
@@ -44,7 +43,7 @@ ActivitiesHeading = {
        <ImageTwo data={this.IEEEImage} />
         <div className="bodyContainer">
           <p><BodyOneJustified data={this.Features1} /></p>
-          <HeadingThree data={this.InchargesHeading} /> 
+          <HeadingThree data={this.InchargesHeading} />  
           <table id="tableformat">
                             <tr><th>POST</th><th>NAME</th></tr>
                             <tr><td>Branch Counsellor & IEEE SIGHT Counsellor</td><td>Mr. Anish M Jose, AP ECE</td></tr>
