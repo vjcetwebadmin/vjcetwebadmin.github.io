@@ -37,7 +37,7 @@ class DropDownAb extends Component {
         <div className="dropdown-content">
           <p>
             <Link
-              to="/about"
+              to="/ed/iedc"
               className="patch1"
             >
               IEDC
@@ -45,10 +45,10 @@ class DropDownAb extends Component {
           </p>
           <p>
             <Link
-              to="/about/accreditation"
+              to="/ed/v-bic"
               className="patch1"
             >
-              V-Bic
+              V-BIC
             </Link>
           </p>
           

@@ -13,7 +13,8 @@ class MenuOverlay extends Component {
       menuItem5: true,
       menuItem6: true,
       menuItem8: true,
-      menuItem9: true    
+      menuItem9: true, 
+      menuItem10: true     
       
     };
   }
@@ -63,6 +64,11 @@ class MenuOverlay extends Component {
       menuItem9: !this.state.menuItem9
     });
   }
+  menuItem10() {
+    this.setState({
+      menuItem10: !this.state.menuItem10
+    });
+  }
   
 
   render() {
@@ -94,6 +100,9 @@ class MenuOverlay extends Component {
     };
     var menuItem9Style = {
       display: this.state.menuItem9 ? "none" : "grid"
+    };
+    var menuItem10Style = {
+      display: this.state.menuItem10 ? "none" : "grid"
     };
     
 
@@ -345,6 +354,24 @@ class MenuOverlay extends Component {
             <div className="MenuOverlaySubLinkGroup" style={menuItem8Style}>
             <Link className="MenuOverlaySubLinks" to="/placement">
                 Placements
+              </Link>
+              
+            </div>
+          </div>
+          <div id="menuItem10">
+            <button
+              className="MenuOverlayItem"
+              onClick={this.menuItem10.bind(this)}
+            >
+              <Link to="#">E&D</Link>
+            </button>
+
+            <div className="MenuOverlaySubLinkGroup" style={menuItem10Style}>
+            <Link className="MenuOverlaySubLinks" to="/ed/iedc">
+               IEDC
+              </Link>
+              <Link className="MenuOverlaySubLinks" to="/ed/v-bic">
+               V-BIC
               </Link>
               
             </div>
