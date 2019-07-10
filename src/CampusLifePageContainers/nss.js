@@ -6,10 +6,10 @@ import BodyOneJustified from "../Components/Texts/BodyOneJustified";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-import ImageTwo from "../Components/Images/imageTwo";
 import HeadingTwo from "../Components/Texts/HeadingTwo";
 import HeadingFour from "../Components/Texts/HeadingFour";
 import HeadingThree from "../Components/Texts/HeadingThree";
+import "../Components/Images/gallery.css";
 
 
 class nss extends React.Component {
@@ -266,8 +266,15 @@ class nss extends React.Component {
         return (
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-                <p align="right"><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.GalleryImage} /></a></p> 
-               
+             {/*    <p align="right"><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.GalleryImage} /></a></p>  */}
+             <div class="absolute">
+             <p id="rcorners1" align="right"><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
+             
+             </div>
+             <div >
+             <p id="blankspace" align="right"></p>
+             
+             </div>
                
                 <div className="contain">
                 

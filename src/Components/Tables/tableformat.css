@@ -8,7 +8,8 @@
 tr:nth-child(even) {background-color: #f2f2f2;}
 #tableformat td{
   border: 1px solid #ddd;
-  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   text-align: left;
   font-size: 16px;
   padding-left: 80px;
@@ -22,27 +23,30 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   color: white;
   padding-left: 80px;
 }
-#profbodytable{
+
+#publicationtable {
+  
   border-collapse: collapse;
   width: 100%;
-  text-align: left;
+  text-align: justify;
   table-layout: auto;
 }
 tr:nth-child(even) {background-color: #f2f2f2;}
-#profbodytable td{
-  border: 1px solid #ddd;
-  padding: 8px;
+#publicationtable td{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid rgb(20, 20, 20);    
   text-align: justify;
   font-size: 16px;
-  
+  padding-left: 80px;
 }
-#profbodytable th {
+#publicationtable th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: justify;
   font-size: 16px;
   background-color: #800000;
   color: white;
-  padding-left: 10px;
+  padding-left: 2px;
 }
 

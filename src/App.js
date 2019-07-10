@@ -43,6 +43,7 @@ import Phd from "./Pages/Phd"
 import Syllabusplan from "./Pages/Syllabusplan";
 import Blockchain from "./Pages/Blockchain";
 import Newsone from "./Pages/NewsContainers/Newsone";
+import Iedc from "./Pages/Iedc";
 
 
 class App extends Component {
@@ -96,6 +97,7 @@ class App extends Component {
               <Route exact path="/academics/Syllabusplan" component={Syllabusplan} />
               <Route exact path="/KBAIC_125" component={Blockchain} />
               <Route exact path="/newsone" component={Newsone} />
+              <Route exact path="/ED/IEDC" component={Iedc} />
                 
               } />
             </Switch>

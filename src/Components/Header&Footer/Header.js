@@ -14,6 +14,7 @@ import DropDownL from "./dropdownLogin";
 import DropDownF from "./dropdownfacilities";
 import ContactLink from "../Texts/Contactlink"
 import DropDownAdm from "./dropdownAdmission";
+import DropDownIedc from "./dropdowniedc";
 
 class Header extends Component {
   VJCLogo = {
@@ -116,6 +117,11 @@ class Header extends Component {
     title: "R&D",
     link: "/r&d"
   };
+  Link11 = {
+    instanceID: "HeaderLink10",
+    title: "ED",
+    link: "/campus-life/nss"
+  };
   LineHeading = {
     instanceID: "LineHeading"
   };
@@ -157,8 +163,10 @@ class Header extends Component {
             <DropDownC />
             <AnchorLink data={this.Link9} />
             <DropDownF />
+            <DropDownIedc />
             {/* <AnchorLink data={this.Link7} /> */}
             <AnchorLink data={this.Link10} />
+            
           </div>
         </div>
       </div>
