@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../Components/SideNav.css";
 import Profile from "./profile";
 import Vision from "./Activities";
-import PEO from "./csi";
+import PEO from "./publications";
 import Program from "./saeindia";
 import Library from "./labs";
 import Association from "./association";
@@ -134,13 +134,13 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickV}
             />
-           {/*  <input
+            <input
 
-              value="CSI"
+              value="Publications"
               class="button"
               onClick={this.onClickPeo}
             />
-            <input
+           {/*  <input
 
               value="SAEINDIA"
               class="button"

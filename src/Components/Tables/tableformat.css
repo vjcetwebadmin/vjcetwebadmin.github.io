@@ -32,21 +32,28 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   table-layout: auto;
 }
 tr:nth-child(even) {background-color: #f2f2f2;}
-#publicationtable td{
-  padding-top: 12px;
-  padding-bottom: 12px;
+#publicationtable tr{
+  
   border: 1px solid rgb(20, 20, 20);    
   text-align: justify;
   font-size: 16px;
   padding-left: 80px;
 }
-#publicationtable th {
+#publicationtable td{
+  border: 1px solid #ddd;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: justify;
   font-size: 16px;
+  padding-left: 10px;
+}
+#publicationtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: 16px;
   background-color: #800000;
   color: white;
-  padding-left: 2px;
+  
 }
 

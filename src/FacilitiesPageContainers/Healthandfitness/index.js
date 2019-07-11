@@ -3,6 +3,7 @@ import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../styles.css"
+import "../../Components/Images/gallery.css";
 import Gym from "../Gym";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import Header from "../../Components/Header&Footer/Header";
@@ -123,8 +124,16 @@ class Heathandfitness extends React.Component{
             </div>            
             <Gym />
             <Health />            
-            <HeadingTwo data={this.BasketballTitle} className="Heading" />
-            <ImageOne data={this.BasketballImagedata} />
+            <HeadingTwo data={this.BasketballTitle} className="Heading" />          
+            <div class="absolute">
+             <p id="rcorners1" align="right"><a href="https://vjcet.org/downloads/gallery/magnum.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
+             </div>
+             <div >
+             <p id="blankspace" align="right"></p>             
+             </div>
+             
+
+            
             <BodyOneJustified data={this.BasketballContent} />
             <HeadingTwo data={this.StatdiumTitle} className="Heading" />
             <BodyOneJustified data={this.StatdiumContent} />

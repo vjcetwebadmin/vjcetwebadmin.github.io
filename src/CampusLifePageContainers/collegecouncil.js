@@ -97,6 +97,12 @@ class collegecouncil extends React.Component {
 
                 <div className="contain">
                     <HeadingTwo data={this.CollegecouncilTitle} className="Heading" />
+                    <div class="absolute">
+             <p id="rcorners1" align="right"><a href="https://vjcet.org/downloads/gallery/collegeunion.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
+             </div>
+             <div >
+             <p id="blankspace" align="right"></p>             
+             </div>
                     
                     <br />
                    
