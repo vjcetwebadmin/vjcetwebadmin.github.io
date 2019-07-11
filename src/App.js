@@ -37,7 +37,7 @@ import ContactUs from "./ContactUsContainers/ContactUs";
 import Academics from "./Pages/Academics";
 import VisionPage from "./Pages/VisionPage";
 import SyllabusPage from "./Pages/SyllabusPage";
-import Research from "./Pages/Research"
+import Research from "./ResearchPageContainers/csdepartment";
 import Mtech from "./Pages/Mtech"
 import Phd from "./Pages/Phd"
 import Syllabusplan from "./Pages/Syllabusplan";
@@ -100,6 +100,7 @@ class App extends Component {
               <Route exact path="/newsone" component={Newsone} />
               <Route exact path="/ed/iedc" component={Iedc} />
               <Route exact path="/ed/v-bic" component={Vbic} />
+              
                 
               } />
             </Switch>

@@ -55,7 +55,7 @@ ActivitiesHeading = {
                             <tr><td>IEEE SIGHT Chairman</td><td>Mr. Albin Paul</td></tr>
                             </table>
                             <HeadingThree data={this.ActivitiesHeading} /> 
-                            <table id="profbodytable">
+                            <table id="tableformat">
                            
                             <tr><th>Sl. No</th><th>Event</th><th>Date</th><th>Details</th></tr>
                             <tr><td>1</td><td>Annual General Meeting</td><td>15-02-2019</td><td>New execom members officially took up their charge in respective roles. Our seniors gave us necessary instructions to be followed. Branch Counsellor Mr. Anish M Jose ,CS counsellor Mr.Sivadas T Nair, and PES counsellor Mr.Babu T Chacko facilitated the occasion. Previous execom members were rewarded with a certificate for their excellent volunteering.</td></tr>

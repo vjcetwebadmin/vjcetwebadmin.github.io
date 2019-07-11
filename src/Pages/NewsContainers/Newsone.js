@@ -3,6 +3,7 @@ import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
+import "../../Components/News/gallery.css";
 import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
@@ -65,6 +66,18 @@ class Newsone extends React.Component {
 
                 <div className="contain">
                     <HeadingOne data={this.NewsTitle} className="Heading" />
+                    <div class="absolute">
+             <p id="rcorners" align="right"><a href="https://vjcet.org/downloads/news/ME_fdp_.zip" target="_blank" rel="noopener noreferrer"><font color="white">Download Brochure</font></a></p>
+             
+             </div>
+             <div >
+             <p id="blankspace" align="right"></p>
+             
+             </div>
+             <div >
+             <p id="blankspace" align="right"></p>
+             
+             </div>
                      <ImageOne data={this.NewsImagedata1} />     
                      <ImageOne data={this.NewsImagedata2} />               
                     <br />                 
