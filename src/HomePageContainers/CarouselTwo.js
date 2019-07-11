@@ -11,7 +11,7 @@ class CarouselTwo extends Component {
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <font size="5">B.Tech First Year classes will commence on 15th July 2019</font>
+      title: <font size="5">B.Tech First Year classes will commence on 22nd July 2019</font>
       
     },
     {
