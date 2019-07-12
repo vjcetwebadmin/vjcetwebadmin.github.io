@@ -48,7 +48,7 @@ class Iedc extends Component {
     }
     InchargesHeading = {
         instanceID: "InchargesHeading",
-        title: "IEDC Team"
+        title: "V-BIC Team"
       };
     ObjectiveHeading = {
         instanceID: "ObjectiveHeading",

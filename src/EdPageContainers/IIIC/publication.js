@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../../Components/Header&Footer/Header";
-import Footer from "../../Components/Header&Footer/Footer";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import "../../Components/Images/gallery.css";

@@ -12,7 +12,7 @@ class Profile extends Component {
   ISTEImage = {
     instanceID: "ISTEImage",
     image: "ProfessionalBodies/ISTE.png",
-    width: "25%"
+    width: "15%"
 }
 InchargesHeading = {
   instanceID: "InchargesHeading",
@@ -56,8 +56,7 @@ ActivitiesHeading = {
                             <tr><td>Treasurer &Student Advisor</td><td>Ms. Sabitha Raju, AP, CSE</td></tr>
           </table>
                             <HeadingThree data={this.ActivitiesHeading} /> 
-                            <table id="profbodytable">
-                           
+                            <table id="tableformat">                           
                             <tr><th>Sl. No</th><th>Event</th><th>Date</th></tr>
                             <tr><td>1</td><td>FDP on Frontiers of Computer Science</td><td>18/7/2018-22/7/2018</td></tr>
                             <tr><td>2</td><td>One day hands-on workshop  PCB Design</td><td>8/9/2018</td></tr>

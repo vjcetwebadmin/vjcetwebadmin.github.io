@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import HeadingOne from "../Components/Texts/HeadingOne";
+import "../Components/Tables/tableformat.css";
 class Dates extends Component {
     state = {};
     ProfileHeading = {
@@ -11,7 +12,7 @@ class Dates extends Component {
             <div className="Profile" id="profile">
                 <HeadingOne data={this.ProfileHeading} />
                 <div className="bodyContainer">
-                    <table border="1">
+                    <table border="1" id="tableformat">
                         <tr>
                             <td>Filling up of ONLINE application form(DTE) </td>
                             <td>will be updated soon</td>

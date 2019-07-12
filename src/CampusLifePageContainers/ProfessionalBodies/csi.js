@@ -14,7 +14,7 @@ class Profile extends Component {
   CSIImage = {
     instanceID: "CSIImage",
     image: "ProfessionalBodies/CSI.jpg",
-    width: "25%"
+    width: "15%"
 }
 InchargesHeading = {
   instanceID: "InchargesHeading",
@@ -80,7 +80,7 @@ MissionHeading = {
              
           </table> 
           <HeadingThree data={this.ActivitiesHeading} /> 
-                            <table id="profbodytable">
+                            <table id="tableformat">
                             <tr><th>Sl. No</th><th>Event</th><th>Date</th><th>Resource Person</th></tr>
                             <tr><td>1</td><td>Technical Talk : Software Engineering - Industry Perspective for S7 CSE & S7 IT</td><td>25-09-2018</td><td>Mr. Arun Narayanan, Tata Consultancy Services ,TCS  Centre SEZ Unit,  Infopark PO, Kochi</td></tr>
                             <tr><td>2</td><td>Technical Talk  on Design Thinking for S5 CS & S5 IT</td><td>26-09-2018</td><td>  Mr. Anas K A, Tata Consultancy Services ,TCS  Centre SEZ Unit,  Infopark PO, Kochi</td></tr>

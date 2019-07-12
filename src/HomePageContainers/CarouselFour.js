@@ -93,7 +93,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventOneTitle",
-        title: "Arts Festival : Drishya 2K19"
+        title: <a href="https://vjcet.org/downloads/gallery/drishya.html" target="_blank" rel="noopener noreferrer"><font color="#880d1e">Arts Festival : Drishya 2K19</font></a>
       },
 
       Image: {
@@ -106,7 +106,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventTwoTitle",
-        title: "Magnum 2K19"
+        title: <a href="https://vjcet.org/downloads/gallery/magnum.html" target="_blank" rel="noopener noreferrer"><font color="#880d1e">Magnum 2K19</font></a>
       },
 
       Image: {
@@ -118,7 +118,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventThreeTitle",
-        title: "Tech Fest : Bodhi 2K19"
+        title: <a href="https://vjcet.org/downloads/gallery/bodhi.html" target="_blank" rel="noopener noreferrer"><font color="#880d1e">Tech Fest : Bodhi 2K19"</font></a>
       },
 
       Image: {
