@@ -43,8 +43,9 @@ import Phd from "./Pages/Phd"
 import Syllabusplan from "./Pages/Syllabusplan";
 import Blockchain from "./Pages/Blockchain";
 import Newsone from "./Pages/NewsContainers/Newsone";
-import Iedc from "./Pages/Iedc";
-import Vbic from "./Pages/Vbic";
+import Iedc from "./EdPageContainers/Iedc";
+import Vbic from "./EdPageContainers/Vbic";
+import Iiic from "./EdPageContainers/IIIC/csdepartment";
 
 
 class App extends Component {
@@ -100,6 +101,7 @@ class App extends Component {
               <Route exact path="/newsone" component={Newsone} />
               <Route exact path="/ed/iedc" component={Iedc} />
               <Route exact path="/ed/v-bic" component={Vbic} />
+              <Route exact path="/ed/iiic" component={Iiic} />
               
                 
               } />

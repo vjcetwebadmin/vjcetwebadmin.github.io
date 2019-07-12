@@ -203,11 +203,7 @@ ReserchBody37 = {
                 
                  <div className="inner-para">
                  <ul>
-                        <li>
-                            <p>
-                                <BodyOneJustified data={this.ReserchBody1} />
-                            </p>
-                        </li>
+                        
                         <li>
                             <p>
                             <BodyOneJustified data={this.ReserchBody2} />

@@ -2,13 +2,7 @@ import React, { Component } from "react";
 import FacultyData from "../Components/FacultyData";
 class Faculty extends Component {
   state = {};
-  Cefaculty1 = {
-    instanceID: "Cefaculty1",
-    image: "Allstaffphoto/PTC/Joseph Cyriac.jpg",
-    width: "50%",
-    name: "Mr. Joseph T Cyriac",
-    content: "Placement Director"
-  };
+  
   Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/PTC/C Mavin.JPG",
@@ -41,9 +35,7 @@ class Faculty extends Component {
     return (
       <div className="faculty">
         <div className="facultyContent">
-          <div>
-            <FacultyData data={this.Cefaculty1} />
-          </div>
+          
           <div>
             <FacultyData data={this.Cefaculty2} />
           </div>
