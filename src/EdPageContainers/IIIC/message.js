@@ -1,13 +1,9 @@
 import React, { Component } from "react";
-import Header from "../../Components/Header&Footer/Header";
-import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import ImageOne from "../../Components/Images/ImageOne";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import BodyThree from "../../Components/Texts/BodyThree";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "./Research.css"
-import ButtonTwo from "../../Components/Buttons/ButtonTwo";
 import "../../Components/Tables/tableformat.css";
 
 class message extends Component {

@@ -7,7 +7,6 @@ import HeadingOne from "../Components/Texts/HeadingOne";
 import BodyThree from "../Components/Texts/BodyThree";
 import BodyOneJustified from "../Components/Texts/BodyOneJustified";
 import "../Pages/Research.css";
-import ButtonTwo from "../Components/Buttons/ButtonTwo";
 import "../Components/Tables/tableformat.css";
 import HeadingThree from "../Components/Texts/HeadingThree";
 

@@ -9,6 +9,10 @@ import BodyOne from "../../Components/Texts/BodyOne";
 import ImageOne from "../../Components/Images/ImageOne";
 import SideNav from "../../DeptPageContainers/CsDept/SideNav";
 
+
+
+
+
 class CsDepartment extends Component {
   state = { showMenu: false };
 
@@ -90,8 +94,8 @@ class CsDepartment extends Component {
         <div className="CsHeadingSection">
           <HeadingOne data={this.HeadingSectionTitle} />
           <BodyOne data={this.HeadingSectionDescription} />
-          <ImageOne data={this.CseImg} />
-
+          <ImageOne data={this.CseImg} /> 
+             
         </div>
         <SideNav />
         <Footer data={this.HomePageFooter} />
