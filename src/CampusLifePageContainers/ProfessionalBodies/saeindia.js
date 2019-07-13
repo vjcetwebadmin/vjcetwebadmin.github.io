@@ -19,7 +19,7 @@ class Program extends Component {
   render() {
     return (
       <div className="Program" id="program">
-         <ImageTwo data={this.SaeIImage} />
+          <p align="center"><ImageTwo data={this.SaeIImage} /></p>
         <Bodythree data={this.SaeindiaDescriptionOne} />
         
       </div>

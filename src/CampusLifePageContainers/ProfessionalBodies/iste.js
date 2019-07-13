@@ -41,7 +41,7 @@ ActivitiesHeading = {
         
       {/*  <p align="right"><a href="https://vjcet.org/downloads/Gallery/Drishya.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.Imagegallerydata} /></a></p> */}
        {/* <HeadingOne data={this.ProfileHeading} />  */}
-       <ImageTwo data={this.ISTEImage} />
+       <p align="center"><ImageTwo data={this.ISTEImage} /></p>
 
         <div className="bodyContainer">
           <p><BodyOneJustified data={this.Features1} /></p>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./HomePage.css";
 import "./AboutPage.css";
+import "../FacilitiesPageContainers/styles.css";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
@@ -98,10 +99,12 @@ class KeyFunc extends Component {
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <div id="KeyFunctionariesList">
           <HeadingOne data={this.KeyTitle} />
-          {/* Manager */}
+          
           <HeadingTwo data={this.ManagerTitle} />
+          
           <ImageOne data={this.ManagerImage} />
           <HeadingFour data={this.ManagerName} />
+         
           <div className="inner-para">
             <BodyOneJustified data={this.ManagerText} />
           </div>

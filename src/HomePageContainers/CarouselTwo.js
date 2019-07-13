@@ -57,10 +57,11 @@ class CarouselTwo extends Component {
     return (
       <div className="CarouselTwo" id={instanceID}>
         <div className="CarouselTwoSlider">
-          <div className="CarouselTwoSlide" id={instanceID}>
+          <div className="CarouselTwoSlide" id={instanceID} >
             <CustomOne
               data={this.data[this.state.selected]}
               className="CarouselTwoText"
+              
             />
           </div>
         </div>

@@ -1,15 +1,16 @@
 .CarouselFour {
   position: relative;
   padding: 2% 0%;
+  
 }
 
 .CarouselFourSlider {
-  background: #fafafa;
-  margin: 0% 6%;
+  background: #f8f4f4;
+  margin: 0% 2%;
   padding: 10%;
   padding-bottom: 0%;
   display: flex;
-  justify-content: space-around;
+  
 }
 
 .CarouselFourTop {

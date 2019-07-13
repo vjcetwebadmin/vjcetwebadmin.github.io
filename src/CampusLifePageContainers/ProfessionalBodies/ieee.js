@@ -40,7 +40,7 @@ ActivitiesHeading = {
       {/*  <p align="right"><a href="https://vjcet.org/downloads/Gallery/Drishya.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.Imagegallerydata} /></a></p> */}
        {/* <HeadingOne data={this.ProfileHeading} />  */}
       {/*  <p align="right"><a href="https://vjcet.org/downloads/Gallery/Drishya.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.GalleryImage} /></a></p> */}
-       <ImageTwo data={this.IEEEImage} />
+      <p align="center"><ImageTwo data={this.IEEEImage} /></p>
         <div className="bodyContainer">
           <p><BodyOneJustified data={this.Features1} /></p>
           <HeadingThree data={this.InchargesHeading} />  

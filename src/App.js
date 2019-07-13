@@ -16,6 +16,7 @@ import ieee from "./CampusLifePageContainers/ProfessionalBodies/ieee";
 import iste from "./CampusLifePageContainers/ProfessionalBodies/iste";
 import csi from "./CampusLifePageContainers/ProfessionalBodies/csi";
 import igbc from "./DeptPageContainers/CeDept/Profbodies";
+import sea from "./CampusLifePageContainers/ProfessionalBodies/saeindia";
 import CsDepartment from "./Pages/Departments/csdepartment";
 import CeDepartment from "./Pages/Departments/cedepartment";
 import EeeDepartment from "./Pages/Departments/eeedepartment";
@@ -82,6 +83,7 @@ class App extends Component {
               <Route exact path="/campus-life/professionalbodies/iste" component={iste} />
               <Route exact path="/campus-life/professionalbodies/csi" component={csi} />
               <Route exact path="/campus-life/professionalbodies/igbc" component={igbc} />
+              <Route exact path="/campus-life/professionalbodies/sae" component={sea} />
               
               
               
