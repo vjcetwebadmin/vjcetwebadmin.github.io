@@ -155,7 +155,7 @@ class CEFaculty extends Component {
     image: "Allstaffphoto/CE/FAC/384.jpg",
     width: "50%",
     name: "Mr. Basil Baby",
-    content: "Assistant Professor"
+    content: "Assistant Professor(on Leave-Ph.D)"
   };
   Cefaculty23 = {
     instanceID: "Cefaculty22",

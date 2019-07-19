@@ -51,6 +51,7 @@ import Newsone from "./Pages/NewsContainers/Newsone";
 import Iedc from "./EdPageContainers/Iedc";
 import Vbic from "./EdPageContainers/Vbic";
 import Iiic from "./EdPageContainers/IIIC/csdepartment";
+import Unai from "./EdPageContainers/Unai";
 
 
 class App extends Component {
@@ -117,6 +118,7 @@ class App extends Component {
               <Route exact path="/ed/iedc" component={Iedc} />
               <Route exact path="/ed/v-bic" component={Vbic} />
               <Route exact path="/ed/iiic" component={Iiic} />
+              <Route exact path="/ed/unai" component={Unai} />
               
                 
               } />
