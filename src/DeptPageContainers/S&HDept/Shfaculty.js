@@ -64,7 +64,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/SH/FAC/252.jpg",
     width: "50%",
     name: "Mr. Tony Augustine",
-    content: "Assistant Professor(on Leave-Ph.D )"
+    content: "Assistant Professor(on Leave-Ph.D)"
   };
   
   Cefaculty12 = {
