@@ -5,7 +5,7 @@ import Vision from "./iste";
 import PEO from "./csi";
 import Program from "./saeindia";
 import Library from "./labs";
-import Association from "./association";
+import Association from "./iete";
 import Result from "./result";
 import FacultyNav from "./facultynav";
 class SideNav extends Component {
@@ -158,13 +158,13 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickLib}
             />
-            {/* <input
+            <input
 
-              value="Association"
+              value="IETE"
               class="button"
               onClick={this.onClickAss}
             />
-            <input
+           {/*  <input
 
               value="Honors"
               class="button"

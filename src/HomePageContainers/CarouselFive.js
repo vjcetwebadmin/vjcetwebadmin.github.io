@@ -111,7 +111,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventFiveTitle",
-        title: <a href="#" target="_blank" rel="noopener noreferrer"><font color="maroon">IETE</font></a>
+        title: <a href="#/campus-life/professionalbodies/iete" target="_blank" rel="noopener noreferrer"><font color="maroon">IETE</font></a>
       },
 
       Image: {
