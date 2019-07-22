@@ -69,14 +69,7 @@ class Newsone extends React.Component {
                     <div class="absolute">
                          
              </div>
-             <div >
-             <p id="blankspace" align="right"></p>
              
-             </div>
-             <div >
-             <p id="blankspace" align="right"></p>
-             
-             </div>
                      <ImageOne data={this.NewsImagedata1} />     
                                 
                     <br />                 
