@@ -3,6 +3,7 @@ import HeadingOne from "../../Components/Texts/HeadingOne";
 import Bodythree from "../../Components/Texts/BodyThree";
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified"
+import "../../Components/DeptNewsBanner/gallery.css";
 class Profile extends Component {
   state = {};
   ProfileHeading = {
@@ -88,10 +89,20 @@ class Profile extends Component {
   };
   render() {
     return (
+      
       <div className="Profile" id="profile">
+        <div class="absolute">
+             <p id="rcorners2" align="right"><a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="white">Way to go! 1st batch KTU-91.82% pass!</font></a></p>
+             
+             </div>
+             <div >
+             <p id="blankspace" align="right"></p>
+             
+             </div>
+        
         <HeadingOne data={this.ProfileHeading} />
         <Bodythree data={this.ProfileDescriptionOne} />
-        <div className="bodyContainer">
+               <div className="bodyContainer">
           <HeadingTwo data={this.Ceheading} className="Heading" />
           <p><BodyOneJustified data={this.Features1} /></p>
           <div className="bodyContainerInner">

@@ -50,10 +50,12 @@ import Syllabusplan from "./Pages/Syllabusplan";
 import Blockchain from "./Pages/Blockchain";
 import Newsone from "./Pages/NewsContainers/Newsone";
 import Newstwo from "./Pages/NewsContainers/Newstwo";
+import Newsthree from "./Pages/NewsContainers/newsthree";
 import Iedc from "./EdPageContainers/Iedc";
 import Vbic from "./EdPageContainers/Vbic";
 import Iiic from "./EdPageContainers/IIIC/csdepartment";
 import Unai from "./EdPageContainers/Unai";
+
 
 
 class App extends Component {
@@ -118,6 +120,7 @@ class App extends Component {
               <Route exact path="/KBAIC_125" component={Blockchain} />
               <Route exact path="/newsone" component={Newsone} />
               <Route exact path="/newstwo" component={Newstwo} />
+              <Route exact path="/newsthree" component={Newsthree} />
               <Route exact path="/ed/iedc" component={Iedc} />
               <Route exact path="/ed/v-bic" component={Vbic} />
               <Route exact path="/ed/iiic" component={Iiic} />
