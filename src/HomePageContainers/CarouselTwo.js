@@ -7,31 +7,19 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="5">KTU Sponsored FDP on Tools, Techniques & Models for Scientific Research</font></a>
-    },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <font size="5">B.Tech First Year classes will commence on 22nd July 2019</font>
+      title: <a href="https://vjcet.org/#/newstwo" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Congratulations to Mr. Amalraj Vidhyadharan(2015-19 IT) for securing 5th Rank in KTU B.Tech Degree Examination 2019</font></a>
       
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/placement" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="5">402 Students Placed in 2018-19 AY</font></a>
+      title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">KTU Sponsored FDP on Tools, Techniques & Models for Scientific Research</font></a>
     },
+    
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="http://admission.vjcet.ac.in/" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="5">B.Tech Admissions 2019</font></a>
+      title: <a href="https://vjcet.org/#/placement" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">402 Students Placed in 2018-19 AY</font></a>
     },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/admission/mtech" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="5">M.Tech Admissions 2019</font></a>
-    },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/KBAIC_125" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="5">We are Institutional Member of Kerala Block Chain Academy</font></a>
-           
-    },
-        
+            
     
   ];
   rotateRight = () => {
@@ -100,7 +88,7 @@ class CarouselTwo extends Component {
         >
           <img
             src={require("../Assets/carousaltwoarrow.png")}
-            style={{ height: "20px", width: "20px" }}
+            style={{ height: "15px", width: "15px" }}
             alt="img"
           />
         </div>
@@ -115,8 +103,8 @@ class CarouselTwo extends Component {
           <img
             src={require("../Assets/carousaltwoarrow.png")}
             style={{
-              height: "20px",
-              width: "20px",
+              height: "15px",
+              width: "15px",
               transform: "rotate(180deg)"
             }}
             alt="img"

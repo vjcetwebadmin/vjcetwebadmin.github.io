@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import ImageOne from "../Components/Images/ImageOne";
+import ImageOne from "../Components/Images/ImageOne";
 import HeadingOne from "../Components/Texts/HeadingOne";
 import BodyThree from "../Components/Texts/BodyThree";
 import "./Research.css"
@@ -29,11 +29,7 @@ class Profile extends Component {
     HomePageFacilitiesSection = {
         instanceID: "HomePageFacilitiesSection"
     };
-    // ResearchImg = {
-    //     instanceID: "ResearchImg",
-    //     image: "cover2-1.jpg",
-    //     width: "93%"
-    // }
+    
     ResearchHeading = {
         instanceID: "ResearchHeading",
         title: "Profile"

@@ -49,6 +49,7 @@ import Phd from "./Pages/Phd"
 import Syllabusplan from "./Pages/Syllabusplan";
 import Blockchain from "./Pages/Blockchain";
 import Newsone from "./Pages/NewsContainers/Newsone";
+import Newstwo from "./Pages/NewsContainers/Newstwo";
 import Iedc from "./EdPageContainers/Iedc";
 import Vbic from "./EdPageContainers/Vbic";
 import Iiic from "./EdPageContainers/IIIC/csdepartment";
@@ -116,6 +117,7 @@ class App extends Component {
               <Route exact path="/academics/Syllabusplan" component={Syllabusplan} />
               <Route exact path="/KBAIC_125" component={Blockchain} />
               <Route exact path="/newsone" component={Newsone} />
+              <Route exact path="/newstwo" component={Newstwo} />
               <Route exact path="/ed/iedc" component={Iedc} />
               <Route exact path="/ed/v-bic" component={Vbic} />
               <Route exact path="/ed/iiic" component={Iiic} />

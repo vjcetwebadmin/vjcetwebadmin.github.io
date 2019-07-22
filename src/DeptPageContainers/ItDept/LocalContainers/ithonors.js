@@ -130,6 +130,14 @@ class ItHonors extends Component {
     name: " Noyal Wilson",
     content: "Secured Seventh Rank in B.Tech IT May 2015"
   };
+  ItHonors23 = {
+    instanceID: "ithonors23",
+    image: "Honors/ithonors23.jpg",
+    width: "30%",
+    name: " Amalraj Vidhyadharan",
+    content: "Secured Fifth Rank in B.Tech IT May 2019(KTU)"
+  };
+
 
 
   render() {
@@ -137,6 +145,9 @@ class ItHonors extends Component {
       <div className="honors">
         <HeadingOne data={this.ItHonorsHeading} />
         <div className="photos">
+        <div>
+            <Honors data={this.ItHonors23} />
+          </div>
           <div>
             <Honors data={this.ItHonors1} />
           </div>
