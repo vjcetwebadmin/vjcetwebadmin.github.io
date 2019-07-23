@@ -110,6 +110,20 @@ class Faculty extends Component {
     name: "Mrs. Anitha Rajan",
     content: "Assistant Professor"
   };
+  Cefaculty20 = {
+    instanceID: "Cefaculty20",
+    image: "Allstaffphoto/SH/FAC/johnodakkal.jpg",
+    width: "50%",
+    name: "Mr.	John Odackal",
+    content: "Assistant Professor"
+  };
+  Cefaculty21 = {
+    instanceID: "Cefaculty21",
+    image: "Allstaffphoto/SH/FAC/saksyjoy.jpg",
+    width: "50%",
+    name: "Ms. Saksy Joy",
+    content: "Assistant Professor"
+  };
   render() {
     return (
       <div className="faculty">
@@ -160,6 +174,12 @@ class Faculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty19} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty20} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty21} />
           </div>
         </div>
       </div>
