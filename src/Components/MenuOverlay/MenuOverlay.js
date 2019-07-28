@@ -188,22 +188,21 @@ class MenuOverlay extends Component {
               className="MenuOverlayItem"
               onClick={this.menuItem2.bind(this)}
             >
-              <Link to="#">Login</Link>
+              <Link to="#">Portal</Link>
             </button>
 
             <div className="MenuOverlaySubLinkGroup" style={menuItem2Style}>
               <a href="https://portal.vjcet.ac.in" className="MenuOverlaySubLinks">
-                Student's login
+                VJCET Login
             </a>
-              <a href="https://portal.vjcet.ac.in" className="MenuOverlaySubLinks">
-                Parent's login
-            </a>
-              <a href="https://portal.vjcet.ac.in" className="MenuOverlaySubLinks">
-                Staff login
-            </a>
+            
               <a href="http://moodle.vjcet.ac.in" className="MenuOverlaySubLinks">
                 Moodle
             </a>
+            <a href="https://alumni.vjcet.ac.in/" className="MenuOverlaySubLinks">
+                Alumni Login
+            </a>
+            
               {/* <Link className="MenuOverlaySubLinks" to="/about">
                 Moodle
               </Link> */}
@@ -375,6 +374,9 @@ class MenuOverlay extends Component {
               </Link>
               <Link className="MenuOverlaySubLinks" to="/ed/iiic">
                IIIC
+              </Link>
+              <Link className="MenuOverlaySubLinks" to="/ed/unai">
+              UNAI-ASPIRE
               </Link>
             </div>
           </div>
