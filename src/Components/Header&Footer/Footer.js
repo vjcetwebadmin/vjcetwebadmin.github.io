@@ -261,9 +261,14 @@ class Footer extends Component {
         </div>
 
         <div className="FooterLinksFour" id="FooterLinksFour">
+        <br />
           <HeadingFive data={this.FooterLinksTitleFour} />
-          <a href="https://www.facebook.com/principal.vjcet" target="_blank" rel="noopener noreferrer"><ImageOne data={this.fb} /></a>
+          <br />
+         
+          <a href="https://www.facebook.com/vjcet.ac.in" target="_blank" rel="noopener noreferrer"><ImageOne data={this.fb} /></a>
           <a href="https://www.youtube.com/channel/UCYlW0xiYPFl3R_wiownjQRw" target="_blank" rel="noopener noreferrer"><ImageOne data={this.youtube} /></a>
+          <a href="https://twitter.com/ViswajyothiT" target="_blank" rel="noopener noreferrer"><ImageOne data={this.twitter} /></a>
+          <a href="https://www.instagram.com/vjcet_vazhakulam" target="_blank" rel="noopener noreferrer"><ImageOne data={this.insta} /></a>
         </div>
 
         <Line data={this.FooterLineOne} />

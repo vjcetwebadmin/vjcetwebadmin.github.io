@@ -152,7 +152,7 @@ class Header extends Component {
 
         <div className="HeaderLinkTabTwo" id="HeaderLinkTabTwo">
           <div className="HeaderLinkTabAdmissionsOpen">
-            <ImageOne data={this.AdmissionsOpen} />
+            {/* <ImageOne data={this.AdmissionsOpen} /> */}
             {/* <ExternalLink data={this.Link4} /> */}
             <DropDownAdm />
           </div>
