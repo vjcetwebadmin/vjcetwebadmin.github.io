@@ -40,3 +40,10 @@
     right: 0;
     
   }
+  #rcorners2 {
+    border-radius: 100px;
+    background: #800000;
+    padding: 5px; 
+    width: 50px;
+    height: 20px;  
+  }

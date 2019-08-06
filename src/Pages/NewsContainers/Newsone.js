@@ -3,13 +3,15 @@ import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
-import "../../Components/News/gallery.css";
+
 import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import ImageTwo from "../../Components/Images/imageTwo";
-
+import BodyThree from "../../Components/Texts/BodyThree";
+import ButtonTwo from "../../Components/Buttons/ButtonTwo";
+import "./news.css";
 /* import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
@@ -39,8 +41,13 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "KTU Sponsored FDP on Tools, Techniques & Models for Scientific Research"
+        title: "Fee Remitance: S3, S5 & S7"
     };
+    NewsContent1 = {
+        instanceID: "NewsContent1",
+        title: "S3, S5, S7 students can remit Tuition fee for the academic year 2019-20, using bank challan (South Indian Bank) or online from 05-08-2019 to 20-08-2019. Late fee of Rs.500/- will be charged from 21-08-2019 to 30-08-2019. Bank challan are available at the college office or can be downloaded from the website. The students who avail Bank Loan for payment of fees are requested to initiate necessary action for getting the bank loan. Details of fee due, is given individually."
+    };
+   
     
     NewsImagedata1 = {
         instanceID: "NewsImagedata1",
@@ -66,23 +73,23 @@ class Newsone extends React.Component {
 
                 <div className="contain">
                     <HeadingOne data={this.NewsTitle} className="Heading" />
-                    <div class="absolute">
-             <p id="rcorners" align="right"><a href="https://vjcet.org/downloads/news/ME_fdp_.zip" target="_blank" rel="noopener noreferrer"><font color="white">Download Brochure</font></a></p>
+                    <BodyOneJustified data={this.NewsContent1} />
              
-             </div>
-             <div >
-             <p id="blankspace" align="right"></p>
-             
-             </div>
-             <div >
-             <p id="blankspace" align="right"></p>
-             
-             </div>
-                     <ImageOne data={this.NewsImagedata1} />     
-                     <ImageOne data={this.NewsImagedata2} />               
+                                    
                     <br />                 
 
-                    
+                  
+             <p id="rcorners1" align="center">
+                 <a href="https://southindianbank.in/feepayment" target="_blank" rel="noopener noreferrer"><font color="white">Online Payment</font></a> 
+                
+            </p>
+            <p id="rcorners1" align="center">
+                 <a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank" rel="noopener noreferrer"><font color="white">Download Challan</font></a>
+            </p>
+             
+ 
+             
+           
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}
