@@ -41,7 +41,7 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Fee Remitance: S3, S5 & S7"
+        title: "Fee Remittance: S3, S5 & S7"
     };
     NewsContent1 = {
         instanceID: "NewsContent1",
