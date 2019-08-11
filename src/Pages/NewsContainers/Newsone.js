@@ -1,6 +1,6 @@
 import React from "react";
-import HeadingTwo from "../../Components/Texts/HeadingTwo";
-import ImageOne from "../../Components/Images/ImageOne";
+//import HeadingTwo from "../../Components/Texts/HeadingTwo";
+//import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
 
@@ -8,9 +8,9 @@ import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import ImageTwo from "../../Components/Images/imageTwo";
-import BodyThree from "../../Components/Texts/BodyThree";
-import ButtonTwo from "../../Components/Buttons/ButtonTwo";
+//import ImageTwo from "../../Components/Images/imageTwo";
+//import BodyThree from "../../Components/Texts/BodyThree";
+//import ButtonTwo from "../../Components/Buttons/ButtonTwo";
 import "./news.css";
 /* import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";

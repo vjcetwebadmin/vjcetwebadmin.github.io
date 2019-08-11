@@ -4,13 +4,14 @@ import DepartmentSection from "../HomePageContainers/DepartmentSection";
 import FacilitiesSection from "../HomePageContainers/FacilitiesSection";
 // import CarouselOne from "../HomePageContainers/CarouselOne";
 import CarouselTwo from "../HomePageContainers/CarouselTwo";
-import CarouselThree from "../HomePageContainers/CarouselThree";
+//import CarouselThree from "../HomePageContainers/CarouselThree";
 import CarouselFour from "../HomePageContainers/CarouselFour";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import Promo from "../Components/Video/promo";
 import CarouselFive from "../HomePageContainers/CarouselFive";
+import NewsSection from "../HomePageContainers/NewsSection";
 //import HomepageActivities from "../HomePageContainers/HomepageActivities";
 class HomePage extends Component {
   state = { showMenu: false };
@@ -37,6 +38,10 @@ class HomePage extends Component {
   HomePageCarouselThree = {
     instanceID: "HomePageCarouselThree"
   };
+
+  HomePageNewsSection = {
+    instanceID: "HomePageNewsSection"
+  }
 
   HomePageDepartmentSection = {
     instanceID: "HomePageDepartmentSection"
@@ -69,7 +74,8 @@ class HomePage extends Component {
         <Promo />
         {/* <CarouselOne data={this.HomePageCarouselOne} /> */}
         <CarouselTwo data={this.HomePageCarouselTwo} />
-        <CarouselThree data={this.HomePageCarouselThree} />
+        {/*<CarouselThree data={this.HomePageCarouselThree} />*/}
+        <NewsSection data={this.HomePageNewsSection} />
         <DepartmentSection data={this.HomePageDepartmentSection} />
         <FacilitiesSection data={this.HomePageFacilitiesSection} />
         <CarouselFive data={this.HomepageActivities}/>
