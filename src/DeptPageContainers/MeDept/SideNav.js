@@ -4,7 +4,7 @@ import Profile from "./profile";
 import Vision from "./vision";
 import PEO from "./peo";
 import Program from "./program";
-import Library from "./library";
+import Library from "./lab";
 import Association from "./association";
 import Result from "./result";
 import FacultyNav from "./facultynav";
@@ -153,7 +153,7 @@ class SideNav extends Component {
             />
             <input
 
-              value="Library"
+              value="Labs"
               class="button"
               onClick={this.onClickLib}
             />
