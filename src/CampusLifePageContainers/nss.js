@@ -293,12 +293,14 @@ class nss extends React.Component {
                             <tr><td>Mr. Sharone Varghese</td><td>Program Officer</td><td>2015-'16 to 2018-'19</td></tr>
                             <tr><td>Ms. Sreeja S. Pillai</td><td>Associate Program Officer</td><td>2015-'16</td></tr>
                             <tr><td>Ms. Anitta Thomas</td><td>Associate Program Officer</td><td>2016-'17</td></tr>
+                            <tr><td>Mr. Shibu K R</td><td>Program Officer</td><td>2019-'20 onwards</td></tr>
+                            <tr><td>Ms. Jerin Jose</td><td>Associate Program Officer</td><td>2019-'20 onwards</td></tr>
                         </table> 
                         <table id="tableformat">
                             <tr><th colspan="3"> Program officers / Associate Program Officers Unit-587</th></tr>
                             <tr><td>Mr. Jacob Mathai</td><td>Program Officer</td><td>2015-'16 to 2018-'19</td></tr>
                             <tr><td>Ms. Vineetha Thankachan</td><td>Associate Program Officer</td><td>2015-'16 to 2018-'19</td></tr>
-                            <tr><td>Mr. Nibin B. </td><td>Program Officer</td><td>2016-17</td></tr>
+                            <tr><td>Mr. Nibin B. </td><td>Program Officer</td><td>2016-'17 to 2019-'20</td></tr>
                         </table> 
                         <table id="tableformat">
                             <tr><th colspan="2"> Volunteer Secretary Unit-197</th></tr>

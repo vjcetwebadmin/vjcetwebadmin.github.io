@@ -2,17 +2,19 @@ import React from "react";
 //import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
 //import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
+import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
 import "../../Components/News/gallery.css";
 import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
-//import HeadingOne from "../../Components/Texts/HeadingOne";
+import HeadingOne from "../../Components/Texts/HeadingOne";
+import "../../Components/Tables/tableformat.css";
 //import ImageTwo from "../../Components/Images/imageTwo";
 
 /* import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
-import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
+
 import "../styles.css"
 
 import Header from "../../Components/Header&Footer/Header";
@@ -39,9 +41,13 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "KTU Sponsored FDP on Tools, Techniques & Models for Scientific Research"
+        title: "Caution Deposit & Refundable Deposit 2015-19 Batch"
     };
     
+    NewsContent1={
+        instanceID:"NewsContent1",
+        title:" Caution Deposit and Refundable Deposit of 2019 passing out students will be returned on the following dates"
+    }
     NewsImagedata1 = {
         instanceID: "NewsImagedata1",
         image: "NewsImages/Rank.jpg",
@@ -69,8 +75,33 @@ class Newsone extends React.Component {
                     <div class="absolute">
                          
              </div>
-             
-                     <ImageOne data={this.NewsImagedata1} />     
+                    <HeadingOne data={this.NewsTitle} className="Heading" />
+                    <BodyOneJustified data={this.NewsContent1} />   
+                    <br /> 
+                    
+                    <table border="1" id="tableformat">
+                        <tbody>
+                        <th>Branch</th><th>Date</th>
+                        <tr>
+                            <td>CE</td><td>22.08.2019</td>
+                        </tr>
+                        <tr>
+                            <td>CSE</td><td>24..08.2019</td>
+                        </tr>
+                        <tr>
+                            <td>ECE</td><td>26.08.2019</td>
+                        </tr>
+                        <tr>    
+                            <td>EEE</td><td>27..08.2019</td>
+                        </tr>
+                        <tr>
+                            <td>ME</td><td>29.08.2019</td>
+                        </tr>
+                        <tr>             
+                            <td>IT</td><td>30.08.2019</td>
+                        </tr>
+                       </tbody>
+                    </table>  
                                 
                     <br />                 
 
