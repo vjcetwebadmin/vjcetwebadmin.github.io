@@ -49,7 +49,7 @@ class DropDownC extends Component {
               to="/campus-life/collegecouncil"
               className="patch1"
             >
-              College Council
+              Student Council
             </Link>
           </p>
           <p>

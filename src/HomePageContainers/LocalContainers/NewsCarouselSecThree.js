@@ -8,13 +8,13 @@ import NewsImage from "./NewsImage";
 
 class NewsCarousel extends Component {
 
-  Title1 = {
+  Title2 = {
     instanceID: "NewsSecondaryBLOneTitle",
     title: "Bodhi 2k19",
     link: "https://vjcet.org/#/campus-life/techfest"
   }
 
-  Image1 = {
+  Image2 = {
     instanceID: "NewsSecondaryBLOneImage",
     image: "NewsSection/Section3/Section1.jpg",
     //Recommended Image Size is 733px x 400px.
@@ -22,15 +22,16 @@ class NewsCarousel extends Component {
   }
 
 
-  Title2 = {
+  Title1 = {
     instanceID: "NewsSecondaryBLTwoTitle",
-    title: "",
-    link: "#NewsSection"
+    title: "Election 2019 – 20",
+    link: "/#/campus-life/collegecouncil"
   }
 
-  Image2 = {
+  Image1 = {
     instanceID: "NewsSecondaryBLTwoImage",
     image: "NewsSection/Section3/Section2.jpg",
+    
     //Recommended Image Size is 733px x 400px.
     width: "100%"
   }
