@@ -41,6 +41,26 @@ class CarouselTwo extends Component {
           : this.state.selected - 1
     });
   };
+  componentDidMount(){
+    this.autoRotate();
+    setTimeout(()=>{
+      this.setState({
+        selected: 0
+      });
+    });
+  }
+  autoRotate() {
+    setTimeout(()=>{
+      this.setState({
+        selected:
+        this.state.selected + 1 >=this.data.length
+        ? 0
+        : this.state.selected+1
+      });
+      
+      this.autoRotate();
+  }, 3000);
+  }
   render() {
     const { instanceID } = this.props.data;
 

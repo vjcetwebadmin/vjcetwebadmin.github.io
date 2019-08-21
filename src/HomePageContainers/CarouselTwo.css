@@ -43,6 +43,7 @@
 @media (min-width: 560px) {
   div::-webkit-scrollbar {
     display: none;
+    
   }
 
   #HomePageCarouselTwo {
@@ -57,6 +58,7 @@
 @media (min-width: 768px) {
   #HomePageCarouselTwo {
     padding: 2% 0%;
+
   }
 
   .CarouselTwoPagination {
