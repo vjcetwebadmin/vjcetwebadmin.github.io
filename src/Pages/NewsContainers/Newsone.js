@@ -45,7 +45,7 @@ class Newsone extends React.Component {
     };
     NewsContent1 = {
         instanceID: "NewsContent1",
-        title: "S3, S5, S7 students can remit Tuition fee for the academic year 2019-20, using bank challan (South Indian Bank) or online from 05-08-2019 to 20-08-2019. Late fee of Rs.500/- will be charged from 21-08-2019 to 30-08-2019. Bank challan are available at the college office or can be downloaded from the website. The students who avail Bank Loan for payment of fees are requested to initiate necessary action for getting the bank loan. Details of fee due, is given individually."
+        title: "Defaulters of tution fee are hereby informed that date of payment is extended up to 07-09-2019 with a fine of Rs. 500/-. Please pay in time, no more extension of date will be permitted"
     };
    
     

@@ -10,12 +10,7 @@ class CarouselTwo extends Component {
       title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Fee Remittance : S3, S5 & S7</font></a>
       
     },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newstwo" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Caution Deposit & Refundable Deposit 2015-19 Batch</font></a>
-      
-    },
-    
+   
     
     {
       instanceID: this.props.data.instanceID + "CustomOne",
