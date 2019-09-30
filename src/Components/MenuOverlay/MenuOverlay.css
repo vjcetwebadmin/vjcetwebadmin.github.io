@@ -14,13 +14,14 @@
 
 .MenuOverlayContent {
   display: grid;
+  
 }
 
 #MenuOverlayCloseButton {
   justify-self: end;
   margin-right: 7%;
   margin-top: 4%;
-  color: white;
+  color: rgb(19, 18, 18);
   padding: 2.5% 5%;
   padding-bottom: 7%;
 }
@@ -58,6 +59,7 @@
 @media (min-width: 560px) {
   #MenuOverlayCloseButton {
     width: 22px;
+    
   }
 }
 

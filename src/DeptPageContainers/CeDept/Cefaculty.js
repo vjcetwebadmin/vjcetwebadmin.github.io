@@ -87,13 +87,7 @@ class CEFaculty extends Component {
     name: "Mrs. Jerin Jose",
     content: "Assistant Professor"
   };
-  Cefaculty13 = {
-    instanceID: "Cefaculty13",
-    image: "Allstaffphoto/CE/FAC/288.jpg",
-    width: "50%",
-    name: "Mrs. Hannah S.Mattam",
-    content: "Assistant Professor"
-  };
+  
   Cefaculty14 = {
     instanceID: "Cefaculty14",
     image: "Allstaffphoto/CE/FAC/283.jpg",
@@ -212,9 +206,7 @@ class CEFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty12} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty13} />
-          </div>
+          
           <div>
             <FacultyData data={this.Cefaculty14} />
           </div>
