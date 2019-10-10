@@ -40,12 +40,16 @@ class Profile extends Component {
     }
     ReserchBody1 = {
         instanceID: "ReserchBody1",
-        title: "Better interaction between Technical Institutions and Industry is the need of the hour. Realizing the relevance and importance of Industry Institute Interaction (III)  Cell has been formed in 2016 in VJCET and intensified the activities.   Dr KK Rajan was appointed as Dean Industry Institute Interaction Cell with effect from 02.05.2016. Dr Rajan has served Department of Atomic Energy for 36 years in different capacities and was holding the position of Director, Fast Reactor Technology Group and Distinguished Scientist at Indira Gandhi Centre for Atomic Research Kalpakkam till April 2016. He is an expert in Instrumentation and control, Fast Reactor Technology, Liquid metal technology and led an R&D team for more than three decades. IIIC was looking for interaction between industry, research organizations and institute so as to improve the quality of technical education to meet the needs of the industry and enhance the employability of engineering graduates. Industry Institute Interaction would provide input to better teaching-learning processes, create awareness among the students about the environment of industry, provide real practical knowledge and self confidence to students. IIIC of VJCET has organized many activities in VJCET from its inception. "
+        title: "Better interaction between Technical Institutions and Industry is the need of the hour. Realizing the relevance and importance of this, Industry Institute Interaction Cell(IIIC)  was formed in VJCET and had intensified its activities. Dr. K. K. Rajan was appointed as Dean, Industry Institute Interaction Cell with effect from 02.05.2016. He had served the Department of Atomic Energy for 36 years in different capacities and had been holding the position of Director, Fast Reactor Technology Group and Distinguished Scientist at Indira Gandhi Centre for Atomic Research (IGCAR), Kalpakkam, till April 2016. He is an expert in Power Generation and Distribution, Instrumentation and Control, Nuclear Engineering, Fast Reactor Technology and Liquid Metal Technology. He had led an R&D team in IGCAR for more than three decades. Currently, he is the Independent Director of Nuclear Power Corporation of India limited. In VJCET, he also holds the post of the Nodal Officer IEDC and Chief Executive Officer Viswajyothi Business Incubation Centre (V-BIC).  "
+    }
+    ReserchBody2 = {
+        instanceID: "ReserchBody1",
+        title: "IIIC is looking for effective interaction between the industry, research organizations and reputed institutes so as to improve the quality of the technical education and enhance the employability of engineering graduates. It also helps to meet the needs of the industry. Industry Institute Interaction would provide an input to better teaching-learning processes, create awareness among the students about the environment of industry, provide real practical knowledge and self confidence to students. IIIC of VJCET has organized many activities in VJCET from its inception. "
     }
     
     InchargesHeading = {
         instanceID: "InchargesHeading",
-        title: "Office-Bearers "
+        title: "Industry Institute Interaction Team  "
       };
     
    
@@ -53,19 +57,22 @@ class Profile extends Component {
         return (
             <div className="HomePage">
                 
-                <HeadingOne data={this.ResearchHeading}></HeadingOne>
+                <p align="left"><HeadingOne data={this.ResearchHeading} /></p>
                 {/* <ImageOne data={this.ResearchImg}></ImageOne> */}
                 <BodyThree data={this.ReserchBody1} /><br />
+                <BodyThree data={this.ReserchBody2} /><br />
                 
                 <HeadingThree data={this.InchargesHeading}></HeadingThree>
                 <table id="tableformat">
-                            <tr><th>NAME</th><th>DESIGNATION</th></tr>
-                            <tr><td>Dr K K Rajan</td><td>Convener and Dean, IIIC</td></tr>
-                            <tr><td>Mr Jiby Peter D’Cruz</td><td>Assistant Professor,ECE</td></tr>
-                            <tr><td>Ms  Remya  Paul </td><td>Assistant Professor, CSE</td></tr>
-                            <tr><td>Mr Rakesh Jose </td><td>Assistant Professor-ME</td></tr>
-                            <tr><td>Mr Daniel A V</td><td>Assistant Professor, CE</td></tr>
-                            <tr><td>Mr C Mavin</td><td>Placement Officer</td></tr>
+                            <tr><th>NAME</th><th>DEP DESIGNATION</th><th>IIIC DESIGNATION</th></tr>
+                            <tr><td>Dr K K Rajan</td><td>Convener and Dean, IIIC</td><td>Convener,  IIIC Coordination Committee</td></tr>
+                            <tr><td>Mr Jiby Peter D’Cruz</td><td>Assistant Professor,ECE</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Ms  Remya  Paul </td><td>Assistant Professor, CSE</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Mr Rakesh Jose </td><td>Assistant Professor-ME</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Mrs Devina Vipinan </td><td>Assistant Professor, CE</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Mr Aneesh Kurian  </td><td>Assistant Professor, EEE</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Mrs. Diana Baby </td><td>Assistant Professor, IT</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Mr C Mavin</td><td>Placement Officer</td><td>Member, IIIC Coordination Committee</td></tr>
                 </table>
                              
                 

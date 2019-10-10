@@ -5,8 +5,8 @@ import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-/* import BodyOne from "../../Components/Texts/BodyOne";
-import ImageOne from "../../Components/Images/ImageOne"; */
+/* import BodyOne from "../../Components/Texts/BodyOne";*/
+import ImageOne from "../../Components/Images/ImageOne";
 import SideNav from "../IIIC/SideNav";
 
 class CsDepartment extends Component {
@@ -56,9 +56,13 @@ class CsDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Institute Industry Interaction Cell"
+    title: "Industry Institute Interaction Cell (IIIC)"
   };
-
+  LogoImagedata = {
+    instanceID: "LogoImage",
+    image: "ED/iiic.jpg",
+    width: "9%"
+}
  
   
   ProfileHeading = {
@@ -81,6 +85,7 @@ class CsDepartment extends Component {
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <div className="CsHeadingSection">
           <HeadingOne data={this.HeadingSectionTitle} />
+          <p align="center"><ImageOne data={this.LogoImagedata} /></p>
          
 
         </div>
