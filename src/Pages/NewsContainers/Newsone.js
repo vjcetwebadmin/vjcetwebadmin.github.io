@@ -73,7 +73,10 @@ class Newsone extends React.Component {
 
                 <div className="contain">
                     <HeadingOne data={this.NewsTitle} className="Heading" />
-                    <BodyOneJustified data={this.NewsContent1} />
+                    <div className="bodyContainer">
+                    
+                    <iframe src="https://vjcet.org/downloads/news/AIU.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
+                </div>
              
                                     
                     <br />                 
