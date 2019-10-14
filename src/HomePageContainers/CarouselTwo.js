@@ -5,7 +5,10 @@ import CustomOne from "../Components/Texts/CustomOne";
 class CarouselTwo extends Component {
   state = { selected: 0 };
   data = [
-    
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: <font color="FFFFF" size="3">Statement issued as per rule 13(b) of Income Tax: No foreign contribution has been received by the DTET for the quarter ended on 30-9-2019</font>
+    },
    
     {
       instanceID: this.props.data.instanceID + "CustomOne",
@@ -54,7 +57,7 @@ class CarouselTwo extends Component {
       });
       
       this.autoRotate();
-  }, 3000);
+  }, 4000);
   }
   render() {
     const { instanceID } = this.props.data;

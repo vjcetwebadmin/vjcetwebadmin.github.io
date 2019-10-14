@@ -72,7 +72,7 @@ class Newsone extends React.Component {
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
 
                 <div className="contain">
-                    <HeadingOne data={this.NewsTitle} className="Heading" />
+                    
                     <div className="bodyContainer">
                     
                     <iframe src="https://vjcet.org/downloads/news/AIU.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
@@ -82,13 +82,7 @@ class Newsone extends React.Component {
                     <br />                 
 
                   
-             <p id="rcorners1" align="center">
-                 <a href="https://southindianbank.in/feepayment" target="_blank" rel="noopener noreferrer"><font color="white">Online Payment</font></a> 
-                
-            </p>
-            <p id="rcorners1" align="center">
-                 <a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank" rel="noopener noreferrer"><font color="white">Download Challan</font></a>
-            </p>
+            
              
  
              
