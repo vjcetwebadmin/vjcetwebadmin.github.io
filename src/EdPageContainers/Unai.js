@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-// import ImageOne from "../Components/Images/ImageOne";
+import ImageOne from "../Components/Images/ImageOne";
 import HeadingOne from "../Components/Texts/HeadingOne";
 import BodyThree from "../Components/Texts/BodyThree";
 import BodyOneJustified from "../Components/Texts/BodyOneJustified";
@@ -32,11 +32,11 @@ class Unai extends Component {
     HomePageFacilitiesSection = {
         instanceID: "HomePageFacilitiesSection"
     };
-    // ResearchImg = {
-    //     instanceID: "ResearchImg",
-    //     image: "cover2-1.jpg",
-    //     width: "93%"
-    // }
+     ResearchImg = {
+         instanceID: "ResearchImg",
+         image: "ED/unai.png",
+         width: "40%"
+     }
     UnaiHeading = {
         instanceID: "UnaiHeading",
         title: "United Nations Academic Impact (UNAI) Action by Students to Promote Innovation and Reform through Education (ASPIRE)  "
@@ -192,6 +192,7 @@ class Unai extends Component {
         return (
             <div className="HomePage">
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
+                <ImageOne data={this.ResearchImg}></ImageOne>
                 <HeadingOne data={this.UnaiHeading} />
                 {/* <ImageOne data={this.ResearchImg}></ImageOne> */}
                 <BodyThree data={this.UnaiBody1} /><br />
