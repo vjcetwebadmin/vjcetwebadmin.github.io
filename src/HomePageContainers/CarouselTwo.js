@@ -7,6 +7,10 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
+      title: <a href="https://vjcet.org/#/newstwo" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Job Opening. Wanted Software Developers</font></a>
+    },
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
       title: <font color="FFFFF" size="3">Statement issued as per rule 13(b) of Income Tax: No foreign contribution has been received by the DTET for the quarter ended on 30-9-2019</font>
     },
    

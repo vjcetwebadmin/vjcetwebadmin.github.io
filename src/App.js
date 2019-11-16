@@ -5,6 +5,8 @@ import AboutPage from "./Pages/AboutPage";
 import DepartmentPage from "./Pages/Departmentpage";
 import CampusLifePage from "./Pages/CampusLifePage";
 import collegecounsil from "./CampusLifePageContainers/collegecouncil";
+import committees from "./CampusLifePageContainers/committees";
+
 import artsfest from "./CampusLifePageContainers/artsfest";
 import sportsfest from "./CampusLifePageContainers/sportsfest";
 import techfest from "./CampusLifePageContainers/techfest";
@@ -77,6 +79,7 @@ class App extends Component {
               <Route exact path="/facilities" component={FacilitiesPage} />
               <Route exact path="/campus-life" component={CampusLifePage} />
               <Route exact path="/campus-life/collegecouncil" component={collegecounsil} />
+              <Route exact path="/campus-life/committees" component={committees} />
               <Route exact path="/campus-life/artsfest" component={artsfest} />
               <Route exact path="/campus-life/sportsfest" component={sportsfest} />
               <Route exact path="/campus-life/techfest" component={techfest} />

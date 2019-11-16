@@ -41,7 +41,7 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Caution Deposit & Refundable Deposit 2015-19 Batch"
+        title: "Wanted Software Developers"
     };
     
     NewsContent1={
@@ -50,8 +50,8 @@ class Newsone extends React.Component {
     }
     NewsImagedata1 = {
         instanceID: "NewsImagedata1",
-        image: "NewsImages/Rank.jpg",
-        width: "80%"
+        image: "NewsImages/software developer.jpg",
+        width: "100%"
     }
     NewsImagedata2 = {
         instanceID: "NewsImagedata2",
@@ -76,35 +76,8 @@ class Newsone extends React.Component {
                          
              </div>
                     <HeadingOne data={this.NewsTitle} className="Heading" />
-                    <BodyOneJustified data={this.NewsContent1} />   
-                    <br /> 
-                    
-                    <table border="1" id="tableformat">
-                        <tbody>
-                        <th>Branch</th><th>Date</th>
-                        <tr>
-                            <td>CE</td><td>22.08.2019</td>
-                        </tr>
-                        <tr>
-                            <td>CSE</td><td>24..08.2019</td>
-                        </tr>
-                        <tr>
-                            <td>ECE</td><td>26.08.2019</td>
-                        </tr>
-                        <tr>    
-                            <td>EEE</td><td>27..08.2019</td>
-                        </tr>
-                        <tr>
-                            <td>ME</td><td>29.08.2019</td>
-                        </tr>
-                        <tr>             
-                            <td>IT</td><td>30.08.2019</td>
-                        </tr>
-                       </tbody>
-                    </table>  
-                                
-                    <br />                 
-
+                    <ImageOne data={this.NewsImagedata1}></ImageOne>
+                   
                     
                 </div>
                 <Footer data={this.HomePageFooter} />

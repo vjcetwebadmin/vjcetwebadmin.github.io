@@ -54,6 +54,14 @@ class DropDownC extends Component {
           </p>
           <p>
             <Link
+              to="/campus-life/collegecouncil"
+              className="patch1"
+            >
+              Committees
+            </Link>
+          </p>
+          <p>
+            <Link
               to="/campus-life/artsfest"
               className="patch1"
             >
