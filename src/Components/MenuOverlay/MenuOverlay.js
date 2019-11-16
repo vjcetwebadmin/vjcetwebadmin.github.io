@@ -261,7 +261,7 @@ class MenuOverlay extends Component {
               <Link className="MenuOverlaySubLinks" to="/campus-life/collegecouncil">
                 Student Council
               </Link>
-              <Link className="MenuOverlaySubLinks" to="/campus-life/collegecouncil">
+              <Link className="MenuOverlaySubLinks" to="/campus-life/committees">
               Committees
               </Link>
               <Link className="MenuOverlaySubLinks" to="/campus-life/artsfest">

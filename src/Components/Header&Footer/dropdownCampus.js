@@ -54,7 +54,7 @@ class DropDownC extends Component {
           </p>
           <p>
             <Link
-              to="/campus-life/collegecouncil"
+              to="/campus-life/committees"
               className="patch1"
             >
               Committees
