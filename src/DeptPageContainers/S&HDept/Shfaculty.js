@@ -7,7 +7,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/SH/FAC/242.jpg",
     width: "50%",
     name: "Mrs. Ann Neetha Sabu",
-    content: "Head of Department"
+    content: "Associate Professor"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
@@ -21,7 +21,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/SH/FAC/SHFAC105.jpg",
     width: "50%",
     name: "Mrs. Viji George",
-    content: "Assistant Professor"
+    content: "Head of the Department"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
@@ -129,13 +129,13 @@ class Faculty extends Component {
       <div className="faculty">
         <div className="facultyContent">
           <div>
-            <FacultyData data={this.Cefaculty1} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty2} />
-          </div>
-          <div>
             <FacultyData data={this.Cefaculty3} />
+          </div>
+          {/* <div>
+            <FacultyData data={this.Cefaculty2} />
+          </div> */}
+          <div>
+            <FacultyData data={this.Cefaculty1} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty4} />
