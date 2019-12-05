@@ -41,7 +41,7 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Wanted Software Developers"
+        title: " KTU sponsored FDP on Geohazards and Disaster Mitigation from 12th to 14th  December,2019"
     };
     
     NewsContent1={
@@ -76,7 +76,7 @@ class Newsone extends React.Component {
                          
              </div>
                     <HeadingOne data={this.NewsTitle} className="Heading" />
-                    <ImageOne data={this.NewsImagedata1}></ImageOne>
+                    <a href="https://vjcet.org/downloads/news/CEFDP.pdf"><ImageOne data={this.NewsImagedata3}></ImageOne></a>
                    
                     
                 </div>
