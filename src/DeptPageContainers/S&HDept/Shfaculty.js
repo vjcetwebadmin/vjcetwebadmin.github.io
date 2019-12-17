@@ -6,7 +6,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty1",
     image: "Allstaffphoto/SH/FAC/242.jpg",
     width: "50%",
-    name: "Mrs. Ann Neetha Sabu",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/84/242.jpg" target="_blank">Mrs. Ann Neetha Sabu</a>,
     content: "Associate Professor"
   };
   Cefaculty2 = {
@@ -20,21 +20,21 @@ class Faculty extends Component {
     instanceID: "Cefaculty3",
     image: "Allstaffphoto/SH/FAC/SHFAC105.jpg",
     width: "50%",
-    name: "Mrs. Viji George",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/85/SHFAC105.jpg" target="_blank">Mrs. Viji George</a>,
     content: "Head of the Department"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/SH/FAC/246.jpg",
     width: "50%",
-    name: "Mrs. Anila Elizabeth John",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/86/246.jpg" target="_blank">Mrs. Anila Elizabeth John</a>,
     content: "Assistant Professor"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
     image: "Allstaffphoto/SH/FAC/SHFAC107.jpg",
     width: "50%",
-    name: "Mrs. Rose Mary Baby",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/87/SHFAC107.jpg" target="_blank">Mrs. Rose Mary Baby</a>,
     content: "Assistant Professor"
   };
   
@@ -42,7 +42,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/SH/FAC/249.jpg",
     width: "50%",
-    name: "Mrs. Jinta Jose",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/88/249.jpg" target="_blank">Mrs. Jinta Jose</a>,
     content: "Assistant Professor"
   };
   Cefaculty8 = {
@@ -78,7 +78,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty14",
     image: "Allstaffphoto/SH/FAC/255.jpg",
     width: "50%",
-    name: "Mrs. Deenu Baby",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/89/255.jpg" target="_blank">Mrs. Deenu Baby</a>,
     content: "Assistant Professor"
   };
   
@@ -86,21 +86,21 @@ class Faculty extends Component {
     instanceID: "Cefaculty16",
     image: "Allstaffphoto/SH/FAC/329.jpg",
     width: "50%",
-    name: "Mrs. Dany Sebatian",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/90/329.jpg" target="_blank">Mrs. Dany Sebatian</a>,
     content: "Assistant Professor"
   };
   Cefaculty17 = {
     instanceID: "Cefaculty17",
     image: "Allstaffphoto/SH/FAC/328.png",
     width: "50%",
-    name: "Mrs. Ashly Jacob",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/91/328.png" target="_blank">Mrs. Ashly Jacob</a>,
     content: "Assistant Professor"
   };
   Cefaculty18 = {
     instanceID: "Cefaculty18",
     image: "Allstaffphoto/SH/FAC/331.jpg",
     width: "50%",
-    name: "Mr. Robin K. Augustine",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/92/331.jpg" target="_blank">Mr. Robin K. Augustine</a>,
     content: "Assistant Professor"
   };
   Cefaculty19 = {

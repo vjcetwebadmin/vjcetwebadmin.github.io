@@ -6,70 +6,70 @@ class ITFaculty extends Component {
     instanceID: "Cefaculty1",
     image: "Allstaffphoto/IT/FAC/itfac001.jpg",
     width: "50%",
-    name: "Mrs. Anju Susan George",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/56/itfac001.jpg" target="_blank">Mrs. Anju Susan George</a>,
     content: "Associate Professor and Head of Department"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/IT/FAC/181.jpg",
     width: "50%",
-    name: "Mrs. Jesline Joseph",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/57/181.jpg" target="_blank">Mrs. Jesline Joseph</a>,
     content: "Assistant Professor"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
     image: "Allstaffphoto/IT/FAC/itfac003.jpeg",
     width: "50%",
-    name: "Mrs. Juliet A Murali",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/58/itfac003.jpeg" target="_blank">Mrs. Juliet A Murali</a>,
     content: "Assistant Professor"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/IT/FAC/itfac002.jpg",
     width: "50%",
-    name: "Mrs. Ann Preetha Jose",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/59/itfac002.jpg" target="_blank">Mrs. Ann Preetha Jose</a>,
     content: "Assistant Professor"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
     image: "Allstaffphoto/IT/FAC/itfac006.jpg",
     width: "50%",
-    name: "Mrs. Tiny Molly V",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/60/itfac006.jpg" target="_blank">Mrs. Tiny Molly V</a>,
     content: "Assistant Professor"
   };
   Cefaculty6 = {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/IT/FAC/186.jpg",
     width: "50%",
-    name: "Mr. Prince Kurian",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/61/186.jpg" target="_blank">Mr. Prince Kurian</a>,
     content: "Assistant Professor"
   };
   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/IT/FAC/itfac005.jpg",
     width: "50%",
-    name: "Mrs. Salini Dev P V",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/62/itfac005.jpg" target="_blank">Mrs. Salini Dev P V</a>,
     content: "Assistant Professor"
   };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
     image: "Allstaffphoto/IT/FAC/188.jpg",
     width: "50%",
-    name: "Mr. Santhanu P Mohan",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/63/188.jpg" target="_blank">Mr. Santhanu P Mohan</a>,
     content: "Assistant Professor"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty",
     image: "Allstaffphoto/IT/FAC/189.jpg",
     width: "50%",
-    name: "Mrs. Diana Baby",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/64/189.jpg" target="_blank">Mrs. Diana Baby</a>,
     content: "Assistant Professor"
   };
   Cefaculty10 = {
     instanceID: "Cefaculty10",
     image: "Allstaffphoto/IT/FAC/354.jpg",
     width: "50%",
-    name: "Dr. Sheela V.K.",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/65/354.jpg" target="_blank">Dr. Sheela V.K.</a>,
     content: "Assistant Professor"
   };
   Cefaculty11 = {

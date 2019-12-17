@@ -21,14 +21,15 @@ class CEFaculty extends Component {
     instanceID: "Cefaculty3",
     image: "Allstaffphoto/CE/FAC/37.JPG",
     width: "50%",
-    name: "Mrs. Tina Jose",
-    content: "Assistant Professor"
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/1/37.JPG" target="_blank">Mrs. Tina Jose</a>,
+    content: "Assistant Professor",
+    
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/CE/FAC/38.jpg",
     width: "50%",
-    name: "Mrs. Bijimol Joseph",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/2/38.jpg" target="_blank">Mrs. Bijimol Joseph</a>,
     content: "Assistant Professor"
   };
   Cefaculty5 = {
@@ -42,49 +43,49 @@ class CEFaculty extends Component {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/CE/FAC/40.jpg",
     width: "50%",
-    name: "Mrs. Minu C Joy",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/3/40.jpg" target="_blank">Mrs. Minu C Joy</a>,
     content: "Assistant Professor"
   };
   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/CE/FAC/42.jpg",
     width: "50%",
-    name: "Mrs. Amrutha S",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/4/42.jpg" target="_blank">Mrs. Amrutha S</a>,
     content: "Assistant Professor"
   };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
     image: "Allstaffphoto/CE/FAC/45.jpg",
     width: "50%",
-    name: "Mrs. Devina Vipinan",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/5/45.jpg" target="_blank">Mrs. Devina Vipinan</a>,
     content: "Assistant Professor"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty",
     image: "Allstaffphoto/CE/FAC/46.jpg",
     width: "50%",
-    name: "Mr. Appu John",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/6/46.jpg" target="_blank">Mr. Appu John</a>,
     content: "Assistant Professor"
   };
   Cefaculty10 = {
     instanceID: "Cefaculty10",
     image: "Allstaffphoto/CE/FAC/47.jpg",
     width: "50%",
-    name: "Mr. Lins Paul Kuriakose",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/7/47.jpg" target="_blank">Mr. Lins Paul Kuriakose</a>,
     content: "Assistant Professor"
   };
   Cefaculty11 = {
     instanceID: "Cefaculty11",
     image: "Allstaffphoto/CE/FAC/49.jpg",
     width: "50%",
-    name: "Mrs. Tintu Shine A L ",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/8/49.jpg" target="_blank">Mrs. Tintu Shine A L</a>,
     content: "Assistant Professor"
   };
   Cefaculty12 = {
     instanceID: "Cefaculty12",
     image: "Allstaffphoto/CE/FAC/50.jpg",
     width: "50%",
-    name: "Mrs. Jerin Jose",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/9/50.jpg" target="_blank">Mrs. Jerin Jose</a>,
     content: "Assistant Professor"
   };
   
@@ -92,14 +93,14 @@ class CEFaculty extends Component {
     instanceID: "Cefaculty14",
     image: "Allstaffphoto/CE/FAC/283.jpg",
     width: "50%",
-    name: "Mrs. Nivya Mary Abraham",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/10/283.jpg" target="_blank">Mrs. Nivya Mary Abraham</a>,
     content: "Assistant Professor"
   };
   Cefaculty15 = {
     instanceID: "Cefaculty15",
     image: "Allstaffphoto/CE/FAC/296.jpg",
     width: "50%",
-    name: "Mrs. Anu Paul",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/11/296.jpg" target="_blank">Mrs. Anu Paul</a>,
     content: "Assistant Professor"
   };
   Cefaculty16 = {
@@ -113,7 +114,7 @@ class CEFaculty extends Component {
     instanceID: "Cefaculty17",
     image: "Allstaffphoto/CE/FAC/311.JPG",
     width: "50%",
-    name: "Mrs. Soumya Rani P. Thomas",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/12/311.jpg" target="_blank">Mrs. Soumya Rani P. Thomas</a>,
     content: "Assistant Professor"
   };
   Cefaculty18 = {
@@ -163,7 +164,7 @@ class CEFaculty extends Component {
     instanceID: "Cefaculty23",
     image: "Allstaffphoto/CE/FAC/394.jpg",
     width: "50%",
-    name: "Mrs. Ancy Genu C.George",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/14/394.jpg" target="_blank">Mrs. Ancy Genu C.George</a>,
     content: "Assistant Professor"
   };
   render() {

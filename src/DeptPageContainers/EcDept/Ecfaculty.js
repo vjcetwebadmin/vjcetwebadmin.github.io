@@ -63,7 +63,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty10",
     image: "Allstaffphoto/EC/FAC/ECFAC111.jpg",
     width: "50%",
-    name: "Mrs. Ranjini Surendran",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/34/ECFAC111.jpg" target="_blank">Mrs. Ranjini Surendran</a>,
     content: "Associate Professor"
   };
   Cefaculty11 = {
@@ -112,14 +112,14 @@ class Faculty extends Component {
     instanceID: "Cefaculty17",
     image: "Allstaffphoto/EC/FAC/154.jpg",
     width: "50%",
-    name: "Mrs. Sani John",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/35/154.jpg" target="_blank">Mrs. Sani John</a>,
     content: "Assistant Professor"
   };
   Cefaculty18 = {
     instanceID: "Cefaculty18",
     image: "Allstaffphoto/EC/FAC/155.JPG",
     width: "50%",
-    name: "Mr. Manu Jose",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/36/155.jpg" target="_blank">Mr. Manu Jose</a>,
     content: "Assistant Professor"
   };
   Cefaculty19 = {
@@ -204,7 +204,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty30",
     image: "Allstaffphoto/EC/FAC/Jibbypeter.JPEG",
     width: "50%",
-    name: "Mr. Jibby Peter Dcruz",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/37/Jibbypeter.JPEG" target="_blank">Mr. Jibby Peter Dcruz</a>,
     content: "Assistant Professor"
   };
   Cefaculty31 = {
