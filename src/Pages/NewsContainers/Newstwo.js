@@ -41,12 +41,12 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: " KTU sponsored FDP on Geohazards and Disaster Mitigation from 12th to 14th  December,2019"
+        title: " Job Vacancy"
     };
     
     NewsContent1={
         instanceID:"NewsContent1",
-        title:" Caution Deposit and Refundable Deposit of 2019 passing out students will be returned on the following dates"
+        title:" Applications are invited for the post of CV Camp Assistant in Viswajyothi College of Engineering and Technology on daily wages of Rs.645/-. Send in CVs to vjcet@vjcet.org on or before 24/12/2019"
     }
     NewsImagedata1 = {
         instanceID: "NewsImagedata1",
@@ -76,7 +76,8 @@ class Newsone extends React.Component {
                          
              </div>
                     <HeadingOne data={this.NewsTitle} className="Heading" />
-                    <a href="https://vjcet.org/downloads/news/CEFDP.pdf"><ImageOne data={this.NewsImagedata3}></ImageOne></a>
+                    <BodyOneJustified data={this.NewsContent1}/>
+                   {/*  <a href="https://vjcet.org/downloads/news/CEFDP.pdf"><ImageOne data={this.NewsImagedata3}></ImageOne></a> */}
                    
                     
                 </div>
