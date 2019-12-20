@@ -72,7 +72,8 @@ class Newsone extends React.Component {
                    
                    <HeadingOne data={this.NewsTitle} />
                    <div className="bodyContainer">
-                    <iframe src="https://vjcet.org/downloads/news/MED Job.pdf" width="90%" height="1000" title="Job Call"></iframe>
+                  {/*   <iframe src="https://vjcet.org/downloads/news/MED Job.pdf" width="90%" height="1000" title="Job Call"></iframe> */}
+                  <p>Mail resumes to shunmugesh@vjcet.org</p>
                     </div>             
 
                     
