@@ -37,14 +37,7 @@ class CSStaff extends Component {
     name: "Mrs. Neethu Joseph",
     content: "Computer Programmer"
   };
-  Cefaculty6 = {
-    instanceID: "Cefaculty6",
-    image: "Allstaffphoto/CS/STAF/98.jpg",
-    width: "50%",
-    name: "Mr. George Sebastian",
-    content: "Computer Programmer"
-  };
-  Cefaculty7 = {
+   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/CS/STAF/99.jpg",
     width: "50%",
@@ -119,9 +112,7 @@ class CSStaff extends Component {
           <div>
             <FacultyData data={this.Cefaculty5} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty6} />
-          </div>
+ 
           <div>
             <FacultyData data={this.Cefaculty7} />
           </div>

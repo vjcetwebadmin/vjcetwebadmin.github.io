@@ -35,7 +35,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/EC/FAC/ECFAC104.jpg",
     width: "50%",
-    name: "Mr. Melvin C Jose",
+    name: "Mr. Melvin C Jose(on Leave-Ph.D)",
     content: "Associate Professor"
   };
   Cefaculty7 = {
@@ -50,7 +50,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/FAC/145.jpg",
     width: "50%",
     name: "Mr. Tony D",
-    content: "Associate Professor(on-Leave Ph.D)"
+    content: "Associate Professor"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty",
@@ -176,7 +176,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty26",
     image: "Allstaffphoto/EC/FAC/PriyaGL.jpeg",
     width: "50%",
-    name: "Mrs. Priya G L",
+    name: "Mrs. Priya G L(on Leave-Ph.D)",
     content: "Assistant Professor"
   };
   Cefaculty27 = {

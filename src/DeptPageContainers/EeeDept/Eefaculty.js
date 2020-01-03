@@ -121,13 +121,7 @@ class EEFaculty extends Component {
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/53/293.jpg" target="_blank">Ms. Seena Paul</a>,
     content: "Assistant Professor"
   };
-  Cefaculty18 = {
-    instanceID: "Cefaculty18",
-    image: "Allstaffphoto/EE/FAC/360.jpg",
-    width: "50%",
-    name: "Ms. Steffy Tresa Loui",
-    content: "Assistant Professor"
-  };
+  
   Cefaculty19 = {
     instanceID: "Cefaculty19",
     image: "Allstaffphoto/EE/FAC/112.jpg",
@@ -194,9 +188,7 @@ class EEFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty17} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty18} />
-          </div>
+  
           
         </div>
       </div>
