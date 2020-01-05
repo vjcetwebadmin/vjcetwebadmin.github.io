@@ -36,7 +36,7 @@ class CEFaculty extends Component {
     instanceID: "Cefaculty5",
     image: "Allstaffphoto/CE/FAC/39.jpg",
     width: "50%",
-    name: "Mrs. Neena M Joseph",
+    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/96/39.jpg" target="_blank">Mrs. Neena M Joseph</a>,
     content: "Assistant Professor"
   };
   Cefaculty6 = {
@@ -144,14 +144,14 @@ class CEFaculty extends Component {
     instanceID: "Cefaculty22",
     image: "Allstaffphoto/CE/FAC/385.jpg",
     width: "50%",
-    name: "Mrs. Nisa Ann Mathew",
+    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/95/385.jpg" target="_blank">Mrs. Nisa Ann Mathew</a>,
     content: "Assistant Professor"
   };
   Cefaculty24 = {
     instanceID: "Cefaculty22",
     image: "Allstaffphoto/CE/FAC/389.jpg",
     width: "50%",
-    name: "Mrs. Finu John",
+    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/97/389.jpg" target="_blank">Mrs. Finu John</a>,
     content: "Assistant Professor"
   };
   Cefaculty25 = {
