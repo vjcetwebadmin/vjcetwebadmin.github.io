@@ -54,7 +54,7 @@ import Newsone from "./Pages/NewsContainers/Newsone";
 import Newstwo from "./Pages/NewsContainers/Newstwo";
 import Newsthree from "./Pages/NewsContainers/newsthree";
 import Newsfour from "./Pages/NewsContainers/newsfour";
-import Iedc from "./EdPageContainers/Iedc";
+import Iedc from "./EdPageContainers/IEDC/csdepartment";
 import Vbic from "./EdPageContainers/Vbic";
 import Iiic from "./EdPageContainers/IIIC/csdepartment";
 import Unai from "./EdPageContainers/Unai";
