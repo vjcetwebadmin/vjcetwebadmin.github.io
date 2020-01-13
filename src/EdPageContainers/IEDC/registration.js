@@ -48,7 +48,7 @@ class Publications extends React.Component {
                     <p align="center">OR</p>
                    
                 </div>
-                <p align="center">Register <a href="https://forms.gle/uWaSVpTx8wWsVt7H9" target="_blank"> Online</a> or <a href="https://vjcet.org/downloads/iedc/IEDC_registration.pdf" target="_blank">Download</a> the Registration from</p>
+                <p align="center">Register <a href="https://forms.gle/uWaSVpTx8wWsVt7H9" target="_blank" rel="noopener noreferrer"> Online</a> or <a href="https://vjcet.org/downloads/iedc/IEDC_registration.pdf" target="_blank" rel="noopener noreferrer">Download</a> the Registration from</p>
             </div>      
                
                 

@@ -7,25 +7,16 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <font color="FFFFF" size="4">All even semester classes will commence on 13th January 2020</font>
+      title: <a href="https://vjcet.org/downloads/news/MG Internal re-do Jan 2020.pdf" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">M.G. University Internal Redo Examination Jan'20 Time-Table</font></a>
     },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newstwo" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Applications are invited for the post of CV camp Assistant on daily wages</font></a>
-    },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsfour" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Applications are invited for the post of Assistant Professor in Mechanical Department(Guest)</font></a>
-    },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <font color="FFFFF" size="3">Statement issued as per rule 13(b) of Income Tax: No foreign contribution has been received by the DTET for the quarter ended on 30-9-2019</font>
-    },
+   
    
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Inclusion of student column in the University News</font></a>
+      title: <font color="FFFFF" size="3">Statement issued as per rule 13(b) of Income Tax: No foreign contribution has been received by the DTET for the quarter ended on 31-12-2019</font>
     },
+   
+    
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/placement" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">402 Students Placed in 2018-19 AY</font></a>

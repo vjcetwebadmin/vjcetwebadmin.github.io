@@ -42,7 +42,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/EC/FAC/142.jpg",
     width: "50%",
-    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/100/142.jpg" target="_blank">Mrs. Lekshmi M S</a>,
+    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/100/142.jpg" target="_blank" rel="noopener noreferrer">Mrs. Lekshmi M S</a>,
     content: "Assistant Professor"
   };
   Cefaculty8 = {
@@ -63,7 +63,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty10",
     image: "Allstaffphoto/EC/FAC/ECFAC111.jpg",
     width: "50%",
-    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/34/ECFAC111.jpg" target="_blank">Mrs. Ranjini Surendran</a>,
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/34/ECFAC111.jpg" target="_blank" rel="noopener noreferrer">Mrs. Ranjini Surendran</a>,
     content: "Associate Professor"
   };
   Cefaculty11 = {
@@ -91,7 +91,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty14",
     image: "Allstaffphoto/EC/FAC/151.jpg",
     width: "50%",
-    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/108/151.jpg" target="_blank">Mrs. V K Vanitha Rugmoni</a>,
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/108/151.jpg" target="_blank" rel="noopener noreferrer">Mrs. V K Vanitha Rugmoni</a>,
     content: "Assistant Professor"
   };
   Cefaculty15 = {
@@ -112,21 +112,21 @@ class Faculty extends Component {
     instanceID: "Cefaculty17",
     image: "Allstaffphoto/EC/FAC/154.jpg",
     width: "50%",
-    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/35/154.jpg" target="_blank">Mrs. Sani John</a>,
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/35/154.jpg" target="_blank" rel="noopener noreferrer">Mrs. Sani John</a>,
     content: "Assistant Professor"
   };
   Cefaculty18 = {
     instanceID: "Cefaculty18",
     image: "Allstaffphoto/EC/FAC/155.JPG",
     width: "50%",
-    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/36/155.jpg" target="_blank">Mr. Manu Jose</a>,
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/36/155.jpg" target="_blank" rel="noopener noreferrer">Mr. Manu Jose</a>,
     content: "Assistant Professor"
   };
   Cefaculty19 = {
     instanceID: "Cefaculty19",
     image: "Allstaffphoto/EC/FAC/ECFAC120.jpg",
     width: "50%",
-    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/102/ECFAC120.jpg" target="_blank">Mrs. Manju Thomas T</a>,
+    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/102/ECFAC120.jpg" target="_blank" rel="noopener noreferrer">Mrs. Manju Thomas T</a>,
     content: "Assistant Professor"
   };
   Cefaculty20 = {
@@ -140,7 +140,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty21",
     image: "Allstaffphoto/EC/FAC/158.jpg",
     width: "50%",
-    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/105/158.jpg" target="_blank">Mrs. Rose Mary Kuruvithadam</a>,
+    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/105/158.jpg" target="_blank" rel="noopener noreferrer">Mrs. Rose Mary Kuruvithadam</a>,
     content: "Assistant Professor"
   };
   
@@ -148,7 +148,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty22",
     image: "Allstaffphoto/EC/FAC/ECFAC126.jpg",
     width: "50%",
-    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/106/ECFAC126.jpg" target="_blank">Mrs. Femy John</a>,
+    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/106/ECFAC126.jpg" target="_blank" rel="noopener noreferrer">Mrs. Femy John</a>,
     content: "Assistant Professor"
   };
   Cefaculty23 = {
@@ -169,7 +169,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty25",
     image: "Allstaffphoto/EC/FAC/Somypmathew.JPEG",
     width: "50%",
-    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/101/Somypmathew.JPEG" target="_blank">Mr. Somy P Mathew</a>,
+    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/101/Somypmathew.JPEG" target="_blank" rel="noopener noreferrer">Mr. Somy P Mathew</a>,
     content: "Vice-Principal & Assistant Professor"
   };
   Cefaculty26 = {
@@ -190,7 +190,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty28",
     image: "Allstaffphoto/EC/FAC/MinuGeorge.jpg",
     width: "50%",
-    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/107/MinuGeorge.jpg" target="_blank">Mrs.Minu George</a>,
+    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/107/MinuGeorge.jpg" target="_blank" rel="noopener noreferrer">Mrs.Minu George</a>,
     content: "Assistant Professor"
   };
   Cefaculty29 = {
@@ -204,21 +204,21 @@ class Faculty extends Component {
     instanceID: "Cefaculty30",
     image: "Allstaffphoto/EC/FAC/Jibbypeter.JPEG",
     width: "50%",
-    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/37/Jibbypeter.JPEG" target="_blank">Mr. Jibby Peter Dcruz</a>,
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/37/Jibbypeter.JPEG" target="_blank" rel="noopener noreferrer">Mr. Jibby Peter Dcruz</a>,
     content: "Assistant Professor"
   };
   Cefaculty31 = {
     instanceID: "Cefaculty31",
     image: "Allstaffphoto/EC/FAC/Vinijakurian.jpg",
     width: "50%",
-    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/103/Vinijakurian.jpg" target="_blank">Mrs. Vinja Kurian</a>,
+    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/103/Vinijakurian.jpg" target="_blank" rel="noopener noreferrer">Mrs. Vinja Kurian</a>,
     content: "Assistant Professor"
   };
   Cefaculty32 = {
     instanceID: "Cefaculty32",
     image: "Allstaffphoto/EC/FAC/anuckunjachan.JPEG",
     width: "50%",
-    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/104/anuckunjachan.JPEG.jpg" target="_blank">Mrs. Anu C Kunjachan</a>,
+    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/104/anuckunjachan.JPEG.jpg" target="_blank" rel="noopener noreferrer">Mrs. Anu C Kunjachan</a>,
     content: "Assistant Professor"
   };
 

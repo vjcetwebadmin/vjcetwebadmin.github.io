@@ -146,30 +146,31 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickProg}
             /> 
-            {/* <input
+             {/* <input
 
-              value="Activities"
+              value="Mentoring"
               class="button"
               onClick={this.onClickFac}
-            />  */}
+            />   */}
              <input
 
               value="Projects"
               class="button"
               onClick={this.onClickLib}
             />
+             <input
+
+              value="Mentoring"
+              class="button"
+              onClick={this.onClickRes}
+            /> 
             <input
 
               value="Register now"
               class="button"
               onClick={this.onClickAss}
             />
-            {/* <input
-
-              value="Honors"
-              class="button"
-              onClick={this.onClickRes}
-            /> */}
+           
           </div>
           <div class="dropdownD">
             <button class="button">Menu</button>
