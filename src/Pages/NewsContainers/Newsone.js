@@ -41,7 +41,7 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Fee Remittance: S3, S5 & S7"
+        title: "Spark AR Program"
     };
     NewsContent1 = {
         instanceID: "NewsContent1",
@@ -75,7 +75,8 @@ class Newsone extends React.Component {
                     
                     <div className="bodyContainer">
                     
-                    <iframe src="https://vjcet.org/downloads/news/AIU.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
+                    <iframe src="https://vjcet.org/downloads/news/Spark AR Open Program - Brochure.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
+                    <iframe src="https://vjcet.org/downloads/news/Spark AR Open Program - Whatsapp Creative.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
                 </div>
              
                                     
