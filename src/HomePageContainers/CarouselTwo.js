@@ -7,7 +7,7 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/downloads/news/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Spark AR Program- An Unique Opportunity for Students</font></a>
+      title: <a href="https://vjcet.org/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Spark AR Program- An Unique Opportunity for Students</font></a>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
