@@ -41,7 +41,7 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: " Job Vacancy"
+        title: " Fee remittance 2nd and 4th semesters - academic year 2019-20"
     };
     
     NewsContent1={
@@ -76,9 +76,9 @@ class Newsone extends React.Component {
                          
              </div>
                     <HeadingOne data={this.NewsTitle} className="Heading" />
-                    <BodyOneJustified data={this.NewsContent1}/>
+                    <iframe src="https://vjcet.org/downloads/news/Notice.pdf" width="80%" height="500" title="Campus Map" align="center"></iframe>
                    {/*  <a href="https://vjcet.org/downloads/news/CEFDP.pdf"><ImageOne data={this.NewsImagedata3}></ImageOne></a> */}
-                   
+                   <p><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank" rel="noopener noreferrer">Download Chellan</a> </p>
                     
                 </div>
                 <Footer data={this.HomePageFooter} />
