@@ -78,7 +78,15 @@ class Newsone extends React.Component {
                     <HeadingOne data={this.NewsTitle} className="Heading" />
                     <iframe src="https://vjcet.org/downloads/news/Notice.pdf" width="80%" height="500" title="Campus Map" align="center"></iframe>
                    {/*  <a href="https://vjcet.org/downloads/news/CEFDP.pdf"><ImageOne data={this.NewsImagedata3}></ImageOne></a> */}
-                   <p><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank" rel="noopener noreferrer">Download Chellan</a> </p>
+                  <br/>
+                  <br/>
+                  <ul>Payment Modes
+                  <br/>
+                  <br/>
+                      <ol><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank" rel="noopener noreferrer">Download Chellan</a></ol>
+                      <ol><a href="https://southindianbank.in/feepayment" target="_blank" rel="noopener noreferrer">Online Payment</a></ol>
+                  </ul>
+                   
                     
                 </div>
                 <Footer data={this.HomePageFooter} />
