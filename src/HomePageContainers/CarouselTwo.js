@@ -11,6 +11,14 @@ class CarouselTwo extends Component {
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
+      title: <a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">CSI Student Branch BEST ACCREDITED STUDENT BRANCH AWARD</font></a>
+    },
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: <font color="FFFFF" size="4">IEEE students branch of VJCET selected as an outstanding students branch of Kochi subsection for the year 2019</font>
+    },
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Spark AR Program- An Unique Opportunity for Students</font></a>
     },
 

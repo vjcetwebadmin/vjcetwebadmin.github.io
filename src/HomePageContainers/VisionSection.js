@@ -24,7 +24,7 @@ class VisionSection extends Component {
   VisionSectionBDescription = {
     instanceID: "VisionSectionDescription",
     title:
-      '"Moulding Engineers par Excellence with Integrity, Fairness and Human Values"'
+      '"Moulding Professionals par Excellence with Integrity, Fairness and Human Values"'
   };
 
   VisionSectionBBody = {
