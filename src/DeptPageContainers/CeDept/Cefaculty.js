@@ -14,7 +14,7 @@ class CEFaculty extends Component {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/CE/FAC/347.jpg",
     width: "50%",
-    name: "Dr. Anoop C.K.",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/128/347.jpg" target="_blank" rel="noopener noreferrer">Dr. Anoop C.K.</a>,
     content: "Associate Professor"
   };
   Cefaculty3 = {
@@ -115,7 +115,7 @@ class CEFaculty extends Component {
     instanceID: "Cefaculty18",
     image: "Allstaffphoto/CE/FAC/312.jpg",
     width: "50%",
-    name: "Miss. Rose Mary Xavier",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/129/312.jpg" target="_blank" rel="noopener noreferrer">Ms. Rose Mary Xavier</a>,
     content: "Assistant Professor"
   };
   Cefaculty19 = {

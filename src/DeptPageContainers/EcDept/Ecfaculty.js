@@ -6,7 +6,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty1",
     image: "Allstaffphoto/EC/FAC/144.jpg",
     width: "50%",
-    name: "Mrs. Smitha Cyriac",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/123/144.jpg" target="_blank" rel="noopener noreferrer">Mrs. Smitha Cyriac</a>,
     content: "Head of the Department"
   };
   
@@ -21,14 +21,14 @@ class Faculty extends Component {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/EC/FAC/138.jpg",
     width: "50%",
-    name: "Mr. Cyriac M Odackal",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/134/138.jpg" target="_blank" rel="noopener noreferrer">Mr. Cyriac M Odackal</a>,
     content: "Associate Professor"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
     image: "Allstaffphoto/EC/FAC/139.JPG",
     width: "50%",
-    name: "Mr. R Anil Kumar",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/136/139.jpg" target="_blank" rel="noopener noreferrer">Mr. R Anil Kumar</a>,
     content: "Assistant Professor"
   };
   Cefaculty6 = {
@@ -49,14 +49,14 @@ class Faculty extends Component {
     instanceID: "Cefaculty8",
     image: "Allstaffphoto/EC/FAC/145.jpg",
     width: "50%",
-    name: "Mr. Tony D",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/135/145.jpg" target="_blank" rel="noopener noreferrer">Mr. Tony D</a>,
     content: "Associate Professor"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty",
     image: "Allstaffphoto/EC/FAC/146.jpg",
     width: "50%",
-    name: "Mrs. Anitta Thomas",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/121/146.jpg" target="_blank" rel="noopener noreferrer">Mrs. Anitta Thomas</a>,
     content: "Assistant Professor"
   };
   Cefaculty10 = {
@@ -70,21 +70,21 @@ class Faculty extends Component {
     instanceID: "Cefaculty11",
     image: "Allstaffphoto/EC/FAC/148.jpg",
     width: "50%",
-    name: "Mrs. Niji Mathews",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/120/148.jpg" target="_blank" rel="noopener noreferrer">Mrs. Niji Mathews</a>,
     content: "Assistant Professor"
   };
   Cefaculty12 = {
     instanceID: "Cefaculty12",
     image: "Allstaffphoto/EC/FAC/ECFAC113.jpg",
     width: "50%",
-    name: "Mrs. Rose Maria Jose",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/126/ECFAC113.jpg" target="_blank" rel="noopener noreferrer">Mrs. Rose Maria Jose</a>,
     content: "Assistant Professor"
   };
   Cefaculty13 = {
     instanceID: "Cefaculty13",
     image: "Allstaffphoto/EC/FAC/150.jpg",
     width: "50%",
-    name: "Mrs. Merlin Thomas",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/127/150.jpg" target="_blank" rel="noopener noreferrer">Mrs. Merlin Thomas</a>,
     content: "Assistant Professor"
   };
   Cefaculty14 = {
@@ -98,14 +98,14 @@ class Faculty extends Component {
     instanceID: "Cefaculty15",
     image: "Allstaffphoto/EC/FAC/152.jpg",
     width: "50%",
-    name: "Mrs. Cuckoo Anitha Joseph",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/125/152.jpg" target="_blank" rel="noopener noreferrer">Mrs. Cuckoo Anitha Joseph</a>,
     content: "Assistant Professor"
   };
   Cefaculty16 = {
     instanceID: "Cefaculty16",
     image: "Allstaffphoto/EC/FAC/153.jpg",
     width: "50%",
-    name: "Mrs. Anu Rani Philip",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/138/153.jpg" target="_blank" rel="noopener noreferrer">Mrs. Anu Rani Philip</a>,
     content: "Assistant Professor"
   };
   Cefaculty17 = {
@@ -133,7 +133,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty20",
     image: "Allstaffphoto/EC/FAC/157.jpg",
     width: "50%",
-    name: "Mr. Krishnendu K",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/132/157.jpg" target="_blank" rel="noopener noreferrer">Mr. Krishnendu K</a>,
     content: "Assistant Professor"
   };
   Cefaculty21 = {
@@ -155,14 +155,14 @@ class Faculty extends Component {
     instanceID: "Cefaculty23",
     image: "Allstaffphoto/EC/FAC/SimiZerineSleeba.jpg",
     width: "50%",
-    name: "Dr. Simi Zerine Sleeba",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/119/SimiZerineSleeba.jpg" target="_blank" rel="noopener noreferrer">Dr. Simi Zerine Sleeba</a>,
     content: "Associate Professor"
   };
   Cefaculty24 = {
     instanceID: "Cefaculty24",
     image: "Allstaffphoto/EC/FAC/Naveenjacob.jpg",
     width: "50%",
-    name: "Mr. Naveen Jacob",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/133/Naveenjacob.jpg" target="_blank" rel="noopener noreferrer">Mr. Naveen Jacob</a>,
     content: "Associate Professor(on-Leave Ph.D)"
   };
   Cefaculty25 = {
@@ -176,14 +176,14 @@ class Faculty extends Component {
     instanceID: "Cefaculty26",
     image: "Allstaffphoto/EC/FAC/PriyaGL.jpeg",
     width: "50%",
-    name: "Mrs. Priya G L(on Leave-Ph.D)",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/124/PriyaGL.jpeg" target="_blank" rel="noopener noreferrer">Mrs. Priya G L(on Leave-Ph.D)</a>,
     content: "Assistant Professor"
   };
   Cefaculty27 = {
     instanceID: "Cefaculty27",
     image: "Allstaffphoto/EC/FAC/Anishmjose.JPEG",
     width: "50%",
-    name: "Mr. Anish M Jose",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/137/Anishmjose.JPEG" target="_blank" rel="noopener noreferrer">Mr. Anish M Jose</a>,
     content: "Assistant Professor"
   };
   Cefaculty28 = {
@@ -197,7 +197,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty29",
     image: "Allstaffphoto/EC/FAC/MaryNirmala.jpeg",
     width: "50%",
-    name: "Mrs.Mary Nirmala George",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/131/MaryNirmala.jpeg" target="_blank" rel="noopener noreferrer">Mrs.Mary Nirmala George</a>,
     content: "Assistant Professor"
   };
   Cefaculty30 = {
@@ -233,12 +233,8 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty25} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty3} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty23} />
-          </div>
+          
+         
           <div>
             <FacultyData data={this.Cefaculty4} />
           </div>

@@ -119,7 +119,7 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty18",
     image: "Allstaffphoto/CS/FAC/82.jpg",
     width: "50%",
-    name: "Mr. Joe Mathew Jacob",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/130/82.jpg" target="_blank" rel="noopener noreferrer">Mr. Joe Mathew Jacob</a>,
     content: "Assistant Professor"
   };
   Cefaculty19 = {
