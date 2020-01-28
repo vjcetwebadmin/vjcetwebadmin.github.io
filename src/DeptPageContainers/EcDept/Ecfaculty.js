@@ -35,7 +35,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/EC/FAC/ECFAC104.jpg",
     width: "50%",
-    name: "Mr. Melvin C Jose(on Leave-Ph.D)",
+    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/141/ECFAC104.jpg" target="_blank" rel="noopener noreferrer">Mr. Melvin C Jose(on Leave-Ph.D)</a>,
     content: "Associate Professor"
   };
   Cefaculty7 = {
