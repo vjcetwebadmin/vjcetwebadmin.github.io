@@ -44,6 +44,7 @@ import KeyFunc from "./Pages/KeyFunc";
 import ContactUs from "./ContactUsContainers/ContactUs";
 import Academics from "./Pages/Academics";
 import VisionPage from "./Pages/VisionPage";
+import Affliations from "./Pages/Affliations";
 import SyllabusPage from "./Pages/SyllabusPage";
 import Research from "./ResearchPageContainers/csdepartment";
 import Mtech from "./Pages/Mtech"
@@ -73,6 +74,7 @@ class App extends Component {
               <Route exact path="/about/accreditation" component={NBA} />
               <Route exact path="/about/keyfunctionaries" component={KeyFunc} />
               <Route exact path="/about/vision" component={VisionPage} />
+              <Route exact path="/about/affliations" component={Affliations} />
               <Route exact path="/academics/courses-offered" component={Academics} />
               <Route exact path="/academics/syllabus" component={SyllabusPage} />
               <Route exact path="/academics/honors" component={HonorsPage} />

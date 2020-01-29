@@ -68,6 +68,14 @@ class DropDownAb extends Component {
               Vision & Mission
             </Link>
           </p>
+          <p>
+            <Link
+              to="/about/affliations"
+              className="patch1"
+            >
+              Affliations
+            </Link>
+          </p>
         </div>
       </div>
     );

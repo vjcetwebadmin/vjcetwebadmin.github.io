@@ -152,6 +152,12 @@ class MenuOverlay extends Component {
               >
                 Vision & Mission
             </Link>
+            <Link
+                to="/about/affliations"
+                className="MenuOverlaySubLinks"
+              >
+                Affliations
+            </Link>
               <Link className="MenuOverlaySubLinks" to="/contact">
                 Contact Us
               </Link>
