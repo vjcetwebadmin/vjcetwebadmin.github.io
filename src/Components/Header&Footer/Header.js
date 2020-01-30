@@ -28,7 +28,11 @@ class Header extends Component {
     image: "hamburger.png",
     width: "20px"
   };
-
+  FeePaymentImagedata = {
+    instanceID: "CCCVjcImage",
+    image: "NewsImages/feepayment.png",
+    width: "80%"
+};
   NBALogo = {
     instanceID: "HeaderNBALogo",
     image: "nbaac.png",
@@ -144,9 +148,14 @@ class Header extends Component {
         {/* <HeadingFour data={this.HeaderVJCCode} /> */}
 
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
+        
           <div className="HeaderLinkTabOne" id="HeaderLinkOne">
+          
             <DropDownL />
+            <a href="https://vjcet.org/#/newstwo"><ImageOne data={this.FeePaymentImagedata} /></a>
+            <div className="contactus">
             <ContactLink data={this.Link2} />
+            </div>
           </div>
         </div>
 

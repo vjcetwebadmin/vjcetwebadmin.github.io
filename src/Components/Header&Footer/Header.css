@@ -18,6 +18,9 @@
   grid-area: line3;
   display: none;
 }
+.contactus {
+  padding-top: 10px;
+}
 
 .HeaderLinkTabOne {
   grid-area: tab1;
