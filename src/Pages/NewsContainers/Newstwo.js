@@ -76,7 +76,7 @@ class Newsone extends React.Component {
                          
              </div>
                     <HeadingOne data={this.NewsTitle} className="Heading" />
-                    <iframe src="https://vjcet.org/downloads/news/Notice.pdf" width="80%" height="500" title="Campus Map" align="center"></iframe>
+                    <iframe src="https://vjcet.org/downloads/news/fee notice.pdf" width="80%" height="500" title="Campus Map" align="center"></iframe>
                    {/*  <a href="https://vjcet.org/downloads/news/CEFDP.pdf"><ImageOne data={this.NewsImagedata3}></ImageOne></a> */}
                   <br/>
                   <br/>

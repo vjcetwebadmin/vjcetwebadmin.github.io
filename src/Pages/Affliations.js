@@ -36,7 +36,7 @@ class Affliations extends React.Component {
     
     WifiTitle = {
         instanceID: "CCCTitle",
-        title: ""
+        title: "AICTE"
     };
     ServerTitle = {
         instanceID: "Servernames",
@@ -78,6 +78,8 @@ class Affliations extends React.Component {
 
                 <div className="contain">
                     <HeadingOne data={this.CCCNATitle} className="Heading" />
+                    <HeadingThree data={this.WifiTitle} className="Heading" />
+                    <iframe src="https://vjcet.org/downloads/about/Affliation AICTE.pdf" width="100%" height="800" title="Campus Map" align="center"></iframe>
                     <HeadingThree data={this.CCCTitle} className="Heading" />
                     <iframe src="https://vjcet.org/downloads/about/Affliation-KTU.pdf" width="100%" height="800" title="Campus Map" align="center"></iframe>
                    <br />
