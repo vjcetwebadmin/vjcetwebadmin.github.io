@@ -26,7 +26,7 @@ class Faculty extends Component {
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
-    image: "Allstaffphoto/EC/FAC/139.JPG",
+    image: "Allstaffphoto/EC/FAC/139.jpg",
     width: "50%",
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/136/139.jpg" target="_blank" rel="noopener noreferrer">Mr. R Anil Kumar</a>,
     content: "Assistant Professor"
