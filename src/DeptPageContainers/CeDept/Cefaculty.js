@@ -8,7 +8,7 @@ class CEFaculty extends Component {
     image: "Allstaffphoto/CE/FAC/cefacultyimg1.JPG",
     width: "50%",
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/142/cefacultyimg1.JPG" target="_blank" rel="noopener noreferrer">Mrs. Shine George</a>,
-    content: "Head of Department"
+    content: "Head of the Department"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
