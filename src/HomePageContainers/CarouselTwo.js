@@ -9,6 +9,7 @@ class CarouselTwo extends Component {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newstwo" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Fee remittance 2nd and 4th semesters - Date Extended</font></a>
     },
+    
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">CSI Student Branch BEST ACCREDITED STUDENT BRANCH AWARD</font></a>

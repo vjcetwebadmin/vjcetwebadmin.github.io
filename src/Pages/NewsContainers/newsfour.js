@@ -8,6 +8,7 @@ import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
+import ImageOne from "../../Components/Images/ImageOne";
 //import ImageTwo from "../../Components/Images/imageTwo";
 
 /* import HeadingTwo from "../../Components/Texts/HeadingTwo";
@@ -73,6 +74,7 @@ class Newsone extends React.Component {
                    <HeadingOne data={this.NewsTitle} />
                    <div className="bodyContainer">
                   {/*   <iframe src="https://vjcet.org/downloads/news/MED Job.pdf" width="90%" height="1000" title="Job Call"></iframe> */}
+                  
                   <p>Mail resumes to shunmugesh@vjcet.org</p>
                     </div>             
 
