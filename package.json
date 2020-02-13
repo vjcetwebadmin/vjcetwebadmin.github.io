@@ -1,8 +1,8 @@
 {
-  "name": "vjcetwebadmin",
+  "name": "vjceterpadmin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://vjcetwebadmin.github.io/sample/",
+  "homepage": "http://vjceterpadmin.github.io/Admission2020/",
   "dependencies": {
     "@bumaga/tabs": "^0.2.0",
     "apexcharts": "^3.15.5",
