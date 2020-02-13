@@ -61,7 +61,11 @@ class Header extends Component {
     image: "OPEN.svg",
     width: "40px"
   };
-
+  AdmissionImagedata = {
+    instanceID: "CCCVjcImage",
+    image: "HomepageActivities/Web site badge.jpg",
+    width: "80%"
+  };
   Link1 = {
     instanceID: "HeaderLink1",
     title: "About Us",
@@ -148,15 +152,16 @@ class Header extends Component {
         {/* <HeadingFour data={this.HeaderVJCCode} /> */}
 
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
-        
-          <div className="HeaderLinkTabOne" id="HeaderLinkOne">
-          
+        <div id="AdmissionImage">
+          <a href="http://admission.vjcet.ac.in/"><ImageOne data={this.AdmissionImagedata}/></a>
+          </div>
             <DropDownL />
-            <a href="https://vjcet.org/#/newstwo"><ImageOne data={this.FeePaymentImagedata} /></a>
+            
+             <a href="https://vjcet.org/#/newstwo"><ImageOne data={this.FeePaymentImagedata} /></a> 
             <div className="contactus">
             <ContactLink data={this.Link2} />
             </div>
-          </div>
+          
         </div>
 
         <div className="HeaderLinkTabTwo" id="HeaderLinkTabTwo">

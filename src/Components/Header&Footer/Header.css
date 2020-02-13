@@ -27,7 +27,15 @@
   display: none;
   margin: auto 0%;
 }
-
+#AdmissionImage{
+  padding-top: 5%;
+  opacity: 1;
+  animation: fade 2s infinite;
+}
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
 .HeaderLinkTabTwo {
   grid-area: tab2;
   display: none;
@@ -204,7 +212,7 @@
   }
 
   .HeaderLinkTabOne {
-    padding-left: 25%;
+    padding-left: 0%;
   }
 
   #HeaderLineOne {
@@ -226,7 +234,7 @@
   }
 
   .HeaderLinkTabOne {
-    padding-left: 40%;
+    padding-left: 0%;
   }
 
   #HeaderNBALogo {
