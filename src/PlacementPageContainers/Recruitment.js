@@ -15,11 +15,11 @@ class Recruitment extends Component {
             <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" crossorigin="anonymous"></link>
            
                 <Tabs>
-                <div>
-                <Tab><button class="tab active">2020</button></Tab>
-                    <Tab><button class="tab">2019</button></Tab>
-                    <Tab><button class="tab">2018</button></Tab>
-                </div>
+                <ul class="pill-nav">
+                <Tab><li class="">2020</li></Tab>
+                    <Tab><li class="">2019</li></Tab>
+                    <Tab><li class="">2018</li></Tab>
+                </ul>
                   
                 <Panel>
                     <div class="tab-pane  active"  role="tabpanel">

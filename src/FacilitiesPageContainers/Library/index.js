@@ -478,7 +478,8 @@ class Library extends React.Component {
                                    <li>The Times of India</li>
                                    <li>The Economics Times</li>
                                    <li>Malayala Manorama</li>
-                                   <li>Deepika Mathrubhum</li>
+                                   <li>Deepika </li>
+                                       <li>Mathrubhumi</li>
                                    <li>Mangalam</li>
                                    <li>Financial Express</li>
                                    <li>Deccan Chronicle</li>

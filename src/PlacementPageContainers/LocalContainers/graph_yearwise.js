@@ -6,11 +6,11 @@ import "./graph.css";
 class Graph10 extends Component {
   state = {
     dataBar: {
-      labels: ["2020","2019", "2018", "2017", "2016", "2015", "2014"],
+      labels: [ "2014", "2015", "2016","2017","2018","2019","2020"],
       datasets: [
         {
           label: "No. of students placed",
-          data: [250,403, 176, 274, 267, 266, 217],
+          data: [ 217, 266, 267, 274,176,403,240 ],
           backgroundColor: [
             "rgba(255, 153, 51,0.4)",
             "rgba(255, 134,159,0.4)",

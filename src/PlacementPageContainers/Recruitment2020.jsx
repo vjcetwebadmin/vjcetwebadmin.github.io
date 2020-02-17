@@ -41,56 +41,56 @@ import { MDBDataTable } from 'mdbreact';
                 company: "QUEST",
                 year: "2020",
                 branch: "IT",
-                no_of_students: "1"
+                no_of_students: "01"
             },
             {
                 slno: "41",
                 company: "QUEST",
                 year: "2020",
                 branch: "EC",
-                no_of_students: "3"
+                no_of_students: "03"
             },
             {
                 slno: "40",
                 company: "QUEST",
                 year: "2020",
                 branch: "CS",
-                no_of_students: "2"
+                no_of_students: "02"
             },
             {
                 slno: "39",
                 company: "6D TECHNOLAGIES",
                 year: "2020",
                 branch: "IT",
-                no_of_students: "1"
+                no_of_students: "01"
             },
             {
                 slno: "38",
                 company: "6D TECHNOLAGIES",
                 year: "2020",
                 branch: "EC",
-                no_of_students: "2"
+                no_of_students: "02"
             },
             {
                 slno: "37",
                 company: "6D TECHNOLAGIES",
                 year: "2020",
                 branch: "CS",
-                no_of_students: "3"
+                no_of_students: "03"
             },
             {
                 slno: "36",
                 company: "IMAGE INFOSYSTEMS",
                 year: "2020",
                 branch: "IT",
-                no_of_students: "1"
+                no_of_students: "01"
             },
             {
                 slno: "35",
                 company: "IMAGE INFOSYSTEMS",
                 year: "2020",
                 branch: "CS",
-                no_of_students: "1"
+                no_of_students: "01"
             },
             {
                 slno: "34",
@@ -118,35 +118,35 @@ import { MDBDataTable } from 'mdbreact';
                 company: "UST",
                 year: "2020",
                 branch: "IT",
-                no_of_students: "2"
+                no_of_students: "02"
             },
             {
                 slno: "30",
                 company: "UST",
                 year: "2020",
                 branch: "EC",
-                no_of_students: "6"
+                no_of_students: "06"
             },
             {
                 slno: "29",
                 company: "UST",
                 year: "2020",
                 branch: "CS",
-                no_of_students: "2"
+                no_of_students: "02"
             },
             {
                 slno: "28",
                 company: "IBS",
                 year: "2020",
                 branch: "IT",
-                no_of_students: "1"
+                no_of_students: "01"
             },
             {
                 slno: "27",
                 company: "IBS",
                 year: "2020",
                 branch: "ME",
-                no_of_students: "1"
+                no_of_students: "01"
             },
             {
                 slno: "26",
@@ -160,28 +160,28 @@ import { MDBDataTable } from 'mdbreact';
                 company: "ZERONE",
                 year: "2020",
                 branch: "IT",
-                no_of_students: "4"
+                no_of_students: "04"
             },
             {
                 slno: "24",
                 company: "SUTHERLAND GLOBAL",
                 year: "2020",
                 branch: "EEE",
-                no_of_students: "1"
+                no_of_students: "01"
             },
             {
                 slno: "23",
                 company: "SUTHERLAND GLOBAL",
                 year: "2020",
                 branch: "CE",
-                no_of_students: "3"
+                no_of_students: "03"
             },
             {
                 slno: "22",
                 company: "SUTHERLAND GLOBAL",
                 year: "2020",
                 branch: "ME",
-                no_of_students: "4"
+                no_of_students: "04"
             },
             {
                 slno: "21",
@@ -195,21 +195,21 @@ import { MDBDataTable } from 'mdbreact';
                 company: "SUTHERLAND GLOBAL",
                 year: "2020",
                 branch: "CS",
-                no_of_students: "4"
+                no_of_students: "04"
             },
             {
                 slno: "19",
                 company: "NMS",
                 year: "2020",
                 branch: "CS",
-                no_of_students: "9"
+                no_of_students: "09"
             },
             {
                 slno: "18",
                 company: "INDOSHELL",
                 year: "2020",
                 branch: "EEE",
-                no_of_students: "5"
+                no_of_students: "05"
             },
             {
                 slno: "17",
@@ -223,108 +223,108 @@ import { MDBDataTable } from 'mdbreact';
                 company: "EXPERION",
                 year: "2020",
                 branch: "EC",
-                no_of_students: "2"
+                no_of_students: "02"
             },
             {
                 slno: "15",
                 company: "EXPERION",
                 year: "2020",
                 branch: "CS",
-                no_of_students: "1"
+                no_of_students: "01"
             },
             {
                 slno: "14",
                 company: "COGNIZAT",
                 year: "2020",
                 branch: "ME",
-                no_of_students: "5"
+                no_of_students: "05"
             },
             {
                 slno: "13",
                 company: "COGNIZAT",
                 year: "2020",
                 branch: "CS",
-                no_of_students: "1"
+                no_of_students: "01"
             },
             {
                 slno: "12",
                 company: "TCS",
                 year: "2020",
                 branch: "IT",
-                no_of_students: "2"
+                no_of_students: "02"
             },
             {
                 slno: "11",
                 company: "TCS",
                 year: "2020",
                 branch: "EEE",
-                no_of_students: "2"
+                no_of_students: "02"
             },
             {
                 slno: "10",
                 company: "TCS",
                 year: "2020",
                 branch: "CE",
-                no_of_students: "6"
+                no_of_students: "06"
             },
             {
-                slno: "9",
+                slno: "09",
                 company: "TCS",
                 year: "2020",
                 branch: "ME",
-                no_of_students: "6"
+                no_of_students: "06"
             },
             {
-                slno: "8",
+                slno: "08",
                 company: "TCS",
                 year: "2020",
                 branch: "EC",
-                no_of_students: "6"
+                no_of_students: "06"
             },
             {
-                slno: "7",
+                slno: "07",
                 company: "TCS",
                 year: "2020",
                 branch: "CS",
                 no_of_students: "28"
             },
             {
-                slno: "6",
+                slno: "06",
                 company: "INFOSYS ",
                 year: "2020",
                 branch: "IT",
-                no_of_students: "5"
+                no_of_students: "05"
             },
             {
-                slno: "5",
+                slno: "05",
                 company: "INFOSYS ",
                 year: "2020",
                 branch: "EEE",
-                no_of_students: "3"
+                no_of_students: "03"
             },
             {
-                slno: "4",
+                slno: "04",
                 company: "INFOSYS ",
                 year: "2020",
                 branch: "CE",
-                no_of_students: "3"
+                no_of_students: "03"
             },
             {
-                slno: "3",
+                slno: "03",
                 company: "INFOSYS ",
                 year: "2020",
                 branch: "ME",
-                no_of_students: "4"
+                no_of_students: "04"
             },
             {
-                slno: "2",
+                slno: "02",
                 company: "INFOSYS ",
                 year: "2020",
                 branch: "EC",
-                no_of_students: "4"
+                no_of_students: "04"
             },
             {
-                slno: "1",
+                slno: "01",
                 company: "INFOSYS ",
                 year: "2020",
                 branch: "CS",
