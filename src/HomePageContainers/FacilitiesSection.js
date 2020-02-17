@@ -38,7 +38,11 @@ class FacilitiesSection extends Component {
     image: "FacilitiesFour.png",
     title: <a href="https://vjcet.org/#/facilities/campusamenities" target="_blank" rel="noopener noreferrer"><font color="000000">On-Campus Canteens, Cafeteria, ATMs, Store and Hospital</font></a>
   };
-
+  FacilityListFive = {
+    instanceID: "FacilityListFive",
+    image: "idea.svg",
+    title: "V-BIC"
+  };
   render() {
     const { instanceID } = this.props.data;
 
@@ -47,14 +51,15 @@ class FacilitiesSection extends Component {
         <div className="FacilitiesSectionCard">
           <HeadingOne data={this.FacilitySectionTitle} />
           <BodyOne data={this.FacilitySectionDescription} />
-          <FacilitiesList data={this.FacilityListOne} />
-          <FacilitiesList data={this.FacilityListTwo} />
-          <FacilitiesList data={this.FacilityListThree} />
-          <FacilitiesList data={this.FacilityListFour} />
+          <a href="https://vjcet.org/#/facilities/hostel" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4"><FacilitiesList data={this.FacilityListOne} /></font></a>
+          <a href="https://vjcet.org/#/facilities/healthandfitness" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4"><FacilitiesList data={this.FacilityListTwo} /></font></a>
+          <a href="https://vjcet.org/#/facilities/ccc" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4"><FacilitiesList data={this.FacilityListThree} /></font></a>
+          <a href="https://vjcet.org/#/facilities/campusamenities" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4"><FacilitiesList class="circle-icon" data={this.FacilityListFour} /></font></a>
+          <a href="https://vjcet.org/#/ed/v-bic" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4"><FacilitiesList data={this.FacilityListFive} /></font></a>
         </div>
       </div>
     );
   }
 }
-
+ 
 export default FacilitiesSection;
