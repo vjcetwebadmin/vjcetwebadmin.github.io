@@ -392,6 +392,10 @@ class MenuOverlay extends Component {
           <Link id="menuItem7" className="MenuOverlayItem" to="/R&D">
             RD
           </Link>
+          <Link id="menuItem7" className="MenuOverlayItem" to="iqac">
+            IQAC
+          </Link>
+         
          
         </div>
       </div>

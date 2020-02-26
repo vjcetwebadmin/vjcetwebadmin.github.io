@@ -16,6 +16,7 @@ import ContactLink from "../Texts/Contactlink"
 import DropDownAdm from "./dropdownAdmission";
 import DropDownIedc from "./dropdowniedc";
 
+
 class Header extends Component {
   VJCLogo = {
     instanceID: "HeaderVJCLogo",
@@ -130,6 +131,13 @@ class Header extends Component {
     title: "ED",
     link: "/campus-life/nss"
   };
+
+  Link12 = {
+    instanceID: "HeaderLink10",
+    title: "IQAC",
+    link: "/iqac"
+  };
+
   LineHeading = {
     instanceID: "LineHeading"
   };
@@ -180,6 +188,7 @@ class Header extends Component {
             <DropDownIedc />
             {/* <AnchorLink data={this.Link7} /> */}
             <AnchorLink data={this.Link10} />
+            <AnchorLink data={this.Link12} />
             
           </div>
         </div>
