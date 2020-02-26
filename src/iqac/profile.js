@@ -273,7 +273,7 @@ class nss extends React.Component {
                          
              <br/>
             <HeadingThree data={this.criteria10heading} className="Heading" />            
-            <p><b>Coordinator:Mr. Jomu M George, Assistant Professor, EEE</b></p>
+            <p><b>Coordinator:Mr. Vinoj K, Associate Professor, ME</b></p>
             <p><b>Responsibilities of the Committee</b></p>
             <ol>
   <li>Document the following and submit to the IQAC coordinator
@@ -358,7 +358,14 @@ class nss extends React.Component {
   <li>SWOT analysis of your students and taking corrective actions.</li>
   <li>Conducting various soft skills , aptitude skills and language training sessions</li>
   <li>Submission of report to the IQAC in the prescribed format.</li>
-</ol>         
+</ol>     
+<p>The cell convenes regular meetings of the 15 Criteria’s during the academic year for ensuring proper running of the systems and procedures developed for quality sustenance. Annual planning and review meetings, discussions  are organized by the IQAC for effectively aligning the activities of the institution to its vision and mission.</p>    
+<p>Contact</p>
+<p><b>Dr. Anoop C K</b></p>
+<p>IQAC COORDINATOR</p>
+<p>Viswajyothi College of Engineering and Technology</p>
+<p>anoop4281@gmail.com</p>
+<p>9497189607</p>
                 </div>
                 
                 <Footer data={this.HomePageFooter} />
