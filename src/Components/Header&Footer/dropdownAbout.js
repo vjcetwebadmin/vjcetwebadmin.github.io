@@ -76,6 +76,14 @@ class DropDownAb extends Component {
               Affliations
             </Link>
           </p>
+          <p>
+            <Link
+              to="/about/mandatorydisclosure"
+              className="patch1"
+            >
+              Madentory Disclosure
+            </Link>
+          </p>
         </div>
       </div>
     );

@@ -8,7 +8,7 @@ import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../Components/Texts/HeadingOne";
 
-class Affliations extends React.Component {
+class Mandatorydisclosure extends React.Component {
     state = { showMenu: false };
     openMenu = () => {
         console.log("opening Menu");
@@ -27,7 +27,7 @@ class Affliations extends React.Component {
 
     CCCNATitle = {
         instanceID: "CCCTitle",
-        title: "Affliation Details"
+        title: "MANDATORY DISCLOSURE"
     };
     CCCTitle = {
         instanceID: "CCCTitle",
@@ -78,10 +78,9 @@ class Affliations extends React.Component {
 
                 <div className="contain">
                     <HeadingOne data={this.CCCNATitle} className="Heading" />
-                    <HeadingThree data={this.WifiTitle} className="Heading" />
-                    <iframe src="https://vjcet.org/downloads/about/Affliation AICTE.pdf" width="100%" height="800" title="Campus Map" align="center"></iframe>
-                    <HeadingThree data={this.CCCTitle} className="Heading" />
-                    <iframe src="https://vjcet.org/downloads/about/Affliation-KTU.pdf" width="100%" height="800" title="Campus Map" align="center"></iframe>
+                    
+                    
+                    <iframe src="https://vjcet.org/downloads/about/MANDATORY_DISCLOSURE_20.pdf" width="100%" height="800" title="Campus Map" align="center"></iframe>
                    <br />
                    
                    
@@ -96,4 +95,4 @@ class Affliations extends React.Component {
 
 }
 
-export default Affliations;
+export default Mandatorydisclosure;
