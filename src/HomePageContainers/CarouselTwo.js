@@ -7,7 +7,7 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newstwo" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Fee remittance 2nd and 4th semesters - Date Extended</font></a>
+      title: <a href="https://vjcet.org/downloads/news/KTU_Revised_schedule.pdf" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">APJAKTU-Revised Schedule of Academic Activities</font></a>
     },
     
     {
@@ -23,17 +23,7 @@ class CarouselTwo extends Component {
       title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Spark AR Program- An Unique Opportunity for Students</font></a>
     },
 
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/downloads/news/MG Internal re-do Jan 2020.pdf" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">M.G. University Internal Redo Examination Jan'20 Time-Table</font></a>
-    },
-   
-   
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <font color="FFFFF" size="3">Statement issued as per rule 13(b) of Income Tax: No foreign contribution has been received by the DTET for the quarter ended on 31-12-2019</font>
-    },
-   
+    
     
     {
       instanceID: this.props.data.instanceID + "CustomOne",
