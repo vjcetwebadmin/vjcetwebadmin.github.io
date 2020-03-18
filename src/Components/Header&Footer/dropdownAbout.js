@@ -57,7 +57,7 @@ class DropDownAb extends Component {
               to="/about/keyfunctionaries"
               className="patch1"
             >
-              KeyFunctionaries
+              Key Functionaries
             </Link>
           </p>
           <p>
