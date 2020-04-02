@@ -144,7 +144,7 @@ class MenuOverlay extends Component {
                 Accreditation
               </Link>
               <Link className="MenuOverlaySubLinks" to="/about/keyfunctionaries">
-                KeyFunctionaries
+                Key Functionaries
               </Link>
               <Link
                 to="/about/vision"

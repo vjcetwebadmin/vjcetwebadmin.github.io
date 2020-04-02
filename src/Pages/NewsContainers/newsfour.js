@@ -1,5 +1,5 @@
 import React from "react";
-//import HeadingTwo from "../../Components/Texts/HeadingTwo";
+import HeadingTwo from "../../Components/Texts/HeadingTwo";
 //import ImageOne from "../../Components/Images/ImageOne";
 //import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
@@ -40,7 +40,11 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Job Call"
+        title: "Online Classes"
+    };
+    NewsTitle1 = {
+        instanceID: "NewsTitle1",
+        title: "UGC Circular on Online Learning"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -75,7 +79,9 @@ class Newsone extends React.Component {
                    <div className="bodyContainer">
                   {/*   <iframe src="https://vjcet.org/downloads/news/MED Job.pdf" width="90%" height="1000" title="Job Call"></iframe> */}
                   
-                  <p>Mail resumes to shunmugesh@vjcet.org</p>
+                  <p>Online classes through Google Classroom and Zoom Class room app is started for all B.Tech courses. Join requests are sent to all student and faculty mails. All students are advised to accept the request and avail the online video lectures, course materials and assignment works.</p>
+                  <HeadingTwo data={this.NewsTitle1} />
+                  <iframe src="https://vjcet.org/downloads/news/Online_Learning_UGC_Circular.pdff" width="100%" height="500" title="Campus Map" align="center"></iframe>
                     </div>             
 
                     
