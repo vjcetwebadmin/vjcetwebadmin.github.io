@@ -81,7 +81,7 @@ class Newsone extends React.Component {
                   
                   <p>Online classes through Google Classroom and Zoom Class room app is started for all B.Tech courses. Join requests are sent to all student and faculty mails. All students are advised to accept the request and avail the online video lectures, course materials and assignment works.</p>
                   <HeadingTwo data={this.NewsTitle1} />
-                  <iframe src="https://vjcet.org/downloads/news/Online_Learning_UGC_Circular.pdff" width="100%" height="500" title="Campus Map" align="center"></iframe>
+                  <iframe src="https://vjcet.org/downloads/news/Online_Learning_UGC_Circular.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
                     </div>             
 
                     
