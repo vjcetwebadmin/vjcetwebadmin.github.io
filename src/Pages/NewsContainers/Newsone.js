@@ -41,7 +41,7 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Spark AR Program"
+        title: "MHRD AICTE COVID19 Helpline: Request for your urgent support."
     };
     NewsContent1 = {
         instanceID: "NewsContent1",
@@ -74,9 +74,9 @@ class Newsone extends React.Component {
                 <div className="contain">
                     
                     <div className="bodyContainer">
-                    
-                    <iframe src="https://vjcet.org/downloads/news/Spark AR Open Program - Brochure.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
-                    <iframe src="https://vjcet.org/downloads/news/Spark AR Open Program - Whatsapp Creative.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
+                    <HeadingOne data={this.NewsTitle}></HeadingOne>
+                    <p>Please fill in the data using mobile :</p>
+                    <p>  https://helpline.aicte-india.org/register_mobile.php  so that it will be immediately useful to our students in difficulty</p>
                 </div>
              
                                     
