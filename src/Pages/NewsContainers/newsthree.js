@@ -40,7 +40,7 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "University CSI STUDENT BRANCH RECIEVES “BEST ACCREDITED STUDENT BRANCH AWARD"
+        title: "Circular from AICTE regarding Study from home through NDLI"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -72,9 +72,19 @@ class Newsone extends React.Component {
                 <div className="contain">
                    
                    <HeadingOne data={this.NewsTitle} />
-                   <ImageOne data={this.NewsImagedata1} />
-                  <p align="left"> The CSI Student Branch of Viswajyothi College of Engineering and Technology, one of the most vibrant branches of CSI Cochin Chapter was selected to receive the prestigious “Best Accredited Student Branch Award” in the year 2017-2018 and 2018-2019 by the Computer Society of India which has 73 chapters all over India, over 500 student branches, and more than 200000 members. The student branch receives “ The Best Accredited Student Branch” consecutively for 5 years is a noticeable achievement. The award was received by Head of Computer Science and Engineering Department Prof. Amel Austine from  Prof  Mike Hinchy, President of IFIP and Dr. R.K Vyas, Vicepresident CSI in the CSI Annual Convention 2020 at Kalinga Instituite of Industrial Technology, Bhuvaneswar on 18th January 2020.</p>
                    
+                  <p align="left"> Greetings from All India Council for Technical Education..!!</p>
+                  <p align="left">It is to inform you that to help the student community in the difficult situation arising out of the suspension of physical classes and closure of physical libraries arising out of COVID-19 Lockdown, the National Digital Library of India (NDLI) has initiated specially designed collections of e-resources for a specific group of students. </p>
+                  <p align="left">Please visit https://www.ndl.gov.in/ or https://ndl.iitkgp.ac.in/ to access these resources free of cost.</p>
+                  <p align="left">NDLI is constantly updating these collections and features. Communication about these enhancements is being sent periodically through NDL India social networking pages. Stay tuned to these channels.</p>
+                  <p align="left">Facebook:https://www.facebook.com/NDLIndia</p>
+                  <p align="left">Twitter:https://twitter.com/NDLIndia</p>
+                  <p align="left">Instagram:https://www.instagram.com/NDLIndia/</p>
+                  <p align="left">Linkedin:https://in.linkedin.com/company/ndlindia</p>
+                  <p align="left">AICTE requests you to spread this information among your faculty and students to get benefited from NDLI. </p>
+                  <p align="left">Stay safe, take care of your near and dear ones and continue your study effectively during this unprecedented challenging time the entire human race is facing. Together, we shall learn, share, grow and get through this as a nation.</p>
+                  <p align="left">Best Regards,</p>
+                  <p align="left">AICTE </p>
                                 
                     <br />                 
 
