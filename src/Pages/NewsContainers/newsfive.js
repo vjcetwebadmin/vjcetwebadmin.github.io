@@ -81,7 +81,7 @@ class Newsone extends React.Component {
                   <p align="left"> APJ Abdul Kalam Technological University</p>
                   <iframe src="https://vjcet.org/downloads/news/KTU_Webinar_APR_14.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
                   <br /> 
-                  <iframe src="https://vjcet.org/downloads/news/Webinar_CT.pdf.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
+                  <iframe src="https://vjcet.org/downloads/news/Webinar_CT.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
                   
                                 
                     <br />                 
