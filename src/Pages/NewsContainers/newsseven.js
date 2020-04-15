@@ -40,7 +40,7 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: " KTU - Siemens Webinar | Details"
+        title: "Quarterly Details of the Foreign Contribution Received"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -74,18 +74,29 @@ class Newsone extends React.Component {
                    <HeadingOne data={this.NewsTitle} />
                    
                   <p align="left">The  KTU COVID-19 cell in association with KTU Industry attachment Cell is organising a series of Webinars for students. The first edition falls on April 14th. This is in association with Siemens Healthineers </p>
-                  <p align="left"> Please see the session details </p>
-                  <p align="left"> Regards,</p>
-                  <p align="left"> Dr. Vrinda V. Nair</p>
-                  <p align="left"> Registrar (i/c)</p>
-                  <p align="left"> APJ Abdul Kalam Technological University</p>
-                  <iframe src="https://vjcet.org/downloads/news/KTU_Webinar_APR_14.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
-                  <br /> 
-                  <iframe src="https://vjcet.org/downloads/news/Webinar_CT.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
-                  
-                                
-                    <br />                 
-
+                    <table>
+                        <tr><td>
+                        Details of Donor
+                            </td>
+                            <td>
+                            Diocese of Rottenburg - Stugart
+                            </td>
+                        </tr>
+                        <tr><td>
+                        Amount Received 
+                            </td>
+                            <td>
+                            19,49,495/-( 24,970/-Euro)
+                            </td>
+                        </tr>
+                        <tr><td>
+                        Date of Receipt  
+                            </td>
+                            <td>
+                            29-01-2020
+                            </td>
+                        </tr>
+                    </table>
                     
                 </div>
                 <Footer data={this.HomePageFooter} />
