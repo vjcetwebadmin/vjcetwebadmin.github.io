@@ -73,7 +73,7 @@ class Newsone extends React.Component {
                    
                    <HeadingOne data={this.NewsTitle} />
                    
-                  <p align="left">The  KTU COVID-19 cell in association with KTU Industry attachment Cell is organising a series of Webinars for students. The first edition falls on April 14th. This is in association with Siemens Healthineers </p>
+                  
                     <table>
                         <tr><td>
                         Details of Donor
