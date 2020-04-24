@@ -1,7 +1,7 @@
 import React from "react";
 import HeadingThree from "../Components/Texts/HeadingThree";
-import ImageOne from "../Components/Images/ImageOne";
-import BodyOneJustified from "../Components/Texts/BodyOneJustified";
+//import ImageOne from "../Components/Images/ImageOne";
+//import BodyOneJustified from "../Components/Texts/BodyOneJustified";
 
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
@@ -27,7 +27,7 @@ class Affliations extends React.Component {
 
     CCCNATitle = {
         instanceID: "CCCTitle",
-        title: "Affliation Details"
+        title: "Affiliation Details"
     };
     CCCTitle = {
         instanceID: "CCCTitle",

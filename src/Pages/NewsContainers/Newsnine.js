@@ -8,7 +8,7 @@ import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import ImageOne from "../../Components/Images/ImageOne";
+//import ImageOne from "../../Components/Images/ImageOne";
 //import ImageTwo from "../../Components/Images/imageTwo";
 
 /* import HeadingTwo from "../../Components/Texts/HeadingTwo";
@@ -21,7 +21,7 @@ import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay"; 
 import HeadingOne from "../../Components/Texts/HeadingOne";*/
 
-class Newsone extends React.Component {
+class Newsnine extends React.Component {
     state = { showMenu: false };
     openMenu = () => {
         console.log("opening Menu");
@@ -97,4 +97,4 @@ class Newsone extends React.Component {
 
 }
 
-export default Newsone;
+export default Newsnine;

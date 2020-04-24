@@ -8,20 +8,20 @@ import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import ImageOne from "../../Components/Images/ImageOne";
+//import ImageOne from "../../Components/Images/ImageOne";
 //import ImageTwo from "../../Components/Images/imageTwo";
 
 /* import HeadingTwo from "../../Components/Texts/HeadingTwo";
-import ImageOne from "../../Components/Images/ImageOne";
-import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
-import "../styles.css"
+import ImageOne from "../../Components/Images/ImageOne";*/
+//import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
+/*import "../styles.css"
 
 import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay"; 
 import HeadingOne from "../../Components/Texts/HeadingOne";*/
 
-class Newsone extends React.Component {
+class Newssix extends React.Component {
     state = { showMenu: false };
     openMenu = () => {
         console.log("opening Menu");
@@ -40,11 +40,11 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: " KTU - Siemens Webinar | Details"
+        title: " Online Learning Contents"
     };
     Newscontent = {
         instanceID: "Newscontent",
-        title: " The 1st batch of KTU(2015-19) secured 91.82% pass"
+        title: " "
     };
     
     NewsImagedata1 = {
@@ -73,17 +73,8 @@ class Newsone extends React.Component {
                    
                    <HeadingOne data={this.NewsTitle} />
                    
-                  <p align="left">The  KTU COVID-19 cell in association with KTU Industry attachment Cell is organising a series of Webinars for students. The first edition falls on April 14th. This is in association with Siemens Healthineers </p>
-                  <p align="left"> Please see the session details </p>
-                  <p align="left"> Regards,</p>
-                  <p align="left"> Dr. Vrinda V. Nair</p>
-                  <p align="left"> Registrar (i/c)</p>
-                  <p align="left"> APJ Abdul Kalam Technological University</p>
-                  <iframe src="https://vjcet.org/downloads/news/KTU_Webinar_APR_14.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
-                  <br /> 
-                  <iframe src="https://vjcet.org/downloads/news/Webinar_CT.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
-                  
-                                
+                   <p>Students can access the learning contents(video lectures, notes, presentation slides) using the <a href="ftp://117.239.154.86/" target="_blank" rel="noopener noreferrer">link</a>. </p>
+                                             
                     <br />                 
 
                     
@@ -97,4 +88,4 @@ class Newsone extends React.Component {
 
 }
 
-export default Newsone;
+export default Newssix;

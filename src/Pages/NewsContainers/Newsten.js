@@ -8,7 +8,7 @@ import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import ImageOne from "../../Components/Images/ImageOne";
+//import ImageOne from "../../Components/Images/ImageOne";
 //import ImageTwo from "../../Components/Images/imageTwo";
 
 /* import HeadingTwo from "../../Components/Texts/HeadingTwo";
@@ -21,7 +21,7 @@ import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay"; 
 import HeadingOne from "../../Components/Texts/HeadingOne";*/
 
-class Newsone extends React.Component {
+class Newsten extends React.Component {
     state = { showMenu: false };
     openMenu = () => {
         console.log("opening Menu");
@@ -40,7 +40,7 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Circular from AICTE regarding Study from home through NDLI"
+        title: " KTU - Siemens Webinar | Details"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -73,18 +73,16 @@ class Newsone extends React.Component {
                    
                    <HeadingOne data={this.NewsTitle} />
                    
-                  <p align="left"> Greetings from All India Council for Technical Education..!!</p>
-                  <p align="left">It is to inform you that to help the student community in the difficult situation arising out of the suspension of physical classes and closure of physical libraries arising out of COVID-19 Lockdown, the National Digital Library of India (NDLI) has initiated specially designed collections of e-resources for a specific group of students. </p>
-                  <p align="left">Please visit https://www.ndl.gov.in/ or https://ndl.iitkgp.ac.in/ to access these resources free of cost.</p>
-                  <p align="left">NDLI is constantly updating these collections and features. Communication about these enhancements is being sent periodically through NDL India social networking pages. Stay tuned to these channels.</p>
-                  <p align="left">Facebook:https://www.facebook.com/NDLIndia</p>
-                  <p align="left">Twitter:https://twitter.com/NDLIndia</p>
-                  <p align="left">Instagram:https://www.instagram.com/NDLIndia/</p>
-                  <p align="left">Linkedin:https://in.linkedin.com/company/ndlindia</p>
-                  <p align="left">AICTE requests you to spread this information among your faculty and students to get benefited from NDLI. </p>
-                  <p align="left">Stay safe, take care of your near and dear ones and continue your study effectively during this unprecedented challenging time the entire human race is facing. Together, we shall learn, share, grow and get through this as a nation.</p>
-                  <p align="left">Best Regards,</p>
-                  <p align="left">AICTE </p>
+                  <p align="left">The  KTU COVID-19 cell in association with KTU Industry attachment Cell is organising a series of Webinars for students. The first edition falls on April 14th. This is in association with Siemens Healthineers </p>
+                  <p align="left"> Please see the session details </p>
+                  <p align="left"> Regards,</p>
+                  <p align="left"> Dr. Vrinda V. Nair</p>
+                  <p align="left"> Registrar (i/c)</p>
+                  <p align="left"> APJ Abdul Kalam Technological University</p>
+                  <iframe src="https://vjcet.org/downloads/news/KTU_Webinar_APR_14.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
+                  <br /> 
+                  <iframe src="https://vjcet.org/downloads/news/Webinar_CT.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
+                  
                                 
                     <br />                 
 
@@ -99,4 +97,4 @@ class Newsone extends React.Component {
 
 }
 
-export default Newsone;
+export default Newsten;

@@ -8,20 +8,20 @@ import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import ImageOne from "../../Components/Images/ImageOne";
+//import ImageOne from "../../Components/Images/ImageOne";
 //import ImageTwo from "../../Components/Images/imageTwo";
 
 /* import HeadingTwo from "../../Components/Texts/HeadingTwo";
-import ImageOne from "../../Components/Images/ImageOne";*/
+import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
-/*import "../styles.css"
+import "../styles.css"
 
 import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay"; 
 import HeadingOne from "../../Components/Texts/HeadingOne";*/
 
-class Newsone extends React.Component {
+class Newsseven extends React.Component {
     state = { showMenu: false };
     openMenu = () => {
         console.log("opening Menu");
@@ -40,11 +40,11 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: " Online Learning Contents"
+        title: "Quarterly Details of the Foreign Contribution Received"
     };
     Newscontent = {
         instanceID: "Newscontent",
-        title: " "
+        title: " The 1st batch of KTU(2015-19) secured 91.82% pass"
     };
     
     NewsImagedata1 = {
@@ -73,10 +73,30 @@ class Newsone extends React.Component {
                    
                    <HeadingOne data={this.NewsTitle} />
                    
-                   <p>Students can access the learning contents(video lectures, notes, presentation slides) using the <a href="ftp://117.239.154.85/" target="_blank" rel="noopener noreferrer">link</a>. </p>
-                    <p><a href="ftp://117.239.154.86/" target="_blank" rel="noopener noreferrer"> Mirror link</a></p>                          
-                    <br />                 
-
+                  
+                    <table>
+                        <tr><td>
+                        Details of Donor
+                            </td>
+                            <td>
+                            Diocese of Rottenburg - Stugart
+                            </td>
+                        </tr>
+                        <tr><td>
+                        Amount Received 
+                            </td>
+                            <td>
+                            19,49,495/-( 24,970/-Euro)
+                            </td>
+                        </tr>
+                        <tr><td>
+                        Date of Receipt  
+                            </td>
+                            <td>
+                            29-01-2020
+                            </td>
+                        </tr>
+                    </table>
                     
                 </div>
                 <Footer data={this.HomePageFooter} />
@@ -88,4 +108,4 @@ class Newsone extends React.Component {
 
 }
 
-export default Newsone;
+export default Newsseven;

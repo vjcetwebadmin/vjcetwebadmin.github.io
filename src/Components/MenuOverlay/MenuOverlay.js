@@ -156,7 +156,7 @@ class MenuOverlay extends Component {
                 to="/about/affliations"
                 className="MenuOverlaySubLinks"
               >
-                Affliations
+                Affiliations
             </Link>
               <Link className="MenuOverlaySubLinks" to="/contact">
                 Contact Us

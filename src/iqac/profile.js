@@ -7,7 +7,7 @@ import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import HeadingTwo from "../Components/Texts/HeadingTwo";
-import HeadingFour from "../Components/Texts/HeadingFour";
+//import HeadingFour from "../Components/Texts/HeadingFour";
 import HeadingThree from "../Components/Texts/HeadingThree";
 import "../Components/Images/gallery.css";
 

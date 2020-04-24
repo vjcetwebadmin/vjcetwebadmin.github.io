@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
-import ImageOne from "../../Components/Images/ImageOne";
+//import ImageOne from "../../Components/Images/ImageOne";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "./Research.css"

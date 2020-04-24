@@ -23,7 +23,7 @@ import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
  */
-class Newsone extends React.Component {
+class Newstwo extends React.Component {
     state = { showMenu: false };
     openMenu = () => {
         console.log("opening Menu");
@@ -131,4 +131,4 @@ class Newsone extends React.Component {
 
 }
 
-export default Newsone;
+export default Newstwo;

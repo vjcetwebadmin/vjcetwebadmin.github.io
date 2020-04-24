@@ -54,14 +54,15 @@ import Syllabusplan from "./Pages/Syllabusplan";
 import Blockchain from "./Pages/Blockchain";
 import Newsone from "./Pages/NewsContainers/Newsone";
 import Newstwo from "./Pages/NewsContainers/Newstwo";
-import Newsthree from "./Pages/NewsContainers/newsthree";
-import Newsfour from "./Pages/NewsContainers/newsfour";
-import Newsfive from "./Pages/NewsContainers/newsfive";
-import Newssix from "./Pages/NewsContainers/newssix";
-import Newsseven from "./Pages/NewsContainers/newsseven";
-import newseight from "./Pages/NewsContainers/newseight";
-import newsnine from "./Pages/NewsContainers/newsnine";
-import Newsten from "./Pages/NewsContainers/newsten";
+import Newsthree from "./Pages/NewsContainers/Newsthree";
+import Newsfour from "./Pages/NewsContainers/Newsfour";
+import Newsfive from "./Pages/NewsContainers/Newsfive";
+import Newssix from "./Pages/NewsContainers/Newssix";
+import Newsseven from "./Pages/NewsContainers/Newsseven";
+import newseight from "./Pages/NewsContainers/Newseight";
+import newsnine from "./Pages/NewsContainers/Newsnine";
+import Newsten from "./Pages/NewsContainers/Newsten";
+import Newsfee from "./Pages/NewsContainers/Feenews";
 import Iedc from "./EdPageContainers/IEDC/csdepartment";
 import Vbic from "./EdPageContainers/Vbic";
 import Iiic from "./EdPageContainers/IIIC/csdepartment";
@@ -143,6 +144,7 @@ class App extends Component {
               <Route exact path="/newseight" component={newseight} />
               <Route exact path="/newsnine" component={newsnine} />
               <Route exact path="/newsten" component={Newsten} />
+              <Route exact path="/newsfee" component={Newsfee} />              
               <Route exact path="/ed/iedc" component={Iedc} />
               <Route exact path="/ed/v-bic" component={Vbic} />
               <Route exact path="/ed/iiic" component={Iiic} />

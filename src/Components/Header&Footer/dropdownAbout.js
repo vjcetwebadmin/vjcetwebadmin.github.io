@@ -73,7 +73,7 @@ class DropDownAb extends Component {
               to="/about/affliations"
               className="patch1"
             >
-              Affliations
+             Affiliations
             </Link>
           </p>
           <p>

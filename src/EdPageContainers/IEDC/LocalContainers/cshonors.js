@@ -4,7 +4,7 @@ import HeadingOne from "../../../Components/Texts/HeadingOne";
 // import ImageOne from "../Components/Images/ImageOne";
 
 
-import BodyOneJustified from "../../../Components/Texts/BodyOneJustified";
+//import BodyOneJustified from "../../../Components/Texts/BodyOneJustified";
 
 
 import "./honors.css";

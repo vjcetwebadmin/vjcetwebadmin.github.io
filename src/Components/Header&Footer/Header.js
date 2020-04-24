@@ -165,7 +165,7 @@ class Header extends Component {
           </div>
             <DropDownL />
             
-             <a href="https://vjcet.org/#/newstwo"><ImageOne data={this.FeePaymentImagedata} /></a> 
+             <a href="https://vjcet.org/#/newsfee"><ImageOne data={this.FeePaymentImagedata} /></a> 
             <div className="contactus">
             <ContactLink data={this.Link2} />
             </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import HeadingTwo from "../../Components/Texts/HeadingTwo";
+//import HeadingTwo from "../../Components/Texts/HeadingTwo";
 //import ImageOne from "../../Components/Images/ImageOne";
 //import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
@@ -8,7 +8,7 @@ import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import ImageOne from "../../Components/Images/ImageOne";
+//import ImageOne from "../../Components/Images/ImageOne";
 //import ImageTwo from "../../Components/Images/imageTwo";
 
 /* import HeadingTwo from "../../Components/Texts/HeadingTwo";
@@ -21,7 +21,7 @@ import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay"; 
 import HeadingOne from "../../Components/Texts/HeadingOne";*/
 
-class Newsone extends React.Component {
+class Newsfive extends React.Component {
     state = { showMenu: false };
     openMenu = () => {
         console.log("opening Menu");
@@ -40,11 +40,7 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Online Classes"
-    };
-    NewsTitle1 = {
-        instanceID: "NewsTitle1",
-        title: "UGC Circular on Online Learning"
+        title: " KTU - Siemens Webinar | Details"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -53,7 +49,7 @@ class Newsone extends React.Component {
     
     NewsImagedata1 = {
         instanceID: "NewsImagedata1",
-        image: "NewsImages/Rank.jpg",
+        image: "NewsImages/csi.jpg",
         width: "80%"
     }
     NewsImagedata2 = {
@@ -76,13 +72,19 @@ class Newsone extends React.Component {
                 <div className="contain">
                    
                    <HeadingOne data={this.NewsTitle} />
-                   <div className="bodyContainer">
-                  {/*   <iframe src="https://vjcet.org/downloads/news/MED Job.pdf" width="90%" height="1000" title="Job Call"></iframe> */}
+                   
+                  <p align="left">The  KTU COVID-19 cell in association with KTU Industry attachment Cell is organising a series of Webinars for students. The first edition falls on April 14th. This is in association with Siemens Healthineers </p>
+                  <p align="left"> Please see the session details </p>
+                  <p align="left"> Regards,</p>
+                  <p align="left"> Dr. Vrinda V. Nair</p>
+                  <p align="left"> Registrar (i/c)</p>
+                  <p align="left"> APJ Abdul Kalam Technological University</p>
+                  <iframe src="https://vjcet.org/downloads/news/KTU_Webinar_APR_14.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
+                  <br /> 
+                  <iframe src="https://vjcet.org/downloads/news/Webinar_CT.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
                   
-                  <p>Online classes through Google Classroom and Zoom Class room app is started for all B.Tech courses. Join requests are sent to all student and faculty mails. All students are advised to accept the request and avail the online video lectures, course materials and assignment works.</p>
-                  <HeadingTwo data={this.NewsTitle1} />
-                  <iframe src="https://vjcet.org/downloads/news/Online_Learning_UGC_Circular.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
-                    </div>             
+                                
+                    <br />                 
 
                     
                 </div>
@@ -95,4 +97,4 @@ class Newsone extends React.Component {
 
 }
 
-export default Newsone;
+export default Newsfive;
