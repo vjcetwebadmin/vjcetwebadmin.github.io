@@ -1,7 +1,7 @@
 import React from "react";
 //import HeadingTwo from "../../Components/Texts/HeadingTwo";
 //import ImageOne from "../../Components/Images/ImageOne";
-//import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
+import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
 import "../../Components/News/gallery.css";
 import Header from "../../Components/Header&Footer/Header";
@@ -40,11 +40,11 @@ class Newsfive extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: " KTU - Siemens Webinar | Details"
+        title: " Coursera MOOC registrations"
     };
     Newscontent = {
         instanceID: "Newscontent",
-        title: " The 1st batch of KTU(2015-19) secured 91.82% pass"
+        title: " Coursera is an American online learning platform founded in 2012 by Stanford professors Andrew Ng and Daphne Koller that offers massive open online courses (MOOC), specializations, and degrees.  Coursera provides free access to over 3,800 courses from leading universities and companies. VJCET has acquired 1500 licenses for our students and faculties to choose from content covering business, technology, data science, and more."
     };
     
     NewsImagedata1 = {
@@ -72,16 +72,13 @@ class Newsfive extends React.Component {
                 <div className="contain">
                    
                    <HeadingOne data={this.NewsTitle} />
-                   
-                  <p align="left">The  KTU COVID-19 cell in association with KTU Industry attachment Cell is organising a series of Webinars for students. The first edition falls on April 14th. This is in association with Siemens Healthineers </p>
-                  <p align="left"> Please see the session details </p>
-                  <p align="left"> Regards,</p>
-                  <p align="left"> Dr. Vrinda V. Nair</p>
-                  <p align="left"> Registrar (i/c)</p>
-                  <p align="left"> APJ Abdul Kalam Technological University</p>
-                  <iframe src="https://vjcet.org/downloads/news/KTU_Webinar_APR_14.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
-                  <br /> 
-                  <iframe src="https://vjcet.org/downloads/news/Webinar_CT.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
+                   <BodyOneJustified data={this.Newscontent}/>  
+                   <table id="tableformat">
+                        <tr><th >Access Links</th></tr>
+                            <tr><td><a href="https://www.coursera.org/programs/viswajyothi-college-of-engineering-technology-vd54m" target="_blank" rel="noopener noreferrer">Coursera MOOC-VJCET</a> </td></tr>
+                            <tr><td><a href="https://forms.gle/mqXqnZCpNLZw59NX7" target="_blank" rel="noopener noreferrer">Faculty Registration</a></td></tr>
+                            <tr><td><a href="https://forms.gle/tBrUqL18N8gnp6Zk7" target="_blank" rel="noopener noreferrer">Student Registration</a></td></tr>
+                    </table>
                   
                                 
                     <br />                 
