@@ -31,8 +31,8 @@ class Header extends Component {
   };
   FeePaymentImagedata = {
     instanceID: "CCCVjcImage",
-    image: "NewsImages/feepayment.png",
-    width: "80%"
+    image: "NewsImages/keam_badge.png",
+    width: "70%"
 };
   NBALogo = {
     instanceID: "HeaderNBALogo",
