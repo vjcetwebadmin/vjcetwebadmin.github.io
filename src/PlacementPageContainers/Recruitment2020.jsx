@@ -37,298 +37,459 @@ import { MDBDataTable } from 'mdbreact';
           ],
           rows: [
             {
-                slno: "42",
-                company: "QUEST",
-                year: "2020",
-                branch: "IT",
-                no_of_students: "01"
+                "slno": "65",
+                "company": "Daivik Technologies",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "2"
             },
             {
-                slno: "41",
-                company: "QUEST",
-                year: "2020",
-                branch: "EC",
-                no_of_students: "03"
+                "slno": "64",
+                "company": "Daivik Technologies",
+                "year": "2020",
+                "branch": "IT",
+                "no_of_students": "2"
             },
             {
-                slno: "40",
-                company: "QUEST",
-                year: "2020",
-                branch: "CS",
-                no_of_students: "02"
+                "slno": "63",
+                "company": "Zerone Consulting Pvt. Ltd.",
+                "year": "2020",
+                "branch": "IT",
+                "no_of_students": "4"
             },
             {
-                slno: "39",
-                company: "6D TECHNOLAGIES",
-                year: "2020",
-                branch: "IT",
-                no_of_students: "01"
+                "slno": "62",
+                "company": "Image Infosystems",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "1"
             },
             {
-                slno: "38",
-                company: "6D TECHNOLAGIES",
-                year: "2020",
-                branch: "EC",
-                no_of_students: "02"
+                "slno": "61",
+                "company": "Image Infosystems",
+                "year": "2020",
+                "branch": "IT",
+                "no_of_students": "1"
             },
             {
-                slno: "37",
-                company: "6D TECHNOLAGIES",
-                year: "2020",
-                branch: "CS",
-                no_of_students: "03"
+                "slno": "60",
+                "company": "Mistral Solutions",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "1"
             },
             {
-                slno: "36",
-                company: "IMAGE INFOSYSTEMS",
-                year: "2020",
-                branch: "IT",
-                no_of_students: "01"
+                "slno": "59",
+                "company": "Innovature Labs",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "1"
             },
             {
-                slno: "35",
-                company: "IMAGE INFOSYSTEMS",
-                year: "2020",
-                branch: "CS",
-                no_of_students: "01"
+                "slno": "58",
+                "company": "G10X",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "1"
             },
             {
-                slno: "34",
-                company: "PARTIAN TECHNOLOGIES",
-                year: "2020",
-                branch: "IT",
-                no_of_students: "10"
+                "slno": "57",
+                "company": "G10X",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "1"
             },
             {
-                slno: "33",
-                company: "PARTIAN TECHNOLOGIES",
-                year: "2020",
-                branch: "EC",
-                no_of_students: "10"
+                "slno": "56",
+                "company": "G10X",
+                "year": "2020",
+                "branch": "EEE",
+                "no_of_students": "1"
             },
             {
-                slno: "32",
-                company: "PARTIAN TECHNOLOGIES",
-                year: "2020",
-                branch: "CS",
-                no_of_students: "21"
+                "slno": "55",
+                "company": "Quest",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "2"
             },
             {
-                slno: "31",
-                company: "UST",
-                year: "2020",
-                branch: "IT",
-                no_of_students: "02"
+                "slno": "54",
+                "company": "Quest",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "3"
             },
             {
-                slno: "30",
-                company: "UST",
-                year: "2020",
-                branch: "EC",
-                no_of_students: "06"
+                "slno": "53",
+                "company": "Quest",
+                "year": "2020",
+                "branch": "IT",
+                "no_of_students": "1"
             },
             {
-                slno: "29",
-                company: "UST",
-                year: "2020",
-                branch: "CS",
-                no_of_students: "02"
+                "slno": "52",
+                "company": "NMS Works",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "9"
             },
             {
-                slno: "28",
-                company: "IBS",
-                year: "2020",
-                branch: "IT",
-                no_of_students: "01"
+                "slno": "51",
+                "company": "6d Technologies",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "3"
             },
             {
-                slno: "27",
-                company: "IBS",
-                year: "2020",
-                branch: "ME",
-                no_of_students: "01"
+                "slno": "50",
+                "company": "6d Technologies",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "2"
             },
             {
-                slno: "26",
-                company: "IBS",
-                year: "2020",
-                branch: "CS",
-                no_of_students: "11"
+                "slno": "49",
+                "company": "6d Technologies",
+                "year": "2020",
+                "branch": "IT",
+                "no_of_students": "1"
             },
             {
-                slno: "25",
-                company: "ZERONE",
-                year: "2020",
-                branch: "IT",
-                no_of_students: "04"
+                "slno": "48",
+                "company": "Silver Peak Global",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "4"
             },
             {
-                slno: "24",
-                company: "SUTHERLAND GLOBAL",
-                year: "2020",
-                branch: "EEE",
-                no_of_students: "01"
+                "slno": "47",
+                "company": "Silver Peak Global",
+                "year": "2020",
+                "branch": "ME",
+                "no_of_students": "8"
             },
             {
-                slno: "23",
-                company: "SUTHERLAND GLOBAL",
-                year: "2020",
-                branch: "CE",
-                no_of_students: "03"
+                "slno": "46",
+                "company": "Silver Peak Global",
+                "year": "2020",
+                "branch": "IT",
+                "no_of_students": "1"
             },
             {
-                slno: "22",
-                company: "SUTHERLAND GLOBAL",
-                year: "2020",
-                branch: "ME",
-                no_of_students: "04"
+                "slno": "45",
+                "company": "Indoshell Mould Limited",
+                "year": "2020",
+                "branch": "ME",
+                "no_of_students": "12"
             },
             {
-                slno: "21",
-                company: "SUTHERLAND GLOBAL",
-                year: "2020",
-                branch: "EC",
-                no_of_students: "11"
+                "slno": "44",
+                "company": "Indoshell Mould Limited",
+                "year": "2020",
+                "branch": "EEE",
+                "no_of_students": "5"
             },
             {
-                slno: "20",
-                company: "SUTHERLAND GLOBAL",
-                year: "2020",
-                branch: "CS",
-                no_of_students: "04"
+                "slno": "43",
+                "company": "Pratian Technologies",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "21"
             },
             {
-                slno: "19",
-                company: "NMS",
-                year: "2020",
-                branch: "CS",
-                no_of_students: "09"
+                "slno": "42",
+                "company": "Pratian Technologies",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "10"
             },
             {
-                slno: "18",
-                company: "INDOSHELL",
-                year: "2020",
-                branch: "EEE",
-                no_of_students: "05"
+                "slno": "41",
+                "company": "Pratian Technologies",
+                "year": "2020",
+                "branch": "EEE",
+                "no_of_students": "1"
             },
             {
-                slno: "17",
-                company: "INDOSHELL",
-                year: "2020",
-                branch: "ME",
-                no_of_students: "12"
+                "slno": "40",
+                "company": "Pratian Technologies",
+                "year": "2020",
+                "branch": "IT",
+                "no_of_students": "10"
             },
             {
-                slno: "16",
-                company: "EXPERION",
-                year: "2020",
-                branch: "EC",
-                no_of_students: "02"
+                "slno": "39",
+                "company": "Verse Innovations",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "1"
             },
             {
-                slno: "15",
-                company: "EXPERION",
-                year: "2020",
-                branch: "CS",
-                no_of_students: "01"
+                "slno": "38",
+                "company": "Mindcurv Technology Solutions",
+                "year": "2020",
+                "branch": "IT",
+                "no_of_students": "1"
             },
             {
-                slno: "14",
-                company: "COGNIZAT",
-                year: "2020",
-                branch: "ME",
-                no_of_students: "05"
+                "slno": "37",
+                "company": "Sutherland Global",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "9"
             },
             {
-                slno: "13",
-                company: "COGNIZAT",
-                year: "2020",
-                branch: "CS",
-                no_of_students: "01"
+                "slno": "36",
+                "company": "Sutherland Global",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "22"
             },
             {
-                slno: "12",
-                company: "TCS",
-                year: "2020",
-                branch: "IT",
-                no_of_students: "02"
+                "slno": "35",
+                "company": "Sutherland Global",
+                "year": "2020",
+                "branch": "ME",
+                "no_of_students": "9"
             },
             {
-                slno: "11",
-                company: "TCS",
-                year: "2020",
-                branch: "EEE",
-                no_of_students: "02"
+                "slno": "34",
+                "company": "Sutherland Global",
+                "year": "2020",
+                "branch": "CE",
+                "no_of_students": "4"
             },
             {
-                slno: "10",
-                company: "TCS",
-                year: "2020",
-                branch: "CE",
-                no_of_students: "06"
+                "slno": "33",
+                "company": "Sutherland Global",
+                "year": "2020",
+                "branch": "EEE",
+                "no_of_students": "7"
             },
             {
-                slno: "09",
-                company: "TCS",
-                year: "2020",
-                branch: "ME",
-                no_of_students: "06"
+                "slno": "32",
+                "company": "Experion",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "1"
             },
             {
-                slno: "08",
-                company: "TCS",
-                year: "2020",
-                branch: "EC",
-                no_of_students: "06"
+                "slno": "31",
+                "company": "Experion",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "2"
             },
             {
-                slno: "07",
-                company: "TCS",
-                year: "2020",
-                branch: "CS",
-                no_of_students: "28"
+                "slno": "30",
+                "company": "Hexaware",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "6"
             },
             {
-                slno: "06",
-                company: "INFOSYS ",
-                year: "2020",
-                branch: "IT",
-                no_of_students: "05"
+                "slno": "29",
+                "company": "Hexaware",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "11"
             },
             {
-                slno: "05",
-                company: "INFOSYS ",
-                year: "2020",
-                branch: "EEE",
-                no_of_students: "03"
+                "slno": "28",
+                "company": "Hexaware",
+                "year": "2020",
+                "branch": "EEE",
+                "no_of_students": "2"
             },
             {
-                slno: "04",
-                company: "INFOSYS ",
-                year: "2020",
-                branch: "CE",
-                no_of_students: "03"
+                "slno": "27",
+                "company": "E & Y",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "2"
             },
             {
-                slno: "03",
-                company: "INFOSYS ",
-                year: "2020",
-                branch: "ME",
-                no_of_students: "04"
+                "slno": "26",
+                "company": "IBM",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "1"
             },
             {
-                slno: "02",
-                company: "INFOSYS ",
-                year: "2020",
-                branch: "EC",
-                no_of_students: "04"
+                "slno": "25",
+                "company": "Wipro",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "5"
             },
             {
-                slno: "01",
-                company: "INFOSYS ",
-                year: "2020",
-                branch: "CS",
-                no_of_students: "31"
+                "slno": "24",
+                "company": "Wipro",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "3"
+            },
+            {
+                "slno": "23",
+                "company": "Cognizat",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "1"
+            },
+            {
+                "slno": "22",
+                "company": "Cognizat",
+                "year": "2020",
+                "branch": "ME",
+                "no_of_students": "5"
+            },
+            {
+                "slno": "21",
+                "company": "UST",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "2"
+            },
+            {
+                "slno": "20",
+                "company": "UST",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "5"
+            },
+            {
+                "slno": "19",
+                "company": "UST",
+                "year": "2020",
+                "branch": "IT",
+                "no_of_students": "2"
+            },
+            {
+                "slno": "18",
+                "company": "Amazon",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "1"
+            },
+            {
+                "slno": "17",
+                "company": "Amazon",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "2"
+            },
+            {
+                "slno": "16",
+                "company": "Amazon",
+                "year": "2020",
+                "branch": "CE",
+                "no_of_students": "1"
+            },
+            {
+                "slno": "15",
+                "company": "IBS",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "11"
+            },
+            {
+                "slno": "14",
+                "company": "IBS",
+                "year": "2020",
+                "branch": "ME",
+                "no_of_students": "1"
+            },
+            {
+                "slno": "13",
+                "company": "IBS",
+                "year": "2020",
+                "branch": "IT",
+                "no_of_students": "1"
+            },
+            {
+                "slno": "12",
+                "company": "TCS",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "28"
+            },
+            {
+                "slno": "11",
+                "company": "TCS",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "6"
+            },
+            {
+                "slno": "10",
+                "company": "TCS",
+                "year": "2020",
+                "branch": "ME",
+                "no_of_students": "6"
+            },
+            {
+                "slno": "9",
+                "company": "TCS",
+                "year": "2020",
+                "branch": "CE",
+                "no_of_students": "6"
+            },
+            {
+                "slno": "8",
+                "company": "TCS",
+                "year": "2020",
+                "branch": "EEE",
+                "no_of_students": "2"
+            },
+            {
+                "slno": "7",
+                "company": "TCS",
+                "year": "2020",
+                "branch": "IT",
+                "no_of_students": "2"
+            },
+            {
+                "slno": "6",
+                "company": "Infosys ",
+                "year": "2020",
+                "branch": "CS",
+                "no_of_students": "31"
+            },
+            {
+                "slno": "5",
+                "company": "Infosys ",
+                "year": "2020",
+                "branch": "EC",
+                "no_of_students": "4"
+            },
+            {
+                "slno": "4",
+                "company": "Infosys ",
+                "year": "2020",
+                "branch": "ME",
+                "no_of_students": "4"
+            },
+            {
+                "slno": "3",
+                "company": "Infosys ",
+                "year": "2020",
+                "branch": "CE",
+                "no_of_students": "3"
+            },
+            {
+                "slno": "2",
+                "company": "Infosys ",
+                "year": "2020",
+                "branch": "EEE",
+                "no_of_students": "3"
+            },
+            {
+                "slno": "1",
+                "company": "Infosys ",
+                "year": "2020",
+                "branch": "IT",
+                "no_of_students": "5"
             }
           ]
         };
