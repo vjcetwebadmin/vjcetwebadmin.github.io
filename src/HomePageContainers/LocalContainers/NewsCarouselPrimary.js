@@ -22,7 +22,7 @@ class NewsCarouselPrimary extends Component {
 
   Title2 = {
     instanceID: "NewsPrimaryTwoTitle",
-    title: "402 Students Placed",
+    title: "326 Students Placed",
     link: "#/placement/"
   };
 
