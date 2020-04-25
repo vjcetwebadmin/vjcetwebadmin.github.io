@@ -5,6 +5,10 @@ import CustomOne from "../Components/Texts/CustomOne";
 class CarouselTwo extends Component {
   state = { selected: 0 };
   data = [
+    // {
+    //   instanceID: this.props.data.instanceID + "CustomOne",
+    //   title: <a href="https://vjcet.org/#/newseight" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Entrance Mock Test</font></a>
+    // },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsseven" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Quarterly Details of the Foreign Contribution Received</font></a>
@@ -36,7 +40,7 @@ class CarouselTwo extends Component {
     
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">CSI Student Branch BEST ACCREDITED STUDENT BRANCH AWARD</font></a>
+      title: "CSI Student Branch BEST ACCREDITED STUDENT BRANCH AWARD"
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",

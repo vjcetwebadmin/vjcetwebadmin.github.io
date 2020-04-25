@@ -1,6 +1,6 @@
 import React from "react";
 //import HeadingTwo from "../../Components/Texts/HeadingTwo";
-//import ImageOne from "../../Components/Images/ImageOne";
+import ImageOne from "../../Components/Images/ImageOne";
 //import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
 import "../../Components/News/gallery.css";
@@ -9,7 +9,7 @@ import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 //import ImageOne from "../../Components/Images/ImageOne";
-//import ImageTwo from "../../Components/Images/imageTwo";
+import ImageTwo from "../../Components/Images/imageTwo";
 
 /* import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
@@ -49,7 +49,7 @@ class Newseight extends React.Component {
     
     NewsImagedata1 = {
         instanceID: "NewsImagedata1",
-        image: "NewsImages/csi.jpg",
+        image: "NewsImages/Mock_Test_Banner.jpg",
         width: "80%"
     }
     NewsImagedata2 = {
@@ -59,8 +59,8 @@ class Newseight extends React.Component {
     }
     NewsImagedata3 = {
         instanceID: "NewsImagedata3",
-        image: "NewsImages/Registernow.jpg",
-        width: "20%"
+        image: "NewsImages/attend_exam.png",
+        width: "5%"
     }
     
 
@@ -70,21 +70,20 @@ class Newseight extends React.Component {
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
 
                 <div className="contain">
-                   
-                   <HeadingOne data={this.NewsTitle} />
-                   
-                  <p align="left">The  KTU COVID-19 cell in association with KTU Industry attachment Cell is organising a series of Webinars for students. The first edition falls on April 14th. This is in association with Siemens Healthineers </p>
-                  <p align="left"> Please see the session details </p>
-                  <p align="left"> Regards,</p>
-                  <p align="left"> Dr. Vrinda V. Nair</p>
-                  <p align="left"> Registrar (i/c)</p>
-                  <p align="left"> APJ Abdul Kalam Technological University</p>
-                  <iframe src="https://vjcet.org/downloads/news/KTU_Webinar_APR_14.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
-                  <br /> 
-                  <iframe src="https://vjcet.org/downloads/news/Webinar_CT.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
-                  
-                                
-                    <br />                 
+                   <ImageOne data={this.NewsImagedata1}/>
+                   <br/>
+            
+                   <table id="tableformat">
+                        <tr><th colspan="2">Level 1</th></tr>
+                            <tr><td>Mathematics</td><td><a href="https://forms.gle/5BEsZXFe73yTpTrR7" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
+                            <tr><td>Physics & Chemistry</td><td><a href="https://forms.gle/hViAEs6GohkFEfbaA" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
+                    </table>
+                    <br/>
+                    <table id="tableformat">
+                        <tr><th colspan="2">Level 2</th></tr>
+                            <tr><td>Mathematics</td><td>Scheduled on week2</td></tr>
+                            <tr><td>Physics & Chemistry</td><td>Scheduled on week2</td></tr>
+                    </table>
 
                     
                 </div>
