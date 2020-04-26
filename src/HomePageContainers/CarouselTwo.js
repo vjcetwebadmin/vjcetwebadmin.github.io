@@ -22,22 +22,13 @@ class CarouselTwo extends Component {
       title: <a href="https://vjcet.org/#/newssix" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Access to Study Materials- Video Lectures, PPTs & PDFs</font></a>
     },
     
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Study from home through NDLI</font></a>
-    },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">MHRD AICTE COVID19 Helpline: Request for your urgent support.</font></a>
-    },
+   
+    
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsfour" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Information Regarding Online Classes</font></a>
     },
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newstwo" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">APJAKTU-Revised Schedule of Academic Activities</font></a>
-    },
+   
     
     {
       instanceID: this.props.data.instanceID + "CustomOne",
