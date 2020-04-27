@@ -75,26 +75,27 @@ class Newseight extends React.Component {
             
                    <table id="tableformat">
                         <tr><th colspan="2">Level 1</th></tr>
-                            <tr><td>Paper I-Mathematics</td><td><a href="https://forms.gle/5BEsZXFe73yTpTrR7" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
-                            <tr><td>Paper II-Physics & Chemistry</td><td><a href="https://forms.gle/hViAEs6GohkFEfbaA" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
+                            <tr><td>Paper I-Physics & Chemistry</td><td><a href="https://forms.gle/hViAEs6GohkFEfbaA" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
+                            <tr><td>Paper II-Mathematics</td><td><a href="https://forms.gle/5BEsZXFe73yTpTrR7" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
+                            
                     </table>
                     <br/>
                     <table id="tableformat">
                         <tr><th colspan="2">Level 2</th></tr>
-                            <tr><td>Paper I-Mathematics</td><td>Scheduled on Second Week of May</td></tr>
-                            <tr><td>Paper II-Physics & Chemistry</td><td>Scheduled on Second Week of May</td></tr>
+                            <tr><td>Paper I-Physics & Chemistry</td><td>Scheduled on Second Week of May</td></tr>
+                            <tr><td>Paper II-Mathematics</td><td>Scheduled on Second Week of May</td></tr>
                     </table>
                     <br/>
                     <table id="tableformat">
                         <tr><th colspan="2">Level 3</th></tr>
-                            <tr><td>Paper I-Mathematics</td><td>Scheduled on Third Week of May</td></tr>
-                            <tr><td>Paper II-Physics & Chemistry</td><td>Scheduled on Third Week of May</td></tr>
+                            <tr><td>Paper I-Physics & Chemistry</td><td>Scheduled on Third Week of May</td></tr>
+                            <tr><td>Paper II-Mathematics</td><td>Scheduled on Third Week of May</td></tr>
                     </table>
                     <br/>
                     <table id="tableformat">
                         <tr><th colspan="2">Level 4</th></tr>
-                            <tr><td>Paper I-Mathematics</td><td>Scheduled on Fourth Week of May</td></tr>
-                            <tr><td>Paper II-Physics & Chemistry</td><td>Scheduled on Fourth Week of May</td></tr>
+                            <tr><td>Paper I-Physics & Chemistry</td><td>Scheduled on Fourth Week of May</td></tr>
+                            <tr><td>Paper II-Mathematics</td><td>Scheduled on Fourth Week of May</td></tr>
                     </table>
 
                     
