@@ -41,11 +41,11 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "MHRD AICTE COVID19 Helpline: Request for your urgent support."
+        title: "edX MOOC registrations"
     };
     NewsContent1 = {
         instanceID: "NewsContent1",
-        title: "Defaulters of tution fee are hereby informed that date of payment is extended up to 07-09-2019 with a fine of Rs. 500/-. Please pay in time, no more extension of date will be permitted"
+        title: "Edx provides over 2000+ courses to choose from. Enroll & get started today! Advance your career with top universities across the globe. Learn new skills. Vjcet has acquired 5000 licenses for our students,alumni and faculty members to choose from content covering major areas such as Data analytics, Business management, Engineering and more."
     };
    
     
@@ -75,8 +75,9 @@ class Newsone extends React.Component {
                     
                     <div className="bodyContainer">
                     <HeadingOne data={this.NewsTitle}></HeadingOne>
-                    <p>Please fill in the data using mobile :</p>
-                    <p>  https://helpline.aicte-india.org/register_mobile.php  so that it will be immediately useful to our students in difficulty</p>
+                    <BodyOneJustified data={this.NewsContent1}/>
+                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfblB7oBu2qiaJUkUipB68iI7DYhvd2IQXRp_2vlmIauMxV7Q/viewform" target="_blank" rel="noopener noreferrer">Register here for edX</a></p>
+                    <p>Students can complete courses through June 30, 2020 </p>
                 </div>
              
                                     
