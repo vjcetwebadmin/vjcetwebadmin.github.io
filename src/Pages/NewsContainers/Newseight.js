@@ -88,8 +88,8 @@ class Newseight extends React.Component {
                     <br/>
                     <table id="tableformat">
                         <tr><th colspan="2">Level 3</th></tr>
-                            <tr><td>Paper I-Physics & Chemistry</td><td>Scheduled on Third Week of May</td></tr>
-                            <tr><td>Paper II-Mathematics</td><td>Scheduled on Third Week of May</td></tr>
+                            <tr><td>Paper I-Physics & Chemistry</td><td><a href="https://forms.gle/iu6m3hLRLX9pFuHd9" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
+                            <tr><td>Paper II-Mathematics</td><td><a href="https://forms.gle/3GTLJ5xZs6U7UcVw5" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
                     </table>
                     <br/>
                     <table id="tableformat">
