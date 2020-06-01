@@ -86,13 +86,7 @@ class CSStaff extends Component {
     name: "Mr. Eldhose Paul K",
     content: "Hardware Technician"
   };
-  Cefaculty14 = {
-    instanceID: "Cefaculty14",
-    image: "Allstaffphoto/CS/STAF/106.jpg",
-    width: "50%",
-    name: "Mr. Anoop C",
-    content: "Hardware Technician"
-  };
+  
   render() {
     return (
       <div className="faculty">
@@ -134,9 +128,7 @@ class CSStaff extends Component {
           <div>
             <FacultyData data={this.Cefaculty13} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty14} />
-          </div>
+         
         </div>
       </div>
     );
