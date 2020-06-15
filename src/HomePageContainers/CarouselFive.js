@@ -59,7 +59,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventOneTitle",
-        title:<a href="#/campus-life/professionalbodies/ieee" target="_blank" rel="noopener noreferrer"><font color="maroon">IEEE</font></a>
+        title:<a href="/campus-life/professionalbodies/ieee" target="_blank" rel="noopener noreferrer"><font color="maroon">IEEE</font></a>
         
       },
 
@@ -75,7 +75,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventTwoTitle",
-        title:<a href="#/campus-life/professionalbodies/iste" target="_blank" rel="noopener noreferrer"><font color="maroon" >ISTE</font></a>
+        title:<a href="/campus-life/professionalbodies/iste" target="_blank" rel="noopener noreferrer"><font color="maroon" >ISTE</font></a>
       },
 
       Image: {
@@ -87,7 +87,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventThreeTitle",
-        title: <a href="#/campus-life/professionalbodies/igbc" target="_blank" rel="noopener noreferrer"><font color="maroon">IGBC</font></a>
+        title: <a href="/campus-life/professionalbodies/igbc" target="_blank" rel="noopener noreferrer"><font color="maroon">IGBC</font></a>
       },
 
       Image: {
@@ -99,7 +99,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventFourTitle",
-        title: <a href="#/campus-life/professionalbodies/csi" target="_blank" rel="noopener noreferrer"><font color="maroon">CSI</font></a>
+        title: <a href="/campus-life/professionalbodies/csi" target="_blank" rel="noopener noreferrer"><font color="maroon">CSI</font></a>
       },
 
       Image: {
@@ -111,7 +111,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventFiveTitle",
-        title: <a href="#/campus-life/professionalbodies/iete" target="_blank" rel="noopener noreferrer"><font color="maroon">IETE</font></a>
+        title: <a href="/campus-life/professionalbodies/iete" target="_blank" rel="noopener noreferrer"><font color="maroon">IETE</font></a>
       },
 
       Image: {
@@ -123,7 +123,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventSixTitle",
-        title: <a href="#/campus-life/professionalbodies/sae" target="_blank" rel="noopener noreferrer"><font color="maroon">SAE INDIA</font></a>
+        title: <a href="/campus-life/professionalbodies/sae" target="_blank" rel="noopener noreferrer"><font color="maroon">SAE INDIA</font></a>
       },
 
       Image: {
@@ -135,7 +135,7 @@ class CarouselFour extends Component {
     {
       Title: {
         instanceID: "EventFourTitle",
-        title: <a href="#/campus-life/nss" target="_blank" rel="noopener noreferrer"><font color="maroon">NSS</font></a>
+        title: <a href="/campus-life/nss" target="_blank" rel="noopener noreferrer"><font color="maroon">NSS</font></a>
       },
 
       Image: {
