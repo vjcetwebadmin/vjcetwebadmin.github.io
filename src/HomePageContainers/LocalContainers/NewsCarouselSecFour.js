@@ -10,7 +10,7 @@ class NewsCarousel extends Component {
   Title1 = {
     instanceID: "NewsSecondaryBROneTitle",
     title: "NSS",
-    link: "/#/campus-life/nss"
+    link: "/campus-life/nss"
   };
 
   Image1 = {
@@ -23,7 +23,7 @@ class NewsCarousel extends Component {
   Title2 = {
     instanceID: "NewsSecondaryBRTwoTitle",
     title: "IEDC",
-    link: "/#/ed/iedc"
+    link: "/ed/iedc"
   };
 
   Image2 = {
@@ -35,7 +35,7 @@ class NewsCarousel extends Component {
   Title3 = {
     instanceID: "NewsSecondaryBRThreeTitle",
     title: "KBA Member",
-    link: "/#/KBAIC_125" 
+    link: "/KBAIC_125" 
   };
 
   Image3 = {
