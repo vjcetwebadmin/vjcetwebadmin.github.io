@@ -7,35 +7,35 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">edX MOOC registrations</font></a>
+      title: <a href="https://vjcet.org/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">edX MOOC registrations</font></a>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsnine" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Congratulations to the Placed Students - 2016-2020 Batch</font></a>
+      title: <a href="https://vjcet.org/newsnine" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Congratulations to the Placed Students - 2016-2020 Batch</font></a>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newseight" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Engineering Entrance MOCK TEST</font></a>
+      title: <a href="https://vjcet.org/newseight" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Engineering Entrance MOCK TEST</font></a>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsfive" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Coursera MOOC registrations</font></a>
+      title: <a href="https://vjcet.org/newsfive" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Coursera MOOC registrations</font></a>
     },
     
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsseven" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Quarterly Details of the Foreign Contribution Received</font></a>
+      title: <a href="https://vjcet.org/newsseven" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Quarterly Details of the Foreign Contribution Received</font></a>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newssix" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Access to Study Materials- Video Lectures, PPTs & PDFs</font></a>
+      title: <a href="https://vjcet.org/newssix" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Access to Study Materials- Video Lectures, PPTs & PDFs</font></a>
     },
     
    
     
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsfour" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Information Regarding Online Classes</font></a>
+      title: <a href="https://vjcet.org/newsfour" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Information Regarding Online Classes</font></a>
     },
    
     
