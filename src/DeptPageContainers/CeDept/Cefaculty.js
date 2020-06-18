@@ -94,7 +94,7 @@ class CEFaculty extends Component {
     image: "Allstaffphoto/CE/FAC/283.jpg",
     width: "50%",
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/10/283.jpg" target="_blank" rel="noopener noreferrer">Mrs. Nivya Mary Abraham</a>,
-    content: "Assistant Professor"
+    content: "Assistant Professor(on Leave-Ph.D)"
   };
   Cefaculty15 = {
     instanceID: "Cefaculty15",
@@ -118,13 +118,7 @@ class CEFaculty extends Component {
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/129/312.jpg" target="_blank" rel="noopener noreferrer">Ms. Rose Mary Xavier</a>,
     content: "Assistant Professor"
   };
-  Cefaculty19 = {
-    instanceID: "Cefaculty19",
-    image: "Allstaffphoto/CE/FAC/334.jpg",
-    width: "50%",
-    name: "Miss. Vineetha Thankachan",
-    content: "Assistant Professor"
-  };
+  
   
   Cefaculty21 = {
     instanceID: "Cefaculty21",
@@ -215,9 +209,7 @@ class CEFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty18} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty19} />
-          </div>
+         
          
           <div>
             <FacultyData data={this.Cefaculty21} />

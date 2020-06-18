@@ -46,13 +46,7 @@ class MEFaculty extends Component {
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/83/388.jpg" target="_blank" rel="noopener noreferrer">Mr. Arun K.</a>,
     content: "Assistant Professor"
   };
-  Cefaculty9 = {
-    instanceID: "Cefaculty",
-    image: "Allstaffphoto/ME/FAC/MEFAC117.jpg",
-    width: "50%",
-    name: "Mr. Ajo Issac John",
-    content: "Assistant Professor"
-  };
+  
   Cefaculty10 = {
     instanceID: "Cefaculty10",
     image: "Allstaffphoto/ME/FAC/290.jpg",
@@ -100,7 +94,7 @@ class MEFaculty extends Component {
     image: "Allstaffphoto/ME/FAC/300.jpg",
     width: "50%",
     name: "Mr. Jerry Varghese",
-    content: "Assistant Professor"
+    content: "Assistant Professor(on Leave-Ph.D)"
   };
   Cefaculty17 = {
     instanceID: "Cefaculty17",
@@ -198,9 +192,7 @@ class MEFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty8} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty9} />
-          </div>
+          
           <div>
             <FacultyData data={this.Cefaculty10} />
           </div>
