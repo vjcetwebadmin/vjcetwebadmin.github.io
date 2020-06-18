@@ -4,9 +4,9 @@ class CSFaculty extends Component {
   state = {};
   Cefaculty1 = {
     instanceID: "Cefaculty1",
-    image: "Allstaffphoto/ADM/ADM/DrJosephkunjupaul.jpg",
+    image: "Allstaffphoto/EE/FAC/352.jpg",
     width: "50%",
-    name: "Dr. Josephkunju Paul C",
+    name: "Dr. K.K Rajan",
     content: "Principal"
   };
   Cefaculty2 = {
