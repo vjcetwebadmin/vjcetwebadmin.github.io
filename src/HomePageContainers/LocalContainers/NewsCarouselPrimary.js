@@ -23,7 +23,7 @@ class NewsCarouselPrimary extends Component {
   Title2 = {
     instanceID: "NewsPrimaryTwoTitle",
     title: "326 Students Placed",
-    link: "/placement/"
+    link: "#/placement/"
   };
 
   Image2 = {

@@ -92,7 +92,7 @@ class Profile extends Component {
       
       <div className="Profile" id="profile">
         <div class="absolute">
-             <p id="rcorners2" align="right"><a href="https://vjcet.org/newsthree" target="_blank" rel="noopener noreferrer"><font color="white">Way to go! 1st batch KTU-91.82% pass!</font></a></p>
+             <p id="rcorners2" align="right"><a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="white">Way to go! 1st batch KTU-91.82% pass!</font></a></p>
                           </div>
              <div >
              <p id="blankspace" align="right"></p>
