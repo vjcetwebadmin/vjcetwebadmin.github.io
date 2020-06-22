@@ -52,7 +52,7 @@ class keyfunct extends React.Component {
     }
     CCCContent3 = {
         instanceID: "CCCContent3",
-        title: "Viswajyothi College of Engineering & Technology, Vazhakulam can boast of producing competent engineers capable of facing the challenges in the technical field with zeal to social commitment and ethical values. Started only eighteen years back, our institution commands a formidable position amongst the various engineering colleges. This is achieved by excellent infrastructural facilities combined with the team work of enthusiastic management, dedicated faculty members, committed laboratory & workshop staff members, sincere administrative staff members,motivating alumni and dynamic students. Excellent track records in the University examinations and the considerable number of placements reveal the effective co-ordination of all these resources. This is not an end in itself. We are striving hard to make the vision of the institution “Moulding Engineers par Excellence with integrity, fairness and human values” a reality."
+        title: "VJCET commands a formidable position amongst the various engineering colleges in the state. This isachieved by excellent infrastructural facilities combined with the team work of enthusiasticmanagement, dedicated faculty members, committed laboratory &amp; workshop staff members, sincereadministrative staff members, motivating alumni and dynamic students. Excellent track records in theUniversity examinations and the considerable number of placements reveal the effective co-ordinationof all these resources. We are striving hard to make the vision of the institution “Moulding Engineerspar Excellence with integrity, fairness and human values” a reality. All our six Engineering Branches areNBA accredited and we are in the process of assessment for NAAC accreditation. To effectively addressthe difficulties faced in the post Covid-19 scenario VJCET has come up with online education system.The software Microsoft team was installed and made available for all faculty members and students.The online education is successfully being carried out for all the courses now. Focus of the institutioncurrently is on achieving academic excellence and 100% placement."
     }
     CCCImagedata = {
         instanceID: "CCCVjcImage",
@@ -90,7 +90,7 @@ class keyfunct extends React.Component {
                    <br />
                    <HeadingThree data={this.ServerTitle} className="Heading" />
                    <p align="center"> <ImageOne data={this.PImagedata} /></p>
-                   <p align="center"><b> Dr. K.K Rajan</b></p> 
+                   <p align="center"><b> Dr. K.K Rajan [<a href="https://vjcet.org/downloads/keyfunctionaries/Principal_Profile.pdf" target="_blank" rel="noopener noreferrer">Profile</a>]</b></p> 
                    <BodyOneJustified data={this.CCCContent3} />
 
                 </div>
