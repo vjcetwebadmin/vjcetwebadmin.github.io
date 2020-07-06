@@ -31,7 +31,7 @@ class Header extends Component {
   };
   FeePaymentImagedata = {
     instanceID: "CCCVjcImage",
-    image: "NewsImages/badge a.jpg",
+    image: "NewsImages/Website badge a.jpg",
     width: "80%"
 };
   NBALogo = {
@@ -165,7 +165,7 @@ class Header extends Component {
           </div>
             <DropDownL />
             
-             <a href="https://vjcet.org/#/newseight" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageOne data={this.FeePaymentImagedata} /></a> 
+             <a href="http://117.239.154.84:8001/ktuexam/index.html" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageOne data={this.FeePaymentImagedata} /></a> 
             <div className="contactus">
             <ContactLink data={this.Link2} />
             </div>

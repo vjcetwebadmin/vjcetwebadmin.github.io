@@ -2,7 +2,7 @@
   "name": "vjcetwebadmin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vjcet.org",
+  "homepage": "http://vjcetwebadmin.github.io",
   "dependencies": {
     "@bumaga/tabs": "^0.2.0",
     "apexcharts": "^3.15.6",
@@ -40,6 +40,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^3.1.0"
   }
 }
