@@ -144,15 +144,13 @@ class App extends Component {
               <Route exact path="/newseight" component={newseight} />
               <Route exact path="/newsnine" component={newsnine} />
               <Route exact path="/newsten" component={Newsten} />
-              <Route exact path="/newsfee" component={Newsfee} />              
+              <Route exact path="/newsfee" component={Newsfee} />   
+                         
               <Route exact path="/ed/iedc" component={Iedc} />
               <Route exact path="/ed/v-bic" component={Vbic} />
               <Route exact path="/ed/iiic" component={Iiic} />
               <Route exact path="/ed/unai" component={Unai} />
               <Route exact path="/iqac" component={iqac} />
-              
-                
-              } />
             </Switch>
           </React.Fragment>
         </Router>
