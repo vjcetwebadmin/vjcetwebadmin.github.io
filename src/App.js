@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import HomePage from "./Pages/HomePage";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import AboutPage from "./Pages/AboutPage";
-import DepartmentPage from "./Pages/Departmentpage";
 import CampusLifePage from "./Pages/CampusLifePage";
 import collegecounsil from "./CampusLifePageContainers/collegecouncil";
 import committees from "./CampusLifePageContainers/committees";
@@ -88,7 +87,6 @@ class App extends Component {
               <Route exact path="/academics/courses-offered" component={Academics} />
               <Route exact path="/academics/syllabus" component={SyllabusPage} />
               <Route exact path="/academics/honors" component={HonorsPage} />
-              <Route exact path="/departments" component={DepartmentPage} />
               <Route exact path="/facilities" component={FacilitiesPage} />
               <Route exact path="/campus-life" component={CampusLifePage} />
               <Route exact path="/campus-life/collegecouncil" component={collegecounsil} />
