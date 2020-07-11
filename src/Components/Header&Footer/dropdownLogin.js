@@ -31,9 +31,9 @@ class DropDownL extends Component {
 
   render() {
     return (
-      <div class="dropdown">
+      <div className="dropdown">
         <span style={{ color: 'black' }}>Portal</span>
-        <div class="dropdown-content">
+        <div className="dropdown-content">
           <p>
             <a href="https://portal.vjcet.ac.in" target="_blank" className="patch1" rel="noopener noreferrer">
               VJCET login
