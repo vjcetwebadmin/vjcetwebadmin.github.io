@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Nav.css";
-import CeHonors from "../DeptPageContainers/CeDept/LocalContainers/cehonors";
+import CeHonors from "../DeptPageContainers/Dept/LocalContainers/cehonors";
 import CsHonors from "../DeptPageContainers/CsDept/LocalContainers/cshonors";
 import EcHonors from "../DeptPageContainers/EcDept/LocalContainers/echonors";
 import EeHonors from "../DeptPageContainers/EeeDept/LocalContainers/eehonors";

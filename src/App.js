@@ -21,7 +21,6 @@ import iete from "./CampusLifePageContainers/ProfessionalBodies/iete";
 import igbc from "./DeptPageContainers/CeDept/Profbodies";
 import sea from "./CampusLifePageContainers/ProfessionalBodies/saeindia";
 import CsDepartment from "./Pages/Departments/csdepartment";
-import CeDepartment from "./Pages/Departments/cedepartment";
 import EeeDepartment from "./Pages/Departments/eeedepartment";
 import EcDepartment from "./Pages/Departments/ecdepartment";
 import ItDepartment from "./Pages/Departments/itdepartment";
