@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProfBodies from "../../DeptPageContainers/CeDept/Profbodies";
+import ProfBodies from "../../DeptPageContainers/Dept/Profbodies";
 
 class Program extends Component {
   state = {};

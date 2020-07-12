@@ -3,7 +3,6 @@ import React, { Component } from "react";
 class ImageOne extends Component {
   render() {
     const { instanceID, image, width } = this.props.data;
-
     return (
       <div
         className={`ImageOne ${
