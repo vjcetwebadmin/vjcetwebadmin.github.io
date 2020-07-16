@@ -12,6 +12,7 @@ import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import Promo from "../Components/Video/promo";
 import CarouselFive from "../HomePageContainers/CarouselFive";
 import NewsSection from "../HomePageContainers/NewsSection";
+import Notify from "../Components/notify";
 //import HomepageActivities from "../HomePageContainers/HomepageActivities";
 class HomePage extends Component {
   state = { showMenu: false };
@@ -50,7 +51,7 @@ class HomePage extends Component {
   HomePageFacilitiesSection = {
     instanceID: "HomePageFacilitiesSection"
   };
-  
+
 
   HomePageVisionSection = {
     instanceID: "HomePageVisionSection"
@@ -70,6 +71,7 @@ class HomePage extends Component {
   render() {
     return (
       <div className="HomePage">
+        <Notify />
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <Promo />
         {/* <CarouselOne data={this.HomePageCarouselOne} /> */}
@@ -78,7 +80,7 @@ class HomePage extends Component {
         <NewsSection data={this.HomePageNewsSection} />
         <DepartmentSection data={this.HomePageDepartmentSection} />
         <FacilitiesSection data={this.HomePageFacilitiesSection} />
-        <CarouselFive data={this.HomepageActivities}/>
+        <CarouselFive data={this.HomepageActivities} />
         {/* <VisionSection data={this.HomePageFacilitiesSection} /> */}
         {/* <HomepageActivities data={this.HomepageActivities}/> */}
         <CarouselFour data={this.HomePageCarouselFour} />

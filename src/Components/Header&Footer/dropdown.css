@@ -43,6 +43,34 @@
   display: block;
 }
 
+.fillbutton {
+  color: #790514;
+  border: 3px solid #790514;
+  padding: 5px;
+  font-size: 20px;
+  min-width: 100px;
+}
+.fillbutton:hover{
+  color: #fff;
+  background-color: #790514;
+}
+
+#Contactbtn {
+  color: #fff;
+  background-color: #790514;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+  height: 40px;
+  margin: auto;
+  border: 3px solid #790514;
+}
+#Contactbtn:hover {
+  color: #790514;
+  background-color: #fff;
+  border: 3px solid #790514;
+}
+
 @media (min-width: 1024px) {
   .dropdown {
     font-size: 16px;
