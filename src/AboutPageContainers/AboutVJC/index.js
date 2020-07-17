@@ -78,7 +78,10 @@ class AboutVJC extends React.Component {
     instanceID: "UGCourse6",
     title: "Mechanical Engineering"
   }
-
+  UGCourse7 = {
+    instanceID: "UGCourse7",
+    title: "Artificial Intelligence *"
+  }
 
   render() {
     return (
@@ -104,10 +107,11 @@ class AboutVJC extends React.Component {
               <li><p><BodyOneJustified data={this.UGCourse4} /></p></li>
               <li><p><BodyOneJustified data={this.UGCourse5} /></p></li>
               <li><p><BodyOneJustified data={this.UGCourse6} /></p></li>
+              <li><p><BodyOneJustified data={this.UGCourse7} /></p></li>
             </ul>
 
           </div>
-          {/* <p><BodyOneJustified data={this.AboutVjcText3} /></p> */}
+          <p>*Subjected to the approval from the Government</p>
         </div>
         {/* <ResourcesGroup /> */}
 

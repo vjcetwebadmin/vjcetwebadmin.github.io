@@ -40,7 +40,7 @@ class Newseight extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: " KTU - Siemens Webinar | Details"
+        title: " KTU B.Tech Examination Details"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -59,8 +59,8 @@ class Newseight extends React.Component {
     }
     NewsImagedata3 = {
         instanceID: "NewsImagedata3",
-        image: "NewsImages/attend_exam.png",
-        width: "5%"
+        image: "NewsImages/download.png",
+        width: "7%"
     }
     
 
@@ -70,34 +70,19 @@ class Newseight extends React.Component {
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
 
                 <div className="contain">
-                   <ImageOne data={this.NewsImagedata1}/>
+                  <HeadingOne data={this.NewsTitle}></HeadingOne>
                    <br/>
             
                    <table id="tableformat">
-                        <tr><th colspan="2">Level 1</th></tr>
-                            <tr><td>Paper I-Physics & Chemistry</td><td><a href="https://forms.gle/hViAEs6GohkFEfbaA" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
-                            <tr><td>Paper II-Mathematics</td><td><a href="https://forms.gle/5BEsZXFe73yTpTrR7" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
+                        <tr><th colspan="2">Downloads</th></tr>
+                            <tr><td>Campus Layout</td><td><a href="https://vjcet.org/downloads/news/Campus-Layout.jpg" data-toggle="tooltip" title="Download" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
+                            <tr><td>Layout- A Block</td><td><a href="https://vjcet.org/downloads/news/A-BLOCK.jpg" data-toggle="tooltip" title="Download" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
+                            <tr><td>Layout- B Block</td><td><a href="https://vjcet.org/downloads/news/B-BLOCK.jpg" data-toggle="tooltip" title="Download" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
+                            <tr><td>Layout- C Block</td><td><a href="https://vjcet.org/downloads/news/C-BLOCK.jpg" data-toggle="tooltip" title="Download" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
+                            <tr><td>Layout- D Block</td><td><a href="https://vjcet.org/downloads/news/D-BLOCK.jpg" data-toggle="tooltip" title="Download" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
                             
                     </table>
-                    <br/>
-                    <table id="tableformat">
-                        <tr><th colspan="2">Level 2</th></tr>
-                            <tr><td>Paper I-Physics & Chemistry</td><td><a href="https://forms.gle/6PrSpLiZ7gxn6uWj7" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
-                            <tr><td>Paper II-Mathematics</td><td><a href="https://forms.gle/Nnsza2iY3Cr5N7Vq6" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
-                    </table>
-                    <br/>
-                    <table id="tableformat">
-                        <tr><th colspan="2">Level 3</th></tr>
-                            <tr><td>Paper I-Physics & Chemistry</td><td><a href="https://forms.gle/iu6m3hLRLX9pFuHd9" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
-                            <tr><td>Paper II-Mathematics</td><td><a href="https://forms.gle/3GTLJ5xZs6U7UcVw5" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
-                    </table>
-                    <br/>
-                    <table id="tableformat">
-                        <tr><th colspan="2">Level 4</th></tr>
-                            <tr><td>Paper I-Physics & Chemistry</td><td><a href="https://forms.gle/TLfi5cv77dBRDEC79" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
-                            <tr><td>Paper II-Mathematics</td><td><a href="https://forms.gle/qeks1BBR2W2x2zsg8" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.NewsImagedata3}/></a></td></tr>
-                    </table>
-
+                   
                     
                 </div>
                 <Footer data={this.HomePageFooter} />

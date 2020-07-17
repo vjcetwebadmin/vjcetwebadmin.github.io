@@ -21,7 +21,7 @@ class Header extends Component {
   VJCLogo = {
     instanceID: "HeaderVJCLogo",
     image: "Logo.jpg",
-    width: "280px"
+    width: "100%"
   };
 
   Hamburger = {
@@ -31,9 +31,9 @@ class Header extends Component {
   };
   FeePaymentImagedata = {
     instanceID: "CCCVjcImage",
-    image: "NewsImages/badge a.jpg",
+    image: "NewsImages/Website badge a.jpg",
     width: "80%"
-};
+  };
   NBALogo = {
     instanceID: "HeaderNBALogo",
     image: "nbaac.png",
@@ -160,16 +160,18 @@ class Header extends Component {
         {/* <HeadingFour data={this.HeaderVJCCode} /> */}
 
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
-        <div id="AdmissionImage">
-          <a href="http://admission.vjcet.ac.in/"><ImageOne data={this.AdmissionImagedata}/></a>
-          </div>
-            <DropDownL />
-            
-             <a href="https://vjcet.org/newseight" data-toggle="tooltip" title="Attend Now!" target="_blank" rel="noopener noreferrer"><ImageOne data={this.FeePaymentImagedata} /></a> 
-            <div className="contactus">
-            <ContactLink data={this.Link2} />
+          <a href="http://admission.vjcet.ac.in/">
+            <div id="AdmissionImage">
+              <div className="animcontent">
+                B.Tech Admission 2020
+              </div>
             </div>
-          
+          </a>
+          <DropDownL />
+          <Link to={this.Link2.link} id="Contactbtn">
+            Contact Us
+          </Link>
+
         </div>
 
         <div className="HeaderLinkTabTwo" id="HeaderLinkTabTwo">
@@ -189,7 +191,7 @@ class Header extends Component {
             {/* <AnchorLink data={this.Link7} /> */}
             <AnchorLink data={this.Link10} />
             <AnchorLink data={this.Link12} />
-            
+
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ class NewsCarousel extends Component {
   Title2 = {
     instanceID: "NewsSecondaryBLOneTitle",
     title: "Bodhi 2k19",
-    link: "https://vjcet.org/campus-life/techfest"
+    link: "https://vjcet.org/#/campus-life/techfest"
   }
 
   Image2 = {
@@ -25,7 +25,7 @@ class NewsCarousel extends Component {
   Title1 = {
     instanceID: "NewsSecondaryBLTwoTitle",
     title: "Election 2019 – 20",
-    link: "/campus-life/collegecouncil"
+    link: "/#/campus-life/collegecouncil"
   }
 
   Image1 = {
@@ -39,7 +39,7 @@ class NewsCarousel extends Component {
   Title3 = {
     instanceID: "NewsSecondaryBLThreeTitle",
     title: "Professional Bodies",
-    link: "/campus-life/professionalbodies"
+    link: "/#/campus-life/professionalbodies"
   }
 
   Image3 = {

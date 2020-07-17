@@ -25,7 +25,7 @@ class NewsCarousel extends Component {
   Title2 = {
     instanceID: "NewsSecondaryTRTwoTitle",
     title: "Admissions",
-    link: "/admission/mtech"
+    link: "/#/admission/mtech"
   }
 
   Image2 = {
@@ -38,7 +38,7 @@ class NewsCarousel extends Component {
   Title3 = {
     instanceID: "NewsSecondaryTRThreeTitle",
     title: "Admissions",
-    link: "/admission/phd"
+    link: "/#/admission/phd"
   }
 
   Image3 = {

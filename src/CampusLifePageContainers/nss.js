@@ -72,7 +72,7 @@ class nss extends React.Component {
     };
     EventTitle2 = {
         instanceID: "EventTitle2",
-        title: "2. Best Camp Unit Honor"
+        title: "2. Best Camp Unit honour"
     };
     EventTitle3 = {
         instanceID: "EventTitle3",

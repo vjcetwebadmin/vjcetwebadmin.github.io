@@ -6,7 +6,7 @@ import "./Nav.css";
 // import Graph12 from "./graph2012";
 // import Graph11 from "./graph2011";
 // import Graph10 from "./graph2010";
-import MeHonors from "././mehonors";
+import Mehonours from "././mehonours";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 class EcGraph extends Component {
   state = {
@@ -98,7 +98,7 @@ class EcGraph extends Component {
   };
   Heading = {
     instanceID: "Heading",
-   // title: "RESULT & HONORS"
+   // title: "RESULT & honourS"
   };
   render() {
     return (
@@ -137,7 +137,7 @@ class EcGraph extends Component {
             />
             <input
               type="button"
-              value="Honors"
+              value="honours"
               class="buttongraph"
               onClick={this.onClickHon}
             /> */}
@@ -148,7 +148,7 @@ class EcGraph extends Component {
           {this.state.show12 ? <Graph12 /> : null}
           {this.state.show11 ? <Graph11 /> : null}
           {this.state.show10 ? <Graph10 /> : null} */}
-          {this.state.showhon ? <MeHonors /> : null}
+          {this.state.showhon ? <Mehonours /> : null}
         </div>
       </div>
     );

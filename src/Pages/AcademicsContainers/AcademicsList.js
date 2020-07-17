@@ -79,6 +79,10 @@ class AcademicsList extends Component {
     instanceID: "UGCourse6",
     title: "Mechanical Engineering"
   };
+  UGCourse7 = {
+    instanceID: "UGCourse7",
+    title: "Artificial Intelligence *"
+  }
 
   render() {
     return (
@@ -147,10 +151,19 @@ class AcademicsList extends Component {
                   <BodyOneJustified data={this.UGCourse6} />
                 </p>
               </li>
+              <li>
+                <p>
+                  <BodyOneJustified data={this.UGCourse7} />
+                  *Subjected to the approval from the Government
+                </p>
+              </li>
+
             </ul>
           </div>
         </div>
+      
       </div>
+            
     );
   }
 }
