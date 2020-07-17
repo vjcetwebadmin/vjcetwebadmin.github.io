@@ -9,7 +9,7 @@ import Association from "./association";
 import Outreach from "./outreach"
 import FacultyNav from "./facultynav";
 import ProfBodies from "./Profbodies";
-import CeHonors from "./LocalContainers/cehonors";
+import Cehonours from "./LocalContainers/cehonours";
 
 class SideNav extends Component {
   state = {
@@ -218,7 +218,7 @@ class SideNav extends Component {
             />
             <input
 
-              value="Honors"
+              value="honours"
               class="button"
               onClick={this.onClickRes}
             />
@@ -305,7 +305,7 @@ class SideNav extends Component {
             {this.state.showfac ? <FacultyNav data={faculty} /> : null}
             {this.state.showLib ? <Library data={library} /> : null}
             {this.state.showAss ? <Association data={assosn} /> : null}
-            {this.state.showRes ? <CeHonors data={result} /> : null}
+            {this.state.showRes ? <Cehonours data={result} /> : null}
             {this.state.showOut ? <Outreach data={outreach} /> : null}
             {this.state.showProf ? <ProfBodies data={profbody} /> : null}
           </div>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Nav.css";
 //import Graph15 from "./graph2015";
 //import Graph14 from "./graph2014";
-import EcHonors from "./echonors";
+import Echonours from "./echonours";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 class EcGraph extends Component {
   state = {
@@ -94,7 +94,7 @@ class EcGraph extends Component {
   };
   Heading = {
     instanceID: "Heading",
-    //title: "RESULT & HONORS"
+    //title: "RESULT & honourS"
   };
   render() {
     return (
@@ -116,7 +116,7 @@ class EcGraph extends Component {
           /> */}
             <input
               type="button"
-              value="Roll of Honors"
+              value="Roll of honours"
               class="buttongraph"
               onClick={this.onClickHon}
             />
@@ -147,7 +147,7 @@ class EcGraph extends Component {
           </div>
           {/* {this.state.show15 ? <Graph15 /> : null}
           {this.state.show14 ? <Graph14 /> : null} */}
-          {this.state.showhon ? <EcHonors /> : null}
+          {this.state.showhon ? <Echonours /> : null}
           {/* {this.state.show13 ? <Graph13 /> : null}
           {this.state.show12 ? <Graph12 /> : null}
           {this.state.show11 ? <Graph11 /> : null}

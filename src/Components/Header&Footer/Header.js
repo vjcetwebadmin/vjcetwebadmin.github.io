@@ -21,7 +21,7 @@ class Header extends Component {
   VJCLogo = {
     instanceID: "HeaderVJCLogo",
     image: "Logo.jpg",
-    width: "280px"
+    width: "100%"
   };
 
   Hamburger = {

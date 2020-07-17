@@ -27,7 +27,7 @@ import ItDepartment from "./Pages/Departments/itdepartment";
 import MeDepartment from "./Pages/Departments/medepartment";
 import SHDepartment from "./Pages/Departments/s&hdepartment";
 import Admin from "./Pages/Departments/admin";
-import HonorsPage from "./Pages/HonorsPage";
+import honoursPage from "./Pages/HonoursPage";
 import PlacementPage from "./Pages/placementpage";
 import FacilitiesPage from "./Pages/FacilitiesPage";
 import CCC from "./FacilitiesPageContainers/ComputingTechnology/computing";
@@ -67,7 +67,7 @@ import Vbic from "./EdPageContainers/Vbic";
 import Iiic from "./EdPageContainers/IIIC/csdepartment";
 import Unai from "./EdPageContainers/Unai";
 import iqac from "./iqac/profile";
-
+import Notify from "./Components/notify";
 
 
 class App extends Component {
@@ -547,13 +547,13 @@ class App extends Component {
       },
       result: {
         heading: {
-          instanceID: "CeHonorsHeading",
-          title: "Honors of Civil Engineering"
+          instanceID: "CehonoursHeading",
+          title: "honours of Civil Engineering"
         },
-        honors: [
+        honours: [
           {
-            instanceID: "cshonors1",
-            image: "Honors/cehonor1.jpg",
+            instanceID: "cshonours1",
+            image: "honours/cehonour1.jpg",
             width: "30%",
             name: "Mariamol Mathew",
             content:
@@ -682,6 +682,7 @@ class App extends Component {
       <div className="App">
         <Router>
           <React.Fragment>
+            <Notify />
             <Switch>
               <Route exact path="/" component={HomePage} />
               <Route exact path="/about" component={AboutPage} />
@@ -692,7 +693,7 @@ class App extends Component {
               <Route exact path="/about/mandatorydisclosure" component={Mandatorydisclosure} />
               <Route exact path="/academics/courses-offered" component={Academics} />
               <Route exact path="/academics/syllabus" component={SyllabusPage} />
-              <Route exact path="/academics/honors" component={HonorsPage} />
+              <Route exact path="/academics/honours" component={honoursPage} />
               <Route exact path="/facilities" component={FacilitiesPage} />
               <Route exact path="/campus-life" component={CampusLifePage} />
               <Route exact path="/campus-life/collegecouncil" component={collegecounsil} />

@@ -44,11 +44,12 @@
   width: 250px;
   height: 50px;
   border-radius: 10px;
-  background: linear-gradient(-45deg, #790514,#790514,#448de0,#790514);
+  background: linear-gradient(-45deg, #790514, #790514, #448de0, #790514);
   background-size: 200% 200%;
   -webkit-animation: anim 4s ease infinite;
   animation: anim 4s ease infinite;
 }
+
 .animcontent:hover {
   animation: normal;
 }
@@ -247,5 +248,28 @@
     grid-area: tab2;
     align-items: center;
     padding-bottom: 1%;
+  }
+}
+
+@media (max-width:1080px) {
+  .animcontent {
+    font-size: 18px;
+    width: 225px;
+    height: 45px;
+  }
+  #HeaderVJCLogo {
+    width: 280px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .HeaderLinkTabOne {
+    grid-area: unset;
+  }
+}
+
+@media (max-width: 480px) {
+  #HeaderVJCLogo {
+    width: 180px;
   }
 }

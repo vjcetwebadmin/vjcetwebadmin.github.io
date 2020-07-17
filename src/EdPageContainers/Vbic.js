@@ -52,7 +52,7 @@ class Iedc extends Component {
     }
     IedcBody1 = {
         instanceID: "IedcBody1",
-        title: "Realizing the need of entrepreneur development among the students and to incubate startup companies in the Campus Viswajyothi Business Incubation Centre (V-BIC) is launched in VJCET on 26.04.2019. Inauguration of V-BIC was carried out by Shri Eldho Abraham honorable MLA Muvattupuzha. Dr Saji Gopinath, CEO Kerala Start Up Mission delivered the keynote address during the occasion. In the business incubation centre, startup companies of students, faculty members, aluminis and technically or professionally qualified youngsters from surrounding area are functioning for business incubation. The space available in VJCET, V-BIC is around 3000 square feet, with up-to-date infra structure for business development. "
+        title: "Realizing the need of entrepreneur development among the students and to incubate startup companies in the Campus Viswajyothi Business Incubation Centre (V-BIC) is launched in VJCET on 26.04.2019. Inauguration of V-BIC was carried out by Shri Eldho Abraham honourable MLA Muvattupuzha. Dr Saji Gopinath, CEO Kerala Start Up Mission delivered the keynote address during the occasion. In the business incubation centre, startup companies of students, faculty members, aluminis and technically or professionally qualified youngsters from surrounding area are functioning for business incubation. The space available in VJCET, V-BIC is around 3000 square feet, with up-to-date infra structure for business development. "
     }
     InchargesHeading = {
         instanceID: "InchargesHeading",

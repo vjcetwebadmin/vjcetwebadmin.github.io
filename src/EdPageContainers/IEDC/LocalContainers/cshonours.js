@@ -7,8 +7,8 @@ import HeadingOne from "../../../Components/Texts/HeadingOne";
 //import BodyOneJustified from "../../../Components/Texts/BodyOneJustified";
 
 
-import "./honors.css";
-class CsHonors extends Component {
+import "./honours.css";
+class Cshonours extends Component {
   state = {};
   state = { showMenu: false };
     openMenu = () => {
@@ -89,4 +89,4 @@ ReserchBody6 = {
     }
 }
 
-export default CsHonors;
+export default Cshonours;

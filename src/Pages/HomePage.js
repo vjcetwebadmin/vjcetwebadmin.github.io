@@ -12,7 +12,6 @@ import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import Promo from "../Components/Video/promo";
 import CarouselFive from "../HomePageContainers/CarouselFive";
 import NewsSection from "../HomePageContainers/NewsSection";
-import Notify from "../Components/notify";
 //import HomepageActivities from "../HomePageContainers/HomepageActivities";
 class HomePage extends Component {
   state = { showMenu: false };
@@ -71,7 +70,6 @@ class HomePage extends Component {
   render() {
     return (
       <div className="HomePage">
-        <Notify />
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <Promo />
         {/* <CarouselOne data={this.HomePageCarouselOne} /> */}

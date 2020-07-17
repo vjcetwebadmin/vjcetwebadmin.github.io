@@ -6,7 +6,7 @@ import Graph13 from "./graph2013";
 import Graph12 from "./graph2012";
 import Graph11 from "./graph2011";
 import Graph10 from "./graph2010";  */
-import ItHonors from "././ithonors";
+import Ithonours from "././ithonours";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 class ItGraph extends Component {
   state = {
@@ -98,7 +98,7 @@ class ItGraph extends Component {
   };
   Heading = {
     instanceID: "Heading",
-    //title: "RESULT & HONORS"
+    //title: "RESULT & honourS"
   };
   render() {
     return (
@@ -132,7 +132,7 @@ class ItGraph extends Component {
             />
             <input
               type="button"
-              value="Roll of Honors"
+              value="Roll of honours"
               class="buttongraph"
               onClick={this.onClickHon}
             /> */}
@@ -143,7 +143,7 @@ class ItGraph extends Component {
           {this.state.show12 ? <Graph12 /> : null}
           {this.state.show11 ? <Graph11 /> : null}
           {this.state.show10 ? <Graph10 /> : null} */}
-          {this.state.showhon ? <ItHonors /> : null}
+          {this.state.showhon ? <Ithonours /> : null}
         </div>
       </div>
     );

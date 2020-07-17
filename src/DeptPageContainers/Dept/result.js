@@ -9,7 +9,7 @@ class Result extends Component {
           <CeGraph />
         </p>
         {/* <p>
-          <CeHonors />
+          <Cehonours />
         </p> */}
       </div>
     );

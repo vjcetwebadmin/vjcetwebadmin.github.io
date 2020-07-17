@@ -4,7 +4,7 @@
   letter-spacing: 0;
   text-align: center;
   text-decoration: none;
-  color:white;
+  color: white;
   margin: auto 0;
 }
 
@@ -19,7 +19,7 @@
   padding-top: -12px;
 }
 
-.dropdown-content p .patch1{
+.dropdown-content p .patch1 {
   text-decoration: none;
   color: #000000;
   display: block;
@@ -36,35 +36,36 @@
   background-color: #880d1e;
   color: #ffffff;
   display: block;
-
-
 }
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 .fillbutton {
   color: #790514;
+  font-size: 20px;
   border: 3px solid #790514;
   padding: 5px;
-  font-size: 20px;
   min-width: 100px;
 }
-.fillbutton:hover{
+
+.fillbutton:hover {
   color: #fff;
   background-color: #790514;
 }
 
 #Contactbtn {
   color: #fff;
-  background-color: #790514;
   font-size: 20px;
+  background-color: #790514;
   padding: 5px;
   font-weight: bold;
   height: 40px;
   margin: auto;
   border: 3px solid #790514;
 }
+
 #Contactbtn:hover {
   color: #790514;
   background-color: #fff;
@@ -74,5 +75,15 @@
 @media (min-width: 1024px) {
   .dropdown {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fillbutton {
+    font-size: 15px;
+  }
+  #Contactbtn{
+    font-size: 15px;
+    height: 2.2rem;
   }
 }

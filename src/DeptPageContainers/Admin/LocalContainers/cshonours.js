@@ -1,99 +1,99 @@
 import React, { Component } from "react";
-import HeadingOne from "../../Components/Texts/HeadingOne";
-import Honors from "../../Components/honors";
-import "./honors.css";
-class CsHonors extends Component {
+import HeadingOne from "../../../Components/Texts/HeadingOne";
+import honours from "../../../Components/honours";
+import "./honours.css";
+class Cshonours extends Component {
   state = {};
-  CsHonorsHeading = {
-    instanceID: "CeHonorsHeading",
-    title: "Honors of Computer Science & Engineering"
+  CshonoursHeading = {
+    instanceID: "CehonoursHeading",
+    title: "honours of Computer Science & Engineering"
   };
-  CsHonors1 = {
-    instanceID: "cshonors1",
-    image: "Honors/cshonor2.JPEG",
+  Cshonours1 = {
+    instanceID: "cshonours1",
+    image: "cshonour2.JPEG",
     width: "30%",
     name: "Anu Soosan Baby",
     content:
       "Secured Third Rank in B.Tech Computer Science & Engineering May 2011"
   };
-  CsHonors2 = {
-    instanceID: "cshonors2",
-    image: "Honors/cshonor1.JPEG",
+  Cshonours2 = {
+    instanceID: "cshonours2",
+    image: "cshonour1.JPEG",
     width: "30%",
     name: "Lis Joy",
     content:
       "Secured Second Rank in B.Tech Computer Science & Engineering May 2008"
   };
-  CsHonors3 = {
-    instanceID: "cshonors3",
-    image: "Honors/cshonor3.JPEG",
+  Cshonours3 = {
+    instanceID: "cshonours3",
+    image: "cshonour3.JPEG",
     width: "30%",
     name: "Nimmy George",
     content: "Secured First Rank in M.Tech Computer Science & Engineering May 2011"
   };
-  CsHonors4 = {
-    instanceID: "cshonors4",
-    image: "Honors/cshonor4.JPEG",
+  Cshonours4 = {
+    instanceID: "cshonours4",
+    image: "cshonour4.JPEG",
     width: "30%",
     name: "Kavya Johny",
     content: "Secured Second Rank in M.Tech Computer Science & Engineering May 2011"
   };
-  CsHonors5 = {
-    instanceID: "cshonors5",
-    image: "Honors/cshonor5.JPEG",
+  Cshonours5 = {
+    instanceID: "cshonours5",
+    image: "cshonour5.JPEG",
     width: "30%",
     name: "Sivadas T Nair",
     content: "Secured Third Rank in M.Tech Computer Science & Engineering May 2011"
   };
-  CsHonors6 = {
-    instanceID: "cshonors6",
-    image: "Honors/cshonor6.JPEG",
+  Cshonours6 = {
+    instanceID: "cshonours6",
+    image: "cshonour6.JPEG",
     width: "30%",
     name: "Merin Francis",
     content: "Secured First Rank in M.Tech Computer Science & Engineering May 2014"
   };
-  CsHonors7 = {
-    instanceID: "cshonors7",
-    image: "Honors/cshonor7.jpg",
+  Cshonours7 = {
+    instanceID: "cshonours7",
+    image: "cshonour7.jpg",
     width: "30%",
     name: "Abhirami Aji",
     content: "Secured Fourth Rank in B.Tech Computer Science & Engineering May 2018"
   };
-  CsHonors8 = {
-    instanceID: "cshonors8",
-    image: "Honors/cshonor8.jpg",
+  Cshonours8 = {
+    instanceID: "cshonours8",
+    image: "cshonour8.jpg",
     width: "30%",
     name: "Ashna Paul",
     content: "Secured Fifth Rank in B.Tech Computer Science & Engineering May 2018"
   };
   render() {
     return (
-      <div className="honors">
-        <HeadingOne data={this.CsHonorsHeading} />
+      <div className="honours">
+        <HeadingOne data={this.CshonoursHeading} />
         <div className="photos">
           <div>
-            <Honors data={this.CsHonors7} />
+            <honours data={this.Cshonours7} />
           </div>
           <div>
-            <Honors data={this.CsHonors8} />
+            <honours data={this.Cshonours8} />
           </div>
           <div>
-            <Honors data={this.CsHonors6} />
+            <honours data={this.Cshonours6} />
           </div>
           <div>
-            <Honors data={this.CsHonors1} />
+            <honours data={this.Cshonours1} />
           </div>
           <div>
-            <Honors data={this.CsHonors3} />
+            <honours data={this.Cshonours3} />
           </div>
           <div>
-            <Honors data={this.CsHonors4} />
+            <honours data={this.Cshonours4} />
           </div>
           <div>
-            <Honors data={this.CsHonors5} />
+            <honours data={this.Cshonours5} />
           </div>
           <div>
-            <Honors data={this.CsHonors2} />
+            <honours data={this.Cshonours2} />
           </div>
         </div>
       </div>
@@ -101,4 +101,4 @@ class CsHonors extends Component {
   }
 }
 
-export default CsHonors;
+export default Cshonours;
