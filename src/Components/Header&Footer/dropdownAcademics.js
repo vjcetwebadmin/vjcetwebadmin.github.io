@@ -75,7 +75,7 @@ class DropDownA extends Component {
               to="/academics/honours"
               className="patch1"
             >
-              honours
+              Honours
             </Link>
           </p>
         </div>
