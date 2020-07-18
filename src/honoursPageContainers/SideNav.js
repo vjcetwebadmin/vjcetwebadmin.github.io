@@ -1,20 +1,17 @@
 import React, { Component } from "react";
 import "./Nav.css";
-<<<<<<< HEAD:src/HonorsPageContainers/SideNav.js
-import CeHonors from "../DeptPageContainers/CeDept/LocalContainers/cehonors";
-import CsHonors from "../DeptPageContainers/CsDept/LocalContainers/cshonors";
-import EcHonors from "../DeptPageContainers/EcDept/LocalContainers/echonors";
-import EeHonors from "../DeptPageContainers/EeeDept/LocalContainers/eehonors";
-import ItHonors from "../DeptPageContainers/ItDept/LocalContainers/ithonors";
-import MeHonors from "../DeptPageContainers/MeDept/LocalContainers/mehonors";
-=======
+import CeHonors from "../DeptPageContainers/CeDept/LocalContainers/cehonours";
+import CsHonors from "../DeptPageContainers/CsDept/LocalContainers/cshonours";
+import EcHonors from "../DeptPageContainers/EcDept/LocalContainers/echonours";
+import EeHonors from "../DeptPageContainers/EeeDept/LocalContainers/eehonours";
+import ItHonors from "../DeptPageContainers/ItDept/LocalContainers/ithonours";
+import MeHonors from "../DeptPageContainers/MeDept/LocalContainers/mehonours";
 import Cehonours from "../DeptPageContainers/CeDept/LocalContainers/cehonours";
 import Cshonours from "../DeptPageContainers/CsDept/LocalContainers/cshonours";
 import Echonours from "../DeptPageContainers/EcDept/LocalContainers/echonours";
 import Eehonours from "../DeptPageContainers/EeeDept/LocalContainers/eehonours";
 import Ithonours from "../DeptPageContainers/ItDept/LocalContainers/ithonours";
 import Mehonours from "../DeptPageContainers/MeDept/LocalContainers/mehonours";
->>>>>>> dev:src/honoursPageContainers/SideNav.js
 import HeadingOne from "../Components/Texts/HeadingOne";
 class SideNav extends Component {
   state = {
