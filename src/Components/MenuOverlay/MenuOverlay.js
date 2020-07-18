@@ -172,7 +172,7 @@ class MenuOverlay extends Component {
             </button>
 
             <div className="MenuOverlaySubLinkGroup" style={menuItem9Style}>
-            <a href="http://admission.vjcet.ac.in/" className="MenuOverlaySubLinks">B.Tech</a>
+            <a href="https://admission.vjcet.ac.in/" className="MenuOverlaySubLinks">B.Tech</a>
 
               <Link className="MenuOverlaySubLinks" to="/admission/mtech">
                 M.Tech
@@ -345,8 +345,13 @@ class MenuOverlay extends Component {
               <Link className="MenuOverlaySubLinks" to="/academics/syllabus">
                Academic Downloads
               </Link>
+<<<<<<< HEAD
+              <Link className="MenuOverlaySubLinks" to="/academics/honors">
+                Honours
+=======
               <Link className="MenuOverlaySubLinks" to="/academics/honours">
                 honours
+>>>>>>> dev
               </Link>
               
             </div>
