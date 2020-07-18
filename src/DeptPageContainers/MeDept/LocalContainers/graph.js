@@ -137,7 +137,7 @@ class EcGraph extends Component {
             />
             <input
               type="button"
-              value="honours"
+              value="Honours"
               class="buttongraph"
               onClick={this.onClickHon}
             /> */}
