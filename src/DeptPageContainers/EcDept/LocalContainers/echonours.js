@@ -1,93 +1,93 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
-import Honors from "../../../Components/honors";
-import "./honors.css";
-class EcHonors extends Component {
+import honours from "../../../Components/honours";
+import "./honours.css";
+class Echonours extends Component {
   state = {};
-  EcHonorsHeading = {
-    instanceID: "EcHonorsHeading",
-    title: "Honors of Electronics & Communication Engineering"
+  EchonoursHeading = {
+    instanceID: "EchonoursHeading",
+    title: "honours of Electronics & Communication Engineering"
   };
-  EcHonors1 = {
-    instanceID: "echonors1",
-    image: "Honors/echonors1.JPEG",
+  Echonours1 = {
+    instanceID: "echonours1",
+    image: "honours/echonours1.JPEG",
     width: "30%",
     name: "Meera M Nair",
     content: "Secured First Rank in M.Tech VLSI in May 2011"
   };
-  EcHonors2 = {
-    instanceID: "echonors2",
-    image: "Honors/echonors2.JPEG",
+  Echonours2 = {
+    instanceID: "echonours2",
+    image: "honours/echonours2.JPEG",
     width: "30%",
     name: "Jayaprasad K V",
     content:
       "Secured First Rank in B.Tech Electronics and Communication Engineering in May 2012"
   };
-  EcHonors3 = {
-    instanceID: "echonors3",
-    image: "Honors/echonors3.jpg",
+  Echonours3 = {
+    instanceID: "echonours3",
+    image: "honours/echonours3.jpg",
     width: "30%",
     name: "Gayathri Anil",
     content:
       "Secured First Rank in B.Tech Electronics and Communication Engineering in May 2012"
   };
-  EcHonors4 = {
-    instanceID: "echonors4",
-    image: "Honors/echonors4.jpg",
+  Echonours4 = {
+    instanceID: "echonours4",
+    image: "honours/echonours4.jpg",
     width: "30%",
     name: "Haripriya P",
     content: "Secured First Rank in M.Tech VLSI in May 2013"
   };
-  EcHonors5 = {
-    instanceID: "echonors5",
-    image: "Honors/echonors5.jpg",
+  Echonours5 = {
+    instanceID: "echonours5",
+    image: "honours/echonours5.jpg",
     width: "30%",
     name: "Seena V P",
     content: "Secured Third Rank in M.Tech VLSI in May 2013"
   };
-  EcHonors6 = {
-    instanceID: "echonors6",
-    image: "Honors/echonors6.jpg",
+  Echonours6 = {
+    instanceID: "echonours6",
+    image: "honours/echonours6.jpg",
     width: "30%",
     name: "Neenu Saju",
     content:
       "Secured First Rank in B.Tech Electronics and Communication Engineering in May 2016"
   };
-  EcHonors7 = {
-    instanceID: "echonors7",
-    image: "Honors/echonors7.jpg",
+  Echonours7 = {
+    instanceID: "echonours7",
+    image: "honours/echonours7.jpg",
     width: "30%",
     name: "Deona Noble",
     content:
       "Secured Third Rank in B.Tech Electronics and Communication Engineering in May 2017"
   };
-  EcHonors8 = {
-    instanceID: "echonors8",
-    image: "Honors/echonors8.jpg",
+  Echonours8 = {
+    instanceID: "echonours8",
+    image: "honours/echonours8.jpg",
     width: "30%",
     name: "Anjana Shaji",
     content:
       "Secured First Rank in B.Tech Electronics and Communication Engineering in May 2018"
   };
-  EcHonors9 = {
-    instanceID: "echonors9",
-    image: "Honors/echonors9.jpg",
+  Echonours9 = {
+    instanceID: "echonours9",
+    image: "honours/echonours9.jpg",
     width: "30%",
     name: "Minni Shaji",
     content:
       "Secured Seventh Rank in B.Tech Electronics and Communication Engineering in May 2018"
   };
-  EcHonors10 = {
-    instanceID: "echonors10",
-    image: "Honors/echonors10.jpg",
+  Echonours10 = {
+    instanceID: "echonours10",
+    image: "honours/echonours10.jpg",
     width: "30%",
     name: "Deepa S",
     content:
       "Secured Tenth Rank in B.Tech Electronics and Communication Engineering in May 2018"
   };
-  EcHonors11 = {
-    instanceID: "echonors11",
-    image: "Honors/echonors11.jpg",
+  Echonours11 = {
+    instanceID: "echonours11",
+    image: "honours/echonours11.jpg",
     width: "30%",
     name: "Minna Shaji",
     content:
@@ -95,41 +95,41 @@ class EcHonors extends Component {
   };
   render() {
     return (
-      <div className="honors">
-        <HeadingOne data={this.EcHonorsHeading} />
+      <div className="honours">
+        <HeadingOne data={this.EchonoursHeading} />
         <div className="photos">
           <div>
-            <Honors data={this.EcHonors8} />
+            <honours data={this.Echonours8} />
           </div>
           <div>
-            <Honors data={this.EcHonors9} />
+            <honours data={this.Echonours9} />
           </div>
           <div>
-            <Honors data={this.EcHonors10} />
+            <honours data={this.Echonours10} />
           </div>
           <div>
-            <Honors data={this.EcHonors11} />
+            <honours data={this.Echonours11} />
           </div>
           <div>
-            <Honors data={this.EcHonors7} />
+            <honours data={this.Echonours7} />
           </div>
           <div>
-            <Honors data={this.EcHonors6} />
+            <honours data={this.Echonours6} />
           </div>
           <div>
-            <Honors data={this.EcHonors4} />
+            <honours data={this.Echonours4} />
           </div>
           <div>
-            <Honors data={this.EcHonors5} />
+            <honours data={this.Echonours5} />
           </div>
           <div>
-            <Honors data={this.EcHonors2} />
+            <honours data={this.Echonours2} />
           </div>
           <div>
-            <Honors data={this.EcHonors3} />
+            <honours data={this.Echonours3} />
           </div>
           <div>
-            <Honors data={this.EcHonors1} />
+            <honours data={this.Echonours1} />
           </div>
         </div>
       </div>
@@ -137,4 +137,4 @@ class EcHonors extends Component {
   }
 }
 
-export default EcHonors;
+export default Echonours;

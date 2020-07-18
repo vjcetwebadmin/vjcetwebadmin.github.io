@@ -3,10 +3,10 @@ import "./AboutPage.css";
 import "./HomePage.css";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
-import SideNav from "../HonorsPageContainers/SideNav.js";
+import SideNav from "../honoursPageContainers/SideNav";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 
-class HonorsPage extends Component {
+class honoursPage extends Component {
   state = { showMenu: false };
   openMenu = () => {
     console.log("opening Menu");
@@ -45,4 +45,4 @@ class HonorsPage extends Component {
   }
 }
 
-export default HonorsPage;
+export default honoursPage;

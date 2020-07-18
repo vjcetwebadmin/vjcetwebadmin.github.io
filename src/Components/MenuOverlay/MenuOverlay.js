@@ -345,8 +345,13 @@ class MenuOverlay extends Component {
               <Link className="MenuOverlaySubLinks" to="/academics/syllabus">
                Academic Downloads
               </Link>
+<<<<<<< HEAD
               <Link className="MenuOverlaySubLinks" to="/academics/honors">
                 Honours
+=======
+              <Link className="MenuOverlaySubLinks" to="/academics/honours">
+                honours
+>>>>>>> dev
               </Link>
               
             </div>

@@ -1,11 +1,20 @@
 import React, { Component } from "react";
 import "./Nav.css";
+<<<<<<< HEAD:src/HonorsPageContainers/SideNav.js
 import CeHonors from "../DeptPageContainers/CeDept/LocalContainers/cehonors";
 import CsHonors from "../DeptPageContainers/CsDept/LocalContainers/cshonors";
 import EcHonors from "../DeptPageContainers/EcDept/LocalContainers/echonors";
 import EeHonors from "../DeptPageContainers/EeeDept/LocalContainers/eehonors";
 import ItHonors from "../DeptPageContainers/ItDept/LocalContainers/ithonors";
 import MeHonors from "../DeptPageContainers/MeDept/LocalContainers/mehonors";
+=======
+import Cehonours from "../DeptPageContainers/CeDept/LocalContainers/cehonours";
+import Cshonours from "../DeptPageContainers/CsDept/LocalContainers/cshonours";
+import Echonours from "../DeptPageContainers/EcDept/LocalContainers/echonours";
+import Eehonours from "../DeptPageContainers/EeeDept/LocalContainers/eehonours";
+import Ithonours from "../DeptPageContainers/ItDept/LocalContainers/ithonours";
+import Mehonours from "../DeptPageContainers/MeDept/LocalContainers/mehonours";
+>>>>>>> dev:src/honoursPageContainers/SideNav.js
 import HeadingOne from "../Components/Texts/HeadingOne";
 class SideNav extends Component {
   state = {
@@ -63,29 +72,29 @@ class SideNav extends Component {
   };
   Heading = {
     instanceID: "Heading",
-    title: "Roll of HONORS"
+    title: "Roll of honourS"
   };
   render() {
     return (
       <div >
         <HeadingOne data={this.Heading} />
         <div >
-          <CeHonors />
+          <Cehonours />
         </div>
         <div >
-          <CsHonors />
+          <Cshonours />
         </div>
         <div id="ec">
-          <EcHonors />
+          <Echonours />
         </div>
         <div id="ee">
-          <EeHonors />
+          <Eehonours />
         </div>
         <div id="it">
-          <ItHonors />
+          <Ithonours />
         </div>
         <div id="me">
-          <MeHonors />
+          <Mehonours />
         </div>
       </div>
     );

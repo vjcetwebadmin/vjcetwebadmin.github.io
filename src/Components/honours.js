@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class Honors extends Component {
+class honours extends Component {
   state = {};
 
   render() {
@@ -7,7 +7,7 @@ class Honors extends Component {
 
     return (
       <div
-        className={`Honors ${this.props.className ? this.props.className : ""}`}
+        className={`honours ${this.props.className ? this.props.className : ""}`}
         id={instanceID}
         style={{ ...this.props.containerStyle }}
         onClick={
@@ -32,4 +32,4 @@ class Honors extends Component {
   }
 }
 
-export default Honors;
+export default honours;

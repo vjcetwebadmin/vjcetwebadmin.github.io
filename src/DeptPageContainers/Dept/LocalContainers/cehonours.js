@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
-import Honors from "../../../Components/honors";
-class CeHonors extends Component {
+import honours from "../../../Components/honours";
+class Cehonours extends Component {
   state = {};
   render() {
-    const { heading, honors } = this.props.data;
+    const { heading, honours } = this.props.data;
     return (
-      <div className="Honors">
+      <div className="honours">
         <HeadingOne data={heading} />
         <div className="photos">
-          {honors.map(i => (
+          {honours.map(i => (
             <div>
-              <Honors data={i} />
+              <honours data={i} />
             </div>
           ))}
         </div>
@@ -20,4 +20,4 @@ class CeHonors extends Component {
   }
 }
 
-export default CeHonors;
+export default Cehonours;

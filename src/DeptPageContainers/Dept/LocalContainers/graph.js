@@ -6,7 +6,7 @@ import Graph13 from "./graph2013";
 import Graph12 from "./graph2012";
 import Graph11 from "./graph2011";
 import Graph10 from "./graph2010"; */
-import CeHonors from "./cehonors";
+import Cehonours from "./cehonours";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 class CeGraph extends Component {
   state = {
@@ -98,7 +98,7 @@ class CeGraph extends Component {
   };
   Heading = {
     instanceID: "Heading",
-    //title: "RESULT & HONORS"
+    //title: "RESULT & honourS"
   };
   render() {
     return (
@@ -145,7 +145,7 @@ class CeGraph extends Component {
               />
               <input
                 type="button"
-                value="Roll of Honors"
+                value="Roll of honours"
                 class="buttongraph"
                 onClick={this.onClickHon}
               /> */}
@@ -156,7 +156,7 @@ class CeGraph extends Component {
             {this.state.show12 ? <Graph12 /> : null}
             {this.state.show11 ? <Graph11 /> : null}
             {this.state.show10 ? <Graph10 /> : null} */}
-            {this.state.showhon ? <CeHonors /> : null}
+            {this.state.showhon ? <Cehonours /> : null}
           </div>
         </div>
       </React.Fragment>

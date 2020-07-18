@@ -50,7 +50,7 @@ class HomePage extends Component {
   HomePageFacilitiesSection = {
     instanceID: "HomePageFacilitiesSection"
   };
-  
+
 
   HomePageVisionSection = {
     instanceID: "HomePageVisionSection"
@@ -78,7 +78,7 @@ class HomePage extends Component {
         <NewsSection data={this.HomePageNewsSection} />
         <DepartmentSection data={this.HomePageDepartmentSection} />
         <FacilitiesSection data={this.HomePageFacilitiesSection} />
-        <CarouselFive data={this.HomepageActivities}/>
+        <CarouselFive data={this.HomepageActivities} />
         {/* <VisionSection data={this.HomePageFacilitiesSection} /> */}
         {/* <HomepageActivities data={this.HomepageActivities}/> */}
         <CarouselFour data={this.HomePageCarouselFour} />

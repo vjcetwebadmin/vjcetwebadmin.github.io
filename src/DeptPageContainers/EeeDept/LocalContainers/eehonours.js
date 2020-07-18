@@ -1,56 +1,56 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
-import Honors from "../../../Components/honors";
-import "./honors.css";
-class EeHonors extends Component {
+import honours from "../../../Components/honours";
+import "./honours.css";
+class Eehonours extends Component {
   state = {};
-  EeHonorsHeading = {
-    instanceID: "EeHonorsHeading",
-    title: "Honors of Electrical & Electronics Engineering"
+  EehonoursHeading = {
+    instanceID: "EehonoursHeading",
+    title: "honours of Electrical & Electronics Engineering"
   };
-  EeHonors1 = {
-    instanceID: "eehonors1",
-    image: "Honors/eehonors1.JPG",
+  Eehonours1 = {
+    instanceID: "eehonours1",
+    image: "honours/eehonours1.JPG",
     width: "30%",
     name: "Jeswin Jose",
     content:
       "Secured First Rank in B.Tech Electrical & Electronics Engineering May 2017"
   };
-  EeHonors2 = {
-    instanceID: "eehonors2",
-    image: "Honors/eehonors2.JPEG",
+  Eehonours2 = {
+    instanceID: "eehonours2",
+    image: "honours/eehonours2.JPEG",
     width: "30%",
     name: "Devika K B",
     content:
       "Secured Second Rank in B.Tech Electrical & Electronics Engineering May 2010"
   };
-  EeHonors3 = {
-    instanceID: "eehonors3",
-    image: "Honors/eehonors3.JPEG",
+  Eehonours3 = {
+    instanceID: "eehonours3",
+    image: "honours/eehonours3.JPEG",
     width: "30%",
     name: "Breeza Paoulose",
     content:
       "Secured Second Rank in B.Tech Electrical & Electronics Engineering May 2009"
   };
-  EeHonors4 = {
-    instanceID: "eehonors4",
-    image: "Honors/eehonors4.JPEG",
+  Eehonours4 = {
+    instanceID: "eehonours4",
+    image: "honours/eehonours4.JPEG",
     width: "30%",
     name: "Roseline Baby",
     content:
       "Secured Second Rank in B.Tech Electrical & Electronics Engineering May 2008"
   };
-  EeHonors5 = {
-    instanceID: "eehonors5",
-    image: "Honors/eehonors5.JPEG",
+  Eehonours5 = {
+    instanceID: "eehonours5",
+    image: "honours/eehonours5.JPEG",
     width: "30%",
     name: "Ashna Joseph",
     content:
       "Secured Third Rank in B.Tech Electrical & Electronics Engineering May 2008"
   };
-  EeHonors6 = {
-    instanceID: "eehonors6",
-    image: "Honors/eehonors6.jpg",
+  Eehonours6 = {
+    instanceID: "eehonours6",
+    image: "honours/eehonours6.jpg",
     width: "30%",
     name: "Reshma Sajeev",
     content:
@@ -59,26 +59,26 @@ class EeHonors extends Component {
 
   render() {
     return (
-      <div className="honors">
-        <HeadingOne data={this.EeHonorsHeading} />
+      <div className="honours">
+        <HeadingOne data={this.EehonoursHeading} />
         <div className="photos">
         <div>
-            <Honors data={this.EeHonors6} />
+            <honours data={this.Eehonours6} />
           </div>
           <div>
-            <Honors data={this.EeHonors1} />
+            <honours data={this.Eehonours1} />
           </div>
           <div>
-            <Honors data={this.EeHonors2} />
+            <honours data={this.Eehonours2} />
           </div>
           <div>
-            <Honors data={this.EeHonors3} />
+            <honours data={this.Eehonours3} />
           </div>
           <div>
-            <Honors data={this.EeHonors4} />
+            <honours data={this.Eehonours4} />
           </div>
           <div>
-            <Honors data={this.EeHonors5} />
+            <honours data={this.Eehonours5} />
           </div>
         </div>
       </div>
@@ -86,4 +86,4 @@ class EeHonors extends Component {
   }
 }
 
-export default EeHonors;
+export default Eehonours;
