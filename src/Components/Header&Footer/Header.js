@@ -88,7 +88,7 @@ class Header extends Component {
   Link4 = {
     instanceID: "HeaderLink4",
     title: "Admissions",
-    link: "http://admission.vjcet.ac.in/"
+    link: "https://admission.vjcet.ac.in/"
   };
 
   Link5 = {
@@ -160,7 +160,7 @@ class Header extends Component {
         {/* <HeadingFour data={this.HeaderVJCCode} /> */}
 
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
-          <a href="http://admission.vjcet.ac.in/">
+          <a href="https://admission.vjcet.ac.in/">
             <div id="AdmissionImage">
               <div className="animcontent">
                 B.Tech Admission 2020
