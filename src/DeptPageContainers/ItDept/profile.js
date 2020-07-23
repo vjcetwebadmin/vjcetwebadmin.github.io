@@ -26,7 +26,7 @@ class Profile extends Component {
   };
   Features5 = {
     instanceID: "Features5",
-    title: "•	The department of IT is enriched with well qualified faculty members with adequate number of PhD pursuing faculty and PhD holders; and faculty honored with excellence awards."
+    title: "•	The department of IT is enriched with well qualified faculty members with adequate number of PhD pursuing faculty and PhD holders; and faculty honoured with excellence awards."
   };
   Features6 = {
     instanceID: "Features6",

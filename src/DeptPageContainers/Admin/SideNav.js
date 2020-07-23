@@ -168,7 +168,7 @@ class SideNav extends Component {
             />
             <input
 
-              value="Honors"
+              value="Honours"
               class="button"
               onClick={this.onClickRes}
             />  */}
