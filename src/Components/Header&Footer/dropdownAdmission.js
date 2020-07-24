@@ -37,7 +37,7 @@ class DropDownAdm extends Component {
                 <div className="dropdown-content">
                     <p>
                         <a
-                            href="http://admission.vjcet.ac.in/"
+                            href="https://admission.vjcet.ac.in/"
                             className="patch1"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -45,6 +45,7 @@ class DropDownAdm extends Component {
                             B.Tech
                         </a>
                     </p>
+                    
                     <p>
                         <Link
                             to="/admission/mtech"

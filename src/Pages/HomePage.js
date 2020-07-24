@@ -17,7 +17,6 @@ class HomePage extends Component {
   state = { showMenu: false };
 
   openMenu = () => {
-    console.log("opening Menu");
     this.setState({ showMenu: true });
   };
   closeMenu = () => {

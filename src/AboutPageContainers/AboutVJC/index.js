@@ -9,7 +9,7 @@ class AboutVJC extends React.Component {
     instanceID: "AboutVjcTitle",
     title: "About Viswajyothi"
   };
-
+ 
   AboutVjcImage = {
     instanceID: "AboutVjcImage",
     image: "cover2-1.jpg",
@@ -80,7 +80,7 @@ class AboutVJC extends React.Component {
   }
   UGCourse7 = {
     instanceID: "UGCourse7",
-    title: "Artificial Intelligence *"
+    title: "Artificial Intelligence "
   }
 
   render() {
@@ -111,7 +111,7 @@ class AboutVJC extends React.Component {
             </ul>
 
           </div>
-          <p>*Subjected to the approval from the Government</p>
+          
         </div>
         {/* <ResourcesGroup /> */}
 

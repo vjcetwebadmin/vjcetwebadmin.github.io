@@ -45,11 +45,45 @@ class NewsCarouselPrimary extends Component {
     width: "100%"
   };
 
+  Title4 = {
+    instanceID: "NewsPrimaryOneTitle",
+    title: "Installed Smart Classroom at Kunjipara Tribal School,Kuttampuzha",
+    link: ""
+  };
+
+  Image4 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/IEE1.png",
+    //Recommended Image Size is 733px x 400px.
+    width: "100%"
+  };
+  
+  Title5 = {
+    instanceID: "NewsPrimaryOneTitle",
+    title: "Installed Smart Classroom at Kunjipara Tribal School,Kuttampuzha",
+    link: ""
+  };
+
+  Image5 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/IEE2.png",
+    //Recommended Image Size is 733px x 400px.
+    width: "100%"
+  };
+
   render() {
     //const { instanceID } = this.props.data;
 
     return (
       <Carousel>
+        <Carousel.Item>
+          <NewsImage data={this.Image5} />
+          <a href={this.Title5.link}>
+            <Carousel.Caption>
+              <h3>{this.Title5.title}</h3>
+            </Carousel.Caption>
+          </a>
+        </Carousel.Item>        
         <Carousel.Item>
           <NewsImage data={this.Image1} />
           <a href={this.Title1.link}>
@@ -57,6 +91,14 @@ class NewsCarouselPrimary extends Component {
             {/* <Carousel.Caption>
               
             </Carousel.Caption> */}
+          </a>
+        </Carousel.Item>
+        <Carousel.Item>
+          <NewsImage data={this.Image4} />
+          <a href={this.Title4.link}>
+            <Carousel.Caption>
+              <h3>{this.Title4.title}</h3>
+            </Carousel.Caption>
           </a>
         </Carousel.Item>
         <Carousel.Item>
@@ -75,6 +117,8 @@ class NewsCarouselPrimary extends Component {
             </Carousel.Caption>
           </a>
         </Carousel.Item>
+       
+
       </Carousel>
     );
   }

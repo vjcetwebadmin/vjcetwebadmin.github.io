@@ -5,6 +5,7 @@ import CustomOne from "../Components/Texts/CustomOne";
 class CarouselTwo extends Component {
   state = { selected: 0 };
   data = [
+  
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="http://117.239.154.84:8001/ktuexam/index.html" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">KTU B.Tech Examination</font></a>
@@ -15,19 +16,13 @@ class CarouselTwo extends Component {
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">edX MOOC registrations</font></a>
+      title: <a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">ADVERTISEMENT FOR WALK-IN-INTERVIEW FOR THE POST OF AD-HOC FACULTY (CIVIL ENGINEERING)</font></a>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsnine" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Congratulations to the Placed Students - 2016-2020 Batch</font></a>
     },
     
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsfive" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Coursera MOOC registrations</font></a>
-    },
-    
-   
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newssix" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Access to Study Materials- Video Lectures, PPTs & PDFs</font></a>
