@@ -110,7 +110,7 @@ class MenuOverlay extends Component {
       <div
         className="MenuOverlay"
         style={{
-          position: "absolute",
+          position: "fixed",
           top: "0px",
           left: "0px",
           right: "0px",
@@ -121,7 +121,7 @@ class MenuOverlay extends Component {
           <img
             id="MenuOverlayCloseButton"
             src={require("../../Assets/close.svg")}
-            width="16px"
+            width="30px"
             alt="img"
             onClick={e => {
               this.props.closeMenuFunction();
@@ -129,56 +129,63 @@ class MenuOverlay extends Component {
           />
 
           <div id="menuItem1">
-            <button
+            <div
               className="MenuOverlayItem"
               onClick={this.menuItem1.bind(this)}
             >
               <Link to="#">About VJCET</Link>
-            </button>
-
+            </div>
+            <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem1Style}>
               <Link className="MenuOverlaySubLinks" to="/about">
                 About College
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/about/accreditation">
                 Accreditation
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/about/keyfunctionaries">
                 Key Functionaries
               </Link>
+              <div className="wseparator"></div>
               <Link
                 to="/about/vision"
                 className="MenuOverlaySubLinks"
               >
                 Vision & Mission
             </Link>
+              <div className="wseparator"></div>
               <Link
                 to="/about/affliations"
                 className="MenuOverlaySubLinks"
               >
                 Affiliations
             </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/contact">
                 Contact Us
               </Link>
             </div>
           </div>
           <div id="menuItem9">
-            <button
+            <div
               className="MenuOverlayItem"
               onClick={this.menuItem9.bind(this)}
             >
               <Link to="#">Admissions</Link>
-            </button>
+            </div>
 
+            <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem9Style}>
               <a href="https://admission.vjcet.ac.in/" className="MenuOverlaySubLinks">B.Tech</a>
-
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/admission/mtech">
                 M.Tech
               </Link>
+              <div className="wseparator"></div>
               <a href="http://www.vjcetmba.in/" className="MenuOverlaySubLinks">MBA</a>
-
+              <div className="wseparator"></div>
               <Link
                 to="/admission/phd"
                 className="MenuOverlaySubLinks"
@@ -190,21 +197,24 @@ class MenuOverlay extends Component {
           </div>
 
           <div id="menuItem2">
-            <button
+            <div
               className="MenuOverlayItem"
               onClick={this.menuItem2.bind(this)}
             >
               <Link to="#">Portal</Link>
-            </button>
+            </div>
 
+            <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem2Style}>
               <a href="https://portal.vjcet.ac.in" className="MenuOverlaySubLinks">
                 VJCET Login
             </a>
+              <div className="wseparator"></div>
 
               <a href="http://moodle.vjcet.ac.in" className="MenuOverlaySubLinks">
                 Moodle
             </a>
+              <div className="wseparator"></div>
               <a href="https://alumni.vjcet.ac.in/" className="MenuOverlaySubLinks">
                 Alumni Login
             </a>
@@ -217,35 +227,43 @@ class MenuOverlay extends Component {
           </div>
 
           <div id="menuItem3">
-            <button
+            <div
               className="MenuOverlayItem"
               onClick={this.menuItem3.bind(this)}
             >
               <Link to="#">Departments</Link>
-            </button>
+            </div>
 
+            <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem3Style}>
               <Link className="MenuOverlaySubLinks" to="/departments/ce">
                 Civil Engineering
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/cse">
                 Computer Science Engineering
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/ece">
                 Electronics & Communication Engineering
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/eee">
                 Electrical & Electronics Engineering
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/it">
                 Information Technology Engineering
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/me">
                 Mechanical Engineering
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/s&h">
                 Science & Humanities
               </Link>
+              <div className="wseparator"></div>
               <a href="http://www.vjcetmba.in" className="MenuOverlaySubLinks" >
                 MBA
             </a>
@@ -253,35 +271,43 @@ class MenuOverlay extends Component {
           </div>
 
           <div id="menuItem4">
-            <button
+            <div
               className="MenuOverlayItem"
               onClick={this.menuItem4.bind(this)}
             >
               <Link to="#">Campus Life</Link>
-            </button>
+            </div>
 
+            <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem4Style}>
               <Link className="MenuOverlaySubLinks" to="/campus-life">
                 Campus
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/campus-life/collegecouncil">
                 Student Council
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/campus-life/committees">
                 Committees
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/campus-life/artsfest">
                 Drishya- Arts Fest
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/campus-life/sportsfest">
                 Drona- Sports Fest
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/campus-life/techfest">
                 Bodhi- Tech Fest
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/campus-life/professionalbodies">
                 Professional Bodies
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/campus-life/nss">
                 National Service Scheme
               </Link>
@@ -289,35 +315,43 @@ class MenuOverlay extends Component {
           </div>
 
           <div id="menuItem5">
-            <button
+            <div
               className="MenuOverlayItem"
               onClick={this.menuItem5.bind(this)}
             >
               <Link to="#">Facilities</Link>
-            </button>
+            </div>
 
+            <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem5Style}>
               <Link className="MenuOverlaySubLinks" to="/facilities/ccc">
                 Common Infrastructure
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/facilities/building">
                 Building Infrastructure
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/facilities/library">
                 Central Library
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/facilities/powerandbackup">
                 Power & Backup
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/facilities/hostel">
                 Residential Facility
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/facilities/healthandfitness">
                 Health & Fitness
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/facilities/core-facilities">
                 Campus Amenities
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/facilities/transportation">
                 Transportation Facility
               </Link>
@@ -328,62 +362,59 @@ class MenuOverlay extends Component {
           </div>
 
           <div id="menuItem6">
-            <button
+            <div
               className="MenuOverlayItem"
               onClick={this.menuItem6.bind(this)}
             >
               <Link to="#">Academics</Link>
-            </button>
+            </div>
 
+            <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem6Style}>
               <Link className="MenuOverlaySubLinks" to="/academics/courses-offered">
                 Courses-offered
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/academics/syllabusplan">
                 Syllabus and Curriculam Plan
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/academics/syllabus">
                 Academic Downloads
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/academics/honours">
                 Honours
               </Link>
 
             </div>
           </div>
-          <div id="menuItem8">
-            <button
-              className="MenuOverlayItem"
-              onClick={this.menuItem8.bind(this)}
-            >
-              <Link to="#">Placements</Link>
-            </button>
-
-            <div className="MenuOverlaySubLinkGroup" style={menuItem8Style}>
-              <Link className="MenuOverlaySubLinks" to="/placement">
-                Placements
-              </Link>
-
-            </div>
-          </div>
+          <Link id="menuItem7" className="MenuOverlayItem" to="/placement">
+            Placements
+          </Link>
+          <div className="separator"></div>
           <div id="menuItem10">
-            <button
+            <div
               className="MenuOverlayItem"
               onClick={this.menuItem10.bind(this)}
             >
               <Link to="#">E&D</Link>
-            </button>
+            </div>
 
+            <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem10Style}>
               <Link className="MenuOverlaySubLinks" to="/ed/iedc">
                 IEDC
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/ed/v-bic">
                 V-BIC
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/ed/iiic">
                 IIIC
               </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/ed/unai">
                 UNAI-ASPIRE
               </Link>
@@ -392,6 +423,7 @@ class MenuOverlay extends Component {
           <Link id="menuItem7" className="MenuOverlayItem" to="/R&D">
             RD
           </Link>
+          <div className="separator"></div>
           <Link id="menuItem7" className="MenuOverlayItem" to="iqac">
             IQAC
           </Link>
