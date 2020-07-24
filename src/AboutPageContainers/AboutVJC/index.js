@@ -9,7 +9,7 @@ class AboutVJC extends React.Component {
     instanceID: "AboutVjcTitle",
     title: "About Viswajyothi"
   };
-
+ 
   AboutVjcImage = {
     instanceID: "AboutVjcImage",
     image: "cover2-1.jpg",
