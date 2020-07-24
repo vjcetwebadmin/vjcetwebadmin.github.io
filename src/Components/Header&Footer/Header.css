@@ -92,7 +92,7 @@
 
 #HeaderHamburger {
   grid-area: ham;
-  padding-left: 10px;
+  padding-left: 50%;
 }
 
 #HeaderLineOne {
