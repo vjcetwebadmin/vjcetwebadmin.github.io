@@ -26,7 +26,7 @@ class Header extends Component {
 
   Hamburger = {
     instanceID: "HeaderHamburger",
-    image: "hamburger.png",
+    image: "hamburger.svg",
     width: "20px"
   };
   FeePaymentImagedata = {
