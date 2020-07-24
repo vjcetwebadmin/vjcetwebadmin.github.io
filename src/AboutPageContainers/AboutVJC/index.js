@@ -80,7 +80,7 @@ class AboutVJC extends React.Component {
   }
   UGCourse7 = {
     instanceID: "UGCourse7",
-    title: "Artificial Intelligence *"
+    title: "Artificial Intelligence "
   }
 
   render() {
@@ -111,7 +111,7 @@ class AboutVJC extends React.Component {
             </ul>
 
           </div>
-          <p>*Subjected to the approval from the Government</p>
+          
         </div>
         {/* <ResourcesGroup /> */}
 
