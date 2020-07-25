@@ -11,7 +11,7 @@ export default function Notify() {
         window.open('http://117.239.154.84:8001/ktuexam/index.html','_blank');
         toggler(e);
     }*/
-    const head = "B.Tech AI (Artificial Intelligence)";
+    const head = "B.Tech Artificial Intelligence (AI)";
     const content = "Viswajyothi is proud to introduce a new B.Tech Programme in Artificial Intelligence";
     if (notify) {
         return (
