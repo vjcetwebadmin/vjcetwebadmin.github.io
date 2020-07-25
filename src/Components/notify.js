@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./notify.css";
 
 export default function Notify() {
@@ -6,12 +7,12 @@ export default function Notify() {
     const toggler = e => {
         setNotifier(false);
     }
-    const extln = e => {
+    /*const extln = e => {
         window.open('http://117.239.154.84:8001/ktuexam/index.html','_blank');
         toggler(e);
-    }
-    const head = "KTU S8 B.Tech Examination";
-    const content = "Exams from July 1st is postponed indefinitely";
+    }*/
+    const head = "B.Tech AI (Artificial Intelligence)";
+    const content = "Viswajyothi is proud to introduce a new B.Tech Programme in Artificial Intelligence";
     if (notify) {
         return (
             <div id="noverlay" >
@@ -19,9 +20,9 @@ export default function Notify() {
                     <h2 id="notifyhead">{head}</h2>
                     <h3 id="notification">{content}</h3>
                     <div id="toggles">
-                        <div className="togglenotifier" >
-                            <h2 onClick={extln} style={{ margin: 0}} >Learn More</h2>
-                        </div>
+                        <Link to="/notifications" className="togglenotifier" >
+                            <h2 onClick={toggler} style={{ margin: 0 }} >Learn More</h2>
+                        </Link>
                         <div className="togglenotifier" id="extln">
                             <h2 onClick={toggler} style={{ margin: 0 }} >Okay</h2>
                         </div>
