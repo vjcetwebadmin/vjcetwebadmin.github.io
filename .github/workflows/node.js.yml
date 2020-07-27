@@ -1,7 +1,4 @@
-# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
- 
-name: Node.js CI
+name: CI/CD
 
 on:
   push:
@@ -26,7 +23,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    
+
     - name: Cache dependencies
       uses: actions/cache@v2
       with:
@@ -36,23 +33,21 @@ jobs:
     
     - name: Install dependencies
       run: npm install
-      
+
     - name: Build
       run: |
-         sed -i '5i\  "homepage": "http://qnxdev.github.io/vb",' ./package.json 
-         npm run build
-      env: 
-       CI: false
+        sed -i '5i\  "homepage": "http://qnxdev.github.io/vb",' ./package.json
+        npm run build
+      env:
+        CI: false
+
     - name: Deploy
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
         git remote set-url origin https://${github_token}@github.com/${repository}
-        sed -i '5i\  "homepage": "http://qnxdev.github.io/vb",' ./package.json
-        npm install -g gh-pages
         npm run deploy
-        gh-pages -b master -d build
-      env:
+      env:  
         CI: false
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
