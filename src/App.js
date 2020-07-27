@@ -68,7 +68,7 @@ import Iiic from "./EdPageContainers/IIIC/csdepartment";
 import Unai from "./EdPageContainers/Unai";
 import iqac from "./iqac/profile";
 import Notify from "./Components/notify";
-
+import NotiPage from './Pages/Notifications';
 
 class App extends Component {
 
@@ -711,7 +711,7 @@ class App extends Component {
               <Route exact path="/campus-life/professionalbodies/igbc" component={igbc} />
               <Route exact path="/campus-life/professionalbodies/sae" component={sea} />
               <Route exact path="/campus-life/professionalbodies/iete" component={iete} />
-
+              <Route exact path="/notifications" component={NotiPage} />
 
 
 
