@@ -42,6 +42,7 @@ jobs:
         git config --global user.email $user_email
         git remote set-url origin https://${github_token}@github.com/${repository}
         sed -i '5i\  "homepage": "http://qnxdev.github.io/vb",' ./package.json
+        npm install --save-dev gh-pages
         npm run deploy
         gh-pages -b master -d build
       env:
