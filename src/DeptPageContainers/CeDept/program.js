@@ -11,7 +11,7 @@ class Program extends Component {
   ProgramDescriptionOne = {
     instanceID: "ProgramDescriptionOne",
     title:
-      "The Department offers undergraduate program in Civil Engineering with an annual intake of 120 students."
+      "The Department offers undergraduate program in Civil Engineering with an annual intake of 60 students."
   };
   ProgramDescriptionTwo = {
     instanceID: "ProgramDescriptionTwo",

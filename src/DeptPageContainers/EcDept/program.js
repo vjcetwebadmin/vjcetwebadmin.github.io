@@ -20,7 +20,7 @@ class Program extends Component {
   ProgramDescriptionThree = {
     instanceID: "ProgramDescriptionThree",
     title:
-      "The annual intake of the B. Tech. program is 120 students and that of the M. Tech. is 24."
+      "The annual intake of the B. Tech. program is 60 students and that of the M. Tech. is 24."
   };
   ProgramDescriptionFour = {
     instanceID: "ProgramDescriptionFour",
