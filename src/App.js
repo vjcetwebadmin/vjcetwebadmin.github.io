@@ -327,7 +327,7 @@ class App extends Component {
             image: "Allstaffphoto/CE/FAC/40.jpg",
             width: "50%",
             name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/3/40.jpg" target="_blank" rel="noopener noreferrer">Mrs. Minu C Joy</a>,
-            content: "Assistant Professor(on Leave)"
+            content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty7",
