@@ -117,13 +117,6 @@ class Faculty extends Component {
     name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/117/johnodakkal.jpg" target="_blank" rel="noopener noreferrer">Mr.	John Odackal</a>,
     content: "Assistant Professor"
   };
-  Cefaculty21 = {
-    instanceID: "Cefaculty21",
-    image: "Allstaffphoto/SH/FAC/saksyjoy.jpg",
-    width: "50%",
-    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/118/saksyjoy.jpg" target="_blank" rel="noopener noreferrer">Ms. Saksy Joy</a>,
-    content: "Assistant Professor"
-  };
   render() {
     return (
       <div className="faculty">
@@ -177,9 +170,6 @@ class Faculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty20} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty21} />
           </div>
         </div>
       </div>

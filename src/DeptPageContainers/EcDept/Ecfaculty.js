@@ -163,7 +163,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/FAC/Naveenjacob.jpg",
     width: "50%",
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/133/Naveenjacob.jpg" target="_blank" rel="noopener noreferrer">Mr. Naveen Jacob</a>,
-    content: "Associate Professor(on-Leave Ph.D)"
+    content: "Associate Professor"
   };
   Cefaculty25 = {
     instanceID: "Cefaculty25",
