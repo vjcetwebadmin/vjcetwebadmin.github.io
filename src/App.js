@@ -248,7 +248,7 @@ class App extends Component {
         {
           instanceID: "ProgramDescriptionOne",
           title:
-            "The Department offers undergraduate program in Civil Engineering with an annual intake of 120 students."
+            "The Department offers undergraduate program in Civil Engineering with an annual intake of 60 students."
         },
         {
           instanceID: "ProgramDescriptionTwo",

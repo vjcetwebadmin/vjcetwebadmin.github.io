@@ -85,7 +85,7 @@ class keyfunct extends React.Component {
                    <br />
                    <HeadingThree data={this.WifiTitle} className="Heading" />
                    <p align="center"> <ImageOne data={this.DImagedata} /></p>
-                   <p align="center"><b> Rev. Dr. George Thanathuparambil</b></p> 
+                   <p align="center"><b> Rev. Fr. Paul Nedumpurath</b></p> 
                    <BodyOneJustified data={this.CCCContent2} />
                    <br />
                    <HeadingThree data={this.ServerTitle} className="Heading" />
