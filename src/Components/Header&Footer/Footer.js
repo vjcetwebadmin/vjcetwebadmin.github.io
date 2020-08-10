@@ -62,12 +62,12 @@ class Footer extends Component {
   Copyright = {
     instanceID: "Copyright",
     title:
-      "© 2019 Viswajyothi College Of Engineering and Technology. All rights reserved."
+      "© 2020 Viswajyothi College Of Engineering and Technology. All rights reserved."
   };
 
   LmntrxTech = {
     instanceID: "LmntrxTech",
-    title: "Developed by Evolve( Sofware Incubation Center VJCET )"
+    title: "Developed by Evolve( Software Incubation Center VJCET )"
   };
 
   Link1 = {

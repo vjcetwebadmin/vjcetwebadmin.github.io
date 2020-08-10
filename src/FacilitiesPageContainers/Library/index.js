@@ -38,7 +38,7 @@ class Library extends React.Component {
         instanceID: "LibraryDigitalTitle",
         title: "DIGITAL LIBRARY"
     };
-    LibraryDigitalResorceTitle = {
+     LibraryDigitalResorceTitle = {
         instanceID: "LibraryDigitalResourceTitle",
         title: "E- RESOURCES"
     };
@@ -287,9 +287,9 @@ class Library extends React.Component {
                         The library provides IP enabled access to a large number of full text on line journal databases from the various publishers.
                         </p>
                         <ol>
-                            <li>IEEE(ASPP)</li>
+                            <li><a href="https://ieeexplore.ieee.org" target="_blank">IEEE(ASPP)</a></li>
                             <li>Science Direct</li>
-                            <li>EBSCO</li>
+                            <li><a href="http://search.ebscohost.com" target="_blank">EBSCO</a></li>
                             <li>DELNET</li>
                             <li>NDL</li>
                         </ol>

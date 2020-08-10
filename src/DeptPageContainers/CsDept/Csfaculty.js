@@ -16,13 +16,6 @@ class CSFaculty extends Component {
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/16/CSFAC102.jpg.jpg" target="_blank" rel="noopener noreferrer">Mrs. Silpa Joseph</a>,
     content: "Associate Professor"
   };
-  Cefaculty3 = {
-    instanceID: "Cefaculty3",
-    image: "Allstaffphoto/CS/FAC/71.jpg",
-    width: "50%",
-    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/93/71.jpg" target="_blank" rel="noopener noreferrer">Mr. Basil Baby</a>,
-    content: "Assistant Professor"
-  };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/CS/FAC/323.jpg",
@@ -30,15 +23,7 @@ class CSFaculty extends Component {
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/32/323.jpg" target="_blank" rel="noopener noreferrer">Dr. Anishin Raj M M</a>,
     content: "Dean R & D, Associate Professor"
   };
-  Cefaculty5 = {
-    instanceID: "Cefaculty5",
-    image: "Allstaffphoto/CS/FAC/CSFAC103.jpg",
-    width: "50%",
-    name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/17/CSFAC103.jpg" target="_blank" rel="noopener noreferrer">Mr. Shibu K R</a>,
-    content: "Associate Professor"
-  };
-  
-  Cefaculty7 = {
+   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/CS/FAC/68.jpg",
     width: "50%",
@@ -199,10 +184,7 @@ class CSFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty2} />
           </div>         
-          <div>
-            <FacultyData data={this.Cefaculty5} />
-          </div>
-            <div>
+           <div>
             <FacultyData data={this.Cefaculty7} />
           </div>
           <div>
@@ -210,9 +192,6 @@ class CSFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty9} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty3} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty10} />

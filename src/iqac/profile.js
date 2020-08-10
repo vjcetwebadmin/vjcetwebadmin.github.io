@@ -121,9 +121,9 @@ class nss extends React.Component {
                     <br />
                     <table id="tableformat">
                            
-                    <tr><td>1</td><td> Rev. Dr. George Thanathuparambil</td><td> Director</td></tr>
-			    <tr><td>2</td><td> Rev. Fr Paul Nedumpurath</td><td> Secretary, DTET</td></tr>
-                            <tr><td>3</td><td> Dr. Josephkunju Paul C</td><td>Principal </td></tr>
+                   <tr><td>1</td><td> Rev. Fr Paul Nedumpurath</td><td>Director</td></tr>
+                   <tr><td>2</td><td> Rev. Dr. George Thanathuparambil</td><td>Member, Board of Trustees,DTET </td></tr> 
+                            <tr><td>3</td><td> Dr. K.K Rajan</td><td>Principal </td></tr>
                             <tr><td>4</td><td> Sri. Somy P Mathew	</td><td> Vice Principal</td></tr>
 			    <tr><td>5</td><td> Sri. Sunny Jacob</td><td> Administrative Officer</td></tr>
                             <tr><td>6</td><td> Smt. Shine George</td><td> HOD ( CE)</td></tr>
