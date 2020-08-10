@@ -77,7 +77,6 @@ class App extends Component {
       instanceID: "Headingtext",
       title: "CIVIL ENGINEERING"
     },
-
     HeadingSectionDescription: {
       instanceID: "HeadingSectionDescription",
       title: "Building future on foundations of excellence"
@@ -765,3 +764,306 @@ class App extends Component {
 }
 
 export default App;
+
+/*csProps = {
+    HeadingSectionTitle: {
+      instanceID: "Headingtext",
+      title: "COMPUTER SCIENCE ENGINEERING"
+    },
+    HeadingSectionDescription: {
+      instanceID: "HeadingSectionDescription",
+      title: "Debugging the possibilities through intelligence"
+    },
+    CseImg: {
+      instanceID: "CseImg",
+      image: "DepBannerImages/cs.jpg",
+      width: "100%"
+    },
+    SideNavData:
+    {
+      profile:
+      {
+        ProfileDescription: {
+          instanceID: "ProfileDescription",
+          title:
+            "The Department of Computer Science is envisioned to prepare competent, creative and innovative Computer Scientists who would be capable of meeting the challenges posed by these burgeoning knowledge disciplines.The Department of Computer Science and Engineering (CSE) was founded in 2001. B.Tech Computer Science Engineering program is accredited by NBA on June 2018 for three years.The annual intake of the B. Tech. program is 120 students and that of the M. Tech. is 24."
+        },
+        Ceheading: {
+          instanceID: "Ceheading",
+          title: "Salient Features:"
+        },
+        Features: [
+          {
+            instanceID: "Features1",
+            title: "•	Started in the year 2001, the Department of Computer Science & Engineering offers both undergraduate (B. Tech.) and postgraduate (M. Tech.) programs."
+          },
+
+          {
+            instanceID: "Features2",
+            title: "•	B.Tech Computer Science Engineering program is accredited by NBA on July 2018 for three years."
+          },
+          {
+            instanceID: "Features3",
+            title: "•	Good Academic result and appreciable placements at MNCs like Google, Microsoft, Infosys, TCS.."
+          },
+          {
+            instanceID: "Features4",
+            title: "•	Smart class rooms, well equipped labs, R&D centre and well stocked Library."
+          },
+          {
+            instanceID: "Features5",
+            title: "•	Well qualified, skilled and dedicated teachers who are keen in academic research. (Apart from the existing PhD holders 11 faculty members are doing the same course)."
+          },
+          {
+            instanceID: "Features6",
+            title: "•	Steady effort to promote student initiatives like entrepreneurship, startups."
+          },
+          {
+            instanceID: "Features7",
+            title: "•	Technical and softskill training, activities and fests with the support of Professional bodies – CSI, ISTE, IEEE and industrialists"
+          },
+          {
+            instanceID: "Features8",
+            title: "•	Computer Society of India (CSI) student branch won the ‘Best Accredited Student Branch’ for the last four consecutive years."
+          },
+          {
+            instanceID: "Features9",
+            title: "•	Collaborated with Senior Experten Service (SES) Germany for knowledge sharing in an international interdisciplinary platform."
+          },
+        ],
+      },
+      vision:
+      {
+        VisionDescription:
+        {
+          instanceID: "VisionDescription",
+          title:
+            "Moulding socially responsible and professionally competent Computer Engineers to adapt to the dynamic technological landscape"
+        },
+        Missions:[
+          {
+            instanceID: "MissionListOne",
+            title:
+              "1.	Foster the principles and practices of computer science to empower life-long learning and   build careers in software and hardware development."
+          },{
+            instanceID: "MissionListTwo",
+            title:
+              "2.  Impart value education to elevate students to be successful, ethical and effective problem-solvers to serve the needs of the industry, government, society and the scientific community."
+          },{
+            instanceID: "MissionListThree",
+            title:
+              "3.  Promote industry interaction to pursue new technologies in Computer Science and provide excellent infrastructure to engage faculty and students in scholarly research activities."
+          },
+        ],
+      },
+      peo:
+      {
+        peoListOne:
+        {
+          instanceID: "peoListOne",
+          title: "Our Graduates "
+        },
+        peoListTwo:
+        {
+          instanceID: "peoListTwo",
+          title:
+            "1.	Shall have creative and critical reasoning skills to solve technical problems ethically and responsibly to serve the society."
+        },
+        peoListThree:
+        {
+          instanceID: "peoListThree",
+          title:
+            "2.	Shall have competency to collaborate as a team member and team leader to address social, technical and engineering challenges."
+        },
+        peoListFour:
+        {
+          instanceID: "peoListFour",
+          title:
+            "3.	Shall have ability to contribute to the development of the next generation of information technology either through innovative research or through practice in a corporate setting."
+        },
+        peoListFive:
+        {
+          instanceID: "peoListFive",
+          title:
+            "4.	Shall have potential to build start-up companies with the foundations, knowledge and experience they acquired from undergraduate education."
+        },
+      },
+      program:
+      {
+        ProgramDescriptionOne:
+        {
+          instanceID: "ProgramDescriptionOne",
+          title:
+            "Department of Computer Science and Engineering is offering both Under graduate and Post graduate courses in Computer Science and Engineering. The total intake in Undergraduate course is 120 per batch and for Post graduation 18 per batch."
+        },
+        ProgramDescriptionTwo:
+        {
+          instanceID: "ProgramDescriptionTwo",
+          title:
+            "The Under Graduate program started in the year 2001 with an intake of 60 students per batch. Later in July 2007 the intake is amplified to 120 students per batch. In the year 2010 Postgraduate program in Computer Science and Engineering with an intake of 18 students per batch has started. The Department is accredited by National Board of Accreditation (NBA) of AICTE in June 2010. Also the Department applied for NBA accreditation in 2017 and is accredited by NBA on July 2018 for three years."
+        },
+      },
+      faculty:
+      {
+        OnClickFac: () => {
+          this.setState
+            ({
+              showfaculty: true,
+              showstaff: false
+            });
+        },
+        OnClickStaff = () => {
+          this.setState
+            ({
+              showfaculty: false,
+              showstaff: true
+            });
+        },
+        render() {
+          return (
+            <div class="facultyNav">
+              <input
+                type="button"
+                value="Faculty"
+                class="buttongraph"
+                onClick={this.OnClickFac}
+              />
+              <input
+                type="button"
+                value="Technical Staff"
+                class="buttongraph"
+                onClick={this.OnClickStaff}
+              />
+              <div class="FacultyNavContent">
+                {this.state.showfaculty ? <CSFaculty /> : null}
+                {this.state.showstaff ? <CSStaff /> : null}
+              </div>
+            </div>
+          );
+        },
+      },
+      library:
+      {
+        AdvdatabaseLabHeading:
+        {
+          instanceID: "AdvdatabaseLabHeading",
+          title: "Advanced Operating System & Database Lab"
+        },
+        AdvdatabaseLabImagedata:
+        {
+          instanceID: "AdvdatabaseLabImage",
+          image: "DepartmentImages/CS/LABS/DBMSLAB.JPG",
+          width: "80%"
+        },
+        PGProjLabHeading:
+        {
+          instanceID: "PGProjLabHeading",
+          title: "PG Project Lab"
+        },
+        PGProjLabImagedata:
+        {
+          instanceID: "PGProjLabImage",
+          image: "DepartmentImages/CS/LABS/PGPROJLAB.JPG",
+          width: "80%"
+        },
+        ProjectLabHeading:
+        {
+          instanceID: "ProjectLabHeading",
+          title: "Project Lab(UG)"
+        },
+        ProjLabImagedata:
+        {
+          instanceID: "ProjLabImage",
+          image: "DepartmentImages/CS/LABS/PROJECTLAB.JPG",
+          width: "80%"
+        },
+        NWLabHeading:
+        {
+          instanceID: "NWLabHeading",
+          title: "Network Systems Lab"
+        },
+        NWImagedata:
+        {
+          instanceID: "NWLabImage",
+          image: "DepartmentImages/CS/LABS/NWLAB.JPG",
+          width: "80%"
+        },
+        MMLabHeading:
+        {
+          instanceID: "MMLabHeading",
+          title: "Multimedia Lab"
+        },
+        MMImagedata:
+        {
+          instanceID: "MMLabImage",
+          image: "DepartmentImages/CS/LABS/MMLAB.JPG",
+          width: "80%"
+        },
+        HWLabHeading:
+        {
+          instanceID: "HWLabHeading",
+          title: "Hardware Lab"
+        },
+        HWImagedata:
+        {
+          instanceID: "HWLabImage",
+          image: "DepartmentImages/CS/LABS/HWLAB.JPG",
+          width: "80%"
+        },
+        MPLabHeading:
+        {
+          instanceID: "MPLabHeading",
+          title: "Microprocessor Lab"
+        },
+        MPImagedata:
+        {
+          instanceID: "MPLabImage",
+          image: "DepartmentImages/CS/LABS/MPLAB.JPG",
+          width: "80%"
+        },
+        DeptLibDescriptionOne:
+        {
+          instanceID: "DeptLibDescriptionOne",
+          title:
+            "The Department of Computer Science and Engineering maintains a books enriched library where its primary aim is to support the student of the institution for education.  The Library was established in 2006.  The library has a collection of more than 600 books. Besides books the Library possesses B.Tech project and seminar reports, Monographs, Lab Manuals, Question papers, CD-ROMs, Internet facility. The departmental library serve the academic disciplines bearing their names. "
+        },
+        DeptLibDescriptionTwo:
+        {
+          instanceID: "DeptLibDescriptionTwo",
+          title:
+            "The collection is strong in all aspects with special strengths in C programming, Software Engineering, Automata Theory, System Programming, Computer Architecture and Organization, Data Structures, Microprocessors, Database Management System and also books on  Digital Electronics, Humanities, Management."
+        },
+        DeptLibDescriptionThree:
+        {
+          instanceID: "DeptLibDescriptionThree",
+          title:
+            "It has a carpet area of about 500 square feet. The library opens from 8.45 a.m. to 4.30 p.m. except Saturdays and Sundays. The library collection is arranged subject-wise. The library is maintaining records of all Purchased/Donated books, CDS, Seminar Reports/Project Reports/Magazines/Monographs/Lab Manual/Previous Year Question Papers. Members can search and view the status (Available/Not Available) of each searched item through the software.  The library is also maintaining all Issue/Deposit/Fine reports and it will be periodically updates at the end of each semesters."
+        },
+
+      },
+      assosn:
+      {
+        DeptAssociationDescriptionOne:
+        {
+          instanceID: "DeptAssociationDescriptionOne",
+          title:
+            " VOICE is the association of the Computer Science & Engineering department. VOICE plays its vital role of giving opportunities and exposure for the young minds of the department to the tech world through different events like Technical Quiz, Technical Talks, Group Discussions, Workshops etc. VOICE is run by the student coordinators under the guidance of faculty members from the department. "
+        },
+        DeptAssociationHeadingTwo:
+        {
+          instanceID: "DeptAssociationHeadingTwo",
+          title: "2018-19"
+        },
+        DeptAssociationDescriptionTwo:
+        {
+          instanceID: "DeptAssociationDescriptionTwo",
+          title:
+            "The association activities for the year was inaugurated by Dr. Vineesh K P ,Faculty, NIT Calicut on 3rd October, 2018, and a technical talk on Machine Learning was conducted. The newsletter was also released on the same venue."
+        },
+      },
+      result:
+      {
+
+      },
+    }
+  }*/
