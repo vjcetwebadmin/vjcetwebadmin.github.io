@@ -11,8 +11,12 @@ export default function Notify() {
         window.open('http://117.239.154.84:8001/ktuexam/index.html','_blank');
         toggler(e);
     }*/
-    const head = "B.Tech Artificial Intelligence (AI)";
+    const head = "B.Tech Fee Payment";
+    const content = "Information regarding fee payment";
+    
+    {/*const head = "B.Tech Artificial Intelligence (AI)";
     const content = "Viswajyothi is proud to introduce a new B.Tech Programme in Artificial Intelligence";
+    */}
     if (notify) {
         return (
             <div id="noverlay" >
@@ -20,7 +24,7 @@ export default function Notify() {
                     <h2 id="notifyhead">{head}</h2>
                     <h3 id="notification">{content}</h3>
                     <div id="toggles">
-                        <Link to="/notifications" className="togglenotifier" >
+                        <Link to="/newsfive" className="togglenotifier" >
                             <h2 onClick={toggler} style={{ margin: 0 }} >Learn More</h2>
                         </Link>
                         <div className="togglenotifier" id="extln">
