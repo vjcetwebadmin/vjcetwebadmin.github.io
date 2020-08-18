@@ -79,14 +79,14 @@ class Newsfive extends React.Component {
                    
                    <HeadingOne data={this.NewsTitle} />
                    <BodyOneJustified data={this.Newscontent}/>  
-                   <p>Special Note : If the fees are paying by NEFT, Please mention the Admission No in the remarks. Details are as follows,</p>
+                   <p>Special Note : To pay fees by NEFT, Please mention the Admission No in the remarks. Details are as follows,</p>
                     <p>Name of the Account Holder : <b>PRINCIPAL</b></p>
                     <p>Name of the Bank - <b>South Indian Bank</b></p>
                     <p>Name of the Branch - <b>Vazhakulam - IFSC Code : SIBL0000335</b></p>
                     <p>Account Number : <b>03350730000000155</b></p>
                     <p><a href="https://southindianbank.in/feepayment/" target="_blank">Click Here </a> to go to payment page</p>
                     <br></br>
-                    <p>If the fees are paying by Bank Challan <a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p>
+                    <p>To pay by Bank Challan <a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p>
                  <HeadingOne data={this.NewsTitle1} /> 
                 
                   <iframe src="https://vjcet.org/downloads/news/Notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>     
