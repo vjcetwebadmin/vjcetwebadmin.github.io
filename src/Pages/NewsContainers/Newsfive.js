@@ -88,9 +88,9 @@ class Newsfive extends React.Component {
                     <br></br>
                     <p>If the fees are paying by Bank Challan <a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p>
                  <HeadingOne data={this.NewsTitle1} /> 
-                  <iframe src="https://vjcet.org/downloads/news/notice.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>     
-
-                    
+                
+                  <iframe src="https://vjcet.org/downloads/news/Notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>     
+                   
                 </div>
 
 
