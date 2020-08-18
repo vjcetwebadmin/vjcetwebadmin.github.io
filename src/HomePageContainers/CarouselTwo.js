@@ -12,8 +12,8 @@ class CarouselTwo extends Component {
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/downloads/news/Quotation.pdf" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Inviting Quotation for CNC Milling Center</font></a>
-    },
+      title: <a href="https://vjcet.org/#/newsfive" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">B.Tech Fee Payment</font></a>
+    },    
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">ADVERTISEMENT FOR WALK-IN-INTERVIEW FOR THE POST OF AD-HOC FACULTY (CIVIL ENGINEERING)</font></a>
@@ -27,8 +27,6 @@ class CarouselTwo extends Component {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newssix" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Access to Study Materials- Video Lectures, PPTs & PDFs</font></a>
     },
-    
-   
     
     {
       instanceID: this.props.data.instanceID + "CustomOne",

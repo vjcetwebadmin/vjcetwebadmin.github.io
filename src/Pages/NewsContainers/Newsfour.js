@@ -84,7 +84,7 @@ class Newsfour extends React.Component {
                   <iframe src="https://vjcet.org/downloads/news/Online_Learning_UGC_Circular.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
                     </div>             
 
-                    
+                
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}
