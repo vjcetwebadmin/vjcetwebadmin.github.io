@@ -84,7 +84,7 @@ class Newsfive extends React.Component {
                     <p>Name of the Bank - <b>South Indian Bank</b></p>
                     <p>Name of the Branch - <b>Vazhakulam - IFSC Code : SIBL0000335</b></p>
                     <p>Account Number : <b>03350730000000155</b></p>
-                    <p>Click <a href="https://southindianbank.in/feepayment/" target="_blank">Here </a> to go to payment page</p>
+                    <p><a href="https://southindianbank.in/feepayment/" target="_blank">Click Here </a> to go to payment page</p>
                     <br></br>
                     <p>If the fees are paying by Bank Challan <a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p>
                  <HeadingOne data={this.NewsTitle1} /> 
