@@ -51,6 +51,12 @@ class DropDownL extends Component {
               Moodle
             </a>
           </p>
+
+          <p>
+            <a href="https://vjcet.org/#/newsfive" className="patch1" target="_self" rel="noopener noreferrer">
+              Fee Payment
+            </a>
+          </p>
         </div>
       </div>
     );
