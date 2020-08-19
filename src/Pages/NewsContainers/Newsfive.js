@@ -78,15 +78,17 @@ class Newsfive extends React.Component {
                 <div className="contain">
                    
                    <HeadingOne data={this.NewsTitle} />
-                   <BodyOneJustified data={this.Newscontent}/>  
-                   <p>Special Note : If the fees are paying by NEFT, Please mention the Admission No in the remarks. Details are as follows,</p>
+                   <BodyOneJustified data={this.Newscontent}/> 
+                    
+                   <p>For payment through <span className="text_red">NEFT</span>, Bank Account Details,</p>
                     <p>Name of the Account Holder : <b>PRINCIPAL</b></p>
                     <p>Name of the Bank - <b>South Indian Bank</b></p>
                     <p>Name of the Branch - <b>Vazhakulam - IFSC Code : SIBL0000335</b></p>
                     <p>Account Number : <b>03350730000000155</b></p>
-                    <p><a href="https://southindianbank.in/feepayment/" target="_blank">Click Here </a> to go to payment page</p>
+                    <p>Please mention Admission Number of the student in remarks.</p><br></br>
+                    <p><span className="text_red">SIB Online Fee Payment </span> <a href="https://southindianbank.in/feepayment/" target="_blank">Click Here </a></p>
                     <br></br>
-                    <p>If the fees are paying by Bank Challan <a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p>
+                    <p><span className="text_red">To download Bank Challan </span><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p>
                  <HeadingOne data={this.NewsTitle1} /> 
                 
                   <iframe src="https://vjcet.org/downloads/news/Notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>     
