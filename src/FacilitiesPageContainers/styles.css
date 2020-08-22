@@ -47,3 +47,7 @@
     margin: 10px auto;
   }
 }
+.text_red{
+  color: red;
+  font-weight: bold;
+}
