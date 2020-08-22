@@ -1,7 +1,8 @@
 #HomePageNewsSection {
+  background: #fff;
   height: 100%;
   overflow: hidden;
-  margin: 0% 8px 0% 8px;
+  padding: 0% 8px 0% 8px;
 }
 .HeadingTwo {
   text-align: left;
@@ -15,7 +16,6 @@
 }
 
 .NewsHeading {
-  padding-top: 5%;
   align-self: flex-start;
 }
 
