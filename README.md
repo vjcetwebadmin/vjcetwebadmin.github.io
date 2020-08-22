@@ -6,5 +6,4 @@
 ### Developed by
 >* Balu M N     [@balumn](www.github.com/balumn)
 >* Abin Joseph  [@abin222](www.github.com/abin222)
-### in association with
->> [Lmntrx Technologies](https://www.lmntrx.com/)
+>* Antony Tomy  [@qnxdev](www.github.com/qnxdev)
