@@ -89,7 +89,7 @@ class Newsfive extends React.Component {
                     <p><span className="text_red">Please mention Admission Number of the student in remarks.</span></p><br></br>
                     <p><span className="text_red">SIB Online Fee Payment </span> <a href="https://southindianbank.in/feepayment/" target="_blank">Click Here </a></p>
                     <p><span className="text_red">To download Bank Challan </span><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p>
-                    <p>To pay by Bank Challan <a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p>
+                    
                  <HeadingOne data={this.NewsTitle1} /> 
                 
                   <iframe src="https://vjcet.org/downloads/news/Notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>     
