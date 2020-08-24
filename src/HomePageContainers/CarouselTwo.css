@@ -75,3 +75,10 @@
 #HomePageCarouselTwo {
   padding: 0.5% 0%;
 }
+@media (max-width: 480px){
+  font {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+  }
+}

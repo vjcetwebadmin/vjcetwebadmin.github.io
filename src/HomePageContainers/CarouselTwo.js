@@ -16,7 +16,7 @@ class CarouselTwo extends Component {
     },    
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">ADVERTISEMENT FOR WALK-IN-INTERVIEW FOR THE POST OF AD-HOC FACULTY (CIVIL ENGINEERING)</font></a>
+      title: <a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">WALK-IN-INTERVIEW for AD-HOC FACULTY (Civil Engg.)</font></a>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
@@ -36,11 +36,11 @@ class CarouselTwo extends Component {
     
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <font color="FFFFF" size="4">CSI Student Branch BEST ACCREDITED STUDENT BRANCH AWARD</font>
+      title: <font color="FFFFF">CSI BEST ACCREDITED STUDENT BRANCH AWARD</font>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <font color="FFFFF" size="4">IEEE students branch of VJCET selected as an outstanding students branch of Kochi subsection for the year 2019</font>
+      title: <font color="FFFFF" size="4">IEEE of VJCET selected as outstanding students branch</font>
     },
    
 
@@ -60,7 +60,6 @@ class CarouselTwo extends Component {
     });
   };
   rotateLeft = () => {
-    console.log(this.state.selected);
     this.setState({
       selected:
         this.state.selected - 1 < 0
@@ -108,7 +107,6 @@ class CarouselTwo extends Component {
               <a
                 href
                 onFocus={e => {
-                  console.log("testfunction");
                   this.setState({ selected: index });
                 }}
                 onClick={e => {
