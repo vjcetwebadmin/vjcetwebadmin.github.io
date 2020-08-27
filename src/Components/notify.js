@@ -28,7 +28,7 @@ export default function Notify() {
                             <h2 onClick={toggler} style={{ margin: 0 }} >Learn More</h2>
                         </Link>
                         <div className="togglenotifier" id="extln">
-                            <h2 onClick={toggler} style={{ margin: 0 }} >Okay</h2>
+                            <h2 onClick={toggler} style={{ margin: 0 }} >Skip</h2>
                         </div>
                     </div>
                 </div>
