@@ -36,7 +36,7 @@ class CarouselTwo extends Component {
     
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <font color="FFFFF">CSI BEST ACCREDITED STUDENT BRANCH AWARD</font>
+      title: <font color="FFFFF" size="4">CSI BEST ACCREDITED STUDENT BRANCH AWARD</font>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
