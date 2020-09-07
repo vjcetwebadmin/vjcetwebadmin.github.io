@@ -310,7 +310,8 @@ class nss extends React.Component {
                             <tr><td>Ms. Riya Alex</td><td>2017-'18</td></tr>
                             <tr><td>Mr. George M. Roy</td><td>2018-'19</td></tr>
                             <tr><td>Ms. Lakshmipriya</td><td>2018-'19</td></tr>
-                        </table> 
+                            <tr><td>Mr. Akash Satheesan</td><td>2019-'20</td></tr>
+                            <tr><td>Ms. Arya Vijayan</td><td>2019-'20</td></tr>                        </table> 
                         <table id="tableformat">
                             <tr><th colspan="2"> Volunteer Secretary Unit-587</th></tr>
                             <tr><td>Mr. Balu M. N</td><td>2016-'17</td></tr>
@@ -319,7 +320,9 @@ class nss extends React.Component {
                             <tr><td>Ms. Ceeba Cleatus</td><td>2017-'18</td></tr>
                             <tr><td>Mr. Jeevo Johnson</td><td>2018-'19</td></tr>
                             <tr><td>Ms. Sandra Rojas</td><td>2018-'19</td></tr>
-                        </table> 
+                            <tr><td>Mr. Basil Sunny</td><td>2019-'20</td></tr>
+                            <tr><td>Ms. Arsha Paulose</td><td>2019-'20</td></tr>            
+                         </table> 
                         <HeadingTwo data={this.MajoreventsTitle} className="Heading" />
                         <HeadingFour data={this.EventTitle1} className="Heading" />
                         <BodyOneJustified data={this.EventContent1} />
