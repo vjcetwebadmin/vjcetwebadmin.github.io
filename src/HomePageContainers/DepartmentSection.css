@@ -137,3 +137,13 @@
 
   }
 }
+@media(max-width: 960px){
+  .DepartmentSection .HeadingOne h1{
+    font-size: 25px;
+  }
+}
+@media(max-width: 640px){
+  .DepartmentSection .HeadingOne h1{
+    font-size: 23px;
+  }
+}
