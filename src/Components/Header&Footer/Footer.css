@@ -78,6 +78,8 @@
 #FooterVJCLogo {
   grid-area: vjc;
   padding: 10px;
+  width: 300px;
+
 }
 
 #FooterNBALogo {
@@ -275,5 +277,13 @@
       "fb youtube";
     align-self: start;
     padding-right: 30%;
+  }
+}
+@media (max-width:960px){
+  .FooterLinksFour a{
+    padding: 5px;
+  }
+  #FooterVJCLogo {
+    width: 250px;
   }
 }

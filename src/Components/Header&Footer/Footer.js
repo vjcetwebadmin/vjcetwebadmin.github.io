@@ -13,7 +13,7 @@ class Footer extends Component {
   VJCLogo = {
     instanceID: "FooterVJCLogo",
     image: "Logo.jpg",
-    width: "300px"
+    width: "100%"
   };
 
   NBALogo = {
