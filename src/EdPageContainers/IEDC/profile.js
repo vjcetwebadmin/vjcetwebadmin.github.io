@@ -40,7 +40,7 @@ class Profile extends Component {
     }
     ReserchBody1 = {
         instanceID: "ReserchBody1",
-        title: "Innovation and Entrepreneurship Development Centre (IEDC) was established in Viswajyothi College of Engineering and Technology (VJCET) and had been successfully functioning for the last three academic years. The mission of the IEDCs is to develop institutional mechanism to create entrepreneurial culture in academic institutions to foster growth of innovation and entrepreneurship amongst the faculty and students . In VJCET, Mr. Vinoj K Asssociate Professor, Mechanical Engineering is appointed as the nodal officer for IEDC activities. Mr. Robin Augustine, Assistant Professor, Department of S&H, is the Assistant Nodal Officer. An IEDC Coordination Committee is constituted for the current academic year with the participation of students and faculty members from all the departments. Following are the members of the IEDC Coordination Committee for the year 2019-20. The IEDC of VJCET is recognised by Kerala Start-up Mission(KSU) and all activities are carried out with the guidance and support of them"
+        title: "Innovation and Entrepreneurship Development Centre (IEDC) was established in Viswajyothi College of Engineering and Technology (VJCET) and had been successfully functioning for the last three academic years. The mission of the IEDCs is to develop institutional mechanism to create entrepreneurial culture in academic institutions to foster growth of innovation and entrepreneurship amongst the faculty and students . In VJCET, Mr. Vinoj K Associate Professor, Mechanical Engineering is appointed as the nodal officer for IEDC activities. Mr. Robin Augustine, Assistant Professor, Department of S&H, is the Assistant Nodal Officer. An IEDC Coordination Committee is constituted for the current academic year with the participation of students and faculty members from all the departments. Following are the members of the IEDC Coordination Committee for the year 2019-20. The IEDC of VJCET is recognised by Kerala Start-up Mission(KSU) and all activities are carried out with the guidance and support of them"
     }
     ReserchBody2 = {
         instanceID: "ReserchBody1",
@@ -65,7 +65,7 @@ class Profile extends Component {
                 <HeadingThree data={this.InchargesHeading}></HeadingThree>
                 <table id="tableformat">
                             <tr><th>Name</th><th>Dept. Designation </th><th>IEDC Designation</th></tr>
-                            <tr><td>Mr. Vinoj K</td><td>Asssociate Professor, ME</td><td>Nodal officer, IEDC</td></tr>
+                            <tr><td>Mr. Vinoj K</td><td>Associate Professor, ME</td><td>Nodal officer, IEDC</td></tr>
                             <tr><td>Mr. Robin  Augustine</td><td>Asst. Professor, S & H</td><td>Assistant Nodal officer, IEDC</td></tr>
                             <tr><td>Mrs. Nivya Mary Abraham</td><td>Asst. Professor, CE</td><td>CE  Dept. Coordinator, IEDC </td></tr>
                             <tr><td>Mrs. Rini Simon</td><td>Asst. Professor, CSE</td><td>CSE Dept. Coordinator, IEDC </td></tr>
