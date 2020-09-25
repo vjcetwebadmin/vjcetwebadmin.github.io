@@ -5,7 +5,10 @@ import CustomOne from "../Components/Texts/CustomOne";
 class CarouselTwo extends Component {
   state = { selected: 0 };
   data = [
- 
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">KTU 2016-2020 Batch Final Semester Results Published</font></a>
+    },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBieRfZ4KoIqGB2hDCMFnOnmT9PGQxfb1XNZ-VqkPahmn25w/formResponse" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">VISWAJYOTHI WELLNESS SURVEY DURING COVID 19</font></a>

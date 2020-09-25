@@ -41,11 +41,11 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "edX MOOC registrations"
+        title: "KTU 2016-2020 Batch Final Semester Results Published"
     };
     NewsContent1 = {
         instanceID: "NewsContent1",
-        title: "Edx provides over 2000+ courses to choose from. Enroll & get started today! Advance your career with top universities across the globe. Learn new skills. Vjcet has acquired 5000 licenses for our students,alumni and faculty members to choose from content covering major areas such as Data analytics, Business management, Engineering and more."
+        title: ""
     };
    
     
@@ -76,8 +76,9 @@ class Newsone extends React.Component {
                     <div className="bodyContainer">
                     <HeadingOne data={this.NewsTitle}></HeadingOne>
                     <BodyOneJustified data={this.NewsContent1}/>
-                    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfblB7oBu2qiaJUkUipB68iI7DYhvd2IQXRp_2vlmIauMxV7Q/viewform" target="_blank" rel="noopener noreferrer">Register here for edX</a></p>
-                    <p>Students can complete courses through June 30, 2020 </p>
+                    <p><h5>549 Out of 552 Students Passed in the Final Semester Examinations (99.5%)</h5></p>
+                    <p><h5><a href="https://vjcet.org/downloads/news/students48.pdf" target="_blank" rel="noopener noreferrer">48 Students scored SGPA 10 out of 10</a></h5></p>
+                    <p><h5><a href="https://vjcet.org/downloads/news/Placement_19-20.pdf" target="_blank" rel="noopener noreferrer">More than 300 students got placement in reputed firms</a></h5></p>
                 </div>
              
                                     
