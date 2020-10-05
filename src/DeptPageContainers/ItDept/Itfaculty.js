@@ -70,7 +70,7 @@ class ITFaculty extends Component {
     image: "Allstaffphoto/IT/FAC/354.jpg",
     width: "50%",
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/65/354.jpg" target="_blank" rel="noopener noreferrer">Dr. Sheela V.K.</a>,
-    content: "Assistant Professor"
+    content: "Associate Professor"
   };
   Cefaculty11 = {
     instanceID: "Cefaculty10",

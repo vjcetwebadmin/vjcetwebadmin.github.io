@@ -40,7 +40,7 @@ class Profile extends Component {
     }
     ReserchBody2 = {
         instanceID: "ReserchBody2",
-        title: "Presently it’s headed by Dr. Anishin Raj M. M, Dean R&D, Associate Professor, CSE Dept along with the following team of dedicated and hard working personnel."
+        title: "Presently it’s headed by Dr. Anishin Raj M. M, Dean R&D, Professor, CSE Dept along with the following team of dedicated and hard working personnel."
     }
     InchargesHeading = {
         instanceID: "InchargesHeading",
@@ -61,11 +61,11 @@ class Profile extends Component {
                 <HeadingThree data={this.InchargesHeading}></HeadingThree>
                 <table id="tableformat">
                             <tr><th>NAME</th><th>POST</th></tr>
-                            <tr><td>Dr.Anishin Raj M.M</td><td>Dean R&D, Associate Professor CSE</td></tr>
-                            <tr><td>Dr.Anoop C. K.</td><td>Secretary, Associate Professor, CE</td></tr>
+                            <tr><td>Dr.Anishin Raj M.M</td><td>Dean R&D, Professor CSE</td></tr>
+                            <tr><td>Dr.Anoop C. K.</td><td>Secretary, Professor, CE</td></tr>
                             <tr><td>Dr. Sony Kurian</td><td>Associate Professor, EEE</td></tr>
                             <tr><td>Mrs. Minu George</td><td>Assistant Professor-ECE</td></tr>
-                            <tr><td>Dr. Sheela V. K</td><td>Assistant Professor, IT</td></tr>
+                            <tr><td>Dr. Sheela V. K</td><td>Associate Professor, IT</td></tr>
                             <tr><td>Mrs. Sindhu Jose</td><td>Assistant Professor, CSE</td></tr>
                             <tr><td>Mrs. Rose Mary Baby</td><td>Assistant Professor, S&H </td></tr>
                             <tr><td>Mr.Abhijith R</td><td>Assistant Professor-CED</td></tr>

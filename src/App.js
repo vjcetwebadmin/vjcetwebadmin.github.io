@@ -293,11 +293,18 @@ class App extends Component {
             content: "Head of the Department"
           },
           {
+            instanceID: "Cefaculty24",
+            image: "Allstaffphoto/CE/FAC/fac24.jpg", 
+            width: "65%", 
+            name: <a href="https://vjcet.org/downloads/Biodatamgg.pdf" target="_blank" rel="noopener noreferrer">Dr. Grasius  M. G</a>,
+            content: "Professor"
+          },          
+          {
             instanceID: "Cefaculty2",
             image: "Allstaffphoto/CE/FAC/347.jpg",
             width: "50%",
             name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/128/347.jpg" target="_blank" rel="noopener noreferrer">Dr. Anoop C.K.</a>,
-            content: "Associate Professor"
+            content: "Professor"
           },
           {
             instanceID: "Cefaculty3",

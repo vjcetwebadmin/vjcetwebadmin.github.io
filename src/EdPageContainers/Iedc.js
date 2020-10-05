@@ -165,7 +165,7 @@ class Iedc extends Component {
                             <tr><td>Mrs. Rini Simon</td><td>Asst. Professor, CSE</td><td>CSE Dept. Coordinator, IEDC </td></tr>
                             <tr><td>Mrs. Femy John</td><td>Asst. Professor, ECE</td><td>ECE Dept. Coordinator,IEDC</td></tr>
                             <tr><td>Mr. Jomu  M George </td><td>Asst. Professor, EEE</td><td>EEE Dept. Coordinator, IEDC</td></tr>
-                            <tr><td>Dr. Sheela V K</td><td>Asst. Professor, IT</td><td>IT  Dept. Coordinator,IEDC</td></tr>
+                            <tr><td>Dr. Sheela V K</td><td>Associate Professor, IT</td><td>IT  Dept. Coordinator,IEDC</td></tr>
                             <tr><td>Mr. Basil Baby </td><td>Asst. Professor, ME</td><td>ME  Dept. Coordinator,IEDC</td></tr>
                             <tr><td>Mr. Mavin C</td><td>Placement officer</td><td>Placement and Training Cell</td></tr>
                             <tr><td>Mr. Basil Eldhose</td><td>Student S3 EEE B</td><td>Chief Executive officer</td></tr>

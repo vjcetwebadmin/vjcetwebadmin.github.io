@@ -9,6 +9,20 @@ class CSFaculty extends Component {
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/21/73.jpg" target="_blank" rel="noopener noreferrer">Mr. Amel Austine</a>,
     content: "Head of  Department"
   };
+  Cefaculty28 = {
+    instanceID: "Cefaculty28",
+    image: "Allstaffphoto/CS/FAC/CSFAC26.JPG",
+    width: "50%",
+    name: <a >Dr. Janhan Lal P S</a>,
+    content: "Professor"
+  };
+  Cefaculty29 = {
+    instanceID: "Cefaculty29",
+    image: "Allstaffphoto/CS/FAC/CSFAC29.jpg",
+    width: "50%",
+    name: <a >Dr. K K Kuriakose</a>,
+    content: "Professor"
+  };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/CS/FAC/CSFAC102.jpg",
@@ -21,7 +35,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/CS/FAC/323.jpg",
     width: "50%",
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/32/323.jpg" target="_blank" rel="noopener noreferrer">Dr. Anishin Raj M M</a>,
-    content: "Dean R & D, Associate Professor"
+    content: "Dean R & D, Professor"
   };
    Cefaculty7 = {
     instanceID: "Cefaculty7",
@@ -177,6 +191,12 @@ class CSFaculty extends Component {
         <div className="facultyContent">
           <div>
             <FacultyData data={this.Cefaculty1} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty28} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty29} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty4} />
