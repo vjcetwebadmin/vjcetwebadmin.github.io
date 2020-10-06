@@ -46,7 +46,7 @@ class Newstwo extends React.Component {
     };
     NewsTitle1 = {
         instanceID: "NewsTitle1",
-        title: " KTU Exam - War Room details"
+        title: "Caution Deposit and Refundable Deposit of 2016-20 batch"
     };
     
     NewsContent1={
@@ -90,7 +90,7 @@ class Newstwo extends React.Component {
                     
                     <HeadingOne data={this.NewsTitle1} className="Heading" />
                     
-                    { <iframe src="https://vjcet.org/downloads/news/Viswajyothi - War Room.pdf" width="80%" height="500" title="Campus Map" align="center"></iframe> }
+                     <iframe src="https://vjcet.org/downloads/news/CDRD.pdf" width="90%" height="600" title="CDRD" align="center"></iframe> 
                    {/*  <a href="https://vjcet.org/downloads/news/CEFDP.pdf"><ImageOne data={this.NewsImagedata3}></ImageOne></a> */}
                  
                    
