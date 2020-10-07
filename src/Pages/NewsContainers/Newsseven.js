@@ -72,8 +72,8 @@ class Newsseven extends React.Component {
                 <div className="contain">
                    
                    <HeadingOne data={this.NewsTitle} />
-                    <p><h4><a href="http://localhost:3000/downloads/news/Blockchain.pdf" target="_blank" rel="noopener noreferrer">Program Bochure</a></h4></p>
-                    <p><h4><a href="http://localhost:3000/downloads/news/new.pdf" target="_blank" rel="noopener noreferrer">Program Schedule</a></h4></p>          
+                    <p><h4><a href="https://vjcet.org/downloads/news/Blockchain.pdf" target="_blank" rel="noopener noreferrer">Program Bochure</a></h4></p>
+                    <p><h4><a href="https://vjcet.org/downloads/news/new.pdf" target="_blank" rel="noopener noreferrer">Program Schedule</a></h4></p>          
                   
                   {/*  <table>
                         <tr><td>
