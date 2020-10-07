@@ -40,11 +40,11 @@ class Newsseven extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Quarterly Details of the Foreign Contribution Received"
+        title: "ATAL FDP on Blockchain"
     };
     Newscontent = {
         instanceID: "Newscontent",
-        title: " The 1st batch of KTU(2015-19) secured 91.82% pass"
+        title: ""
     };
     
     NewsImagedata1 = {
@@ -72,9 +72,10 @@ class Newsseven extends React.Component {
                 <div className="contain">
                    
                    <HeadingOne data={this.NewsTitle} />
-                   
+                    <p><h4><a href="http://localhost:3000/downloads/news/Blockchain.pdf" target="_blank" rel="noopener noreferrer">Program Bochure</a></h4></p>
+                    <p><h4><a href="http://localhost:3000/downloads/news/new.pdf" target="_blank" rel="noopener noreferrer">Program Schedule</a></h4></p>          
                   
-                    <table>
+                  {/*  <table>
                         <tr><td>
                         Details of Donor
                             </td>
@@ -96,7 +97,7 @@ class Newsseven extends React.Component {
                             29-01-2020
                             </td>
                         </tr>
-                    </table>
+                  </table>*/}
                     
                 </div>
                 <Footer data={this.HomePageFooter} />
