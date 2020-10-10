@@ -1,5 +1,5 @@
 import React from "react";
-//import HeadingTwo from "../../Components/Texts/HeadingTwo";
+import HeadingTwo from "../../Components/Texts/HeadingTwo";
 //import ImageOne from "../../Components/Images/ImageOne";
 //import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
@@ -40,7 +40,11 @@ class Newsthree extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "ADVERTISEMENT FOR WALK-IN-INTERVIEW FOR THE POST OF AD-HOC FACULTY (CIVIL ENGINEERING)"
+        title: "ADVERTISEMENT FOR WALK-IN-INTERVIEW FOR THE POST OF FACULTY (CIVIL ENGINEERING)"
+    };
+    NewsTitle1 = {
+        instanceID: "NewsTitle1",
+        title: "ADVERTISEMENT FOR WALK-IN-INTERVIEW FOR THE POST OF FACULTY (CIVIL ENGINEERING)"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -71,19 +75,10 @@ class Newsthree extends React.Component {
 
                 <div className="contain">
                    
-                   <HeadingOne data={this.NewsTitle} />
+                  {/* <HeadingOne data={this.NewsTitle} />*/}
                    
-                  <p align="left">The College intends to hold a Walk-in-interview to select candidates for two posts of Ad-hoc faculty (Civil Engineering) on 27.07.2020 at 10.00a.m. in the Conference Hall of Administrative Block.</p>
-                  <p align="left">Interested and eligible candidates may attend the interview as per above mentioned schedule with all their original certificates / mark sheets with an attested photo copy of each of it and a recent passport size photograph along with the updated Bio-data. No TA/DA would be provided for attending interview. The candidates not fulfilling eligibility criteria would not be considered for selection process.</p>
-                  <p align="left"><b>Essential Qualification:</b>  M Tech. in Civil Engineering with specialization in Structural Engineering/ Construction Management</p>
-                  <p align="left"><b>Experience:</b>  Candidates having prior experience will be preferred</p>
-                  <p align="left"><b>Remuneration:</b> Rs. 20,000/- p.m.</p>
-                  
-                  <br />  <br />  
-                  <p align="left"><b>Principal</b></p>
-                                                 
-                <br />                 
-
+                   <HeadingTwo data={this.NewsTitle1} />
+                  <iframe src="https://vjcet.org/downloads/news/WA0029.jpg" width="100%" height="500" title="Campus Map" align="center"></iframe>
                     
                 </div>
                 <Footer data={this.HomePageFooter} />
