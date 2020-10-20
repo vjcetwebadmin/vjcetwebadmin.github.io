@@ -16,6 +16,13 @@ class ITStaff extends Component {
     name: "Mr. Shaji A Varghese",
     content: "Trade Instructor"
   };
+  Cefaculty11 = {
+    instanceID: "Cefaculty11",
+    image: "Allstaffphoto/IT/FAC/Sr.RecyVarghese.jpg",
+    width: "50%",
+    name: "Sr. Recy Varghese",
+    content: "Computer Programmer"
+  };
 
   render() {
     return (
@@ -24,6 +31,9 @@ class ITStaff extends Component {
           <div>
           <FacultyData data={this.Cestaff1} />
           </div>
+          <div>
+          <FacultyData data={this.Cefaculty11} />
+          </div>          
           <div>
             <FacultyData data={this.Cefaculty2} />
           </div>

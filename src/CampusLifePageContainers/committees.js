@@ -61,7 +61,7 @@ class collegecouncil extends React.Component {
     };
     EventContent1 = {
         instanceID: " EventContent1",
-        title: "Students Council Election was held on 17th August 2019. Dr.Anoop CK (Associate Professor Civil Engineering Department) was the election returning officer. Twenty two student council members were elected."
+        title: "Students Council Election was held on 17th August 2019. Dr.Anoop CK (Professor Civil Engineering Department) was the election returning officer. Twenty two student council members were elected."
     }
     EventContent2 = {
         instanceID: " EventContent2",
@@ -108,15 +108,10 @@ class collegecouncil extends React.Component {
                         <tr><th>Post</th><th>Faculty Name</th></tr>
                             <tr><td>FACULTY ADVISOR/ COUNSELLOR</td><td>Mr. Tijo Jose, AP MED & Mrs. Tina Jose, AP CED</td></tr>
                             <tr><td>COURSE COMMITTEES AND CLASS COMMITTEES</td><td>Mrs. Rose Mary Baby, AP S&H</td></tr>
-                            <tr><td>DISCIPLINARY ACTION COMMITTEE(DAC)</td><td>Dr. Shunmughesh K., Asso. Prof MED</td></tr>
+                            <tr><td>DISCIPLINARY ACTION COMMITTEE(DAC)</td><td>Dr. Shunmughesh K., Prof MED</td></tr>
                             <tr><td>STUDENT'S WELFARE COMMITTEE</td><td>Dr. Geo Baby HOD MBA</td></tr>
                             <tr><td>GRIEVANCES AND APPEALS COMMITTEE</td><td>Mrs. Shine George, HOD  CED</td></tr>
-                            
-                            
-                            
                         </table>
-                       
-                         
                         
                 </div>
                 <Footer data={this.HomePageFooter} />

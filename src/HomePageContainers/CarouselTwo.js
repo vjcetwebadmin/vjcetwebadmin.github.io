@@ -5,7 +5,22 @@ import CustomOne from "../Components/Texts/CustomOne";
 class CarouselTwo extends Component {
   state = { selected: 0 };
   data = [
- 
+    /*{
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: <a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">WALK-IN-INTERVIEW FACULTY (Civil Engg.)</font></a>
+    },*/
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: <a href="https://vjcet.org/#/newstwo" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Caution Deposit and Refundable Deposit of 2016-20 Students..</font></a>
+    },
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: <a href="https://vjcet.org/#/newsseven" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">ATAL FDP on Blockchain</font></a>
+    },
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: <a href="https://vjcet.org/#/newsone" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">KTU 2016-2020 Batch Final Semester Results Published</font></a>
+    },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBieRfZ4KoIqGB2hDCMFnOnmT9PGQxfb1XNZ-VqkPahmn25w/formResponse" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">VISWAJYOTHI WELLNESS SURVEY DURING COVID 19</font></a>
@@ -18,10 +33,7 @@ class CarouselTwo extends Component {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsfive" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">B.Tech Fee Payment</font></a>
     },    
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">WALK-IN-INTERVIEW for AD-HOC FACULTY (Civil Engg.)</font></a>
-    },
+    
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsnine" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Congratulations to the Placed Students - 2016-2020 Batch</font></a>

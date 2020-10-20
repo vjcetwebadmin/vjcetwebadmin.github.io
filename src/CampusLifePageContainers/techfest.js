@@ -33,7 +33,7 @@ class techfest extends React.Component {
     
     EventContent1 = {
         instanceID: " EventContent1",
-        title: "Students Council Election was held on 10th August 2018. Dr.Anoop CK (Associate Professor Civil Engineering Department) was the election returning officer. Twenty one student council members were elected."
+        title: "Students Council Election was held on 10th August 2018. Dr.Anoop CK (Professor Civil Engineering Department) was the election returning officer. Twenty one student council members were elected."
     }
     EventContent2 = {
         instanceID: " EventContent2",

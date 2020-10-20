@@ -61,7 +61,7 @@ class collegecouncil extends React.Component {
     };
     EventContent1 = {
         instanceID: " EventContent1",
-        title: "Students Council Election was held on 17th August 2019. Dr.Anoop CK (Associate Professor Civil Engineering Department) was the election returning officer. Twenty two student council members were elected."
+        title: "Students Council Election was held on 17th August 2019. Dr.Anoop CK (Professor Civil Engineering Department) was the election returning officer. Twenty two student council members were elected."
     }
     EventContent2 = {
         instanceID: " EventContent2",
