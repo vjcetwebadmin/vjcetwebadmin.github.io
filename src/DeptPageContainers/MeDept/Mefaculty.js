@@ -12,7 +12,7 @@ class MEFaculty extends Component {
   
   Cefaculty3 = {
     instanceID: "Cefaculty3",
-    image: "Allstaffphoto/ME/FAC/199.JPG",
+    image: "Allstaffphoto/ME/FAC/199.jpg",
     width: "50%",
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/68/199.jpg" target="_blank" rel="noopener noreferrer">Dr. Shunmugesh K</a>,
     content: "Head of the Department"
