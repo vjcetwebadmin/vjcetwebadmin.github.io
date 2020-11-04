@@ -11,7 +11,7 @@ import HeadingOne from "../../Components/Texts/HeadingOne";
 //import ImageOne from "../../Components/Images/ImageOne";
 //import ImageTwo from "../../Components/Images/imageTwo";
 
-/* import HeadingTwo from "../../Components/Texts/HeadingTwo";
+/*import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../styles.css"
@@ -40,11 +40,11 @@ class Newsthree extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "ADVERTISEMENT FOR WALK-IN-INTERVIEW FOR THE POST OF FACULTY (CIVIL ENGINEERING)"
+        title: "Title"
     };
     NewsTitle1 = {
         instanceID: "NewsTitle1",
-        title: "ADVERTISEMENT FOR WALK-IN-INTERVIEW FOR THE POST OF FACULTY (CIVIL ENGINEERING)"
+        title: "WANTED FACULTY (Artificial Intelligence & Data Science Department)"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -75,10 +75,10 @@ class Newsthree extends React.Component {
 
                 <div className="contain">
                    
-                  {/* <HeadingOne data={this.NewsTitle} />*/}
+                  {/* <HeadingOne data={this.NewsTitle} https://vjcet.org/>*/}
                    
                    <HeadingTwo data={this.NewsTitle1} />
-                  <iframe src="https://vjcet.org/downloads/news/WA0029.jpg" width="75%" height="500" title="Campus Map" align="center"></iframe>
+                  <iframe src="https://vjcet.org/downloads/news/FacNews.pdf#zoom=250" width="85%" height="550" title="Campus Map" align="center"></iframe>
                     
                 </div>
                 <Footer data={this.HomePageFooter} />

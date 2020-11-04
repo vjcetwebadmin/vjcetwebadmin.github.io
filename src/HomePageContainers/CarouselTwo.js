@@ -5,17 +5,17 @@ import CustomOne from "../Components/Texts/CustomOne";
 class CarouselTwo extends Component {
   state = { selected: 0 };
   data = [
-    /*{
+    {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">WALK-IN-INTERVIEW FACULTY (Civil Engg.)</font></a>
-    },*/
+      title: <a href="https://vjcet.org/#/newsthree" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">WANTED FACULTY (Artificial Intelligence Department)</font></a>
+    },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newstwo" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">Caution Deposit and Refundable Deposit of 2016-20 Students..</font></a>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsseven" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">ATAL FDP on Blockchain</font></a>
+      title: <a href="https://vjcet.org/#/newsseven" target="_blank" rel="noopener noreferrer"><font color="FFFFF" size="4">ONE WEEK AICTE SPONSORED STTP ON “IoT BASED MANUFACTURING AND DESIGN - CHALLENGES AND OPPORTUNITY</font></a>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
