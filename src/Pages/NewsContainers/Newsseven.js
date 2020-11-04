@@ -1,5 +1,5 @@
 import React from "react";
-//import HeadingTwo from "../../Components/Texts/HeadingTwo";
+import HeadingTwo from "../../Components/Texts/HeadingTwo";
 //import ImageOne from "../../Components/Images/ImageOne";
 //import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
@@ -40,8 +40,13 @@ class Newsseven extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "ATAL FDP on Blockchain"
+        title: "title"
     };
+    NewsTitle1 = {
+        instanceID: "NewsTitle1",
+        title: "ONE WEEK AICTE SPONSORED STTP ON “IoT BASED MANUFACTURING AND DESIGN - CHALLENGES AND OPPORTUNITY"
+    };
+
     Newscontent = {
         instanceID: "Newscontent",
         title: ""
@@ -71,9 +76,9 @@ class Newsseven extends React.Component {
 
                 <div className="contain">
                    
-                   <HeadingOne data={this.NewsTitle} />
-                    <p><h4><a href="https://vjcet.org/downloads/news/Blockchain.pdf" target="_blank" rel="noopener noreferrer">Program Bochure</a></h4></p>
-                    <p><h4><a href="https://vjcet.org/downloads/news/new.pdf" target="_blank" rel="noopener noreferrer">Program Schedule</a></h4></p>          
+                <HeadingTwo data={this.NewsTitle1} />
+                    <p><h4><a href="https://vjcet.org/downloads/news/STTPbro.pdf" target="_blank" rel="noopener noreferrer">Program Bochure</a></h4></p>
+                    <p><h4><a href="https://forms.gle/qvtyuKCdvg3bePgV9" target="_blank" rel="noopener noreferrer">Registration Link</a></h4></p>          
                   
                   {/*  <table>
                         <tr><td>

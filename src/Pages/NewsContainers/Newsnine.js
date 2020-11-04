@@ -75,13 +75,7 @@ class Newsnine extends React.Component {
                    
                  
                   <iframe src="https://vjcet.org/downloads/news/Placement_19-20.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
-                  
-                
-                  
-                                
-                            
-
-                    
+                   
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}
