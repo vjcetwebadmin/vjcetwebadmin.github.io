@@ -49,10 +49,10 @@ ActivitiesHeading = {
                             <tr><td>Branch Counsellor & IEEE SIGHT Counsellor</td><td>Mr. Anish M Jose, AP ECE</td></tr>
                             <tr><td>Computer Society Counsellor</td><td>Mr. Sivadas T Nair, AP CSE</td></tr>
                             <tr><td>Power & Energy Society Counsellor</td><td>Mr. Babu T Chacko, AP EEE</td></tr>
-                            <tr><td>Branch Chairperson</td><td>Ms. Aishwarya G Prabhu, S6 CS B</td></tr>
-                            <tr><td>Computer Society Chairman</td><td>Mr. Jetson Joseph, S4 CS B</td></tr>
-                            <tr><td>Power & Energy Society Chairperson</td><td>Ms. Anusree R</td></tr>
-                            <tr><td>IEEE SIGHT Chairman</td><td>Mr. Albin Paul</td></tr>
+                            <tr><td>Branch Chairperson</td><td>Mr. Jetson Joseph, S7 CS B</td></tr>
+                            <tr><td>Computer Society Chairman</td><td>Mr. Allen P Biju, S7 CS B</td></tr>
+                            <tr><td>Power & Energy Society Chairperson</td><td>Ms. Uthara Pradeep</td></tr>
+                            <tr><td>IEEE SIGHT Chairman</td><td>Mr. Ananthakrishnan S Nath</td></tr>
                             </table>
                             <HeadingThree data={this.ActivitiesHeading} /> 
                             <table id="tableformat">
