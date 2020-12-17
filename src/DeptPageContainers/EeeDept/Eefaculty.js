@@ -9,13 +9,13 @@ class EEFaculty extends Component {
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/55/353.jpg" target="_blank" rel="noopener noreferrer">Dr. B.Aruna</a>,
     content: "Head of Department"
   };
-  Cefaculty2 = {
+  /*Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/EE/FAC/352.jpg",
     width: "50%",
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/54/352.jpg" target="_blank" rel="noopener noreferrer">Dr. K.K. Rajan</a>,
     content: "Professor"
-  };
+  };*/
   Cefaculty3 = {
     instanceID: "Cefaculty3",
     image: "Allstaffphoto/EE/FAC/108.jpg",
@@ -137,9 +137,9 @@ class EEFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty1} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty2} />
-          </div>
+          </div>*/}
           <div>
             <FacultyData data={this.Cefaculty3} />
           </div>
