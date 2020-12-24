@@ -28,7 +28,7 @@ class MEFaculty extends Component {
     instanceID: "Cefaculty5",
     image: "Allstaffphoto/ME/FAC/200.jpg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC127" target="_blank" rel="noopener noreferrer">Mrs. Leeba Varghese</a>,
+    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC106" target="_blank" rel="noopener noreferrer">Mrs. Leeba Varghese</a>,
      content: "Associate Professor(on Leave-Ph.D)"
   };
   
