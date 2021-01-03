@@ -69,6 +69,7 @@ import Unai from "./EdPageContainers/Unai";
 import iqac from "./iqac/profile";
 import Notify from "./Components/notify";
 import NotiPage from './Pages/Notifications';
+import NISP from "./Pages/NISP";
 
 class App extends Component {
 
@@ -769,6 +770,7 @@ class App extends Component {
               <Route exact path="/ed/iiic" component={Iiic} />
               <Route exact path="/ed/unai" component={Unai} />
               <Route exact path="/iqac" component={iqac} />
+              <Route exact path="/nisp" component={NISP} />
             </Switch>
           </React.Fragment>
         </Router>
