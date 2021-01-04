@@ -218,7 +218,7 @@ class NISP extends Component {
                                 <HeadingThree data={this.CompanyHeading} />
 
                             </div>
-                            <ul className="NispActivitiesList">
+                            {/*<ul className="NispActivitiesList">
                                 {this.ActivitiesData.map(i =>
                                     <div key={this.ObjectiveData.indexOf(i)} className="NispActivities">
                                         <li>
@@ -231,7 +231,8 @@ class NISP extends Component {
                                         </li>
                                     </div>
                                 )}
-                            </ul>
+                                </ul>*/}
+                            <iframe src="https://vjcet.org/downloads/nisp.pdf" width="90%" height="700" title="nisp" align="center"></iframe> 
                         </div>
                     }
                 </SideNavBar>
