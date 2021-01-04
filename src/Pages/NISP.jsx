@@ -205,10 +205,11 @@ class NISP extends Component {
                             </div>
                             <div className="NispStartUp">
                                 <h4>View Startup Policy: </h4>
-                                <a href="https://drive.google.com/file/d/1bUK8EJeCr2TTjDPX-0ho1ch-_saHT4Gl/view?usp=sharing" className="NispButton" target="_blank">
+                                <a href="https://vjcet.org/downloads/NISPPolicy.pdf" className="NispButton" target="_blank">
                                     <h4>Open Policy</h4>
                                 </a>
                             </div>
+                            <iframe src="https://vjcet.org/downloads/NISPPolicy.pdf" width="90%" height="700" title="Institutional Plan" align="center"></iframe> 
                         </div>
                     }
                     {this.state.select === this.SideNavSelector[3].id &&
