@@ -71,10 +71,6 @@ class NISP extends Component {
             title: "Profile"
         },
         {
-            id: "team",
-            title: "NISP Team"
-        },
-        {
             id: "objectives",
             title: "Objectives"
         },
@@ -170,10 +166,7 @@ class NISP extends Component {
                         <div className="NispSideBarItem">
                             <HeadingThree data={this.ProfileHeading} />
                             <BodyThree data={this.IedcBody1} /><br />
-                        </div>
-                    }
-                    {this.state.select === this.SideNavSelector[1].id &&
-                        <div className="NispSideBarItem">
+                            <br/>
                             <HeadingThree data={this.InchargesHeading} />
                             <table id="tableformat">
                                 <tbody>
@@ -189,10 +182,9 @@ class NISP extends Component {
                                 </tbody>
 
                             </table>
-
                         </div>
                     }
-                    {this.state.select === this.SideNavSelector[2].id &&
+                    {this.state.select === this.SideNavSelector[1].id &&
                         <div className="NispSideBarItem">
                             <div className="NispObjectiveHeading">
                                 <HeadingThree data={this.ObjectiveHeading} />
@@ -206,7 +198,7 @@ class NISP extends Component {
                             </ul>
                         </div>
                     }
-                    {this.state.select === this.SideNavSelector[3].id &&
+                    {this.state.select === this.SideNavSelector[2].id &&
                         <div className="NispSideBarItem">
                             <div className="NispObjectiveHeading">
                                 <HeadingThree data={this.FunctionHeading} />
@@ -219,7 +211,7 @@ class NISP extends Component {
                             </div>
                         </div>
                     }
-                    {this.state.select === this.SideNavSelector[4].id &&
+                    {this.state.select === this.SideNavSelector[3].id &&
                         <div className="NispSideBarItem">
                             <div className="NispObjectiveHeading">
                                 <HeadingThree data={this.CompanyHeading} />
