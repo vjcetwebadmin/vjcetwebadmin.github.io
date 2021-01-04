@@ -36,7 +36,7 @@ class MEFaculty extends Component {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/ME/FAC/209.jpg",
     width: "50%",
-    name: <a href="h https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC115" target="_blank" rel="noopener noreferrer">Mr. Tijo Jose</a>,
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC115" target="_blank" rel="noopener noreferrer">Mr. Tijo Jose</a>,
     content: "Assistant Professor"
   };
   Cefaculty8 = {
@@ -163,7 +163,7 @@ class MEFaculty extends Component {
     instanceID: "Cefaculty26",
     image: "Allstaffphoto/ME/FAC/AravindS.JPEG",
     width: "50%",
-    name: "Mr. Aravind S",
+    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC112" target="_blank" rel="noopener noreferrer">Mr. Aravind S</a>,
     content: "Assistant Professor(on Leave-Ph.D)"
   };
   render() {
