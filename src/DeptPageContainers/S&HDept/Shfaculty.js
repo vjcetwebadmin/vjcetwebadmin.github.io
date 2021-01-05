@@ -114,7 +114,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty20",
     image: "Allstaffphoto/SH/FAC/johnodakkal.jpg",
     width: "50%",
-    name:  <a href="h https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHSTF101" target="_blank" rel="noopener noreferrer">Mr.	John Odackal</a>,
+    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHSTF101" target="_blank" rel="noopener noreferrer">Mr.	John Odackal</a>,
     content: "Assistant Professor"
   };
   render() {
