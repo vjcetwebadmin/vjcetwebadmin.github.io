@@ -13,7 +13,7 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty28",
     image: "Allstaffphoto/CS/FAC/CSFAC26.JPG",
     width: "50%",
-    name: <a href="https://vjcet.org/downloads/drlal.pdf" target="_blank" rel="noopener noreferrer">Dr. Janhan Lal P S</a>,
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC131" target="_blank" rel="noopener noreferrer">Dr. Janhan Lal P S</a>,
     content: "Professor"
   };
   Cefaculty29 = {
