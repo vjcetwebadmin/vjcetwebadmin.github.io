@@ -20,7 +20,7 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty29",
     image: "Allstaffphoto/CS/FAC/CSFAC29.jpg",
     width: "55%",
-    name: <a  href="https://vjcet.org/downloads/KKK2020.pdf" target="_blank" rel="noopener noreferrer">Dr. K K Kuriakose</a>,
+    name: <a  href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC132" target="_blank" rel="noopener noreferrer">Dr. K K Kuriakose</a>,
     content: "Professor"
   };
   Cefaculty2 = {
