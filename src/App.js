@@ -297,14 +297,14 @@ class App extends Component {
             instanceID: "Cefaculty24",
             image: "Allstaffphoto/CE/FAC/fac24.jpg", 
             width: "65%", 
-            name: <a href="https://vjcet.org/downloads/Biodatamgg.pdf" target="_blank" rel="noopener noreferrer">Dr. Grasius  M. G</a>,
+            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC144" target="_blank" rel="noopener noreferrer">Dr. Grasius  M. G</a>,
             content: "Professor"
           },
           {
             instanceID: "Cefaculty24",
             image: "Allstaffphoto/CE/FAC/RAVINDRANATH.jpg", 
             width: "65%", 
-            name: <a href="https://vjcet.org/downloads/BioDataRAVINDRANATH.pdf" target="_blank" rel="noopener noreferrer">Dr. E. Ravindranath</a>,
+            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC145" target="_blank" rel="noopener noreferrer">Dr. E. Ravindranath</a>,
             content: "Professor"
           },         
           {
