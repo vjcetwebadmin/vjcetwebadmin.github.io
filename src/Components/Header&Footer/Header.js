@@ -138,11 +138,11 @@ class Header extends Component {
     link: "/iqac"
   };
 
-  Link13 = {
+  /*Link13 = {
     instanceID: "HeaderLink11",
     title: "NISP",
     link: "/nisp"
-  };
+  };*/
   LineHeading = {
     instanceID: "LineHeading"
   };
@@ -193,10 +193,10 @@ class Header extends Component {
             <AnchorLink data={this.Link9} />
             <DropDownF />
             <DropDownIedc />
-            {/* <AnchorLink data={this.Link7} /> */}
+            {/* <AnchorLink data={this.Link7} /> <AnchorLink data={this.Link13}/>*/}
             <AnchorLink data={this.Link10} />
             <AnchorLink data={this.Link12} />
-            <AnchorLink data={this.Link13} />
+             
 
           </div>
         </div>
