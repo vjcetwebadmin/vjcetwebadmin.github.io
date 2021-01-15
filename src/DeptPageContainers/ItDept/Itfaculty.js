@@ -82,6 +82,9 @@ class ITFaculty extends Component {
             <FacultyData data={this.Cefaculty1} />
           </div>
           <div>
+            <FacultyData data={this.Cefaculty10} />
+          </div>
+          <div>
             <FacultyData data={this.Cefaculty2} />
           </div>
           <div>
@@ -104,10 +107,7 @@ class ITFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty9} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty10} />
-          </div>
+          </div>          
         </div>
       </div>
     );
