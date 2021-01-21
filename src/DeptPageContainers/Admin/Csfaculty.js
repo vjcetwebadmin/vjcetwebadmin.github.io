@@ -150,20 +150,6 @@ class CSFaculty extends Component {
     name: "Mrs. Rani Sabu",
     content: "Class IV"
   };
-  Cefaculty24 = {
-    instanceID: "Cefaculty24",
-    image: "Allstaffphoto/ADM/ADM/geethadomini.jpeg",
-    width: "50%",
-    name: "Mrs. Geetha Domini",
-    content: "Class IV"
-  };
-  Cefaculty25 = {
-    instanceID: "Cefaculty25",
-    image: "Allstaffphoto/ADM/ADM/elsyjoseph.jpeg",
-    width: "50%",
-    name: "Ms. Elsy Joseph",
-    content: "Class IV"
-  };
   Cefaculty26 = {
     instanceID: "Cefaculty26",
     image: "Allstaffphoto/ADM/ADM/minithomas.jpeg",
@@ -272,12 +258,6 @@ class CSFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty23} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty24} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty25} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty26} />

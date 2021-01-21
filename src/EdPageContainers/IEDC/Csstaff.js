@@ -21,7 +21,7 @@ class CSStaff extends Component {
     image: "Allstaffphoto/CS/STAF/95.jpg",
     width: "50%",
     name: "Mr. Sijo Jose",
-    content: "Computer Programmer"
+    content: "Computer Programmer1"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
