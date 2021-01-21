@@ -18,7 +18,7 @@ class ITStaff extends Component {
   };
   Cefaculty11 = {
     instanceID: "Cefaculty11",
-    image: "Allstaffphoto/IT/FAC/Sr.RecyVarghese.jpg",
+    image: "Allstaffphoto/IT/STAF/srcv.jpg",
     width: "50%",
     name: "Sr. Recy Varghese",
     content: "Computer Programmer"
