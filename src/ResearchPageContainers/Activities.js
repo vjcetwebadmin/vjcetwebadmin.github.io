@@ -226,8 +226,7 @@ ReserchBody47 = {
   instanceID: "ReserchBody47",
   title: "Project entitled “Robotic Assist for Walking Disability” by Mr. Muhammed Salih, Mr. Midhun Babu, Mr. Naveen B, Mr.Anandhu Sabu of S7 ME A got   project funding of Rs.10,000 under Students Project  scheme funded by Kerala State Council for Science Technology and Environment, . Project Guide: Mr.Nibin B, Assistant professors, MED."
 }
-
-    
+   
     render() {
         return (
             <div className="HomePage">
@@ -469,11 +468,17 @@ ReserchBody47 = {
                             <BodyOneJustified data={this.ReserchBody47} />
                             </p>
                         </li>
+                                               
                     </ul>
-
-                   </div>                              
-            </div>
-           
+                   </div> 
+                   <p align="left" ><b>Recognized Ph.D Guides at Kerala Technology University</b>  
+                   <table>
+                        <tr><td>Dr. Anishin Raj M.M</td><td>CSE</td></tr>
+                        <tr><td>Dr. ShunmugeshK</td><td>ME</td></tr>
+                        <tr><td>Dr. Sajan T. John</td><td>ME</td></tr>
+                        <tr><td>Dr. Sony Kurian</td><td>EEE</td></tr>                          
+                  </table></p>
+              </div>
         );
     }
 }
