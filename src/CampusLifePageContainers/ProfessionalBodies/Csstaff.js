@@ -77,7 +77,6 @@ class CSStaff extends Component {
     image: "Allstaffphoto/CS/STAF/104.JPG",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF112" target="_blank" rel="noopener noreferrer">Mr. Justin Peter</a>,
-    name: "",
     content: "Hardware Technician"
   };
   Cefaculty13 = {
@@ -85,7 +84,7 @@ class CSStaff extends Component {
     image: "Allstaffphoto/CS/STAF/CSSTF113.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF113" target="_blank" rel="noopener noreferrer">Mr. Eldhose Paul K</a>,
-    ontent: "Hardware Technician"
+    content: "Hardware Technician"
   };
   render() {
     return (
