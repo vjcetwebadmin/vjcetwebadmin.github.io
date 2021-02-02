@@ -55,14 +55,14 @@ class EEStaff extends Component {
     instanceID: "Cefaculty8",
     image: "Allstaffphoto/EE/STAF/135.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EESTF110" target="_blank" rel="noopener noreferrer">Mr. Shiju P Mathew</a>,
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EESTF108" target="_blank" rel="noopener noreferrer">Mr. Shiju P Mathew</a>,
     content: "Tradesman"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty9",
     image: "Allstaffphoto/EE/STAF/136.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EESTF111" target="_blank" rel="noopener noreferrer">Mr. Bijo Jose</a>,
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EESTF109" target="_blank" rel="noopener noreferrer">Mr. Bijo Jose</a>,
     content: "Tradesman"
   };
     render() {
