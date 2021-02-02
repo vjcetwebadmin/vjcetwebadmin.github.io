@@ -68,9 +68,8 @@ class Profile extends Component {
                             <tr><td>Dr. Sheela V. K</td><td>Associate Professor, IT</td></tr>
                             <tr><td>Mrs. Mayadevi PA</td><td>Assistant Professor, CSE</td></tr>
                             <tr><td>Mrs. Rose Mary Baby</td><td>Assistant Professor, S&H </td></tr>
-                            <tr><td>Mr. Abhijith R</td><td>Assistant Professor-CED</td></tr>
                             <tr><td>Mr. Arun Raphel </td><td>Assistant Professor-ME</td></tr>
-                            </table>
+                </table>
                              
                 
                
