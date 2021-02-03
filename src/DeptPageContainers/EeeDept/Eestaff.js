@@ -49,21 +49,21 @@ class EEStaff extends Component {
     image: "Allstaffphoto/EE/STAF/134.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EESTF107" target="_blank" rel="noopener noreferrer">Mr. Gince Kurian</a>,
-    content: "Tradesman"
+    content: "Trade Instructor"
   };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
     image: "Allstaffphoto/EE/STAF/135.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EESTF108" target="_blank" rel="noopener noreferrer">Mr. Shiju P Mathew</a>,
-    content: "Tradesman"
+    content: "Trade Instructor Grade II"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty9",
     image: "Allstaffphoto/EE/STAF/136.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EESTF109" target="_blank" rel="noopener noreferrer">Mr. Bijo Jose</a>,
-    content: "Tradesman"
+    content: "Trade Instructor Grade II"
   };
     render() {
     return (
