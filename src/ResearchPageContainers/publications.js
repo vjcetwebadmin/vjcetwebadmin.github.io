@@ -261,6 +261,65 @@ class Reserch extends Component {
 <tr><td>Akash Paul Savio,presented a paper on “Eco-Friendly Sewage Cleaning System”, Proceedings of International Colloquium on Recent Trends in Engineering (IC@MACE)-2020, March 2020</td></tr>
 <tr><td>Akash Paul Savio, presented a paper on “Automatic River Cleaning Machine”, Proceedings of International Colloquium on Recent Trends in Engineering (IC@MACE)-2020, March 2020</td></tr>
 <tr><td>Martin Jose, presented a paper on “Sustainable banana stem utility vehicle”, Proceedings of International Colloquium on Recent Trends in Engineering (IC@MACE)-2020, March 2020</td></tr>
+<tr><td>Dr.Anishin Raj M.M et al.,"A novel image processing approach  for finding the bubble count  in neutron dosimeter",Disaster Advances ,43009, 0974-262X</td></tr>
+<tr><td>Dr.Anishin Raj M.M et al.,"A combined approach of  steganography  with LSB encoding technique and  des algorithm",Proceedings of the 3rd  IEEE International  Conference on Advances  in Electrical and  Electronics, Information , Communication and  Bio-Informatics,  AEEICB 2017 ( SCOPUS Indexed),42767</td></tr>
+<tr><td>Dr.Anishin Raj M.M et al.,"A hybrid technique for  quadrant based data hiding  using Huffman coding",ICIIECS 2015 - 2015 IEEE  International Conference  on Innovations in  Information, Embedded  and Communication  Systems (Web of Science/ SCOPUS  indexed),42217</td></tr>
+<tr><td>Dr.Anishin Raj M.M et al.,"An approach of cryptography and  steganography using rotor cipher  for secure transmission",IEEE International  Conference on  Computational  Intelligence and  Computing Research,  ICCIC ( WoS/ Scopus  indexed),42339</td></tr>
+<tr><td>Shibu K.R et al.,"Routing protocol based key management schemes in manet: A survey",International Journal of Engineering and Technology(UAE),43101,2227-524</td></tr>
+<tr><td>Jobin Jose et al.,"A survey on last level cache partitioning  techniques in chip multi-processors",IJCTA(SCoupus),42370,231–243</td></tr>
+<tr><td>Dr. Rajesh Cherian et al.,"Pixel and edge based illuminant color estimation for image forgery detection",Procedia Computer Science,42339,1877-0509</td></tr>
+<tr><td>Dr. Sinnu Susan Thomas et al.,"Perceptual Video Summarization-A New Framework for Video Summarization",IEEE Transactions on Circuits and Systems for Video Technology,42948,1558-2205</td></tr>
+<tr><td>Dr. Sinnu Susan Thomas et al.,"Perceptual synoptic view-based video retrieval using metadata",Signal, Image and Video Processing,,42795,1863-1711</td></tr>
+<tr><td>Dr. Simi Zerine Sleeba et al.,"Energy-efficient fault tolerant technique for deflection routers in two-dimensional mesh Network-on-Chips",IET Computers and Digital Techniques,43221,1751-8601</td></tr>
+<tr><td>Dr. Simi Zerine Sleeba et al.,"An enhanced model for reliable deflection routing in mesh network on chip",International Journal of High Performance Systems Architecture,42736,1751-6536 </td></tr>
+<tr><td>Dr. K.K.Rajan et al.,"Leak Experiments in LEENA Facility with  modified  Leak Detector Layout   Large   Pipelines",Annals of Nuclear Energy,42856,0306-4549</td></tr>
+<tr><td>Dr. K.K.Rajan et al.,"Hydraulic characteristics of a fast reactor fuel subassembly: An experimental investigation",Annals of Nuclear Energy,42857,0306-4549</td></tr>
+<tr><td>Dr. K.K.Rajan et al.,"Evaluation of hydraulic characteristics of Core Flow Monitoring Mechanism for PFBR",Annals of Nuclear Energy,42795,0306-4549</td></tr>
+<tr><td>Dr. K.K.Rajan et al.,"Transport phenomena in the electrodeionization of cesium from AMP-PAN",Separation Science and Technology (Philadelphia),42826,0149-6395</td></tr>
+<tr><td>Dr. K.K.Rajan et al.,"Defluoridation of water by chemical impregnated Artocarpus hirsutus sawdust",Water Science and Technology: Water Supply,42644,1607-0798</td></tr>
+<tr><td>Dr. K.K.Rajan et al.,"Ultrasonic technique for vibration measurements on PFBR fuel subassemblies",Journal of Vibration Engineering and Technologies,42644, 2523-3939 </td></tr>
+<tr><td>Dr. K.K.Rajan et al.,"Experimental studies on acoustic leak detection in steam generators of Fast Breeder Reactor",Journal of Maintenance Engineering,42583,1355-2511</td></tr>
+<tr><td>Dr. K.K.Rajan et al.,"Design and performance evaluation of Core flow monitoring mechanisms for PFBR",Annals of Nuclear Energy,42584,0306-4549</td></tr>
+<tr><td>Dr. K.K.Rajan et al.,"Numerical simulation of Miniature Mutual inductance type leak detector for FBTR",IETE Technical Review,42705,0256-4602</td></tr>
+<tr><td>Dr. K.K.Rajan et al.,"Optimization of thermal baffle for liquid metal injection nozzle",International of Journal of Nuclear Energy science and technology,42522,1741-6361</td></tr>
+<tr><td>Dr. K.K.Rajan et al.,"Porous Body Model Based Parametric Study for Sodium to Air Heat Exchanger used in Fast Reactors",Journal of Thermal Science and Engineering Applications,42430,1948-5093</td></tr>
+<tr><td>Aruna B et al.,"Modified N-P interpolation theory for closed loop pole placement",Asian Journal of Control,Septemebr 2015, 1561-8625</td></tr>
+<tr><td>Aruna B et al.,"Necessary and sufficient condition for modified Nevanlinna-Pick interpolation for closed-loop pole placement",Control Theory and Technology,Septemebr 2017, 20956983, 21980942</td></tr>
+<tr><td>Dr. Sheela.V.K et al.,"“Brain tumour Detection based on FFT , Curve analysis , k-space and Neural network classifier",International Journal of Signal and Imaging Systems Engineering,43289,1748-0701 </td></tr>
+<tr><td>ArunRaphel et al.,"Oxidation and Corrosion resistance of AlCoCrFeTi High Entropy Alloy ,", Materials Today Proceedings 4 ,195-202,42826,2214-7853</td></tr>
+<tr><td>ArunRaphel et al.,"To Study the Cooling Rate and Influence of Boron Carbide on Mechanical Properties of Aluminium LM13 Matrix B4C Reinforced Composites ",Materials Today: Proceedings 4 , 7202-7207,42927, 2214-7853</td></tr>
+<tr><td>Sajan T John et al.,"Multi-period reverse logistics network design for used refrigerators",Applied Mathematical Modelling, Vol. 54, 311-331,43132,0307-904</td></tr>
+<tr><td>Sajan T John et al.,"Reverse logistics network design: a case of mobile phones and digital cameras",International Journal of Advanced Manufacturing Technology,43101,1433-3015</td></tr>
+<tr><td>Sajan T John et al.,"Multi-period reverse logistics network design with emission cost",International Journal of Logistics Management,42767, 0957-4093</td></tr>
+<tr><td>Sajan T John et al.,"Effect of grading of product return on the network design of a reverse supply chain: A comparative study",International Journal of Applied Management Science,2015,1755-8921</td></tr>
+<tr><td>Sajan T John et al.,"Modelling and analysis of network design for a reverse supply chain",Journal of Manufacturing Technology Management,42186, 1741-038</td></tr>
+<tr><td>Vinoj K et al.,"To Study the Cooling Rate and Influence of Boron Carbide on Mechanical Properties of Aluminium LM13 Matrix B4C Reinforced Composites ",Materials Today: Proceedings 4 , 7202-7207,43009, 2214-7853</td></tr>
+<tr><td>Vinoj K et al.,"Influence of heat Treatment and aging process on LM13 Aluminium Alloy Cast Sections: An Experimental Study",Materials Today: Proceedings 4 , 7202-7208,43010, 2214-7853</td></tr>
+<tr><td>Vinoj K et al.,"Friction Stir Welding on Dissimilar Alloys - A Critical Review",International Journal of Mechanical Engineering and Technology,43497, 0976-6359</td></tr>
+<tr><td>Nibin B et al.,"Thermodynamic Analysis of an integrated Gas Turbine Powerplant utilising cold exergy of LNG",Journal of Mechanical Engineering and Sciences,43344,2289-4656</td></tr>
+<tr><td>K. Shunmugesh et al.,"Influence of heat treatment and aging process on LM13 Aluminium Alloy Cast Sections: An Experimental Study",Materials Today: Proceedings (Elsevier),43009, 2214-7853</td></tr>
+<tr><td>K. Shunmugesh et al.,"Optimization of Drilling Characteristics using Grey-Fuzzy logic in Glass Fiber Reinforced Polymer (GFRP)",Materials Today: Proceedings (Elsevier),43009, 2214-7853</td></tr>
+<tr><td>K. Shunmugesh et al.,"Optimization of Drilling Process Parameters Via Taguchi, TOPSIS and RSA Techniques",Archives of Metallurgy and Materials,2017 Sept, 1733-3490</td></tr>
+<tr><td>K. Shunmugesh et al.,"Optimization of machining force and delamination factor of GFRP in dry drilling process using taguchi method.",Advances in Natural and Applied Sciences,42887, 1995-0772</td></tr>
+<tr><td>K. Shunmugesh et al.,"Multi-performance Optimization of Drilling Carbon Fiber Reinforced Polymer Using Taguchi: Membership Function",Transactions of the Indian Institute of Metals.,43282,0975-1645</td></tr>
+<tr><td>Dr. Lovely Mathew P. et al.,"Carbon Nanotubes: An Ideal Candidate for Biomedical Applications",JSM Nanotechnology & Nanomedicine,43252, 2334-1815</td></tr>
+<tr><td>Dr. Lovely Mathew P. et al.,"Quantum Dots: A Promising Tool for Biomedical application",JSM Nanotechnology & Nanomedicine,43252,2334-1815</td></tr>
+<tr><td>Dr. Lovely Mathew P. et al.,"Tuning of microstructure in engineered poly (trimethylene terephthalate) based blends with nano inclusion as multifunctional additive",Polymer Testing,43191,0142-9418</td></tr>
+<tr><td>Dr. K N Ramachandran Nair et al.,"Detecting video shot boundaries by modified tomography",ACM International Conference Proceeding Series,sept 2016</td></tr>
+<tr><td>Jobin Jose et al.,"Implementation of algorithms for  L(2,1)-coloring problems",8th International Conference on Computing , Communications and Networking Technologies,  ICCCNT,2017</td></tr>
+<tr><td>Dr. K N Ramachandran Nair et al.,"An Algorithmic Approach for General Video Summarization",Proceedings - 2015 5th International Conference on Advances in Computing and Communications,,Sept 2015</td></tr>
+<tr><td>Dr. Sinnu Susan Thomas et al.,"Design of smart video surveillance system for indoor and outdoor scenes",International Conference on Digital Signal Processing, DSP,43040</td></tr>
+<tr><td>Dr. Sinnu Susan Thomas et al.,"Smart surveillance based on video summarization",TENSYMP 2017 - IEEE International Symposium on Technologies for Smart Cities,43009</td></tr>
+<tr><td>Naveen Jacob et al.," A Compact Frequency Reconfigurable Antenna for Cognitive Radio Applications",Proceedings of  International Engineering Symposium (IES-2019), Kumamoto University, Japan,43909</td></tr>
+<tr><td>Naveen Jacob et al.," Application of Distributed Arithmetic in Image and  ECG Signal Processing",Proceedings of IEEE International Conference on Current  Trends in Computer, Electrical, Electronics and Communication (CTCEEC),44092</td></tr>
+<tr><td>Naveen Jacob et al.," A Low Power Content Addressable Memory with  Self-Control Mechanism and Segmented Matchlines",Proceedings of IEEE  International Conference on Energy, Communication, Data Analytics and Soft  Computing (ICECDS),44000</td></tr>
+<tr><td>Dr. K.K.Rajan  et al.,"Numerical simulation and experimental validation of future FBR surge tank hydraulics",Lecture Notes in Mechanical Engineering,sept 2017</td></tr>
+<tr><td>Dr. K.K Rajan et al.,"A Review of Recent Advancements in Nuclear Power Generation",,   International Conference on Control, Power, Communication and Computing Technologies,43435</td></tr>
+<tr><td>Sony Kurian et al.,"Composite pricing strategy for energy storage in wind electric generation", 2015 IEEE PES Asia-Pacific Power and Energy Engineering Conference (APPEEC), Brisbane, Australia,42309</td></tr>
+<tr><td>Neena M Joseph et al.,"Operating speed of different classes of vehicles at summit vertical curves on two-lane non-urban roads",Emerging Trends in Engineering, Science and Technology for Society, Energy and Environment,43313</td></tr>
+<tr><td>Anitha Rajan et al.,"Grammar worksheets",Enhance your English,42979</td></tr>
+
+
 </table>
                
                 {this.state.showMenu ? (
