@@ -124,9 +124,9 @@ class nss extends React.Component {
                    <tr><td>2</td><td> Rev. Fr Paul Nedumpurath</td><td>Director</td></tr>                   
                     <tr><td>3</td><td> Dr. K.K Rajan</td><td>Principal </td></tr>
                     <tr><td>4</td><td> Sri. Somy P Mathew	</td><td> Vice Principal</td></tr>
-                    <tr><td>5</td><td> Dr. Anoop C K</td><td>Profesoor & IQAC Coordinator</td></tr>
-                    <tr><td>6</td><td> Dr. Cyriac Joseph Vempala</td><td> Profesoor & Dean</td></tr>			    
-                    <tr><td>7</td><td> Dr. Anishin Raj M M</td><td>Profesoor & Dean R&D</td></tr>
+                    <tr><td>5</td><td> Dr. Anoop C K</td><td>Professor & IQAC Coordinator</td></tr>
+                    <tr><td>6</td><td> Dr. Cyriac Joseph Vempala</td><td> Professor & Dean</td></tr>			    
+                    <tr><td>7</td><td> Dr. Anishin Raj M M</td><td>Professor & Dean R&D</td></tr>
                      <tr><td>8</td><td> Smt. Shine George</td><td> HOD ( CE)</td></tr>
                      <tr><td>9</td><td> Dr. Shunmugesh K</td><td> HOD (ME)</td></tr>
 			        <tr><td>10</td><td> Dr. Aruna B</td><td> HOD (EEE)</td></tr>
