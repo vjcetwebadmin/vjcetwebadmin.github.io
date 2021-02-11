@@ -80,7 +80,7 @@ class keyfunct extends React.Component {
                     <HeadingOne data={this.CCCNATitle} className="Heading" />
                     <HeadingThree data={this.CCCTitle} className="Heading" />
                    <p align="center"> <ImageOne data={this.CCCImagedata} /></p>
-                   <p align="center"><b> Msgr. Dr. Cherian Kanjirakombil</b></p> 
+                   <p align="center"><b> Msgr. Dr. Cherian Kanjirakombil [<a href="https://vjcet.org/downloads/keyfunctionaries/RevFrCherianK.pdf" target="_blank" rel="noopener noreferrer">Profile</a>]</b></p> 
                    <BodyOneJustified data={this.CCCContent1} />
                    <br />
                    <HeadingThree data={this.WifiTitle} className="Heading" />
