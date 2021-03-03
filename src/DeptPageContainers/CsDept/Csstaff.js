@@ -2,19 +2,12 @@ import React, { Component } from "react";
 import FacultyData from "../../Components/FacultyData";
 class CSStaff extends Component {
   state = {};
-  Cestaff1 = {
-    instanceID: "Cestaff1",
-    image: "Allstaffphoto/CS/STAF/93.jpg",
-    width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF101" target="_blank" rel="noopener noreferrer">Mr. James R Alex</a>,
-    content: "System Engineer"
-  };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/CS/STAF/94.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF102" target="_blank" rel="noopener noreferrer">Mr. Lijo Mathew</a>,
-    content: "Computer Programmer"
+    content: "Systems Engineer"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
@@ -56,7 +49,7 @@ class CSStaff extends Component {
     image: "Allstaffphoto/CS/STAF/101.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF109" target="_blank" rel="noopener noreferrer">Mr. Sijo Mathew</a>,
-    content: "Network Technician"
+    content: "Jr. System Administrator"
   };
   Cefaculty10 = {
     instanceID: "Cefaculty10",
@@ -91,9 +84,6 @@ class CSStaff extends Component {
     return (
       <div className="faculty">
         <div className="facultyContent">
-          <div>
-            <FacultyData data={this.Cestaff1} />
-          </div>
           <div>
             <FacultyData data={this.Cefaculty2} />
           </div>
