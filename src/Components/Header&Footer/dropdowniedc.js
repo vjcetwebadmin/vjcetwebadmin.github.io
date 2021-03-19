@@ -69,6 +69,14 @@ class DropDownAb extends Component {
           </p>
           <p>
             <Link
+              to="/ed/ict"
+              className="patch1"
+            >
+              ICT
+            </Link>
+          </p>
+          <p>
+            <Link
               to="/ed/unai"
               className="patch1"
             >
