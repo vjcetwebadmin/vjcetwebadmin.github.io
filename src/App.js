@@ -64,7 +64,6 @@ import Newsten from "./Pages/NewsContainers/Newsten";
 import Newsfee from "./Pages/NewsContainers/Feenews";
 import Iedc from "./EdPageContainers/IEDC/csdepartment";
 import Vbic from "./EdPageContainers/Vbic";
-import ICT from "./EdPageContainers/ICT";
 import Iiic from "./EdPageContainers/IIIC/csdepartment";
 import Unai from "./EdPageContainers/Unai";
 import iqac from "./iqac/profile";
@@ -768,7 +767,6 @@ class App extends Component {
 
               <Route exact path="/ed/iedc" component={Iedc} />
               <Route exact path="/ed/v-bic" component={Vbic} />
-              <Route exact path="/ed/ict" component={ICT} />
               <Route exact path="/ed/iiic" component={Iiic} />
               <Route exact path="/ed/unai" component={Unai} />
               <Route exact path="/iqac" component={iqac} />

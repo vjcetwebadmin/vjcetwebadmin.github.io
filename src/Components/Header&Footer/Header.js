@@ -168,7 +168,7 @@ class Header extends Component {
           <a href="https://admission.vjcet.ac.in/">
             <div id="AdmissionImage">
               <div className="animcontent">
-                B.Tech Admission 2020
+                B.Tech Admission 2021
               </div>
             </div>
           </a>

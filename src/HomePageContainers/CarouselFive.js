@@ -67,8 +67,6 @@ class CarouselFour extends Component {
         instanceID: "EventOneImage",
         image: "HomepageActivities/ieee.jpg",
         width: "120px",
-       
-        
       }
     },
     
@@ -143,9 +141,31 @@ class CarouselFour extends Component {
         image: "HomepageActivities/NSS.png",
         width: "110px"
       }
-    }
-    
-    
+    },
+    {
+      Title: {
+        instanceID: "EventFiveTitle",
+        title: <a href="#/campus-life/professionalbodies/iete" target="_blank" rel="noopener noreferrer"><font color="maroon">IETE</font></a>
+      },
+
+      Image: {
+        instanceID: "EventFiveImage",
+        image: "HomepageActivities/iete.jpg",
+        width: "120px"
+      }
+    },
+    {
+      Title: {
+        instanceID: "EventSevenTitle",
+        title: <a href="#/campus-life/professionalbodies/ict" target="_blank" rel="noopener noreferrer"><font color="maroon">ICT</font></a>
+      },
+
+      Image: {
+        instanceID: "EventSevenImage",
+        image: "HomepageActivities/ict.png",
+        width: "200px"
+      }
+    }  
 
   ];
 

@@ -66,15 +66,7 @@ class DropDownAb extends Component {
             >
               NISP
             </Link>
-          </p>
-          <p>
-            <Link
-              to="/ed/ict"
-              className="patch1"
-            >
-              ICT
-            </Link>
-          </p>
+          </p>          
           <p>
             <Link
               to="/ed/unai"

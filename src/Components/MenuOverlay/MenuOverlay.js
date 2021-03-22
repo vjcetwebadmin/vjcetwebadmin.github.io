@@ -414,9 +414,6 @@ class MenuOverlay extends Component {
               <Link className="MenuOverlaySubLinks" to="/ed/iiic">
                 IIIC
               </Link>
-              <Link className="MenuOverlaySubLinks" to="/ed/ict">
-                ICT
-              </Link>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/ed/unai">
                 UNAI-ASPIRE
