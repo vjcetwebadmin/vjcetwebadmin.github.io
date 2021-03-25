@@ -114,7 +114,7 @@ export default function CarouselFour({ data }) {
     {
       Title: {
         instanceID: "EventSevenTitle",
-        title: <a href="#/campus-life/professionalbodies/ict" target="_blank" rel="noopener noreferrer"><font color="maroon">ICT</font></a>
+        title: <a href="#/campus-life/professionalbodies/ICT" target="_blank" rel="noopener noreferrer"><font color="maroon">ICT</font></a>
       },
 
       Image: {
