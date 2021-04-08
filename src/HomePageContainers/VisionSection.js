@@ -9,7 +9,7 @@ class VisionSection extends Component {
     instanceID: "VisionSectionTitle",
     title: "Vision and Mission"
   };
-
+ 
   VisionSectionABody = {
     instanceID: "VisionSectionBody",
     title:
@@ -82,7 +82,6 @@ class VisionSection extends Component {
           <HeadingThree data={this.VisionSectionBDescription} />
           <BodyOne data={this.VisionSectionBBody} />
         </div>
-
         <div className="VisionSectionC">
           <HeadingOne data={this.MissionSectionTitle} />
           <BodyOne data={this.MissionSectionOne} />
@@ -91,7 +90,9 @@ class VisionSection extends Component {
           <BodyOne data={this.MissionSectionFour} />
           <BodyOne data={this.MissionSectionFive} />
         </div>
-      </div>
+
+      </div> 
+    
     );
   }
 }
