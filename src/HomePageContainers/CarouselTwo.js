@@ -52,7 +52,10 @@ class CarouselTwo extends Component {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <font color="FFFFF" size="4">IEEE of VJCET selected as outstanding students branch</font>
     },        
-    
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: <font color="FFFFF" size="4">We have not received any Foreign Contribution  in the last Quarter Year.</font>
+    },
   ];
   rotateRight = () => {
     this.setState({
