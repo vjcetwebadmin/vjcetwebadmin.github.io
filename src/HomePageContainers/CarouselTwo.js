@@ -14,7 +14,7 @@ class CarouselTwo extends Component {
       title: <a href="https://vjcet.org/#/newstwo"  rel="noopener noreferrer"><font color="FFFFF" size="4">Covid 19, Institutional Plan and SOP</font></a>
     },{
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsthree"  rel="noopener noreferrer"><font color="FFFFF" size="4">WANTED FACULTY (Artificial Intelligence Department)</font></a>
+      title: <a href="https://vjcet.org/#/newsthree"  rel="noopener noreferrer"><font color="FFFFF" size="4">Wanted Asst. Professor in Department of Management Studies</font></a>
     },
     {
       instanceID: this.props.data.instanceID + "CustomOne",
