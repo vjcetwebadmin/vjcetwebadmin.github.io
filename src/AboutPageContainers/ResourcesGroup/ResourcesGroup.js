@@ -31,7 +31,8 @@ class ResourcesGroup extends Component {
     listID: "Three",
     title: "AICTE Documents",
     icon: "Icons/icon3.svg",
-    filePath: "https://vjcetwebadmin.github.io/downloads/AICTE.pdf"
+    /*filePath: "https://vjcetwebadmin.github.io/downloads/AICTE.pdf"*/
+    filePath: "ftp://202.88.251.252/Website/downloads/Mandatory2021.pdf"
 
   };
 
@@ -40,7 +41,7 @@ class ResourcesGroup extends Component {
     listID: "Four",
     title: "Audited Financial Statements",
     icon: "Icons/icon4.svg",
-    filePath: "https://vjcetwebadmin.github.io/downloads/Financialstatements.zip"
+    filePath: "ftp://202.88.251.252/Website/downloads/Financialstatements.zip"
   };
 
   ResourceListFive = {
