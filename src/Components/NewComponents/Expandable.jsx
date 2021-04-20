@@ -12,7 +12,7 @@ export default function Expandable({ data, children }) {
     <div className="Expandable">
       <br />
       <div className="HeadingThree">
-        <h3>IQAC Minutes</h3>
+        <h3>IQAC Minutes And Reports</h3>
       </div>
       {data.map((item, index) => (
         <div className="ExpandItem">
@@ -30,8 +30,8 @@ export default function Expandable({ data, children }) {
                   <thead>
                     <tr>
                       <th>Date</th>
-                      <th>Event</th>
-                      <th>Action Report</th>
+                      <th>Minutes of Meeting</th>
+                      <th>Action taken Report</th>
                     </tr>
                   </thead>
                   <tbody>
