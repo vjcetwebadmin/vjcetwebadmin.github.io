@@ -28,11 +28,11 @@ ActivitiesHeading = {
   };
   Features2 = {
     instanceID: "Features2",
-    title: "Our faculty chapter consists of 110 lifetime members and student chapter consist of 882 student members."
+    title: "Our faculty chapter consists of 110 lifetime members and student chapter consists of 788 student members."
   };
   Features3 = {
     instanceID: "Features3",
-    title: "A Student membership campaign was conducted in the first week of August 2018 and 332 students from various departments has joined ISTE students chapter."
+    title: "A Student membership campaign was conducted in the first week of January 2021 and 304 students from various departments has joined ISTE students chapter."
   };
 
   render() {
@@ -52,8 +52,8 @@ ActivitiesHeading = {
                             <tr><th>POST</th><th>NAME</th></tr>
                             <tr><td>Chariman – ISTE Chapter</td><td>Dr. K.K Rajan, Principal</td></tr>
                             <tr><td>Secretary</td><td>Mr. Prince Kurian, AP IT</td></tr>
-                            <tr><td>Jn. Secretary</td><td>Mr. Krishnendu K, AP ECE</td></tr>
-                            <tr><td>Treasurer &Student Advisor</td><td>Ms. Sabitha Raju, AP, CSE</td></tr>
+                            <tr><td>Jn. Secretary</td><td>Ms. Sabitha Raju, AP, CSE</td></tr>
+                            <tr><td>Treasurer &Student Advisor</td><td>Ms. Santhanu P Mohan, AP, IT</td></tr>
           </table>
                             <HeadingThree data={this.ActivitiesHeading} /> 
                             <table id="tableformat">                           
