@@ -28,7 +28,7 @@ ActivitiesHeading = {
   };
   Features2 = {
     instanceID: "Features2",
-    title: "Our faculty chapter consists of 110 lifetime members and student chapter has consist of 882 student members."
+    title: "Our faculty chapter consists of 110 lifetime members and student chapter consist of 882 student members."
   };
   Features3 = {
     instanceID: "Features3",

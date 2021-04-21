@@ -343,7 +343,7 @@ class App extends Component {
             image: "Allstaffphoto/CE/FAC/40.jpg",
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC105" target="_blank" rel="noopener noreferrer">Mrs. Minu C Joy</a>,
-            content: "Assistant Professor"
+            content: "Assistant Professor(on Leave)"
           },
           {
             instanceID: "Cefaculty7",
@@ -392,7 +392,7 @@ class App extends Component {
             image: "Allstaffphoto/CE/FAC/283.jpg",
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC118" target="_blank" rel="noopener noreferrer">Mrs. Nivya Mary Abraham</a>,
-            content: "Assistant Professor(on Leave-Ph.D)"
+            content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty15",
@@ -433,8 +433,8 @@ class App extends Component {
             instanceID: "Cefaculty22",
             image: "Allstaffphoto/CE/FAC/385.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC137" target="_blank" rel="noopener noreferrer">Mrs. Nisa Ann Mathew</a>,
-            content: "Assistant Professor"
+            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC137" target="_blank" rel="noopener noreferrer">Mrs. Nisa Ann Mathew </a>,
+            content: "Assistant Professor(on Leave)"
           },
           {
             instanceID: "Cefaculty22",

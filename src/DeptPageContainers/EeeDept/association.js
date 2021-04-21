@@ -106,12 +106,20 @@ class Library extends Component {
     title: "The association activities for the year are inaugurated by Mr. E. Sankaran Sivadasan (Asst. Executive Engineer, KSEB) on 30th August, 2017. The newsletter is also released on the same venue."
   };
   Activities9Heading = {
-    instanceID: "Activities8Heading",
+    instanceID: "Activities9Heading",
     title: "2018-2019"
   };
   Activities9Content = {
     instanceID: "Activities9Content",
     title: "Activities of Department Association ‘VIDYUTH’ for academic year 2018 -’19 was inaugurated on 1 st October 2018, by Sri. C. P. George , Deputy Chief Engineer, Generation,KSEB Ltd., Moolamattom."
+  };
+  Activities10Heading = {
+    instanceID: "Activities10Heading",
+    title: "2020-2021"
+  };
+  Activities10Content = {
+    instanceID: "Activities10Content",
+    title: "The Association activities for the year are inaugurated by Mr. Prasad Mathew, Managing Director, TRACO Cable Company Ltd on 19th March 2021. A technical Quiz competition was conducted for First year students on 26th March 2021."
   };
   render() {
     return (

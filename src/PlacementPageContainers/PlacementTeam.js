@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import FacultyData from "../Components/FacultyData";
+import BodyOne from "../Components/Texts/BodyOne";
+import HeadingOne from "../Components/Texts/HeadingOne";
 class Faculty extends Component {
   state = {};
   
@@ -31,11 +33,34 @@ class Faculty extends Component {
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC126" target="_blank" rel="noopener noreferrer">Mrs. Anitha Rajan</a>,
     content: "IQAC Placement Co-ordinator"
   };
+  ContactHeading = {
+    instanceID: "ContactHeading",
+    title: "Contact"
+  };
+  ContactListOne = {
+    instanceID: "ContactListOne",
+    title: "Mr. C.Mavin "
+  };
+  ContactListTwo = {
+    instanceID: "ContactListTwo",
+    title: "Asst. Professor & Placement Officer "
+  };
+  ContactListThree = {
+    instanceID: "ContactListThree",
+    title: "Cell: +919446437330 "
+  };
+  ContactListFour = {
+    instanceID: "ContactListFour",
+    title: "Phone: 0485 2262551 "
+  };
+  ContactListFive = {
+    instanceID: "ContactListFive",
+    title: "Email: placement@vjcet.org"
+  };
   render() {
     return (
       <div className="faculty">
-        <div className="facultyContent">
-          
+        <div className="facultyContent">          
           <div>
             <FacultyData data={this.Cefaculty2} />
           </div>
@@ -45,11 +70,20 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty5} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty6} />
-          </div>
+          </div>*/}
+        </div>
+        <div className="Contact" id="contact">
+          <HeadingOne data={this.ContactHeading} />
+          <BodyOne data={this.ContactListOne} />
+          <BodyOne data={this.ContactListTwo} />
+          <BodyOne data={this.ContactListThree} />
+          <BodyOne data={this.ContactListFour} />
+          <BodyOne data={this.ContactListFive} />
         </div>
       </div>
+      
     );
   }
 }

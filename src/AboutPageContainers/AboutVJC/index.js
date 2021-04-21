@@ -101,13 +101,13 @@ class AboutVJC extends React.Component {
             </ul>
             <p><BodyOneJustified data={this.UGCourse} /></p>
             <ul>
+              <li><p><BodyOneJustified data={this.UGCourse7} /></p></li>
               <li><p><BodyOneJustified data={this.UGCourse1} /></p></li>
               <li><p><BodyOneJustified data={this.UGCourse2} /></p></li>
               <li><p><BodyOneJustified data={this.UGCourse3} /></p></li>
               <li><p><BodyOneJustified data={this.UGCourse4} /></p></li>
               <li><p><BodyOneJustified data={this.UGCourse5} /></p></li>
-              <li><p><BodyOneJustified data={this.UGCourse6} /></p></li>
-              <li><p><BodyOneJustified data={this.UGCourse7} /></p></li>
+              <li><p><BodyOneJustified data={this.UGCourse6} /></p></li>              
             </ul>
 
           </div>

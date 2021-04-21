@@ -137,20 +137,6 @@ class MEFaculty extends Component {
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC146" target="_blank" rel="noopener noreferrer">Mr. Nidheesh K.</a>,
     content: "Assistant Professor"
   };
-  Cefaculty23 = {
-    instanceID: "Cefaculty23",
-    image: "Allstaffphoto/ME/FAC/378.jpg",
-    width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC147" target="_blank" rel="noopener noreferrer">Mr. Akash Paul Savio</a>,
-    content: "Assistant Professor"
-  };
-  Cefaculty24 = {
-    instanceID: "Cefaculty24",
-    image: "Allstaffphoto/ME/FAC/387.jpg",
-    width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC149" target="_blank" rel="noopener noreferrer">Mr. Martin Jose</a>,
-    content: "Assistant Professor"
-  };
   Cefaculty25 = {
     instanceID: "Cefaculty25",
     image: "Allstaffphoto/ME/FAC/379.jpg",
@@ -234,13 +220,7 @@ class MEFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty25} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty23} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty24} />
-          </div>
-        </div>
       </div>
     );
   }

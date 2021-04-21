@@ -34,7 +34,11 @@ class Profile extends Component {
   };
   Features7 = {
     instanceID: "Features7",
-    title: "•	The scholars of IT department are updated with trainings and workshops in the emerging fields of technologies for a smooth transition from academia to the industry."
+    title: "•	The scholars of IT Department are updated with trainings, seminars and workshops with the support of professional bodies including CSI, ISTE, IEEE, UNAI and industrialists in the emerging fields of technologies for a smooth transition from academia to the industry."
+  };
+  Features9 = {
+    instanceID: "Features9",
+    title: "•	International collaboration with SES (Senior Experten Service) Germany."
   };
   Features8 = {
     instanceID: "Features8",
@@ -52,6 +56,7 @@ class Profile extends Component {
           <p><BodyOneJustified data={this.Features5} /></p>
           <p><BodyOneJustified data={this.Features6} /></p>
           <p><BodyOneJustified data={this.Features7} /></p>
+          <p><BodyOneJustified data={this.Features9} /></p>
           <p><BodyOneJustified data={this.Features8} /></p>
         </div>
       </div>
