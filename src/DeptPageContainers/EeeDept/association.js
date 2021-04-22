@@ -35,7 +35,7 @@ class Library extends Component {
   DeptAssociationDescriptionFive = {
     instanceID: "DeptAssociationDescriptionFive",
     title:
-      "Secretary  			-       Mr. Jishnu V, S6 EEE B"
+      "Secretary  			-       Ms. Minnu Augustine, S8 EEE B"
   };
   ActivitiesHeading = {
     instanceID: "ActivitiesHeading",

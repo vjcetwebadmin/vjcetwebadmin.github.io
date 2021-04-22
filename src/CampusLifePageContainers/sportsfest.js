@@ -20,24 +20,19 @@ class sportsfest extends React.Component {
     HomePageFooter = {
         instanceID: "HomePageFooter"
     };
-
-
     ArtsfestTitle = {
         instanceID: "ArtsfestTitle",
         title: "Drishya 2019"
     };
-    
-    
-    
+      
    
 
     render() {
         return (
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-
-               <div class="gallery">
-                    
+                <br></br>
+               <div class="gallery">                    
                     <iframe src="https://vjcet.org/downloads/gallery/drona.html" width="90%" height="500" title="Drishya" ></iframe>
                 </div>        
                
