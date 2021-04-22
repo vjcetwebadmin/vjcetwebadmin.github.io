@@ -41,6 +41,7 @@ import transportation from "./FacilitiesPageContainers/Transportation/transporta
 import NBA from "./Pages/NBA";
 import KeyFunc from "./Pages/KeyFunc";
 import ContactUs from "./ContactUsContainers/ContactUs";
+import mocktest from "./ContactUsContainers/MockTest";
 import Academics from "./Pages/Academics";
 import VisionPage from "./Pages/VisionPage";
 import Affliations from "./Pages/Affliations";
@@ -754,6 +755,7 @@ class App extends Component {
               <Route exact path="/facilities/campusamenities" component={campusamenities} />
               <Route exact path="/facilities/transportation" component={transportation} />
               <Route exact path="/contact" component={ContactUs} />
+              <Route exact path="/mockt" component={mocktest} />
               <Route exact path="/r&d" component={Research} />
               <Route exact path="/admission/mtech" component={Mtech} />
               <Route exact path="/admission/phd" component={Phd} />
@@ -770,7 +772,6 @@ class App extends Component {
               <Route exact path="/newsnine" component={newsnine} />
               <Route exact path="/newsten" component={Newsten} />
               <Route exact path="/newsfee" component={Newsfee} />
-
               <Route exact path="/ed/iedc" component={Iedc} />
               <Route exact path="/ed/v-bic" component={Vbic} />
               <Route exact path="/ed/iiic" component={Iiic} />

@@ -5,49 +5,49 @@ class PEO extends Component {
   state = {};
   peoHeading = {
     instanceID: "psoHeading",
-    title: "Programme Educational Objectives"
+    title: "Programme Educational Objectives  (PEOs)"
   };
   peoListOne = {
     instanceID: "peoListOne",
-    title: "Our Graduates shall be,  "
+    title: "Our Graduates shall be  "
   };
   peoListTwo = {
     instanceID: "peoListTwo",
     title:
-      "1: Suitably employed in allied industries/services with professional competency and knowledge of modern tools. "
+      "PEO1. Suitably employed in allied industries/services with professional competency and knowledge of modern tools."
   };
   peoListThree = {
     instanceID: "peoListThree",
     title:
-      " 2: Capable of developing economically viable, technically feasible eco-friendly electronic systems."
+      "PEO2. Capable of developing economically viable, technically feasible eco friendly electronic systems."
   };
   peoListFour = {
     instanceID: "peoListFour",
     title:
-      "3: Capable to pursue higher studies/research in the field of engineering and management."
+      "PEO3. Capable to pursue higher studies/research in the field of interest."
   };
 
   psoHeading = {
     instanceID: "psoHeading",
-    title: "Programme Specific Outcomes"
+    title: "Programme Specific Outcomes (PSOs)"
   };
   psoListOne = {
     instanceID: "psoListOne",
-    title: "Our Students shall be able to,"
+    title: "Our Students shall be able to"
   };
   psoListTwo = {
     instanceID: "psoListTwo",
     title:
-      "1: Design and modify embedded system based products which will find applications in the fields of Communication and Automation."
+      "PSO1. Analyze and modify electronic products which will find applications in the field of communication and automation."
   };
   psoListThree = {
     instanceID: "psoListThree",
     title:
-      "2: Develop algorithms for real life applications in signal & image processing."
+      "PSO2. Apply the concepts of signal processing and develop algorithms to solve real-world electronics and communication engineering problems."
   };
   psoListFour = {
     instanceID: "psoListFour",
-    title: " 3: Design efficient low power electronic circuits."
+    title: "PSO3. Design and manage cost effective low power electronic systems to address global challenges with a strong social commitment and ethical values."
   };
   render() {
     return (
