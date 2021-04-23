@@ -32,7 +32,7 @@ ActivitiesHeading = {
   };
   Features3 = {
     instanceID: "Features3",
-    title: "A Student membership campaign was conducted in the first week of January 2021 and 304 students from various departments has joined ISTE students chapter."
+    title: "A Student membership campaign was conducted in the first week of January 2021 and 204 students from various departments has joined ISTE students chapter."
   };
 
   render() {
@@ -69,8 +69,12 @@ ActivitiesHeading = {
                             <tr><td>9</td><td>Workshop on BMW by Mr.Mirash Francis,BMW EVM AUTOKRAFT KOCHI</td><td>20/3/2019&21/3/2019</td></tr>
                             <tr><td>10</td><td>Technical Talk in Bug Bounty programme.</td><td>20/3/2019&21/3/2019</td></tr>
                             <tr><td>11</td><td>Coding competition in C,Java  language.</td><td>20/3/2019&21/3/2019</td></tr>
-                            <tr><td>12</td><td>Code Master Coding Competition</td><td>29-03-2019</td></tr>
-                            
+                            <tr><td>12</td><td>Code Master Coding Competition</td><td>29/03/2019</td></tr>
+                            <tr><td>13</td><td>Redhat csa-the big step to your it career by Mr.JosephJob,Chief Technology Officer,SpectrumSofttech Solutions Pvt. Ltd.</td><td>22/08/2020</td></tr>
+                            <tr><td>14</td><td>Demistifying the road ahead - bursting the b-tech myths by Mr. Mridul George, Senior Software Developer, Nielson.</td><td>06/11/2020</td></tr>
+                            <tr><td>15</td><td>Stepping into the world of sap by Mr. P Harish Mohan, Senior SAP consultant, E&Y Global Ltd.</td><td>30/01/2021</td></tr>
+                            <tr><td>16</td><td>Entreprenuership and decision making by Ms. Krishna Rajan Nair, Lead- Work force management team UST GLOBAL.</td><td>13/03/2021</td></tr>
+                            <tr><td>17</td><td>How to become a succesfull engineer by Mr.Sivdas T Nair, Asst. Prof, AD Dept,VJCET.</td><td>23/03/2021</td></tr>
                             </table>
 
                             
