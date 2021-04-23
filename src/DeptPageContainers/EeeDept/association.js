@@ -151,6 +151,8 @@ class Library extends Component {
           <Bodythree data={this.Activities8Content} />
           <Bodythree data={this.Activities9Heading} />
           <Bodythree data={this.Activities9Content} />
+          <Bodythree data={this.Activities10Heading} />
+          <Bodythree data={this.Activities10Content} />
         </div>
       </div>
     );
