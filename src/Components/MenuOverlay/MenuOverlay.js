@@ -6,7 +6,7 @@ class MenuOverlay extends Component {
   constructor() {
     super();
     this.state = {
-      menuItem1: true,
+      menuItem1: true,      
       menuItem2: true,
       menuItem3: true,
       menuItem4: true,
@@ -14,7 +14,8 @@ class MenuOverlay extends Component {
       menuItem6: true,
       menuItem8: true,
       menuItem9: true,
-      menuItem10: true
+      menuItem10: true,
+      menuItem11: true
 
     };
   }
@@ -69,13 +70,19 @@ class MenuOverlay extends Component {
       menuItem10: !this.state.menuItem10
     });
   }
-
+  menuItem11() {
+    this.setState({
+      menuItem11: !this.state.menuItem11
+    });
+  }
 
   render() {
     var menuItem1Style = {
       display: this.state.menuItem1 ? "none" : "grid"
     };
-
+    var menuItem11Style = {
+      display: this.state.menuItem11 ? "none" : "grid"
+    };
     var menuItem2Style = {
       display: this.state.menuItem2 ? "none" : "grid"
     };
@@ -103,6 +110,9 @@ class MenuOverlay extends Component {
     };
     var menuItem10Style = {
       display: this.state.menuItem10 ? "none" : "grid"
+    };
+    var menuItem11Style = {
+      display: this.state.menuItem11 ? "none" : "grid"
     };
 
 
@@ -182,6 +192,9 @@ class MenuOverlay extends Component {
               </Link>
             </div>
           </div>
+          <Link id="menuItem11" className="MenuOverlayItem" to="/mockt">
+            KEAM Mock Test
+          </Link>
           <div id="menuItem9">
             <div
               className="MenuOverlayItem"
@@ -192,6 +205,7 @@ class MenuOverlay extends Component {
 
             <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem9Style}>
+              <div className="wseparator"></div>
               <a href="https://admission.vjcet.ac.in/" className="MenuOverlaySubLinks">B.Tech</a>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/admission/mtech">
