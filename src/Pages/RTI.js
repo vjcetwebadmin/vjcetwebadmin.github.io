@@ -1,4 +1,3 @@
-/*import "./mocktest.css";*/
 import React from "react";
 import HeadingOne from "../Components/Texts/HeadingOne";
 import Header from "../Components/Header&Footer/Header";

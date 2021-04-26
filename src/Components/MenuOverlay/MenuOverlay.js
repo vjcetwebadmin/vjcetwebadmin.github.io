@@ -224,7 +224,6 @@ class MenuOverlay extends Component {
                 VJCET Login
             </a>
               <div className="wseparator"></div>
-
               <a href="http://moodle.vjcet.ac.in" className="MenuOverlaySubLinks">
                 Moodle
             </a>
@@ -232,10 +231,10 @@ class MenuOverlay extends Component {
               <a href="https://alumni.vjcet.ac.in/" className="MenuOverlaySubLinks">
                 Alumni Login
             </a>
-
-              {/* <Link className="MenuOverlaySubLinks" to="/about">
-                Moodle
-              </Link> */}
+            <div className="wseparator"></div>
+              <a href="https://vjcet.org/#/newsfive" className="MenuOverlaySubLinks">
+                Fee Payment
+            </a>
 
             </div>
           </div>
@@ -416,7 +415,7 @@ class MenuOverlay extends Component {
               className="MenuOverlayItem"
               onClick={this.menuItem10.bind(this)}
             >
-              <Link to="#">E&D</Link>
+              <Link to="#">III & ED</Link>
             </div>
 
             <div className="separator"></div>
@@ -431,6 +430,10 @@ class MenuOverlay extends Component {
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/ed/iiic">
                 IIIC
+              </Link>
+              <div className="wseparator"></div>
+              <Link className="MenuOverlaySubLinks" to="/ed/nisp">
+                NISP
               </Link>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/ed/unai">

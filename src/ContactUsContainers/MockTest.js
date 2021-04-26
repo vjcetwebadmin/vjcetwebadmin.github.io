@@ -41,8 +41,8 @@ class mocktest extends React.Component {
               <div className="child">
                 <HeadingOne data={this.ReachUsHeading} />
                 <h3 className="add"> Level 1</h3>
-                <p><a href="http://www.google.co.in" target="_blank" rel="noopener noreferrer"><b>Paper 1 - Physics & Chemistry</b></a></p>
-                <p><a href="http://www.google.co.in" target="_blank" rel="noopener noreferrer"><b>Paper 2 - Mathematics</b></a></p>               
+                <p><a href=" https://forms.gle/fuoRWBMs1gQnNASj7" target="_blank" rel="noopener noreferrer"><b>Paper 1 - Physics & Chemistry</b></a></p>
+                <p><a href="https://forms.gle/Ez6tRswMSidn4nYt5" target="_blank" rel="noopener noreferrer"><b>Paper 2 - Mathematics</b></a></p>               
                 {/*<h3 className="Reach1">
                   Viswajyothi College of Engineering & Technology Vazhakulam,
                   <br />

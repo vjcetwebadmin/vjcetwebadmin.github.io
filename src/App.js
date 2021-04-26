@@ -779,7 +779,7 @@ class App extends Component {
               <Route exact path="/ed/iiic" component={Iiic} />
               <Route exact path="/ed/unai" component={Unai} />
               <Route exact path="/iqac" component={iqac} />
-              <Route exact path="/nisp" component={NISP} />
+              <Route exact path="/ed/nisp" component={NISP} />
               <Route component={ErrorPage} />
             </Switch>
           </React.Fragment>

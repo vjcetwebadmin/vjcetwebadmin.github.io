@@ -181,7 +181,7 @@
     padding: 0px 0px 10px 0px;
   }
   .Header {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 38% 62%;
     grid-template-areas: "vjc nba" "line1 line1" "code tab1" "line2 line2" "tab2 tab2" "line3 line3";
   }
   #HeaderHamburger {
@@ -203,7 +203,7 @@
 
 @media (min-width: 1024px) {
   .Header {
-    grid-template-columns: 28% 12% 20% 40%;
+    grid-template-columns: 28% 12% 8% 52%;
     grid-template-areas: "vjc nba code tab1" "line1 line1 line1 line1" "tab2 tab2 tab2 tab2" "line2 line2 line2 line2";
   }
   #HeaderLineThree {
