@@ -1,5 +1,5 @@
 import React from "react";
-import HeadingTwo from "../../Components/Texts/HeadingTwo";
+//import HeadingTwo from "../../Components/Texts/HeadingTwo";
 //import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
@@ -8,7 +8,7 @@ import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 //import ImageOne from "../../Components/Images/ImageOne";
 //import ImageTwo from "../../Components/Images/imageTwo";
 
@@ -95,9 +95,9 @@ class Newsfive extends React.Component {
                         </a>
                     </div>
                     
-                   <p>For payment through <span className="text_red">NEFT</span>, Bank Account Details,</p>
+                    <p>For payment through <span className="text_red">NEFT</span>, Bank Account Details,</p>
 
-                   <p>Name of the Account Holder : <b>PRINCIPAL</b></p>
+                    <p>Name of the Account Holder : <b>PRINCIPAL</b></p>
                     <p>Name of the Bank - <b>South Indian Bank</b></p>
                     <p>Name of the Branch - <b>Vazhakulam - IFSC Code : SIBL0000335</b></p>
                     <p>Account Number : <b>0335073000000155</b></p>
