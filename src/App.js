@@ -46,6 +46,7 @@ import Academics from "./Pages/Academics";
 import VisionPage from "./Pages/VisionPage";
 import Affliations from "./Pages/Affliations";
 import Mandatorydisclosure from "./Pages/mandatorydisclosure";
+import RTI from "./Pages/RTI";
 import SyllabusPage from "./Pages/SyllabusPage";
 import Research from "./ResearchPageContainers/csdepartment";
 import Mtech from "./Pages/Mtech"
@@ -708,6 +709,7 @@ class App extends Component {
               <Route exact path="/about/vision" component={VisionPage} />
               <Route exact path="/about/affliations" component={Affliations} />
               <Route exact path="/about/mandatorydisclosure" component={Mandatorydisclosure} />
+              <Route exact path="/about/RTI" component={RTI} />
               <Route exact path="/academics/courses-offered" component={Academics} />
               <Route exact path="/academics/syllabus" component={SyllabusPage} />
               <Route exact path="/academics/honours" component={honoursPage} />
@@ -755,7 +757,7 @@ class App extends Component {
               <Route exact path="/facilities/campusamenities" component={campusamenities} />
               <Route exact path="/facilities/transportation" component={transportation} />
               <Route exact path="/contact" component={ContactUs} />
-              <Route exact path="/mockt" component={mocktest} />
+              <Route exact path="/mockt" component={mocktest} />              
               <Route exact path="/r&d" component={Research} />
               <Route exact path="/admission/mtech" component={Mtech} />
               <Route exact path="/admission/phd" component={Phd} />
