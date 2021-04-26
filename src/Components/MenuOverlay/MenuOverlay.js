@@ -162,6 +162,20 @@ class MenuOverlay extends Component {
               >
                 Affiliations
             </Link>
+            <div className="wseparator"></div>
+              <Link
+                to="/about/mandatorydisclosure"
+                className="MenuOverlaySubLinks"
+              >
+                Mandatory Disclosure
+            </Link>
+            <div className="wseparator"></div>
+              <Link
+                to="/about/RTI"
+                className="MenuOverlaySubLinks"
+              >
+                Right To Information
+            </Link>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/contact">
                 Contact Us
@@ -236,8 +250,12 @@ class MenuOverlay extends Component {
 
             <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem3Style}>
+              <Link className="MenuOverlaySubLinks" to="/departments/admin">
+                  Administration
+              </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/ce">
-                Civil Engineering
+                  Civil Engineering
               </Link>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/cse">
