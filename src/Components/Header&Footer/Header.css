@@ -180,6 +180,7 @@
   #HeaderLineOne {
     padding: 0px 0px 10px 0px;
   }
+  /*grid-template-columns: 38% 62% ;*/
   .Header {
     grid-template-columns: 38% 62%;
     grid-template-areas: "vjc nba" "line1 line1" "code tab1" "line2 line2" "tab2 tab2" "line3 line3";
@@ -235,7 +236,7 @@
 
 @media (min-width: 1440px) {
   .Header {
-    grid-template-columns: 26% 8% 16% 50%;
+    grid-template-columns: 26% 8% 4% 62%;
   }
   .HeaderLinkTabTwo {
     padding: 0% 18%;
