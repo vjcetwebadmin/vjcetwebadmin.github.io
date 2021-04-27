@@ -55,12 +55,12 @@ class PEO extends Component {
     return (
       <div className="PEO&PSO" id="peo&pso">
         <HeadingOne data={this.peoHeading} />
-        <Bodythree data={this.peoListOne} />
+        {/*<Bodythree data={this.peoListOne} />*/}
         <Bodythree data={this.peoListTwo} />
         <Bodythree data={this.peoListThree} />
         <Bodythree data={this.peoListFour} />
         <HeadingOne data={this.psoHeading} />
-        <Bodythree data={this.psoListOne} />
+        {/*<Bodythree data={this.psoListOne} />*/}
         <Bodythree data={this.psoListTwo} />
         <Bodythree data={this.psoListThree} />
       </div>

@@ -42,7 +42,7 @@ class Profile extends Component {
   };
   Features8 = {
     instanceID: "Features8",
-    title: "•	Students of IT department are promoted to participate in paper presentations and idea fest competitions so as to encourage them to carry out research work and to set off start ups."
+    title: "•	The students of IT department are promoted to participate in paper presentations and idea fest competitions so as to encourage them to carry out research work and to set off start ups."
   };
   render() {
     return (
