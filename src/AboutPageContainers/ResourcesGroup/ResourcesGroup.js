@@ -60,6 +60,14 @@ class ResourcesGroup extends Component {
     filePath: "https://vjcetwebadmin.github.io/downloads/AcedemicSchema.pdf"
 
   };
+  ResourceListSeven = {
+    instanceID: "ResourceListSeven",
+    listID: "Seven",
+    title: "VJCET Undertaking",
+    icon: "Icons/icon5.svg",
+    filePath: "https://vjcetwebadmin.github.io/downloads/Undertaking.pdf"
+
+  };
 
   render() {
     return (
@@ -72,6 +80,7 @@ class ResourcesGroup extends Component {
           <ResourcesList data={this.ResourceListFour} />
           <ResourcesList data={this.ResourceListFive} />
           <ResourcesList data={this.ResourceListSix} />
+          <ResourcesList data={this.ResourceListSeven} />
         </div>
       </div>
     );
