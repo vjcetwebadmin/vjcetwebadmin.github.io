@@ -68,7 +68,7 @@ import Iedc from "./EdPageContainers/IEDC/csdepartment";
 import Vbic from "./EdPageContainers/Vbic";
 import Iiic from "./EdPageContainers/IIIC/csdepartment";
 import Unai from "./EdPageContainers/Unai";
-import iqac from "./iqac/profile";
+import Iqacfull from "./iqac/csdepartment";
 import Notify from "./Components/NewComponents/Notify";
 import NotiPage from './Pages/Notifications';
 import NISP from "./Pages/NISP";
@@ -778,7 +778,7 @@ class App extends Component {
               <Route exact path="/ed/v-bic" component={Vbic} />
               <Route exact path="/ed/iiic" component={Iiic} />
               <Route exact path="/ed/unai" component={Unai} />
-              <Route exact path="/iqac" component={iqac} />
+              <Route exact path="/iqac" component={Iqacfull} />
               <Route exact path="/ed/nisp" component={NISP} />
               <Route component={ErrorPage} />
             </Switch>

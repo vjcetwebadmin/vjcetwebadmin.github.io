@@ -10,10 +10,10 @@ export default function Expandable({ data, children }) {
   const [expanded, setExpand] = useState(-1);
   return (
     <div className="Expandable">
-      <br />
+      <br />{/*
       <div className="HeadingThree">
         <h3>IQAC Minutes And Reports</h3>
-      </div>
+      </div>*/}
       {data.map((item, index) => (
         <div className="ExpandItem">
           <div

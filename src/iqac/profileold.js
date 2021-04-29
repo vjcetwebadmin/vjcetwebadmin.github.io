@@ -1,32 +1,29 @@
 import React from "react";
 
 import "../Components/Tables/tableformat.css";
+
 import BodyOneJustified from "../Components/Texts/BodyOneJustified";
-import HeadingOne from "../Components/Texts/HeadingOne";
+import Header from "../Components/Header&Footer/Header";
+import Footer from "../Components/Header&Footer/Footer";
+import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
+import HeadingTwo from "../Components/Texts/HeadingTwo";
+//import HeadingFour from "../Components/Texts/HeadingFour";
 import HeadingThree from "../Components/Texts/HeadingThree";
 import "../Components/Images/gallery.css";
-import "./Research.css"
+import Expandable from "../Components/NewComponents/Expandable";
+import Page from "../Components/NewComponents/Page";
 
 class iqac extends React.Component {
-  state = { showMenu: false };
-  openMenu = () => {
-      console.log("opening Menu");
-      this.setState({ showMenu: true });
-  };
-  closeMenu = () => {
-      this.setState({ showMenu: false });
-  };
-
   NsslogoImage = {
     instanceID: "NsslogoImage",
     image: "ProfessionalBodies/NSS.png",
     width: "50%",
   };
 
-  ResearchHeading = {
-    instanceID: "ResearchHeading",
-    title: "Profile"
-  }
+  NssTitle = {
+    instanceID: "NssTitle",
+    title: "Internal Quality Assurance Cell  (IQAC) ",
+  };
 
   AboutNssContent = {
     instanceID: "AboutNssContent",
@@ -89,15 +86,139 @@ class iqac extends React.Component {
   };
 
   render() {
+    const IQAC_Data = [
+      {
+        year: "2019-2020",
+        events: [
+          {
+            date: "08-07-2019",
+            minutes: "ftp://202.88.251.252/Website/iqac/N15.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A16.pdf",
+          },
+          {
+            date: "07-10-2019",
+            minutes: "ftp://202.88.251.252/Website/iqac/N16.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A17.pdf",
+          },
+          {
+            date: "18-12-2019",
+            minutes: "ftp://202.88.251.252/Website/iqac/N17.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A18.pdf",
+          },
+          {
+            date: "17-02-2020",
+            minutes: "ftp://202.88.251.252/Website/iqac/N18.pdf",
+            action: "",
+          },
+        ],
+        annualReport: "",
+      },
+      {
+        year: "2018-2019",
+        events: [
+          {
+            date: "06-07-2018",
+            minutes: "ftp://202.88.251.252/Website/iqac/N10.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A11.pdf",
+          },
+          {
+            date: "04-10-2018",
+            minutes: "ftp://202.88.251.252/Website/iqac/N11.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A12.pdf",
+          },
+          {
+            date: "20-12-2018",
+            minutes: "ftp://202.88.251.252/Website/iqac/N12.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A13.pdf",
+          },
+          {
+            date: "26-02-2019",
+            minutes: "ftp://202.88.251.252/Website/iqac/N13.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A14.pdf",
+          },
+          {
+            date: "29-04-2019",
+            minutes: "ftp://202.88.251.252/Website/iqac/N14.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A15.pdf",
+          },
+        ],
+        annualReport: "",
+      },
+      {
+        year: "2017-2018",
+        events: [
+          {
+            date: "18-07-2017",
+            minutes: "ftp://202.88.251.252/Website/iqac/N07.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A08.pdf",
+          },
+          {
+            date: "13-11-2017",
+            minutes: "ftp://202.88.251.252/Website/iqac/N08.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A09.pdf",
+          },
+          {
+            date: "09-04-2018",
+            minutes: "ftp://202.88.251.252/Website/iqac/N09.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A10.pdf",
+          },
+         ],
+        annualReport: "",
+      },
+      {
+        year: "2016-2017",
+        events: [
+          {
+            date: "12-07-2016",
+            minutes: "ftp://202.88.251.252/Website/iqac/N07.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A08.pdf",
+          },
+          {
+            date: "17-11-2016",
+            minutes: "ftp://202.88.251.252/Website/iqac/N05.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A06.pdf",
+          },
+          {
+            date: "16-03-2017",
+            minutes: "ftp://202.88.251.252/Website/iqac/N04.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A05.pdf",
+          },
+         ],
+        annualReport: "",
+      },
+      {
+        year: "2015-2016",
+        events: [
+          {
+            date: "15-07-2015",
+            minutes: "ftp://202.88.251.252/Website/iqac/N01.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A01.pdf",
+          },
+          {
+            date: "18-11-2015",
+            minutes: "ftp://202.88.251.252/Website/iqac/N02.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A03.pdf",
+          },
+          {
+            date: "17-03-2016",
+            minutes: "ftp://202.88.251.252/Website/iqac/N03.pdf",
+            action: "ftp://202.88.251.252/Website/iqac/A04.pdf",
+          },
+         ],
+        annualReport: "",
+      },
+    ];
+
     return (
-      
+      <Page>
+        {/*    <p align="right"><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.GalleryImage} /></a></p>  */}
+        <div class="absolute"></div>
 
-     <div className="HomePage">
-      
-       <HeadingOne data={this.ResearchHeading}></HeadingOne>    
-      
-        <BodyOneJustified data={this.AboutNssContent} />
-
+        <div className="contain">
+          <Expandable data={IQAC_Data} />
+          <HeadingTwo data={this.NssTitle} className="Heading" />
+         <BodyOneJustified data={this.AboutNssContent} />
+          <br />
           <table id="tableformat">
             <tr>
               <td>1</td>
@@ -215,13 +336,9 @@ class iqac extends React.Component {
               <td> Alumni Representative</td>
             </tr>
           </table>
-         
-        
           <BodyOneJustified data={this.aboutiqaccontent1} />
           <br />
-          <div className="inner-para">
           <HeadingThree data={this.criteria1heading} className="Heading" />
-         
           <p>
             <b>Coordinator:Mrs. Shine George</b>, HOD CE
           </p>
@@ -246,7 +363,8 @@ class iqac extends React.Component {
             <li>Checking Course plan and delivery</li>
             <li>Submission of report to the IQAC in the prescribed format</li>
           </ol>
-           <br />
+
+          <br />
           <HeadingThree data={this.criteria2heading} className="Heading" />
           <p>
             <b>Coordinator:Mrs Ann Nitha Sabu, S &H</b>
@@ -672,9 +790,9 @@ class iqac extends React.Component {
           <p>Viswajyothi College of Engineering and Technology</p>
           <p>anoop4281@gmail.com</p>
           <p>9497189607</p>
-          </div>
-          </div>
-     );
+        </div>
+      </Page>
+    );
   }
 }
 
