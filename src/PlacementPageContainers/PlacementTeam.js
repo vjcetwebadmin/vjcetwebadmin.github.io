@@ -15,14 +15,14 @@ class Faculty extends Component {
   Cefaculty11 = {
     instanceID: "Cefaculty11",
     image: "Allstaffphoto/ADM/ADM/arunbobyt.JPEG",
-    width: "55%",
+    width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF110" target="_blank" rel="noopener noreferrer">Mr. Arun Bobby T</a>,
     content: "Assistant Placement Officer"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
     image: "Allstaffphoto/PTC/IMG_7641.jpg",
-    width: "55%",
+    width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHSTF105" target="_blank" rel="noopener noreferrer">Mr. Sanoj Saju</a>,
     content: "Assistant Placement Officer"
   };
