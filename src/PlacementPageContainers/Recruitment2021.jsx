@@ -37,91 +37,91 @@ import { MDBDataTable } from 'mdbreact';
           ],
           rows: [     
                     {
-                        slno: '1',
+                        slno: '27',
                         company: 'ELEATION',
                         year: '2021',
                         branch: 'CIVIL',
                         no_of_students: '02'
                     },
                     {
-                        slno: '2',
+                        slno: '26',
                         company: 'ELEATION',
                         year: '2021',
                         branch: 'ME',
                         no_of_students: '03'
                     },
                     {
-                        slno: '3',
+                        slno: '25',
                         company: 'EXPERION',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '11'
                     },
                     {
-                        slno: '4',
+                        slno: '24',
                         company: 'FACTWEAVERS',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '02'
                     },
                     {
-                        slno: '5',
+                        slno: '23',
                         company: 'GADGEON',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '02'
                     },
                     {
-                        slno: '6',
+                        slno: '22',
                         company: 'GUIDEHOUSE',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '04'
                     },
                     {
-                        slno: '7',
+                        slno: '21',
                         company: 'IMAGE INFO SYSTEM',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '03'
                     },
                     {
-                        slno: '8',
+                        slno: '20',
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'CIVIL',
                         no_of_students: '06'
                     },
                     {
-                        slno: '9',
+                        slno: '19',
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'ECE',
                         no_of_students: '06'
                     },
                     {
-                        slno: '10',
+                        slno: '18',
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'EEE',
                         no_of_students: '02'
                     },
                     {
-                        slno: '11',
+                        slno: '17',
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '12'
                     }, 
                     {
-                        slno: '12',
+                        slno: '16',
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'ME',
                         no_of_students: '02'
                     },
                     {
-                        slno: '13',
+                        slno: '15',
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'IT',
@@ -135,91 +135,91 @@ import { MDBDataTable } from 'mdbreact';
                         no_of_students: '01'
                     },
                     {
-                        slno: '15',
+                        slno: '13',
                         company: 'NMS WORKS',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '05'
                     },
                     {
-                        slno: '16',
+                        slno: '12',
                         company: 'SUTHERLAND GLOBAL - VOICE',
                         year: '2021',
                         branch: 'CIVIL',
                         no_of_students: '04'
                     },
                     {
-                        slno: '17',
+                        slno: '11',
                         company: 'SUTHERLAND GLOBAL - VOICE',
                         year: '2021',
                         branch: 'ECE',
                         no_of_students: '04'
                     },
                     {
-                        slno: '18',
+                        slno: '10',
                         company: 'SUTHERLAND GLOBAL - VOICE',
                         year: '2021',
                         branch: 'IT',
                         no_of_students: '04'
                     },
                     {
-                        slno: '19',
+                        slno: '09',
                         company: 'TCS',
                         year: '2021',
                         branch: 'CIVIL',
                         no_of_students: '04'
                     },
                     {
-                        slno: '20',
+                        slno: '08',
                         company: 'TCS',
                         year: '2021',
                         branch: 'ECE',
                         no_of_students: '11'
                     },
                     {
-                        slno: '21',
+                        slno: '07',
                         company: 'TCS',
                         year: '2021',
                         branch: 'EEE',
                         no_of_students: '4'
                     },
                     {
-                        slno: '22',
+                        slno: '06',
                         company: 'TCS',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '34'
                     },
                     {
-                        slno: '23',
+                        slno: '05',
                         company: 'TCS',
                         year: '2021',
                         branch: 'IT',
                         no_of_students: '02'
                     },
                     {
-                        slno: '24',
+                        slno: '04',
                         company: 'TCS',
                         year: '2021',
                         branch: 'ME',
                         no_of_students: '02'
                     },
                     {
-                        slno: '25',
+                        slno: '03',
                         company: 'VIT',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '03'
                     },
                     {
-                        slno: '26',
+                        slno: '02',
                         company: 'VVDN',
                         year: '2021',
                         branch: 'EEE',
                         no_of_students: '01'
                     },
                     {
-                        slno: '27',
+                        slno: '01',
                         company: 'ZERONE',
                         year: '2021',
                         branch: 'CSE',
