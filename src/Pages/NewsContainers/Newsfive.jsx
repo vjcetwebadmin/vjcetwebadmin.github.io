@@ -107,6 +107,8 @@ class Newsfive extends React.Component {
                     <p>For Payment Related Queries Contact : <b> Mrs. Jismy George - 9349944361</b></p>
                  <HeadingOne data={this.NewsTitle1} /> 
                 
+                 <iframe src="https://vjcet.org/downloads/news/Notice2.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
+                 <p></p><br></br>
                   <iframe src="https://vjcet.org/downloads/news/Notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>     
                    
                 </div>
