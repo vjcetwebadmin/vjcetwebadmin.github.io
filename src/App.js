@@ -784,7 +784,7 @@ class App extends Component {
               <Route exact path="/iqac" component={Iqacfull} />
               <Route exact path="/ed/nisp" component={NISP} />
 
-              <Route exact path="/naac/NAAC_C1_P1" component={NAAC_C1_P1} />
+              <Route exact path="/NAAC/NAAC_C1_P1" component={NAAC_C1_P1} />
 
               <Route component={ErrorPage} /> 
             </Switch>
