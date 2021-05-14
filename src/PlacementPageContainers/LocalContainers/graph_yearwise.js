@@ -10,7 +10,7 @@ class Graph10 extends Component {
       datasets: [
         {
           label: "No. of students placed",
-          data: [ 217, 266, 267, 274,176,403,326,138],
+          data: [ 217, 266, 267, 274,176,403,326,178],
           backgroundColor: [
             "rgba(255, 153, 51,0.4)",
             "rgba(255, 134, 159,0.4)",

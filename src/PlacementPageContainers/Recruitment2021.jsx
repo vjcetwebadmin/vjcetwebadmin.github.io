@@ -35,8 +35,37 @@ import { MDBDataTable } from 'mdbreact';
               width: 270
             }
           ],
-          rows: [     
-                    {
+          rows: [   
+            {
+                slno: '31',
+                company: 'SUTHERLAND(NON-VOICE)',
+                year: '2021',
+                branch: 'EEE',
+                no_of_students: '1'
+            },
+            {
+                slno: '30',
+                company: 'SUTHERLAND(NON-VOICE)',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '15'
+            },
+            {
+                slno: '29',
+                company: 'SUTHERLAND(NON-VOICE)',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '12'
+            },
+            {
+                slno: '28',
+                company: 'SUTHERLAND(NON-VOICE)',
+                year: '2021',
+                branch: 'CIVIL',
+                no_of_students: '12'
+            },
+            
+            {
                         slno: '27',
                         company: 'ELEATION',
                         year: '2021',

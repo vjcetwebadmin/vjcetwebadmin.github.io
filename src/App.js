@@ -75,6 +75,9 @@ import NISP from "./Pages/NISP";
 import ErrorPage from "./Pages/ErrorPage";
 import Ict from "./CampusLifePageContainers/ProfessionalBodies/ICT";
 
+
+import NAAC_C1_P1 from "./NAAC/Nac_C1_P1";
+
 class App extends Component {
 
   ceProps = {
@@ -780,7 +783,10 @@ class App extends Component {
               <Route exact path="/ed/unai" component={Unai} />
               <Route exact path="/iqac" component={Iqacfull} />
               <Route exact path="/ed/nisp" component={NISP} />
-              <Route component={ErrorPage} />
+
+              <Route exact path="/naac/NAAC_C1_P1" component={NAAC_C1_P1} />
+
+              <Route component={ErrorPage} /> 
             </Switch>
           </React.Fragment>
         </Router>
