@@ -78,7 +78,7 @@ class Newsthree extends React.Component {
                   {/* <HeadingOne data={this.NewsTitle} https://vjcet.org/>*/}
                    
                    <HeadingTwo data={this.NewsTitle1} />
-                  <iframe src="https://vjcet.org/downloads/news/FacRec.jpg#zoom=250" width="85%" height="550" title="Campus Map" align="center"></iframe>
+                  <iframe src="https://vjcet.org/downloads/news/FacRec.pdf#zoom=250" width="85%" height="600" title="Campus Map" align="center"></iframe>
                     
                 </div>
                 <Footer data={this.HomePageFooter} />
