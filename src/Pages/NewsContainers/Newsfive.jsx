@@ -45,7 +45,7 @@ class Newsfive extends React.Component {
     };
     NewsTitle1 = {
         instanceID: "NewsTitle1",
-        title: "NOTICE"
+        title: "NOTICEs"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -106,7 +106,10 @@ class Newsfive extends React.Component {
                     <p><span className="text_red">To download Bank Challan </span><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p><br></br>
                     <p>For Payment Related Queries Contact : <b> Mrs. Jismy George - 9349944361</b></p>
                  <HeadingOne data={this.NewsTitle1} /> 
-                
+                 <p><b>Semester 4</b></p>
+                <iframe src="https://vjcet.org/downloads/news/Notice3.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
+                 <p></p><br></br> 
+                 <p><b>Semester 6 and Semester 8</b></p>              
                  <iframe src="https://vjcet.org/downloads/news/Notice2.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
                  <p></p><br></br>
                   <iframe src="https://vjcet.org/downloads/news/Notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>     
